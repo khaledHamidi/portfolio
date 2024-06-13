@@ -5,7 +5,6 @@ hide_date: true
 reading_time: false
 ---
 
-## Certificates
 This is a collection of my certificates and training
 ### Autonomouse Vehicles
 **Issuing Organization:** University of Toronto  
