@@ -1,26 +1,44 @@
----
-title: Uses
-date: 2023-10-24
-hide_date: true
-reading_time: false
----
+## Certificates
 
-The idea of a Uses page is to tell you about the stuff I use.
+### Introduction to Self-Driving Cars
+**Issuing Organization:** University of Toronto  
+**Issue Date:** 2024-04-01
 
-Make sure to check out [uses.tech](https://uses.tech/) for a list of everyone's Uses pages!
+[View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M){: .btn target="_blank" }
 
-I often get asked about what software or hardware I use, so this page will serve as a living document and a place to point curious readers to when I get asked.
+![Introduction to Self-Driving Cars Certificate](/c2)
 
-## Website
+### SAP
+**Issuing Organization:** enoca  
+**Issue Date:** 2023-12-01
 
-- [Hugo Blox](https://khaledhamidi.netlify.app) (see the tutorial on [Getting Started](/blog/get-started/))
+[View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M){: .btn target="_blank" }
 
-## Editor + Terminal
+![SAP Certificate](/c3)
 
-- [Visual Studio Code](https://code.visualstudio.com/) is my current editor
-- Chrome is my main browser
-- iTerm2 is my terminal
+### Diploma in Data Analysis
+**Issuing Organization:** Oxford Home Study College, Oxford  
+**Issue Date:** 2022 - 2023
 
-## Desktop Apps
+[View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M){: .btn target="_blank" }
 
-- Better Touch Tool for window management and custom keyboard shortcuts
+![Diploma in Data Analysis Certificate](/c4)
+
+### Diploma in Data Analysis
+**Issuing Organization:** Al-Qistas Co.  
+**Issue Date:** 2019 - 2020  
+**Description:** A two-year vocational training certificate in the field of electronics
+
+[View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M){: .btn target="_blank" }
+
+![Diploma in Data Analysis Certificate](/c4)
+
+### INTRODUCTION TO ON-GRID PHOTOVOLTAIC SYSTEMS
+**Issuing Organization:** Accurate Methods Corporation  
+**Issue Date:** 2024-09-08
+
+![INTRODUCTION TO ON-GRID PHOTOVOLTAIC SYSTEMS Certificate](/c5)
+
+## The Importance of Cybersecurity
+
+Cybersecurity is of paramount importance in today's digital age, where cyber threats and attacks are on the rise. It plays a crucial role in protecting sensitive information, safeguarding systems and networks, and ensuring the confidentiality, integrity, and availability of data. A strong cybersecurity strategy is essential for individuals, organizations, and nations alike to mitigate the risks associated with cyber vulnerabilities and prevent potential data breaches, financial losses, and reputational damage.
