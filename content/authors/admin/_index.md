@@ -21,8 +21,8 @@ role: Mechatronics Enginneer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: International Sham University 
+    url: https://shamuniversity.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: As a mechatronics engineer, I have a deep passion for technology and problem-solving. In my work, I combine my strong programming skills with hands-on research and a keen analytical mind. I take pride in exploring innovative solutions and pushing the boundaries of what's possible.
@@ -60,6 +60,7 @@ highlight_name: true
 website: ""
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+As a mechatronics engineer, I have a deep passion for technology and problem-solving. 
+In my work, I combine my strong programming skills with hands-on research and a keen
+analytical mind. I take pride in exploring innovative solutions and pushing the boundaries
+of what's possible.
