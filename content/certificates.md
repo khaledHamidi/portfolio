@@ -12,7 +12,7 @@ This is a collection of my certificates and training
 
 [View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M)
 
-![Introduction to Self-Driving Cars Certificate](cer_5.jpg)
+![Introduction to Self-Driving Cars Certificate](cer_3.jpg)
 
 ### SAP
 **Issuing Organization:** enoca  
@@ -60,4 +60,4 @@ This is a collection of my certificates and training
 **Issue Date:** 16 September 2023
 [View Credential](https://www.linkedin.com/in/enghamidi/details/certifications/)
 
-![Katilim belesi ](cer_5.jpg)
+![Katilim belesi ](cer_6.jpg)
