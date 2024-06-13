@@ -1,5 +1,5 @@
 ﻿---
-title:✅ Design and Manufacturing of an Open-Source Electro-Pneumatic Filling Machine for Fixed Granule Quantities
+title: Design and Manufacturing of an Open-Source Electro-Pneumatic Filling Machine for Fixed Granule Quantities
 summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
 authors:
   - admin
