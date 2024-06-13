@@ -13,7 +13,7 @@ baseURL: 'https://khaledhamidi.netlify.app/' # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /projects/**
+      path: /blog/**
       kind: page
     pager: true
     editable: true

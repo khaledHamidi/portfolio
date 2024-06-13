@@ -7,10 +7,10 @@ main:
     weight: 10
   - name: project & Publication 
     url: tags/
-    weight: 50
+    weight: 10
   - name: Certificates
     url: certificates/
-    weight: 30
+    weight: 10
   - name: Achievements
-    url: Achievements/
-    weight: 30
+    url: achievements/
+    weight: 10
