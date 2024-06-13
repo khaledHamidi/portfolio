@@ -1,9 +1,9 @@
 ---
-title: "my Certificates"
-date: 2024-06-15
-description: "This is a collection of my certificates and training."
- ---
-
+title: my Certificates
+date: 2024-06-16
+hide_date: true
+reading_time: false
+---
 
 ## Certificates
 
@@ -13,19 +13,19 @@ description: "This is a collection of my certificates and training."
 
 [View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M)
 
-![Introduction to Self-Driving Cars Certificate](cer_5)
+![Introduction to Self-Driving Cars Certificate](cer_5.jpg)
 
 ### SAP
 **Issuing Organization:** enoca  
 **Issue Date:** 2023-12-01
 
-[View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M)
+[View Credential](https://www.linkedin.com/in/enghamidi/details/certifications/)
 
 ### Diploma in Data Analysis
 **Issuing Organization:** Oxford Home Study College, Oxford  
 **Issue Date:** 2023
 
-[View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M)
+[View Credential](https://www.linkedin.com/in/enghamidi/details/certifications/)
 
 ![Diploma in Data Analysis Certificate](cer_4.jpg)
 
@@ -35,7 +35,7 @@ description: "This is a collection of my certificates and training."
 **Issue Date:** 2019 - 2020  
 **Description:** A two-year vocational training certificate in the field of electronics
 
-[View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M)
+[View Credential](https://www.linkedin.com/in/enghamidi/details/certifications/)
 
 ![Vocational training in AlQistas co](cer_2.jpg)
 
@@ -57,6 +57,6 @@ description: "This is a collection of my certificates and training."
 ### Cyber Security 2
 **Issuing Organization:** Oxford Home Study College, Oxford
 **Issue Date:** 16 September 2023
-[View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M)
+[View Credential](https://www.linkedin.com/in/enghamidi/details/certifications/)
 
 ![Katilim belesi ](cer_5.jpg)
