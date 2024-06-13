@@ -13,7 +13,7 @@ I often get asked about what software or hardware I use, so this page will serve
 
 ## Website
 
-- [Hugo Blox](https://hugoblox.com) (see the tutorial on [Getting Started](/blog/get-started/))
+- [Hugo Blox](https://khaledhamidi.netlify.app) (see the tutorial on [Getting Started](/blog/get-started/))
 
 ## Editor + Terminal
 
