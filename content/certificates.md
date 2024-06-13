@@ -6,7 +6,7 @@ reading_time: false
 ---
 
 ## Certificates
-
+This is a collection of my certificates and training
 ### Autonomouse Vehicles
 **Issuing Organization:** University of Toronto  
 **Issue Date:** 2024-04-01
@@ -49,13 +49,15 @@ reading_time: false
 
 ## Cyber Security
 ### Cyber Security 1
-**Issuing Organization:** sağlık kültür ve spor daire başkanlığı, Karabuk  
+**Issuing Organization:** Oxford Home Study College, Oxford 
+
 **Issue Date:** 23 Mart 2022
 
 ![Katilim belesi ](cer_1.jpg)
 
 ### Cyber Security 2
-**Issuing Organization:** Oxford Home Study College, Oxford
+**Issuing Organization:** sağlık kültür ve spor daire başkanlığı, Karabuk 
+
 **Issue Date:** 16 September 2023
 [View Credential](https://www.linkedin.com/in/enghamidi/details/certifications/)
 
