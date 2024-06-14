@@ -14,3 +14,10 @@ main:
   - name: Achievements
     url: achievements/
     weight: 2
+  - name: Freelance work
+    url: freelance-work/
+    weight: 5
+
+
+
+
