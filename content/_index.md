@@ -20,31 +20,18 @@ sections:
           - achievements
     design:
       spacing:
-        padding: ['3rem', 0, '3rem', 0]
-      layout:
-        style: horizontal
+        padding: [0, 0, 0, 0]
+      view: card
   - block: collection
     content:
       title: 'Academic Published Papers'
       filters:
         folders:
           - academic
-      limit: 2
+      count: 2
     design:
       spacing:
-        padding: ['3rem', 0, '3rem', 0]
-      layout:
-        style: horizontal
-  - block: collection
-    content:
-      title: 'Academic Published Papers'
-      filters:
-        folders:
-          - academic
-      limit: 2
-    design:
-      spacing:
-        padding: ['3rem', 0, '3rem', 0]
+        padding: [0, 0, 0, 0]
       layout:
         style: horizontal
 
