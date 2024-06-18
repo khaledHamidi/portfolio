@@ -14,18 +14,18 @@ sections:
         style: 'text-align: justify; font-size: 0.8em;'
   - block: collection
     content:
-      title: lest my prosts
+      title: ''
+      count: 1
       filters:
         folders:
           - Blog
     design:
       spacing:
-        padding: ['1rem', 0, '1rem', 0]
-    count: 1
+        padding: ['3rem', 0, '3rem', 0]
   - block: collection
     content:
       title: 'Achievements'
-      text: The work that I have done has received appreciation
+      summary: The work that I have done has received appreciation
       filters:
         folders:
           - achievements
@@ -37,7 +37,7 @@ sections:
     content:
       title: Academic
       subtitle: ''
-      text: Latest scientific articles published
+      summary: Latest scientific articles published
       filters:
         folders:
           - academic
@@ -48,7 +48,7 @@ sections:
   - block: collection
     content:
       title: my projects
-      text: some of my project is listed here.
+      summary: some of my project is listed here.
       filters:
         folders:
           - projects
