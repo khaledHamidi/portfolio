@@ -5,7 +5,7 @@ main:
   - name: Home
     url: /
     weight: 1
-  - name: all my work 
+  - name: Works 
     url: tags/
     weight: 4
   - name: Certificates
@@ -14,18 +14,34 @@ main:
   - name: Achievements
     url: achievements/
     weight: 2
-  - name: Freelance work
-    url: freelance-work/
-    weight: 5
-  - name: my projects
+  - name: Projects
+    identifier: projects
     url: projects/
     weight: 6
-  - name: more
-    url: prokects-w1/
-    weight: 7
-  - name: published projects
-    url: published-projects/
-    weight: 8
+    main:
+  - name: My Projects list
+    parent: projects
+    URL: Projects/
+    weight: 103
+  - name: Hobby projects
+    parent: projects
+    URL: prokects-w1/
+    weight: 103
+  - Name: Published Projects
+    URL: published-projects/
+    parent: projects
+    weight: 102
+  - name: Freelance Work
+    url: freelance-work/
+    parent: projects
+    weight: 101
+
+
+
+
+
+
+
 
 
 
