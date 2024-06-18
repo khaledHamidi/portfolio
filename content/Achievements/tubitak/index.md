@@ -2,6 +2,9 @@
 title: "TÜBİTAK Funds Autonomous Mobile Robot Project"
 date: 2023-06-12T12:00:00+03:00
 draft: false
+show_related: true
+reading_time: true
+
 authors:
   - admin
 tags:

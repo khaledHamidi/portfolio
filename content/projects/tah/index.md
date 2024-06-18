@@ -1,6 +1,6 @@
 ---
-title: no title
-summary: no  summary
+title: project to read and record temperature and humidity
+summary: The project consists of a digital temperature and humidity sensor SH10 and an Arduino Uno board.
 date: 2019-02-01
 draft: false
 authors:
@@ -10,38 +10,20 @@ tags:
   - projects
 ---
  
- text description
- 
+ It is a project that I did while studying at the university for the microprocessors course.ي
 
+- The project consists of a digital temperature and humidity sensor SH10 and an Arduino Uno board.
+- A desktop application developed in the C# language.
+- Temperature and humidity are recorded in a database in XML file format.
+- A graph of the change can be displayed.
 
-1. **High Reliability**: The system is developed using the latest technologies and industry standards to ensure reliable performance.
-2. **Ease of Use**: The user interface is intuitive and user-friendly, designed for smooth operation and minimizing errors.
- 
+{{< youtube tW-qlXYOt0g >}}
 
-## Get Started
+## Download
 
-You can download the application from the following link: 
+1. **Arduino Code**
+2. **Visual Studio C# project**
+3. **Sensor datasheet**
+4. **powerpoint file for presentation (ARABIC)**
 
- [file name](\zoomce\files\file.zip)
- 
- to learn more about pricing options, system requirements, and installation instructions.
-
-[email](engkhamidi@gmail.com)
-
-Get in touch with us today to learn more about how the Ground Scale Management System can streamline your operations and improve efficiency!
-
-
-## Gallery 
-[image 1](\zoomce\1.jpg)
-[image 2](\zoomce\3.jpg)
-
-
-
-## youtube 
-
-{{< youtube KdlR9muAwTw >}}
- 
-
-
-
-
+[zip file](\tah\TAH.zip)
