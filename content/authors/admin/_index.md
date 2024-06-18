@@ -38,7 +38,7 @@ profiles:
   - icon: brands/instagram
     url: https://www.instagram.com/engkhamidi
   - icon: brands/linkedin
-    url: https://www.linkedin.com/engkhamidi
+    url: https://www.linkedin.com/in/enghamidi/
   - icon: brands/facebook
     url: https://www.fb.com/engkhamidi
   - icon: brands/orcid
