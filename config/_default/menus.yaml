@@ -17,14 +17,13 @@ main:
   - name: Freelance work
     url: freelance-work/
     weight: 5
-
-- name: my projects
+  - name: my projects
     url: projects/
     weight: 6
-- name: more
+  - name: more
     url: prokects-w1/
     weight: 7
-- name: published projects
+  - name: published projects
     url: published-projects/
     weight: 8
 
