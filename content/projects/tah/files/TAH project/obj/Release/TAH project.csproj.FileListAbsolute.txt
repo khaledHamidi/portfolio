@@ -1,0 +1,19 @@
+C:\Users\Khali\source\repos\TAH project\bin\Release\TAH project.exe.config
+C:\Users\Khali\source\repos\TAH project\bin\Release\TAH project.exe
+C:\Users\Khali\source\repos\TAH project\bin\Release\TAH project.pdb
+C:\Users\Khali\source\repos\TAH project\bin\Release\LiveCharts.dll
+C:\Users\Khali\source\repos\TAH project\bin\Release\LiveCharts.WinForms.dll
+C:\Users\Khali\source\repos\TAH project\bin\Release\LiveCharts.Wpf.dll
+C:\Users\Khali\source\repos\TAH project\bin\Release\LiveCharts.pdb
+C:\Users\Khali\source\repos\TAH project\bin\Release\LiveCharts.xml
+C:\Users\Khali\source\repos\TAH project\bin\Release\LiveCharts.WinForms.pdb
+C:\Users\Khali\source\repos\TAH project\bin\Release\LiveCharts.WinForms.xml
+C:\Users\Khali\source\repos\TAH project\bin\Release\LiveCharts.Wpf.pdb
+C:\Users\Khali\source\repos\TAH project\bin\Release\LiveCharts.Wpf.xml
+C:\Users\Khali\source\repos\TAH project\obj\Release\TAH project.csprojAssemblyReference.cache
+C:\Users\Khali\source\repos\TAH project\obj\Release\TAH_project.Main.resources
+C:\Users\Khali\source\repos\TAH project\obj\Release\TAH_project.Properties.Resources.resources
+C:\Users\Khali\source\repos\TAH project\obj\Release\TAH project.csproj.GenerateResource.cache
+C:\Users\Khali\source\repos\TAH project\obj\Release\TAH project.csproj.CopyComplete
+C:\Users\Khali\source\repos\TAH project\obj\Release\TAH project.exe
+C:\Users\Khali\source\repos\TAH project\obj\Release\TAH project.pdb
