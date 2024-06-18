@@ -25,7 +25,7 @@ main:
     weight: 103
   - name: Hobby projects
     parent: projects
-    URL: prokects-w1/
+    URL: projects-w1/
     weight: 103
   - Name: Published Projects
     URL: published-projects/
