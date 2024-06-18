@@ -1,55 +1,51 @@
 ---
-title: Arduino Simulation and Programming Workshop
-summary: A successful workshop on Arduino simulation and programming was conducted, attended by 100 trainees. The workshop focused on introducing Arduino and using the Proteus software for circuit simulation and programming.
-
-date: 2023-06-12T12:00:00+03:00
+title: "A Program for Educational Pen Screens"
+summary: "This application is considered a solution for teachers in teaching mathematics using smart pens."
+date: 2021-01-01
 draft: false
 authors:
   - admin
 tags:
-  - Workshops
-  - Robotics
-  - Academic
+  - program
 ---
+ 
+ 
+ 
+ ## Overview
 
-## Overview
+I designed this program to help teachers of the YÖS curriculum for the Alimi Center in the city of Maraş, "the Ottoman Educational Center." The application aims to enhance the teaching of mathematics by leveraging smart pen screens and projectors instead of traditional whiteboards.
 
-A successful workshop on Arduino simulation and programming was conducted, attended by 100 trainees. The workshop focused on introducing Arduino and using the Proteus software for circuit simulation and programming.
+## Features
 
-## Workshop Details
+This application enables teachers to:
 
-- **Duration**: 16 sessions
-- **Instructor**: Mr. Mohammed Kanjo (8 sessions on Mixly programming software)
-- **Organizer**: Educational Robotics Team
+1. **Capture Questions**: Teachers can capture questions directly from the screen, allowing for easy display and sharing.
 
-## Workshop Highlights
+2. **Blank Page Explanation**: Captured questions can be transferred to a blank page, providing a clean slate for detailed explanations and solutions.
 
-{{< youtube hg8iuxEnKoE >}}
+3. **Memorization Support**: The application offers the possibility of memorizing and storing explanations, enabling teachers to revisit and review previous lessons or demonstrations.
+
+## How It Works
+
+The program utilizes smart pen screens and a projector to create an interactive teaching environment. Instead of a traditional whiteboard, the teacher can display questions or problems on the screen and then transfer them to a blank page for further explanation and solving.
+
+During the lesson, the teacher can capture the question from the screen and transfer it to a blank page. This blank page serves as a digital canvas, allowing the teacher to provide step-by-step explanations, work through solutions, and illustrate concepts using the smart pen.
+
+The application also offers the ability to memorize and store these explanations, enabling teachers to revisit and review previous lessons or demonstrations as needed.
+
+{{< youtube KdlR9muAwTw >}}
 
 
-### Arduino and Proteus Introduction
 
-The workshop started with an introduction to Arduino, an open-source electronics platform for building interactive projects, and Proteus, a software for circuit simulation and programming.
+## Application Download
 
-![Project Example 1](/arduino-cuarse/files/1.png)
-![Project Example 2](/arduino-cuarse/files/2.png)
-![Project Example 3](/arduino-cuarse/files/3.png)
-![Project Example 4](/arduino-cuarse/files/4.png)
-![Project Example 5](/arduino-cuarse/files/5.png)
+You can download the application from the following link: 
 
-### Example of lesson content :
+engkhamidi@gmail.com
 
-![content Example 1](/arduino-cuarse/files/11.png)
-![content Example 2](/arduino-cuarse/files/22.png)
-
-### Certificates and Feedback
-
-Upon completion of the workshop, certificates were distributed to all participating trainees. The workshop received an outstanding rating of 4.6 out of 5 from the attendees.
-
-![Certificate](/arduino-cuarse/files/7.png)
 
 ## Conclusion
 
-The Arduino Simulation and Programming Workshop provided a comprehensive learning experience for the attendees, covering both theoretical and practical aspects of Arduino, circuit simulation, and programming. The workshop received excellent feedback, highlighting its success and the organizers' commitment to delivering high-quality educational content.
+This program for educational pen screens is a powerful tool designed to enhance the teaching of mathematics and facilitate interactive lessons. By combining the capabilities of smart pen screens, projectors, and the application's features, teachers can create engaging and memorable learning experiences for their students.
 
-For more information about future workshops or training opportunities, please visit our website or contact the Educational Robotics Team.
+If you have any questions or need further assistance, please don't hesitate to reach out to my support.
