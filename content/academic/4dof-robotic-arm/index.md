@@ -1,37 +1,32 @@
 ﻿---
-title: Design and Manufacturing of an Open-Source Electro-Pneumatic Filling Machine for Fixed Granule Quantities
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
-authors:
-  - admin
-tags:
+title: "Filtering and Classification of Shapes Chromatically Using a 4.DOF Robotic Arm"
+date: 2023-07-26
+draft: false
+description: "A smart approach for real-time inspection and selection of objects in continuous flow using image processing and a mechatronic color sorting system."
+tags: 
+  - Robotics
+  - Mechatronics
   - Academic
-  - Project
-  - Scientific paper
-image:
-  caption: 'Khaled HAMIDI research'
-
-date: 2024-05-01
 ---
 
+
+
+## Filtering and Classification of Shapes Chromatically Using a 4.DOF Robotic Arm
+
  
-
-
-
-
-# DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE FOR FIXED GRANULATE QUANTITIES
-
+ 
 ## Publication Information
 
-**Journal:** International Journal of Advanced Natural Sciences and Engineering Researches  
-**Year:** 2024  
-**Volume:** 8
-**Issue:** 4
-**Pages:** 122-128
+**Journal:** Sham Center for Studies and Research  
+**Year:** jul 26, 2023  
+
 
 ## Abstract
 
-This article eliminates the need for sensors used in adjusting the measurement amount. A filling machine that quantifies ingredients using a mechanical mechanism that lifts offers design and manufacturing. The machine is suitable for coarse or granular with capacity up to 250ml customized to suit the materials and controlled by an electro-pneumatic system. Couple An upright cylindrical container moved by an effective cylinder was used. Container on top It is filled directly from the tank through the opening and when emptied, it is displaced horizontally and moves into the tank. Due to the weight of the materials, the bottom lid opens, which causes the container to be filled. One The conveyor belt was designed and operated by a DC motor using a driver circuit. Process, by an Arduino uno microcontroller with an infrared (IR) sensor and conveyor belt system It is automated. The opening and closing movement of the cylinder is a 5/3 motor that receives a signal from the control unit. It is controlled by a solenoid valve. Additionally, the design of the machine is designed for accessibility and compatibility. is customized and all components are 3D printed on a 200x200 mm construction site or job site can be produced. The open source nature of the design and software includes improvements made by the community and encourages adaptations and collaborates for continuous improvement and innovation in automated packaging systems Promotes a caring environment. experiments on different materials have been evaluated positively.
+Sorting and classifying products can be challenging for humans, especially in unhealthy conditions. Manual sorting also leads to occasional errors. Therefore, the use of a robotic arm for sorting and classifying based on specific criteria is important in various industries. This study presents a solution for color-based shape sorting and classification using a four-degree-of-freedom robotic arm controlled by Raspberry Pi. Image processing algorithms determine the color of the object to be classified, and accordingly, the arm is commanded to pick it up and place it in the designated location for that color.
+
+
 
 ## Link
 
-https://as-proceeding.com/index.php/ijanser/article/view/1827
+https://shamuniversity.com/sham-center-list/articles/8
