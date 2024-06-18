@@ -5,7 +5,7 @@ main:
   - name: Home
     url: /
     weight: 1
-  - name: project & Publication 
+  - name: all my work 
     url: tags/
     weight: 4
   - name: Certificates
@@ -17,6 +17,16 @@ main:
   - name: Freelance work
     url: freelance-work/
     weight: 5
+
+- name: my projects
+    url: projects/
+    weight: 6
+- name: more
+    url: prokects-w1/
+    weight: 7
+- name: published projects
+    url: published-projects/
+    weight: 8
 
 
 
