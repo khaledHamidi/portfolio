@@ -24,7 +24,7 @@ A successful workshop on Arduino simulation and programming was conducted, atten
 
 ## Workshop Highlights
 
-{{< youtube hg8iuxEnKoE >}}
+{{< youtube KdlR9muAwTw >}}
 
 
 ### Arduino and Proteus Introduction
