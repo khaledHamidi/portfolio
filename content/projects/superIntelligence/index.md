@@ -1,7 +1,7 @@
 ---
-title: no title
-summary: no  summary
-date: 2019-02-01
+title: super intelligence
+summary: system that allows control of embedded devices or development centers via the Internet
+date: 2022-08-27
 draft: false
 authors:
   - admin
@@ -10,38 +10,24 @@ tags:
   - projects
 ---
  
- text description
- 
+The perfect solution for your IoT projects
+View, monitor and control Over Internet for any project type that includes the serial port.
+It is a system that allows control of embedded devices or development centers via the Internet
+
+{{< youtube ukwvoZGGDMo >}}
+
+- **Virtual terminal**: A virtual terminal that allows you to send and receive commands from the controller
+- **Easy** :Easy to configure and go
+- **Sensors plot** : Diagrams and diagrams of the readings from the sensors
 
 
-1. **High Reliability**: The system is developed using the latest technologies and industry standards to ensure reliable performance.
-2. **Ease of Use**: The user interface is intuitive and user-friendly, designed for smooth operation and minimizing errors.
- 
+### development
 
-## Get Started
+web API : PHP
+desktop server: C# work for windows.
+board <> desktop : RS232.
 
-You can download the application from the following link: 
+### Website link
 
- [file name](\zoomce\files\file.zip)
- 
- to learn more about pricing options, system requirements, and installation instructions.
-
+the project website here  [link](https://khaledhamidi.github.io/superIntelligence/)
 [email](engkhamidi@gmail.com)
-
-Get in touch with us today to learn more about how the Ground Scale Management System can streamline your operations and improve efficiency!
-
-
-## Gallery 
-[image 1](\zoomce\1.jpg)
-[image 2](\zoomce\3.jpg)
-
-
-
-## youtube 
-
-{{< youtube KdlR9muAwTw >}}
- 
-
-
-
-

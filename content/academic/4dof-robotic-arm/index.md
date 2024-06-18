@@ -2,6 +2,11 @@
 title: "Filtering and Classification of Shapes Chromatically Using a 4.DOF Robotic Arm"
 date: 2023-07-26
 draft: false
+reading_time: true
+commentable: true
+pager: true
+show_related: true
+
 description: "A smart approach for real-time inspection and selection of objects in continuous flow using image processing and a mechatronic color sorting system."
 tags: 
   - Robotics

@@ -1,6 +1,6 @@
 ---
-title: no title
-summary: no  summary
+title: Qistas AC Accounting System
+summary: Qistas AC is a comprehensive store management application that runs on desktop operating systems. It offers an intuitive and user-friendly interface, making it easy for businesses to manage their operations efficiently.
 date: 2019-02-01
 draft: false
 authors:
@@ -10,38 +10,30 @@ tags:
   - projects
 ---
  
- text description
- 
 
 
-1. **High Reliability**: The system is developed using the latest technologies and industry standards to ensure reliable performance.
-2. **Ease of Use**: The user interface is intuitive and user-friendly, designed for smooth operation and minimizing errors.
- 
+Qistas AC is a comprehensive store management application that runs on desktop operating systems. It offers an intuitive and user-friendly interface, making it easy for businesses to manage their operations efficiently.
 
-## Get Started
+## Key Features
 
-You can download the application from the following link: 
+- **Easy-to-Use Interface**: The application boasts a clean and intuitive user interface, designed to streamline daily tasks and minimize the learning curve for new users.
 
- [file name](\zoomce\files\file.zip)
- 
- to learn more about pricing options, system requirements, and installation instructions.
+- **Inventory Management**: Easily track and manage your inventory levels, monitor stock movements, and receive alerts for low stock items.
 
-[email](engkhamidi@gmail.com)
+- **Sales and Invoicing**: Qistas AC simplifies the sales process by allowing you to generate invoices, record payments, and track outstanding balances.
 
-Get in touch with us today to learn more about how the Ground Scale Management System can streamline your operations and improve efficiency!
+- **Accounting and Financial Reporting**: Maintain accurate financial records, generate reports such as profit and loss statements, and gain insights into your business performance.
 
+- **Customer and Vendor Management**: Keep track of customer and vendor information, view transaction histories, and manage accounts receivable and payable.
 
-## Gallery 
-[image 1](\zoomce\1.jpg)
-[image 2](\zoomce\3.jpg)
+- **Automatic Updates**: Qistas AC receives periodic updates to ensure you have access to the latest features and bug fixes, keeping your software up-to-date and secure.
 
+## Why Choose Qistas AC?
 
+1. **Comprehensive Solution**: Qistas AC is an all-in-one solution for store management, combining inventory, sales, accounting, and reporting functionalities into a single platform.
 
-## youtube 
+2. **User-Friendly**: The intuitive interface and straightforward workflows make Qistas AC easy to learn and use, minimizing the need for extensive training.
 
-{{< youtube KdlR9muAwTw >}}
- 
+3. **Scalability**: Whether you're a small business or a growing enterprise, Qistas AC can scale to meet your evolving needs, ensuring a seamless transition as your operations expand.
 
-
-
-
+4. **Reliable and Secure**: Built with robust security measures and regular updates, Qistas AC provides a reliable and secure platform for managing your sensitive business data.

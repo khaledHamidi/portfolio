@@ -14,6 +14,42 @@ sections:
         style: 'text-align: justify; font-size: 0.8em;'
   - block: collection
     content:
+      title: 'Achievements'
+      filters:
+        folders:
+          - achievements
+    design:
+      spacing:
+        padding: ['3rem', 0, '3rem', 0]
+      layout:
+        style: horizontal
+  - block: collection
+    content:
+      title: 'Academic Published Papers'
+      filters:
+        folders:
+          - academic
+      limit: 2
+    design:
+      spacing:
+        padding: ['3rem', 0, '3rem', 0]
+      layout:
+        style: horizontal
+  - block: collection
+    content:
+      title: 'Academic Published Papers'
+      filters:
+        folders:
+          - academic
+      limit: 2
+    design:
+      spacing:
+        padding: ['3rem', 0, '3rem', 0]
+      layout:
+        style: horizontal
+
+  - block: collection
+    content:
       filters:
         folders:
           - blog
@@ -21,3 +57,7 @@ sections:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
 ---
+
+
+
+
