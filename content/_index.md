@@ -13,8 +13,8 @@ sections:
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
   - block: collection
-    title: lest my prosts
     content:
+      title: lest my prosts
       filters:
         folders:
           - Blog
@@ -45,13 +45,10 @@ sections:
     design:
       spacing:
         padding: [0, 0, 0, 0]
-      layout:
-        style: horizontal
-
   - block: collection
-    title: my projects
-     text: some of my project is listed here.
     content:
+      title: my projects
+      text: some of my project is listed here.
       filters:
         folders:
           - projects
