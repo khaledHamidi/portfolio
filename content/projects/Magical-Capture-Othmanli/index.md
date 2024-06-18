@@ -1,6 +1,6 @@
 ---
-title: "A Program for Educational Pen Screens"
-summary: "This application is considered a solution for teachers in teaching mathematics using smart pens."
+title: A Program for Educational Pen Screens
+summary: This application is considered a solution for teachers in teaching mathematics using smart pens.
 date: 2021-01-01
 draft: false
 authors:
