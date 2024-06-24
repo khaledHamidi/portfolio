@@ -12,6 +12,7 @@ tags:
   - Robotics
   - Mechatronics
   - Academic
+  - Scientific Paper
 ---
 
 

@@ -7,7 +7,7 @@ authors:
   - admin
 tags:
   - program
-  - projects
+  - Project
 ---
  
  It is a project that I did while studying at the university for the microprocessors course.ي
