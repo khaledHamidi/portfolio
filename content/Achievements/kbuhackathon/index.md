@@ -12,7 +12,7 @@ tags:
   - Karabuk university
 ---
 
-# ASP.NET Hackathon Winner: Khaled's Order Management System
+# ASP.NET Hackathon Winner: Khaled's Order Management System.
 
 In a remarkable achievement, I emerged as the winner of a prestigious hackathon organized by Karabuk University's SAVUNMA TEKNOLOJİLERİ KULÜBÜ (Defense Technologies Club) and sponsored by Enoca. The intense hackathon event lasted from 5 PM until 6 AM the following morning, attracting over 100 talented competitors.
 
@@ -53,6 +53,3 @@ The Order Management System exemplified best practices in software design and ar
 my project is available on [github](https://github.com/khaledHamidi/OMS), showcasing his expertise in developing robust and scalable enterprise-level applications using modern technologies and architectural patterns.
 
 my achievement in winning this hackathon is a testament to his exceptional skills and dedication to software engineering. His Order Management System serves as an outstanding example of best practices in ASP.NET Core development and demonstrates his ability to deliver high-quality solutions under intense time constraints.
-
-
-
