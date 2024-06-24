@@ -1,5 +1,5 @@
 ---
-title: ASP.NET Hackathon Winner Honored by University Rector for TÜBİTAK 2209 A Project
+title: Honored by University Rector for TÜBİTAK 2209 A Project
 summary: received recognition and a certificate of appreciation from the University Rector, Prof. Dr. Fatih KIRIŞIK, for my project accepted under the TÜBİTAK 2209A program.
 
 date: 2023-05-30T12:00:00+03:00
