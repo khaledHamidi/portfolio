@@ -1,12 +1,10 @@
 ---
-title: ASP.NET Hackathon Winner: Khaled's Order Management System
+title: ASP.NET Hackathon Winner Khaled's Order Management System
 summary: Emerged as the winner of a hackathon organized by Karabuk University and sponsored by Enoca, outperforming 100 competitors.
-
 date: 2023-05-01T12:00:00+03:00
 draft: false
 show_related: true
 reading_time: true
-
 authors:
   - admin
 tags:
