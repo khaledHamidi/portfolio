@@ -8,7 +8,7 @@ reading_time: true
 authors:
   - admin
 tags:
-  - research
+  - Academic
   - project
 ---
 

@@ -7,7 +7,7 @@ authors:
   - admin
 tags:
   - program
-  - projects
+  - Project
 ---
  
 
