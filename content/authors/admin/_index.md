@@ -25,7 +25,7 @@ organizations:
     url: https://shamuniversity.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: As a mechatronics engineer, I have a deep passion for technology and problem-solving. In my work, I combine my strong programming skills with hands-on research and a keen analytical mind. I take pride in exploring innovative solutions and pushing the boundaries of what's possible.
+bio: Recent Mechatronics Engineering graduate with a strong foundation in programming, modeling, and robotics. Certified in multiple technical areas, I have successfully contributed to developing innovative solutions for engineering challenges through academic projects and internships. 
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -49,15 +49,12 @@ profiles:
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
 # Author's website URL
-website: ""
+website: "https://khaledhamidi.netlify.app"
 ---
 
 As a mechatronics engineer, I have a deep passion for technology and problem-solving. 
