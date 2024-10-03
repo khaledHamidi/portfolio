@@ -1,6 +1,5 @@
 ---
 title:European Car Wash Control System Project
-
 summary: The project aims to develop a comprehensive software application in C# that allows users to efficiently manage and control the operations of car wash facilities.
 date: 2019-08-01
 draft: false
