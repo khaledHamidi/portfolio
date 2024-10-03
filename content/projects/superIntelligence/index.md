@@ -23,12 +23,11 @@ It is a system that allows control of embedded devices or development centers vi
 
 ### development
 
-- web API : PHP.
-- desktop server: C# work for windows.
-- board <> desktop : RS232.
+- PHP for web API
+- C# Console Application for link server.
+- Serial protocol to connect any device that support RS232.
 
 ### Website link
 
 the project website here  [link](https://khaledhamidi.github.io/superIntelligence/).
-
-[email](engkhamidi@gmail.com)
+Development by [Khaled HAMIDI](engkhamidi@gmail.com)

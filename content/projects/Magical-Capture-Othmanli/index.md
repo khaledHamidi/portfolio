@@ -13,7 +13,7 @@ tags:
  
  ## Overview
 
-I designed this program to help teachers of the YÖS curriculum for the Alimi Center in the city of Maraş, "the Ottoman Educational Center." The application aims to enhance the teaching of mathematics by leveraging smart pen screens and projectors instead of traditional whiteboards.
+I designed this program to help teachers of the YÖS curriculum for the El-Osmanli Education Center. The application aims to enhance the teaching of mathematics by leveraging smart pen screens and projectors instead of traditional whiteboards.
 
 ## Features
 
@@ -35,17 +35,14 @@ The application also offers the ability to memorize and store these explanations
 
 {{< youtube KdlR9muAwTw >}}
 
-
-
-## Application Download
-
-You can download the application from the following link: 
-
-engkhamidi@gmail.com
-
-
 ## Conclusion
 
 This program for educational pen screens is a powerful tool designed to enhance the teaching of mathematics and facilitate interactive lessons. By combining the capabilities of smart pen screens, projectors, and the application's features, teachers can create engaging and memorable learning experiences for their students.
 
 If you have any questions or need further assistance, please don't hesitate to reach out to my support.
+
+
+## Get Application
+
+the project is free, just [send me](engkhamidi@gmail.com).
+Development by [Khaled HAMIDI](engkhamidi@gmail.com)

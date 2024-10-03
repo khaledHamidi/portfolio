@@ -1,7 +1,8 @@
 ---
-title: no title
-summary: no  summary
-date: 2019-02-01
+title: برنامج لمشاركة الإنترنت من الحاسوب إلى الهواتف -حل لمشكلة عامة
+
+summary: السبب وراء تعلمي البرمجة، وأول تطبيق لي.
+date: 2017-02-01
 draft: false
 authors:
   - admin
@@ -9,39 +10,19 @@ tags:
   - program
   - Project
 ---
- 
- text description
- 
+في خضم الحرب في بلدي، كانت شبكات الإنترنت شبه معدومة، مما خلق حاجة ملحة إلى حلول مبتكرة. بدأت رحلتي بتطوير برنامج بسيط لمشاركة الإنترنت، وسرعان ما تحول إلى مشروع أوسع نطاقًا.
 
+بدافع الرغبة في خدمة المجتمع وتقديم حل لهذه المشكلة، قررت تطوير برنامج يسمح بمشاركة الإنترنت بسهولة. كان هذا المشروع نقطة انطلاقي في تعلم البرمجة وتطوير تطبيقات سطح المكتب. بدأت بتعلم أساسيات الشبكات وأنظمة التشغيل لبناء تطبيق يعمل بكفاءة.
 
-1. **High Reliability**: The system is developed using the latest technologies and industry standards to ensure reliable performance.
-2. **Ease of Use**: The user interface is intuitive and user-friendly, designed for smooth operation and minimizing errors.
- 
+انتشر استخدام البرنامج بشكل واسع في المنطقة واستفاد منه الكثيرون. حينها خطرت لي فكرة: لماذا لا يصبح هذا البرنامج جزءًا أساسيًا في نظام التشغيل؟
 
-## Get Started
+بعد دمج ميزة مشاركة الإنترنت بنقرة زر في نظام Windows 10، شعرت بفخر كبير، ليس فقط لأن فكرتي تحققت، بل لأنني ساهمت، بفضل الله، في تسهيل حياة الناس وتقديم خدمة ذات أثر إيجابي.
 
-You can download the application from the following link: 
-
- [file name](\zoomce\files\file.zip)
- 
- to learn more about pricing options, system requirements, and installation instructions.
-
-[email](engkhamidi@gmail.com)
-
-Get in touch with us today to learn more about how the Ground Scale Management System can streamline your operations and improve efficiency!
 
 
 ## Gallery 
-[image 1](\zoomce\1.jpg)
-[image 2](\zoomce\3.jpg)
-
-
-
-## youtube 
-
-{{< youtube KdlR9muAwTw >}}
- 
-
+[صورة للتطبيق](https://github.com/khaledHamidi/gallery/blob/main/zwh/1.png?raw=true)
+[أصدار آخر](https://github.com/khaledHamidi/gallery/blob/main/zwh/2.jpg?raw=true)
 
 
 
