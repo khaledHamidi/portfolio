@@ -23,11 +23,7 @@ rtl: true
 
 
 ## Gallery 
-![صورة للتطبيق](https://github.com/khaledHamidi/gallery/blob/main/zwh/1.png?raw=true)
-![أصدار آخر](https://github.com/khaledHamidi/gallery/blob/main/zwh/2.jpg?raw=true)
-
-
-
+![أصدار أخر](https://github.com/khaledHamidi/gallery/blob/main/zwh/2.jpg?raw=true)
 
 **Enjoy Free WiFi With ZOOM WIFI PPO & SMART**
 
