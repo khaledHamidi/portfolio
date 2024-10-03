@@ -7,6 +7,8 @@ authors:
 tags:
   - application
   - project
+  - program
+
 image:
   caption: 'Image credit: [**Unsplash**](https://github.com/khaledHamidi/Logic-Element-Explorer/blob/main/image.jpg)'
 ---
@@ -15,8 +17,12 @@ image:
 _Logic gates simulator_
 Logic Element Explorer is an application that allows you to simulate logic gates, flip-flops, decoders, encoders, multiplexers, and demultiplexers, and compare two signals. It provides a user-friendly interface for exploring and understanding various logic elements.
 
-![Logic Element Explorer Screenshot](https://github.com/khaledHamidi/Logic-Element-Explorer/blob/main/image.jpg)
-
+{{< gallery >}}
+![Logic Element Explorer 1](image.png)
+![Logic Element Explorer 2](image-1.png)
+![Logic Element Explorer 3](image-2.png)
+{{< /gallery >}}
+ 
 ## Features
 
 - Simulate logic gates: AND, OR, NOT, XOR, etc.
