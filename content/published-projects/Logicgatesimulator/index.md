@@ -46,3 +46,5 @@ Once the installation is complete, you're ready to use Logic Element Explorer!
 ## Support
 
 If you encounter any issues or have any questions or suggestions, please feel free to contact us at [eng.hamidi@yahoo.com].
+
+Development by [Khaled HAMIDI](engkhamidi@gmail.com)
