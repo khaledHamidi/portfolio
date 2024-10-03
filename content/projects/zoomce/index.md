@@ -33,18 +33,10 @@ The application provides a rich, easy-to-use interface and advanced capabilities
 4. **Cost-Effective**: Our system offers a cost-effective solution with competitive pricing and low maintenance costs.
 5. **Customer Support**: We provide dedicated customer support and regular software updates to ensure optimal performance.
 
-## Get Started
-
-Download Zoom CE today and experience the power of a comprehensive solution. s
- [zip(\zoomce\files\zoomce.zip)to learn more about pricing options, system requirements, and installation instructions.
-
 
 
 ## Gallery 
-[image 1](\zoomce\1.jpg)
-[image 2](\zoomce\3.jpg)
+![image 1](\zoomce\1.jpg)
+![image 2](\zoomce\3.jpg)
 
-
-Get in touch with us today to learn more about how the Ground Scale Management System can streamline your operations and improve efficiency!
-
-
+Development by [Khaled HAMIDI](engkhamidi@gmail.com)

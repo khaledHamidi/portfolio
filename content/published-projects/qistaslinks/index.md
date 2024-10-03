@@ -7,6 +7,7 @@ authors:
 tags:
   - application
   - project
+  - program
 image:
   caption: 'Image credit: [**Unsplash**](https://github.com/khaledHamidi/Logic-Element-Explorer/blob/main/image.jpg)'
 ---
