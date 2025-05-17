@@ -6,8 +6,8 @@ title: Khaled HAMIDI (Khaled Keno)
 name_pronunciation: خالد بسام حميدي كنو
 
 # Full name (for SEO)
-first_name: Khaled خالد
-last_name: HAMIDI حميدي
+first_name: Khaled
+last_name: HAMIDI
 
 # Status emoji
 status:
