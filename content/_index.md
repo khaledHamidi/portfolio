@@ -33,6 +33,8 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
       view: card
+      columns: '2'
+
   - block: collection
     content:
       title: Academic
