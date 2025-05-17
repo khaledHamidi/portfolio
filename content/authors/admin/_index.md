@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Khaled HAMIDI (Khaled Keno)
+title: Khaled HAMIDI
 
 # Name pronunciation (optional)
 name_pronunciation: خالد بسام حميدي كنو
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: B.Tech Mechatronics |  M.S. Aerospace
+role: B.Tech Mechatronics |  M.S. Aerospacer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -31,7 +31,7 @@ bio: A Mechatronics Engineer expert who turns complexity into simplicity, buildi
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:hamidi@engineer.com'
+    url: 'mailto:engkhamidi@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/engkhamidi
@@ -48,13 +48,15 @@ profiles:
    # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
     url: uploads/resume.pdf
-    label: Resume
+    label: Download my resume
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
 # Author's website URL
 website: "https://khaledhamidi.netlify.app"
+---
+
 Mechatronics & Aerospace Engineer| AI & Embedded Systems Developer | Robotics & Automation Innovator |  C/C++ /Python/C# and Matlab Expert.
 
 A Mechatronics Engineer expert who turns complexity into simplicity, building smart systems that push the limits of speed and precision, making the impossible the new standard for innovation.
