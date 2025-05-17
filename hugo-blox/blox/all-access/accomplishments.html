@@ -1,16 +1,12 @@
-{{/* CustomCollection.html — Grid of 3 horizontal cards */}}
+{{/* CustomCollection.html — compact grid */}}
 
-{{ $page         := .wcPage }}
-{{ $block        := .wcBlock }}
-{{ $items_offset := $block.content.offset | default 0 }}
-{{ $items_count  := 3 }}
-
-{{/* Build the query */}}
+{{ $page  := .wcPage }}
+{{ $block := .wcBlock }}
 {{ $query := site.RegularPages }}
 {{ with $block.content.filters.folders }}
   {{ $query = where $query "Section" "in" . }}
 {{ end }}
-{{ $query = first $items_count (after $items_offset $query) }}
+{{ $query = first 3 $query }}
 
 {{ with $block.content.title }}
   <div class="text-center mb-8">
@@ -20,29 +16,32 @@
   </div>
 {{ end }}
 
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
+<!-- ✅ wrapper keeps the grid narrow -->
+<div class="container mx-auto max-w-screen-lg px-4">
 
-  {{ range $item := $query }}
-    {{ $img := partial "functions/get_featured_image.html" $item }}
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
-    <a href="{{ $item.RelPermalink }}"
-       class="block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden
-              hover:shadow-xl transition-all duration-300">
+    {{ range $item := $query }}
+      {{ $img := partial "functions/get_featured_image.html" $item }}
 
-      {{ with $img }}
-        <!-- ✅ FIX: use .RelPermalink if $img is a resource, otherwise use the string itself -->
-        <img src="{{ default . .RelPermalink }}"
-             alt="{{ $item.Title }}"
-             class="w-full h-48 object-cover object-center">
-      {{ end }}
+      <a href="{{ $item.RelPermalink }}"
+         class="block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden
+                hover:shadow-xl transition-all duration-300">
 
-      <div class="p-5">
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
-          {{ $item.Title }}
-        </h3>
-      </div>
+        {{ with $img }}
+          <img src="{{ default . .RelPermalink }}"
+               alt="{{ $item.Title }}"
+               class="w-full h-40 object-cover object-center">
+        {{ end }}
 
-    </a>
-  {{ end }}
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
+            {{ $item.Title }}
+          </h3>
+        </div>
 
+      </a>
+    {{ end }}
+
+  </div>
 </div>
