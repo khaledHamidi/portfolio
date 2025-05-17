@@ -1,0 +1,12 @@
+<!-- حاوية البطاقات مع Flexbox لترتيب أفقي -->
+<div class="flex flex-wrap gap-4 justify-start">  
+    {{ range .Pages }}
+      <!-- بطاقة الإنجاز الفردية -->
+      <article class="basis-1/3 flex-grow p-4 bg-white shadow rounded-md">
+        <!-- محتوى بطاقة الإنجاز: عنوان، صورة، نص ... -->
+        <h3 class="text-lg font-bold">{{ .Title }}</h3>
+        <p>{{ .Params.summary }}</p>
+        <!-- ... عناصر أخرى داخل البطاقة ... -->
+      </article>
+    {{ end }}
+  </div>

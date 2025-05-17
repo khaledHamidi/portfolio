@@ -64,7 +64,7 @@ sections:
       summary: some of my project is listed here.
       filters:
         folders:
-          - Project
+          - Projects
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
