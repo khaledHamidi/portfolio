@@ -1,22 +1,29 @@
 ---
 title: التخرج بمرتبة الشرف العليا
 summary: وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا الحمد لله الذي ما ختم جهد إلا بعونه ولا تم سعي إلا   ...
-date: 2021-04-01
+date: 2024-06-29
 draft: false
 authors: 
   - admin
 tags:
   - مدونة
 show_related: true
-reading_time: 1
+reading_time: 3
 hide_edit: true
 share: true
 profile: true
 commentable: true
-
+direction: rtl
 css:
   - css/rtl-left.css
 ---
+
+sections:
+  # 1) بداية التغليف
+  - block: html
+    content: |
+      <div dir="rtl" style="text-align: right;">
+
 
 وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا
 الحمد لله الذي ما ختم جهد إلا بعونه ولا تم سعي إلا بفضله وتوفيقه، سبحان الذي بفضله وعطائه تتحقق الإنجازات، وبنوره وهدايته تستنير الطرقات. سبحان الذي إذا أعطَى أدهشَ بالعطاء.
