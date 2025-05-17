@@ -1,10 +1,10 @@
-{{/* Custom Collection – Horizontal Cards with Image, 3 only */}}
+{{/* Custom Collection – Horizontal Cards with Image */}}
 
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $view := $block.design.view | default "card" }}
 {{ $items_offset := $block.content.offset | default 0 }}
-{{ $items_count := 3 }} {{/* فقط 3 عناصر */}}
+{{ $items_count := 3 }}
 
 {{ $query := site.RegularPages }}
 {{ if $block.content.filters.folders }}
@@ -21,19 +21,22 @@
   </div>
 {{ end }}
 
-<!-- ✅ Grid بـ 3 بطاقات -->
+<!-- ✅ Grid of 3 Cards with Images -->
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
 
   {{ range $index, $item := $query }}
     <a href="{{ $item.RelPermalink }}" class="block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300">
-      {{ with $item.Params.featured_image }}
-        <img src="{{ . | relURL }}" alt="{{ $item.Title }}" class="w-full h-48 object-cover">
-      {{ end }}
+      
+      {{/* ✅ صورة الإنجاز أو صورة افتراضية */}}
+      {{ $img := $item.Params.featured_image | default "images/default.jpg" }}
+      <img src="{{ $img | relURL }}" alt="{{ $item.Title }}" class="w-full h-48 object-cover">
+
       <div class="p-5">
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
           {{ $item.Title }}
         </h3>
       </div>
+
     </a>
   {{ end }}
 
