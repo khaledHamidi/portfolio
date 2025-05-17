@@ -4,20 +4,28 @@
 main:
   - name: Home
     url: /
-    weight: 1
-  - name: Works 
-    url: tags/
-    weight: 4
-  - name: Certificates
-    url: certificates/
-    weight: 3
+    weight: 10
+    
   - name: Achievements
     url: achievements/
-    weight: 2
+    weight: 20
+
+  - name: Certificates
+    url: certificates/
+    weight: 30
+
+  - name: المدونة
+    url: blog/
+    weight: 35
+
+  - name: Works 
+    url: tags/
+    weight: 40
+
   - name: Projects
     identifier: projects
     url: projects/
-    weight: 6
+    weight: 60
     main:
   - name: My Projects list
     parent: projects
