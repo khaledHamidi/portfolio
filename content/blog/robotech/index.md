@@ -10,6 +10,7 @@ tags:
 show_related: true
 reading_time: 1
 ---
+<div dir="rtl" style="text-align: justify;">
 
 ## لمحة عامة
 
@@ -29,9 +30,10 @@ reading_time: 1
 
 
 فريق روبوتك مستمر بتقديم برامج تفاعلية تدعم تطور الطلبة. يمكن متابعة جديد الفريق عبر معرفات المنصة:
-
+</div>
 
 
 [linkedin](https://www.linkedin.com/company/robotech-team)
 [facebook](https://www.facebook.com/ar.robotech)
 [instagram](https://www.instagram.com/ar.robotech)
+
