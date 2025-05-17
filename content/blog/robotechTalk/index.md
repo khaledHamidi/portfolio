@@ -11,6 +11,7 @@ tags:
 show_related: true
 reading_time: 3
 ---
+<div dir="rtl" style="text-align: justify;">
 
 ## لمحة عامة
 
@@ -35,3 +36,4 @@ reading_time: 3
 - **واتساب:** [رابط الانضمام](https://chat.whatsapp.com/C7tjItFdn80GK5k8IpSWlw)
 
 ندعو كل المهتمين بالروبوتات والتقنية للانضمام والمشاركة في بناء مجتمع معرفي فعّال.
+</div>
