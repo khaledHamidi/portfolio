@@ -29,10 +29,6 @@ A successful workshop on Arduino simulation and programming was conducted, atten
 {{< youtube hg8iuxEnKoE >}}
 
 
-## Presentation example:
-
-![pdf open](/arduino-cuarse/files/1.pdf)
-
 ## Example of lesson content :
 
 ![content Example 1](/arduino-cuarse/files/11.jpg)
