@@ -1,3 +1,5 @@
+{{/* CustomCollection.html — نسخة محسَّنة */}}
+
 {{ $page  := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $query := site.RegularPages }}
@@ -20,15 +22,17 @@
     {{ range $item := $query }}
       {{ $img := partial "functions/get_featured_image.html" $item }}
 
-      <!-- group لحفاظ تكبير الصورة -->
       <a href="{{ $item.RelPermalink }}"
          class="group block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden
                 hover:shadow-xl transition-all duration-300">
 
         {{ with $img }}
-          <!-- غلاف بارتفاع ثابت (h-60≈15rem) -->
+          {{/* تحديد المسار الآمن سواءً كان String أو Resource */}}
+          {{ $src := . }}
+          {{ with .RelPermalink }}{{ $src = . }}{{ end }}
+
           <div class="relative w-full h-60 overflow-hidden">
-            <img src="{{ default . .RelPermalink }}"
+            <img src="{{ $src }}"
                  alt="{{ $item.Title }}"
                  class="absolute inset-0 w-full h-full object-cover object-center
                         transition-transform duration-300 ease-out
