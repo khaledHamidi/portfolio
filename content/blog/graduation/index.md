@@ -9,7 +9,9 @@ authors:
 tags:
   - مدونة
 show_related: true
-reading_time: 3
+reading_time: true
+css:
+  -css/rtl-left.css
 ---
 <div dir="rtl" style="text-align: justify;">
 
