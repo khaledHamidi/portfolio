@@ -1,12 +1,11 @@
-{{/* Custom Collection Block – Horizontal Card View */}}
+{{/* Custom Collection – Horizontal Cards with Image, 3 only */}}
 
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $view := $block.design.view | default "card" }}
 {{ $items_offset := $block.content.offset | default 0 }}
-{{ $items_count := $block.content.count | default 65535 }}
+{{ $items_count := 3 }} {{/* فقط 3 عناصر */}}
 
-{{/* الفلترة */}}
 {{ $query := site.RegularPages }}
 {{ if $block.content.filters.folders }}
   {{ $folders := $block.content.filters.folders }}
@@ -14,35 +13,28 @@
 {{ end }}
 {{ $query = first $items_count (after $items_offset $query) }}
 
-{{/* عنوان القسم */}}
 {{ if $block.content.title }}
   <div class="text-center mb-8">
     <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
       {{ $block.content.title | emojify | $page.RenderString }}
     </h2>
-    {{ with $block.content.summary }}
-      <p class="mt-2 text-gray-600 dark:text-gray-300">{{ . | $page.RenderString }}</p>
-    {{ end }}
   </div>
 {{ end }}
 
-<!-- ✅ الشبكة الأفقية باستخدام Tailwind -->
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
+<!-- ✅ Grid بـ 3 بطاقات -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
 
   {{ range $index, $item := $query }}
-    <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+    <a href="{{ $item.RelPermalink }}" class="block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+      {{ with $item.Params.featured_image }}
+        <img src="{{ . | relURL }}" alt="{{ $item.Title }}" class="w-full h-48 object-cover">
+      {{ end }}
       <div class="p-5">
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
           {{ $item.Title }}
         </h3>
-        {{ with $item.Params.summary }}
-          <p class="text-gray-600 dark:text-gray-300 text-sm">{{ . }}</p>
-        {{ end }}
-        {{ with $item.Params.date }}
-          <p class="text-xs text-gray-400 mt-2">📅 {{ . }}</p>
-        {{ end }}
       </div>
-    </div>
+    </a>
   {{ end }}
 
 </div>
