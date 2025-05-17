@@ -1,3 +1,4 @@
+<div dir="rtl" style="text-align: left;">
 ---
 title: التخرج بمرتبة الشرف العليا
 summary: وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا الحمد لله الذي ما ختم جهد إلا بعونه ولا تم سعي إلا   ...
@@ -9,16 +10,8 @@ tags:
   - مدونة
 show_related: true
 reading_time: 3
-hide_edit: true
-share: true
-profile: true
-commentable: true
-direction: rtl
-css:
-  - css/rtl-left.css
 ---
-<div dir="rtl" style="text-align: right;">
-
+<div dir="rtl" style="text-align: justify;">
 
 وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا
 الحمد لله الذي ما ختم جهد إلا بعونه ولا تم سعي إلا بفضله وتوفيقه، سبحان الذي بفضله وعطائه تتحقق الإنجازات، وبنوره وهدايته تستنير الطرقات. سبحان الذي إذا أعطَى أدهشَ بالعطاء.
@@ -33,4 +26,5 @@ css:
 
 
 
+</div>
 </div>
