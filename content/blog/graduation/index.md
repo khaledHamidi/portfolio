@@ -17,12 +17,7 @@ direction: rtl
 css:
   - css/rtl-left.css
 ---
-
-sections:
-  # 1) بداية التغليف
-  - block: html
-    content: |
-      <div dir="rtl" style="text-align: right;">
+<div dir="rtl" style="text-align: right;">
 
 
 وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا
@@ -37,7 +32,5 @@ sections:
 هندسة الميكاترونكس،
 
 
-  - block: html
-    content: |
-      </div>
-asd
+
+</div>
