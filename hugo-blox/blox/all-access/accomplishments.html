@@ -1,4 +1,4 @@
-{{/* Custom Collection Block – Horizontal Cards with correct image */}}
+{{/* CustomCollection.html — Grid of 3 Horizontal Cards with correct image rendering */}}
 
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
@@ -6,7 +6,6 @@
 {{ $items_offset := $block.content.offset | default 0 }}
 {{ $items_count := 3 }}
 
-{{/* Query */}}
 {{ $query := site.RegularPages }}
 {{ if $block.content.filters.folders }}
   {{ $folders := $block.content.filters.folders }}
@@ -22,10 +21,8 @@
   </div>
 {{ end }}
 
-<!-- ✅ شبكة أفقية بـ 3 بطاقات -->
+<!-- ✅ شبكة 3 أعمدة -->
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
-
-  {{ $config := dict "fill_image" true }}
 
   {{ range $index, $item := $query }}
     {{ $img := partial "functions/get_featured_image.html" $item }}

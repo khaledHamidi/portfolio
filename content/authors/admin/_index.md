@@ -55,5 +55,6 @@ highlight_name: true
 
 # Author's website URL
 website: "https://khaledhamidi.netlify.app"
----
+🧠 🏅 Mechatronics & Aerospace Engineer| AI & Embedded Systems Developer | 🚀 Robotics & Automation Innovator |  🛠️ C/C++ / Python / C# / Matlab Expert.
+
 A Mechatronics Engineer expert who turns complexity into simplicity, building smart systems that push the limits of speed and precision, making the impossible the new standard for innovation.
