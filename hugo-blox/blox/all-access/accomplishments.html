@@ -1,4 +1,4 @@
-{{/* Custom Collection – Horizontal Cards with Image */}}
+{{/* Custom Collection Block – Horizontal Cards with correct image */}}
 
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
@@ -6,6 +6,7 @@
 {{ $items_offset := $block.content.offset | default 0 }}
 {{ $items_count := 3 }}
 
+{{/* Query */}}
 {{ $query := site.RegularPages }}
 {{ if $block.content.filters.folders }}
   {{ $folders := $block.content.filters.folders }}
@@ -21,15 +22,19 @@
   </div>
 {{ end }}
 
-<!-- ✅ Grid of 3 Cards with Images -->
+<!-- ✅ شبكة أفقية بـ 3 بطاقات -->
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
 
+  {{ $config := dict "fill_image" true }}
+
   {{ range $index, $item := $query }}
+    {{ $img := partial "functions/get_featured_image.html" $item }}
+
     <a href="{{ $item.RelPermalink }}" class="block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300">
       
-      {{/* ✅ صورة الإنجاز أو صورة افتراضية */}}
-      {{ $img := $item.Params.featured_image | default "images/default.jpg" }}
-      <img src="{{ $img | relURL }}" alt="{{ $item.Title }}" class="w-full h-48 object-cover">
+      {{ with $img }}
+        <img src="{{ . }}" alt="{{ $item.Title }}" class="w-full h-48 object-cover">
+      {{ end }}
 
       <div class="p-5">
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
