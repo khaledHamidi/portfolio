@@ -22,7 +22,7 @@ sections:
     design:
       spacing:
         padding: ['3rem', 0, '3rem', 0]
-  - block: collection
+  - block: accomplishments
     content:
       title: 'Achievements'
       summary: The work that I have done has received appreciation
@@ -33,18 +33,6 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
       view: card
-      columns: '2'
-
-  - block: accomplishments
-    content:
-      title: الإنجازات
-      items:
-        - title: عنوان الإنجاز
-          organization: المؤسسة
-          date_start: '2021-01-01'
-          description: وصف مختصر
-    design:
-      columns: '2'
 
   - block: collection
     content:
@@ -64,7 +52,7 @@ sections:
       summary: some of my project is listed here.
       filters:
         folders:
-          - Projects
+          - Project
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
