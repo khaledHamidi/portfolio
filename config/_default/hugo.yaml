@@ -3,7 +3,10 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Khaled Bassam HAMIDI Keno" # Website name
+title: "Khaled HAMIDI | خالد حميدي كنو" # Website name
+description: "موقع شخصي يعرض خبراتي، مشاريعي، ومحتوى تقني متخصص في البرمجة والذكاء الاصطناعي، سوريا حلب / إعزاز."
+keywords: ["ميكاترونكس", "مطور", "مشاريع برمجية", "الذكاء الاصطناعي", "السيرة الذاتية", "AI", "برمجة", "تقنية"]
+
 baseURL: 'https://khaledhamidi.netlify.app/' # Website URL
 
 ############################
