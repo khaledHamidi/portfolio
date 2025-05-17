@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: B.Tech Mechatronics |  M.S. Aerospacer
+role: B.Tech Mechatronics |  M.S. Aerospacer | AI & Systems Developer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -27,8 +27,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: A Mechatronics Engineer expert who turns complexity into simplicity, building smart systems that push the limits of speed and precision, making the impossible the new standard for innovation. 
 
-# Social Networking
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'mailto:engkhamidi@gmail.com'
@@ -49,14 +47,7 @@ profiles:
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: Download my resume
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
-
-# Author's website URL
 website: "https://khaledhamidi.netlify.app"
 ---
-
-Mechatronics & Aerospace Engineer| AI & Embedded Systems Developer | Robotics & Automation Innovator |  C/C++ /Python/C# and Matlab Expert.
-
 A Mechatronics Engineer expert who turns complexity into simplicity, building smart systems that push the limits of speed and precision, making the impossible the new standard for innovation.

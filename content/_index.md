@@ -5,7 +5,6 @@ type: landing
 sections:
   - block: resume-biography
     content:
-      # The user's folder name in content/authors/
       username: admin
     design:
       spacing:
@@ -70,7 +69,3 @@ sections:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
 ---
-
-
-
-

@@ -5,7 +5,7 @@ main:
   - name: Home
     url: /
     weight: 10
-    
+
   - name: Achievements
     url: achievements/
     weight: 20
@@ -18,7 +18,7 @@ main:
     url: blog/
     weight: 35
 
-  - name: Works 
+  - name: Works
     url: tags/
     weight: 40
 
@@ -43,14 +43,3 @@ main:
     url: freelance-work/
     parent: projects
     weight: 101
-
-
-
-
-
-
-
-
-
-
-
