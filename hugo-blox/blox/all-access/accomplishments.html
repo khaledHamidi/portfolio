@@ -1,4 +1,5 @@
-{{/* CustomCollection.html — compact grid */}}
+```go-html-template
+{{/* CustomCollection.html — ثابت الأبعاد مع تكبير عند المرور */}}
 
 {{ $page  := .wcPage }}
 {{ $block := .wcBlock }}
@@ -16,22 +17,26 @@
   </div>
 {{ end }}
 
-<!-- ✅ wrapper keeps the grid narrow -->
 <div class="container mx-auto max-w-screen-lg px-4">
-
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
     {{ range $item := $query }}
       {{ $img := partial "functions/get_featured_image.html" $item }}
 
+      <!-- group لحفاظ تكبير الصورة -->
       <a href="{{ $item.RelPermalink }}"
-         class="block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden
+         class="group block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden
                 hover:shadow-xl transition-all duration-300">
 
         {{ with $img }}
-          <img src="{{ default . .RelPermalink }}"
-               alt="{{ $item.Title }}"
-               class="w-full h-40 object-cover object-center">
+          <!-- غلاف بارتفاع ثابت (h-60≈15rem) -->
+          <div class="relative w-full h-60 overflow-hidden">
+            <img src="{{ default . .RelPermalink }}"
+                 alt="{{ $item.Title }}"
+                 class="absolute inset-0 w-full h-full object-cover object-center
+                        transition-transform duration-300 ease-out
+                        group-hover:scale-110">
+          </div>
         {{ end }}
 
         <div class="p-5">
@@ -45,3 +50,6 @@
 
   </div>
 </div>
+```
+
+*يتم الآن قصُّ كل صورة داخل حاوية ارتفاعها ‎`h-60`‎ لتظهر بجميع البطاقات بنفس المقاس، ومع ‎`group-hover:scale-110`‎ تظلّ ميزة التكبير عند المرور بالماوس.*
