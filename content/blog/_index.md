@@ -1,3 +1,4 @@
 ---
-title: Blog
+title: المدونة
+summary : آخر المنشورات
 ---
