@@ -1,19 +1,17 @@
-{{/* CustomCollection.html — نسخة محسَّنة */}}
-
-{{ $page  := .wcPage }}
+{{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $query := site.RegularPages }}
 {{ with $block.content.filters.folders }}
-  {{ $query = where $query "Section" "in" . }}
+{{ $query = where $query "Section" "in" . }}
 {{ end }}
 {{ $query = first 3 $query }}
 
 {{ with $block.content.title }}
-  <div class="text-center mb-8">
-    <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
-      {{ . | emojify | $page.RenderString }}
-    </h2>
-  </div>
+<div class="text-center mb-8">
+  <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
+    {{ . | emojify | $page.RenderString }}
+  </h2>
+</div>
 {{ end }}
 
 <div class="container mx-auto max-w-screen-lg px-4">
@@ -21,17 +19,17 @@
 
     {{ range $item := $query }}
       {{ $img := partial "functions/get_featured_image.html" $item }}
-
+    
       <a href="{{ $item.RelPermalink }}"
          class="group block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden
                 hover:shadow-xl transition-all duration-300">
-
+    
         {{ with $img }}
-          {{/* تحديد المسار الآمن سواءً كان String أو Resource */}}
           {{ $src := . }}
           {{ with .RelPermalink }}{{ $src = . }}{{ end }}
-
-          <div class="relative w-full h-60 overflow-hidden">
+    
+          <!-- ارتفاع ثابت 200px -->
+          <div class="relative w-full h-[200px] overflow-hidden">
             <img src="{{ $src }}"
                  alt="{{ $item.Title }}"
                  class="absolute inset-0 w-full h-full object-cover object-center
@@ -39,13 +37,13 @@
                         group-hover:scale-110">
           </div>
         {{ end }}
-
+    
         <div class="p-5">
           <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
             {{ $item.Title }}
           </h3>
         </div>
-
+    
       </a>
     {{ end }}
 
