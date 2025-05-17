@@ -55,7 +55,7 @@ sections:
           - blog
     design:
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: [3rem, 0, 0, 0]
       view: card
 
   - block: collection
