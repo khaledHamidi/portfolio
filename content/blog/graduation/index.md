@@ -9,8 +9,13 @@ tags:
   - مدونة
 show_related: true
 reading_time: 1
-css: ["css/rtl-left.css"]   # ← اسم الملف الذي أنشأته
+hide_edit: true
+share: true
+profile: true
+commentable: true
 
+css:
+  - css/rtl-left.css
 ---
 
 وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا
