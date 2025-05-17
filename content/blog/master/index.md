@@ -7,8 +7,9 @@ authors:
   - admin
 tags:
   - مدونة
-show_related: false---
-<div dir="rtl" style="text-align: justify;">
+show_related: false
+---
 
+<div dir="rtl" style="text-align: justify;">
 يسعدني أن أشارككم خبرًا سعيدًا: فقد بدأتُ اليوم دراسة الماجستير في هندسة الطيران والفضاء بجامعة غازي عنتاب. أتطلع لاكتساب معارف جديدة والمساهمة في أبحاث رائدة. شكرًا لكل من ساندني ودعمني في هذه المسيرة.
 </div>
