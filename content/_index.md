@@ -35,6 +35,17 @@ sections:
       view: card
       columns: '2'
 
+  - block: accomplishments
+    content:
+      title: الإنجازات
+      items:
+        - title: عنوان الإنجاز
+          organization: المؤسسة
+          date_start: '2021-01-01'
+          description: وصف مختصر
+    design:
+      columns: '2'
+
   - block: collection
     content:
       title: Academic
