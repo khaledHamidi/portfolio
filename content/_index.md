@@ -34,7 +34,7 @@ sections:
         padding: [0, 0, 0, 0]
       view: card
 
-  - block: collection
+  - block: accomplishments
     content:
       title: Academic
       subtitle: ''
