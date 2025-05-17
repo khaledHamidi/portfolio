@@ -20,7 +20,7 @@ sections:
           - Blog
     design:
       spacing:
-        padding: ['3rem', 0, '3rem', 0]
+        padding: ['1rem', 0, '0rem', 0]
 
   - block: accomplishments
     content:
@@ -45,7 +45,7 @@ sections:
       count: 2
     design:
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: [3rem, 0, 0, 0]
 
   - block: accomplishments
     content:
@@ -67,5 +67,5 @@ sections:
           - projects
     design:
       spacing:
-        padding: ['3rem', 0, '6rem', 0]
+        padding: ['3rem', 0, '3rem', 0]
 ---
