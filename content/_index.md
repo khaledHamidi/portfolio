@@ -22,6 +22,7 @@ sections:
     design:
       spacing:
         padding: ['3rem', 0, '3rem', 0]
+
   - block: accomplishments
     content:
       title: 'Achievements'
@@ -46,13 +47,25 @@ sections:
     design:
       spacing:
         padding: [0, 0, 0, 0]
+
+  - block: accomplishments
+    content:
+      title: 'آخر المنشورات'
+      filters:
+        folders:
+          - blog
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+      view: card
+
   - block: collection
     content:
-      title: my projects
+      title: projects
       summary: some of my project is listed here.
       filters:
         folders:
-          - Project
+          - projects
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
