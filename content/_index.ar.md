@@ -2,6 +2,14 @@
 title: 'العربية'
 type: landing
 sections:
+  - block: resume-biography
+    content:
+      username: admin
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+      biography:
+        style: 'text-align: justify; font-size: 0.8em;'
   - block: collection
     content:
       title: ''
@@ -15,11 +23,11 @@ sections:
 
   - block: accomplishments
     content:
-      title: 'Achievements'
+      title: 'آخر الإنجازات'
       summary: Recognized contributions and accomplishments throughout my career
       filters:
         folders:
-          - ar/achievements
+          - achievements
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -27,12 +35,12 @@ sections:
 
   - block: accomplishments
     content:
-      title: Academic
+      title: الأعمال الأكادمية
       subtitle: ''
       summary: Recently published scientific articles
       filters:
         folders:
-          - ar.academic
+          - academic
       count: 2
     design:
       spacing:
@@ -40,7 +48,7 @@ sections:
 
   - block: accomplishments
     content:
-      title: 'أحدث ما نُشر | Latest Posts'
+      title: 'أحدث ما نُشر'
       filters:
         folders:
           - blog.ar
@@ -51,8 +59,8 @@ sections:
 
   - block: collection
     content:
-      title: Projects
-      summary: Most recent publications and updates.
+      title: المشاريع
+      summary: آخر مشاريع التي تم العمل عليها.
       filters:
         folders:
           - projects
