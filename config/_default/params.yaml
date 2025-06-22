@@ -36,11 +36,11 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Me. This work is licensed under CC BY-NC-ND 4.0'
     license:
       enable: true
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
@@ -55,6 +55,9 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/khaledHamidi/hugo-blox-builder/'
-    content_dir: starters/blog/content
-    branch: main
+    url: ...
+    content_dir: ...
+    branch: ...
+i_am_a_sponsor: true
+power_ups:
+  hide_published_with: true
