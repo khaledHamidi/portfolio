@@ -10,7 +10,7 @@ authors:
 tags:
   - award
   - hackathon
-
+---
 # ASP.NET Hackathon Winner: Khaled's Order Management System.
 
 In a remarkable achievement, I emerged as the winner of a prestigious hackathon organized by Karabuk University's SAVUNMA TEKNOLOJİLERİ KULÜBÜ (Defense Technologies Club) and sponsored by Enoca. The intense hackathon event lasted from 5 PM until 6 AM the following morning, attracting over 100 talented competitors.

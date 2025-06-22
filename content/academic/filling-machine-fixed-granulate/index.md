@@ -10,7 +10,6 @@ reading_time: true
 commentable: true
 pager: true
 show_related: true
-
 image:
   caption: 'Khaled HAMIDI research'
 

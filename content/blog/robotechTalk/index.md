@@ -8,7 +8,6 @@ authors:
 tags: 
   - technology
   - community
-
 show_related: true
 reading_time: 3
 ---
