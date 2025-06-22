@@ -11,9 +11,8 @@ reading_time: true
 authors:
   - admin
 tags:
-  - Karabuk university
-  - انجازات
----
+  - award
+  - university
 
 # Honored by Karabuk University Rector
 

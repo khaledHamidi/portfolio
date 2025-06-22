@@ -10,11 +10,8 @@ reading_time: true
 authors:
   - admin
 tags:
-  - Workshops
-  - Robotics
-  - Academic
-  - انجازات
----
+  - workshop
+  - arduino
 
 ## Overview
 

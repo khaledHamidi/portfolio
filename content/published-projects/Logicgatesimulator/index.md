@@ -5,9 +5,8 @@ date: 2020-08-20
 authors:
   - admin
 tags:
-  - application
-  - project
-  - program
+  - open-source
+  - software
 
 image:
   caption: 'Image credit: [**Unsplash**](https://github.com/khaledHamidi/Logic-Element-Explorer/blob/main/image.jpg)'

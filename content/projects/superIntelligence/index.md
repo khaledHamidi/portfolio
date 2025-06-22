@@ -6,9 +6,8 @@ draft: false
 authors:
   - admin
 tags:
-  - program
-  - Project
----
+  - software
+  - iot
  
 The perfect solution for your IoT projects
 View, monitor and control Over Internet for any project type that includes the serial port.

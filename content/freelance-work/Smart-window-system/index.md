@@ -8,8 +8,7 @@ authors:
   - admin
 tags:
   - freelance
-  - mechatronics
-  - project
+  - automation
 categories:
   - "Engineering Projects"
   - "Home Automation"

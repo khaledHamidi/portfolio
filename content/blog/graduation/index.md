@@ -6,7 +6,8 @@ draft: false
 authors: 
   - admin
 tags:
-  - مدونة
+  - achievement
+  - education
 show_related: true
 reading_time: true
 css:

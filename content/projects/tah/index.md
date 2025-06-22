@@ -6,9 +6,8 @@ draft: false
 authors:
   - admin
 tags:
-  - program
-  - Project
----
+  - embedded
+  - data-logging
  
  It is a project that I did while studying at the university for the microprocessors course.ي
 

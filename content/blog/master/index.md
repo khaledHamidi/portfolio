@@ -6,7 +6,8 @@ draft: false
 authors: 
   - admin
 tags:
-  - مدونة
+  - education
+  - announcement
 show_related: false
 ---
 

@@ -6,8 +6,8 @@ draft: false
 authors:
   - admin
 tags:
-  - program
----
+  - software
+  - education
  
  
  

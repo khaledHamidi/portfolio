@@ -6,7 +6,8 @@ draft: false
 authors: 
   - admin
 tags:
-  - مدونة
+  - engineering
+  - event
 show_related: true
 reading_time: 2
 ---
