@@ -22,14 +22,16 @@ role: B.Tech Mechatronics |  M.S. Aerospacer | AI & Systems Developer
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Gaziantep University 
-    url: https://shamuniversity.com/
+    url: https://ae.gantep.edu.tr//
+  - name: Robotech team 
+    url: https://fb.com/ar.robotech
 
 # Short bio (displayed in user profile at end of posts)
 bio: A Mechatronics & Aerospace alchemist who distills complexity into living code, forging intelligent machines that blur the line between dream and reality and let tomorrow’s heartbeat echo today. خيميائي الميكاترونكس والطيران يقطّر التعقيد إلى شيفرة حيّة، ويصوغ آلاتٍ ذكية تمحو المسافة بين الحلم والواقع، لتجعل نبض الغد مسموعًا الآن.
 
 profiles:
   - icon: at-symbol
-    url: 'mailto:engkhamidi@gmail.com'
+    url: 'mailto:hamidi@engineer.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/engkhamidi
