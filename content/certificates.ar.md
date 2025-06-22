@@ -79,25 +79,4 @@ reading_time: 4
     <!-- --- أكمل بقية الصفوف بنفس الصيغة --- -->
   </tbody>
 </table>
-
 ---
-
-### إضافة شهادة جديدة
-
-<div dir="rtl" style="text-align:justify">
-1. ضَع صورة `JPG/PNG` أو ملف `PDF` في مجلد `certificates/`.  
-2. انسخ الصفّ التالي وعدِّل الاسم والوصف:
-</div>
-
-```html
-<tr>
-  <td>
-    <a href="/certificates/FILE_NAME.jpg">
-      <img src="/certificates/FILE_NAME.jpg" alt="Alt Text">
-    </a>
-  </td>
-  <td>
-    <strong>عنوان الشهادة</strong><br>
-    وصف مختصر في سطر أو سطرين.
-  </td>
-</tr>
