@@ -98,3 +98,5 @@ Any standard HTML tag, such as an `<iframe>` for Facebook posts, can be inserted
      - you can add other if needs.
 4. the Readme files is an examples.
 5. Write the code in txt box to easy copy it
+
+## Examples syntics:
