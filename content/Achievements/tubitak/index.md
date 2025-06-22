@@ -7,8 +7,9 @@ reading_time: true
 authors:
   - admin
 tags:
-  - grant
+  - achievement
   - research
+  - robotics
 ---
 
 My project "Development of Multi-Purpose Autonomous Mobile Robot for Education and Research Works" has received funding from [TÜBİTAK](https://tubitak.gov.tr/) under the 2209-A University Students Research Projects Support Program.

@@ -6,8 +6,9 @@ draft: false
 authors:
   - admin
 tags:
-  - Achievements
-  - Technology
+  - achievement
+  - community
+  - opinion
 show_related: true
 reading_time: 3
 ---

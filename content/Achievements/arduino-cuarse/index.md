@@ -8,8 +8,8 @@ reading_time: true
 authors:
   - admin
 tags:
-  - workshop
-  - arduino
+  - education
+  - technology
 ---
 ## Overview
 
