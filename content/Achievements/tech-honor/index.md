@@ -6,8 +6,8 @@ draft: false
 authors:
   - admin
 tags:
-  - award
-  - university
+  - achievement
+  - event
 show_related: true
 reading_time: 2
 ---
