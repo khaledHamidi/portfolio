@@ -8,7 +8,7 @@ authors:
 tags:
   - embedded
   - data-logging
- 
+---
  It is a project that I did while studying at the university for the microprocessors course.ي
 
 - The project consists of a digital temperature and humidity sensor SH10 and an Arduino Uno board.

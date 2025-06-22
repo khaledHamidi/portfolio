@@ -12,7 +12,6 @@ pager: true
 show_related: true
 image:
   caption: 'Khaled HAMIDI research'
-
 date: 2024-05-01
 ---
 

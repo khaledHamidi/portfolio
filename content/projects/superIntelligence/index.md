@@ -8,7 +8,7 @@ authors:
 tags:
   - software
   - iot
- 
+---
 The perfect solution for your IoT projects
 View, monitor and control Over Internet for any project type that includes the serial port.
 It is a system that allows control of embedded devices or development centers via the Internet

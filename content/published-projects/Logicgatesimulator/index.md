@@ -7,7 +7,6 @@ authors:
 tags:
   - open-source
   - software
-
 image:
   caption: 'Image credit: [**Unsplash**](https://github.com/khaledHamidi/Logic-Element-Explorer/blob/main/image.jpg)'
 ---
