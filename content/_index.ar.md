@@ -48,10 +48,10 @@ sections:
 
   - block: accomplishments
     content:
-      title: 'أحدث ما نُشر'
+      title: 'أحدث المنشورات'
       filters:
         folders:
-          - blog.ar
+          - blog
     design:
       spacing:
         padding: [3rem, 0, 0, 0]

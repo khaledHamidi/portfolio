@@ -48,7 +48,7 @@ sections:
 
   - block: accomplishments
     content:
-      title: 'أحدث ما نُشر | Latest Posts'
+      title: ' Latest Posts'
       filters:
         folders:
           - blog
