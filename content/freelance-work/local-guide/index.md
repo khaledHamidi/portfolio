@@ -8,7 +8,8 @@ authors:
   - admin
 tags:
   - freelance
-  - ai
+  - technology
+  - networking
 ---
 
 ## Project Overview
