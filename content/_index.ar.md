@@ -1,6 +1,5 @@
 ---
 title: 'العربية'
-date: 2023-10-24
 type: landing
 sections:
   - block: collection
@@ -20,7 +19,7 @@ sections:
       summary: Recognized contributions and accomplishments throughout my career
       filters:
         folders:
-          - achievements
+          - ar/achievements
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -33,7 +32,7 @@ sections:
       summary: Recently published scientific articles
       filters:
         folders:
-          - academic
+          - ar.academic
       count: 2
     design:
       spacing:
@@ -44,7 +43,7 @@ sections:
       title: 'أحدث ما نُشر | Latest Posts'
       filters:
         folders:
-          - blog
+          - blog.ar
     design:
       spacing:
         padding: [3rem, 0, 0, 0]
