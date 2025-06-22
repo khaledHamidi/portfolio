@@ -60,6 +60,5 @@ Highlights from Khaled’s valedictory speech at Karabuk University, 17 May 2025
 <iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/engkhamidi/posts/pfbid0Lac2qcgtFQrzEEiHgNwZwREQTHWzmeEA73AXuJH1GPFSEf7csjCbq3jr3aqVcftFl&show_text=true&width=500" width="500" height="762" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
 
-| ![img1](/tech-honor/2.jpg) | ![img2](/tech-honor/2.jpg) |
-| --- | --- |
-| ![img3](/tech-honor/2.jpg)
+| ![img1](/tech-honor/2.jpg) | ![img2](/tech-honor/3.jpg) |
+| ![img3](/tech-honor/4.jpg)
