@@ -65,7 +65,7 @@ Bu sadece bir diploma değil; azmin ve iradenin zaferidir.
 
 ---
 
-<div dir="rtl" style="text-align: justify; background:#400000; padding:1em; border-radius:6px;">
+<div dir="rtl" style="text-align: justify; background:#000d2f; padding:1em; border-radius:6px;">
 
 #### تعليق خالد على منشور الدكتور مصعب
 
