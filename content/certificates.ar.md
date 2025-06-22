@@ -36,8 +36,8 @@ reading_time: 4
   <tbody>
     <tr>
       <td>
-        <a href="cer_1.jpg">
-          <img src="cer_1.jpg" alt="Cyber Security Certificate">
+        <a href="/certificates/cer_1.jpg">
+          <img src="/certificates/cer_1.jpg" alt="Cyber Security Certificate">
         </a>
       </td>
       <td>
@@ -47,8 +47,8 @@ reading_time: 4
     </tr>
     <tr>
       <td>
-        <a href="cer_4.jpg">
-          <img src="cer_4.jpg" alt="Diploma in Data Analysis">
+        <a href="/certificates/cer_4.jpg">
+          <img src="/certificates/cer_4.jpg" alt="Diploma in Data Analysis">
         </a>
       </td>
       <td>
