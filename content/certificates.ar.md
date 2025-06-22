@@ -1,56 +1,103 @@
 ---
-title: "شهادات Khaled"
-summary: "معرض يوثِّق إنجازات خالد الأكاديمية والمهنية والبحثية."
+title: "شهادات"
+summary: "معرض يوثّق إنجازات خالد الأكاديمية والبحثية."
 date: 2025-06-22
 draft: false
 authors:
   - admin
 tags:
   - achievements
-  - education
-  - technology
-  - research
   - certificates
+  - education
 show_related: true
 reading_time: 4
 ---
 
-<div dir="rtl" style="text-align: justify;">
+<style>
+/* --- تنسيق مخصَّص للجدول فقط --- */
+.cert-table{width:100%;border-collapse:collapse;margin-top:1rem}
+.cert-table thead th{padding:.6rem;text-align:center;border-bottom:2px solid #555}
+.cert-table td{padding:.8rem;vertical-align:top;border-bottom:1px solid #333}
+.cert-table img{max-width:180px;height:auto;border-radius:4px;display:block;margin:auto}
+@media(max-width:600px){.cert-table img{max-width:120px}}
+</style>
 
-يستعرض هذا المعرض شهادات خالد في مجالات الأمن السيبراني، تحليل البيانات، المركبات ذاتية القيادة، البحث العلمي، ريادة الأعمال، الطاقة المتجددة، وغيرها. يمكن النقر على أي بطاقة لفتح الشهادة الأصلية (صورة أو PDF).
-
+<div dir="rtl" style="text-align:justify">
+يضمّ هذا المعرض شهادات خالد في الأمن السيبراني، تحليل البيانات، الروبوتات، البحث العلمي، ريادة الأعمال، والطاقة المتجددة. بالضغط على أي صورة تُفتح الشهادة الأصلية (صورة أو PDF).
 </div>
 
+<table class="cert-table" dir="rtl">
+  <thead>
+    <tr>
+      <th>الشهادة</th>
+      <th>الوصف</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="/certificates/cer_1.jpg">
+          <img src="/certificates/cer_1.jpg" alt="Cyber Security Certificate">
+        </a>
+      </td>
+      <td>
+        <strong>Oxford Home Study Centre – Certificate in Cyber Security</strong><br>
+        إنهاء جميع متطلبات دورة الأمن السيبراني (16 سبتمبر 2023).
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="/certificates/cer_4.jpg">
+          <img src="/certificates/cer_4.jpg" alt="Diploma in Data Analysis">
+        </a>
+      </td>
+      <td>
+        <strong>Diploma in Data Analysis</strong><br>
+        مشاريع تحليل بيانات مكثّفة من Oxford HSC (16 سبتمبر 2023).
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="/certificates/cer_3.jpg">
+          <img src="/certificates/cer_3.jpg" alt="Self-Driving Cars">
+        </a>
+      </td>
+      <td>
+        <strong>University of Toronto / Coursera – Introduction to Self-Driving Cars</strong><br>
+        شهادة إتمام بتاريخ 6 أبريل 2024.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="/certificates/Tubitak.pdf">📄</a>
+      </td>
+      <td>
+        <strong>TÜBİTAK 2209-A – تمويل مشروع روبوت جوّال</strong><br>
+        خطاب قبول الدعم البحثي (22 مارس 2024).
+      </td>
+    </tr>
+    <!-- --- أكمل بقية الصفوف بنفس الصيغة --- -->
+  </tbody>
+</table>
+
 ---
 
-## Certificates Gallery
+### إضافة شهادة جديدة
 
-| الشهادة | الوصف |
-|---------|-------|
-| [![Cyber Security](cer_1.jpg)](cer_1.jpg) | **Oxford Home Study Centre – Certificate in Cyber Security**<br>إنهاء جميع متطلبات دورة الأمن السيبراني (16 سبتمبر 2023). |
-| [![Data Analysis](cer_4.jpg)](cer_4.jpg) | **Diploma in Data Analysis**<br>مشاريع تحليل بيانات مكثّفة من Oxford HSC (16 سبتمبر 2023). |
-| [![Self-Driving Cars](cer_3.jpg)](cer_3.jpg) | **University of Toronto / Coursera – Introduction to Self-Driving Cars**<br>شهادة إتمام بتاريخ 6 أبريل 2024. |
-| [![Al-Qistas](cer_2.jpg)](cer_2.jpg) | **Al-Qistas Industrial Co. – Certificate of Achievement**<br>تكريم بعد تدريب مهني لمدة عامين (مايو 2020). |
-| [📄 TÜBİTAK 2209-A](Tubitak.pdf) | **TÜBİTAK – تمويل مشروع روبوت جوّال متعدد الأغراض**<br>خطاب قبول الدعم البحثي (22 مارس 2024). |
-| [📄 ICENSOS 2024 Paper](ICENSOS%202024.pdf) | **ICENSOS 2024 – Konya, Turkey**<br>مشاركة ببحث عن آلة تعبئة حبيبات مفتوحة المصدر (16-17 مايو 2024). |
-| [📄 Arduino Essentials](شهادة%20في%20الاردوينو%20إدراك.pdf) | **إدراك – أساسيات برمجة الأردوينو**<br>مساق عملي شامل (6 يوليو 2020). |
-| [![PV Workshop](cer_5.jpg)](cer_5.jpg) | **AMC – Introduction to On-Grid Photovoltaic Systems**<br>ورشة ساعتين حول الأنظمة الكهروضوئية (8 سبتمبر 2020). |
-| [![Karabuk Cyber](cer_6.jpg)](cer_6.jpg) | **Karabük University – “Siber Güvenlik Eğitimi”**<br>محاضرة توعوية في الأمن السيبراني (23 مارس 2022). |
-| [![Entrepreneurship](cer_7.jpg)](cer_7.jpg) | **فرصة.كوم – ريادة الأعمال**<br>إتمام دورة عبر الإنترنت (9 مايو 2021). |
-| [📄 Google Analytics Certification](Google%20Analytics%20Certification.pdf) | **Google Analytics – Certification**<br>صلاحية حتى 16 سبتمبر 2024. |
-| [![GA Badge](5b37ff94-3fed-4a07-b815-5afc792c8f15.png)](Google%20Analytics%20Certification.pdf) | **Google Analytics Badge**<br>شارة اعتماد تحليلات جوجل. |
-| [📄 معالج النصوص](معالج%20النصوص.pdf) | **Specto & Edraak – Word Processing Course**<br>جزء من سلسلة ICDL (6 يوليو 2020). |
-| [📄 ملف PDF قيد التوثيق](khaled._0003.pdf) | **قيد التوثيق**<br>سيُضاف عنوان/وصف هذه الشهادة قريبًا. |
-| [📄 ملف PDF قيد التوثيق](khaled._0004.pdf) | **قيد التوثيق**<br>سيُضاف عنوان/وصف هذه الشهادة قريبًا. |
-| [📄 ملف PDF قيد التوثيق](khaled._0006.pdf) | **قيد التوثيق**<br>سيُضاف عنوان/وصف هذه الشهادة قريبًا. |
-| [📄 ملف PDF قيد التوثيق](khaled._0007.pdf) | **قيد التوثيق**<br>سيُضاف عنوان/وصف هذه الشهادة قريبًا. |
-| [📄 ملف PDF قيد التوثيق](khaled._0008.pdf) | **قيد التوثيق**<br>سيُضاف عنوان/وصف هذه الشهادة قريبًا. |
+<div dir="rtl" style="text-align:justify">
+1. ضَع صورة `JPG/PNG` أو ملف `PDF` في مجلد `certificates/`.  
+2. انسخ الصفّ التالي وعدِّل الاسم والوصف:
+</div>
 
----
-
-### How to Add / Update Certificates 🛠️
-
-1. ضع صورة (‎JPG/PNG‎) أو ملف ‎PDF‎ للشهادة في المجلّد `certificates/`.  
-2. أضف صفًّا جديدًا في الجدول أعلاه بنفس الصيغة:<br>
-   ```markdown
-   | [![Alt Text](FILE.jpg)](FILE.jpg) | **عنوان الشهادة**<br>وصف مختصر. |
+```html
+<tr>
+  <td>
+    <a href="/certificates/FILE_NAME.jpg">
+      <img src="/certificates/FILE_NAME.jpg" alt="Alt Text">
+    </a>
+  </td>
+  <td>
+    <strong>عنوان الشهادة</strong><br>
+    وصف مختصر في سطر أو سطرين.
+  </td>
+</tr>
