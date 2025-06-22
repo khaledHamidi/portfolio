@@ -3,10 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Khaled HAMIDI | خالد حميدي كنو" # Website name
-description: "موقع شخصي يعرض خبراتي، مشاريعي، ومحتوى تقني متخصص في البرمجة والذكاء الاصطناعي، سوريا حلب / إعزاز."
-keywords: ["ميكاترونكس", "مطور", "مشاريع برمجية", "الذكاء الاصطناعي", "السيرة الذاتية", "AI", "برمجة", "تقنية"]
-
+title: "Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace & Intelligent Systems"
+description: "Official website of Khaled HAMIDI KENO – Mechatronics and Aerospace Engineer, Intelligent Systems Architect, and Robotech Team Founder. Discover smart technologies, robotics innovation, and cutting-edge AI systems engineering."
+keywords: ["ميكاترونكس", "مطور", "مشاريع برمجية", "الذكاء الاصطناعي", "السيرة الذاتية", "AI", "برمجة", "تقنية", "خالد حميدي كنو", "Khaled HAMIDI KENO", "أنظمة ذكية", "روبوتات", "هندسة طيران", "Robotech"]
 baseURL: 'https://khaledhamidi.netlify.app/' # Website URL
 
 ############################
@@ -23,7 +22,7 @@ cascade:
     hide_date: false
     show_date_updated: true
     reading_time: true
-    commentable: true
+    commentable: false
     show_related: true
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
@@ -37,6 +36,12 @@ cascade:
 ############################
 
 defaultContentLanguage: en
+languages:
+  en:
+    weight: 1
+  ar:
+    weight: 2
+
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
