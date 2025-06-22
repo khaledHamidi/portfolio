@@ -9,6 +9,7 @@ authors:
 tags:
   - freelance
   - automation
+  - iot
 categories:
   - "Engineering Projects"
   - "Home Automation"

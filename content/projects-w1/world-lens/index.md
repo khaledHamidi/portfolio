@@ -7,7 +7,7 @@ authors:
   - admin
 tags:
   - software
-  - experiment
+  - technology
 ---
 
 1. **High Reliability**: The system is developed using the latest technologies and industry standards to ensure reliable performance.
