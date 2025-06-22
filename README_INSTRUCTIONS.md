@@ -81,3 +81,20 @@ Any standard HTML tag, such as an `<iframe>` for Facebook posts, can be inserted
 - Place images near the text that references them.
 - For Arabic sections use the RTL `div` as shown above.
 
+## More info
+1. the protifiolo is for Khaled HAMIDI, He is Mechatroncis and  Aerospace Engineer also software engineer.
+2. authors: always is admin
+3. tags list:
+     - achievement
+     - education
+     - technology
+     - community
+     - opinion
+     - politics
+     - open-source
+     - software
+    - business
+     - iot
+     - you can add other if needs.
+4. the Readme files is an examples.
+5. Write the code in txt box to easy copy it
