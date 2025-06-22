@@ -5,10 +5,8 @@ date: 2023-02-07
 authors:
   - admin
 tags:
-  - application
-  - project
-  - program
----
+  - open-source
+  - software
 # GeoSketch - Geometric Drow and Collision Detection
 
 ![GeoSketch Screenshot](https://github.com/khaledHamidi/GeoSketch/blob/master/images/Screenshot.jpg)

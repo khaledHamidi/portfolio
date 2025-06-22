@@ -8,9 +8,7 @@ authors:
   - admin
 tags:
   - freelance
-  - mechatronics
-  - project
----
+  - ai
 
 
 ## Project Overview

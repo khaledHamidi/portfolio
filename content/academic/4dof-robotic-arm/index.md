@@ -9,11 +9,8 @@ show_related: true
 
 description: "A smart approach for real-time inspection and selection of objects in continuous flow using image processing and a mechatronic color sorting system."
 tags: 
-  - Robotics
-  - Mechatronics
-  - Academic
-  - Scientific Paper
----
+  - robotics
+  - research
 
 
 

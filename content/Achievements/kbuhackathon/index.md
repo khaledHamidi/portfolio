@@ -8,10 +8,8 @@ reading_time: true
 authors:
   - admin
 tags:
-  - programming
-  - Karabuk university
-  - انجازات
----
+  - award
+  - hackathon
 
 # ASP.NET Hackathon Winner: Khaled's Order Management System.
 
