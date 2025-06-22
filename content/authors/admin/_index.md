@@ -25,7 +25,7 @@ organizations:
     url: https://shamuniversity.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: A Mechatronics Engineer expert who turns complexity into simplicity, building smart systems that push the limits of speed and precision, making the impossible the new standard for innovation. 
+bio: A Mechatronics & Aerospace alchemist who distills complexity into living code, forging intelligent machines that blur the line between dream and reality and let tomorrow’s heartbeat echo today. خيميائي الميكاترونكس والطيران يقطّر التعقيد إلى شيفرة حيّة، ويصوغ آلاتٍ ذكية تمحو المسافة بين الحلم والواقع، لتجعل نبض الغد مسموعًا الآن.
 
 profiles:
   - icon: at-symbol
@@ -46,8 +46,11 @@ profiles:
    # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
     url: uploads/resume.pdf
-    label: Download my resume
+    label: resume.pdf
 highlight_name: true
 website: "https://khaledhamidi.netlify.app"
 ---
-A Mechatronics Engineer expert who turns complexity into simplicity, building smart systems that push the limits of speed and precision, making the impossible the new standard for innovation.
+A Mechatronics & Aerospace alchemist who distills complexity into living code, forging intelligent machines that blur the line between dream and reality and let tomorrow’s heartbeat echo today.
+<div dir="rtl" style="text-align: justify; background:#000d2f; padding:1em; border-radius:6px;">
+خيميائي الميكاترونكس والطيران يقطّر التعقيد إلى شيفرة حيّة، ويصوغ آلاتٍ ذكية تمحو المسافة بين الحلم والواقع، لتجعل نبض الغد مسموعًا الآن
+</div>
