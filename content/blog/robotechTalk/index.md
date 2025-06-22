@@ -5,9 +5,10 @@ date: 2023-09-07
 draft: false
 authors: 
   -admin
-tags: 
+tags:
   - technology
   - community
+  - event
 show_related: true
 reading_time: 3
 ---

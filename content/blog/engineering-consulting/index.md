@@ -6,8 +6,8 @@ draft: false
 authors: 
   - admin
 tags:
-  - engineering
   - event
+  - technology
 show_related: true
 reading_time: 2
 ---

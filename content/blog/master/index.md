@@ -7,7 +7,7 @@ authors:
   - admin
 tags:
   - education
-  - announcement
+  - achievement
 show_related: false
 ---
 

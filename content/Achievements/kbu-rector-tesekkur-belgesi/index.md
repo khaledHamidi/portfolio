@@ -8,8 +8,8 @@ reading_time: true
 authors:
   - admin
 tags:
-  - award
-  - university
+  - achievement
+  - research
 ---
 # Honored by Karabuk University Rector
 
