@@ -1,3 +1,0 @@
----
-title: Latest Professional Milestones
----

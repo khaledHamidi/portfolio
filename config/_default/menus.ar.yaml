@@ -28,18 +28,18 @@ main:
     weight: 60
     main:
   - name: الأعمال المهنية والأكادمية
-    parent: projects
+    parent: مشاريع
     URL: Projects/
     weight: 103
   - name: هواية
-    parent: projects
+    parent: مشاريع
     URL: projects-w1/
     weight: 103
   - Name: تم نشرها
     URL: published-projects/
-    parent: projects
+    parent: مشاريع
     weight: 102
   - name: اعمال حرة
     url: freelance-work/
-    parent: projects
+    parent: مشاريع
     weight: 101
