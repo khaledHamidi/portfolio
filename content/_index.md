@@ -25,7 +25,7 @@ sections:
   - block: accomplishments
     content:
       title: 'Achievements'
-      summary: The work that I have done has received appreciation
+      summary: Recognized contributions and accomplishments throughout my career
       filters:
         folders:
           - achievements
@@ -38,7 +38,7 @@ sections:
     content:
       title: Academic
       subtitle: ''
-      summary: Latest scientific articles published
+      summary: Recently published scientific articles
       filters:
         folders:
           - academic
@@ -49,7 +49,7 @@ sections:
 
   - block: accomplishments
     content:
-      title: 'آخر المنشورات'
+      title: 'أحدث ما نُشر | Latest Posts'
       filters:
         folders:
           - blog
@@ -60,8 +60,8 @@ sections:
 
   - block: collection
     content:
-      title: projects
-      summary: some of my project is listed here.
+      title: Projects
+      summary: Most recent publications and updates.
       filters:
         folders:
           - projects
