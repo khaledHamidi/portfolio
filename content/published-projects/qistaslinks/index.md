@@ -5,9 +5,8 @@ date: 2022-04-02
 authors:
   - admin
 tags:
-  - application
-  - project
-  - program
+  - library
+  - software
 image:
   caption: 'Image credit: [**Unsplash**](https://github.com/khaledHamidi/Logic-Element-Explorer/blob/main/image.jpg)'
 ---

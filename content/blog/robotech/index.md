@@ -6,7 +6,8 @@ draft: false
 authors: 
   - admin
 tags:
-  - مدونة
+  - technology
+  - community
 show_related: true
 reading_time: 1
 ---

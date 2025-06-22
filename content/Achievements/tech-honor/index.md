@@ -6,8 +6,8 @@ draft: false
 authors:
   - admin
 tags:
-  - Achievements
-  - Karabuk University
+  - award
+  - university
 show_related: true
 reading_time: 2
 ---
