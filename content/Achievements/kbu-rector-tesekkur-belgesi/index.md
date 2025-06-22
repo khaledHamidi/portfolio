@@ -5,13 +5,12 @@ date: 2023-05-30T12:00:00+03:00
 draft: false
 show_related: true
 reading_time: true
-
 authors:
   - admin
 tags:
   - award
   - university
-
+---
 # Honored by Karabuk University Rector
 
 On 30 May 2024, at the Hamit Çepni Conference Hall, Khaled was presented with a certificate of appreciation by Karabuk University’s Rector, Prof. Dr. Fatih KIRIŞIK.
