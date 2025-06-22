@@ -7,16 +7,3 @@ en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-ar:
-  languageCode: ar
-  contentDir: content/ar
-  title: اللغة العربيى...
-  params:
-  description: وصف الموقع بالعربية...
-  menu:
-  main:
-  - name: من نحن
-  url: '#حولنا'
-  weight: 1
