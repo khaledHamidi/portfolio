@@ -8,10 +8,7 @@ authors:
 tags:
   - software
   - experiment
- 
- text description
- 
-
+---
 
 1. **High Reliability**: The system is developed using the latest technologies and industry standards to ensure reliable performance.
 2. **Ease of Use**: The user interface is intuitive and user-friendly, designed for smooth operation and minimizing errors.

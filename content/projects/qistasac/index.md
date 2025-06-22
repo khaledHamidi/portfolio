@@ -8,7 +8,7 @@ authors:
 tags:
   - software
   - business
- 
+---
 
 
 Qistas AC is a comprehensive store management application that runs on desktop operating systems. It offers an intuitive and user-friendly interface, making it easy for businesses to manage their operations efficiently.
