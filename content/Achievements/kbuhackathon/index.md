@@ -8,8 +8,8 @@ reading_time: true
 authors:
   - admin
 tags:
-  - award
-  - hackathon
+  - achievement
+  - event
 ---
 # ASP.NET Hackathon Winner: Khaled's Order Management System.
 
