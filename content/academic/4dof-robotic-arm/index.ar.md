@@ -1,34 +1,46 @@
 ﻿---
-title: "Filtering and Classification of Shapes Chromatically Using a 4.DOF Robotic Arm"
+title: "تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية"
 date: 2023-07-26
 draft: false
 reading_time: true
 commentable: true
 pager: true
 show_related: true
-description: "A smart approach for real-time inspection and selection of objects in continuous flow using image processing and a mechatronic color sorting system."
+description: "مقاربة ذكية للفرز والمعاينة اللحظية للأجسام المتدفقة باستخدام المعالجة الصورية ونظام ميكاتروني لفرز الألوان."
 tags: 
-  - robotics
-  - research
+  - روبوتات
+  - بحث علمي
+  - ذكاء اصطناعي
 ---
 
+<div dir="rtl" style="text-align: justify;">
 
-## Filtering and Classification of Shapes Chromatically Using a 4.DOF Robotic Arm
+## تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية
 
- 
- 
-## Publication Information
+تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.  
+ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.
 
-**Journal:** Sham Center for Studies and Research  
-**Year:** jul 26, 2023  
+تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.
 
+</div>
 
-## Abstract
+---
 
-Sorting and classifying products can be challenging for humans, especially in unhealthy conditions. Manual sorting also leads to occasional errors. Therefore, the use of a robotic arm for sorting and classifying based on specific criteria is important in various industries. This study presents a solution for color-based shape sorting and classification using a four-degree-of-freedom robotic arm controlled by Raspberry Pi. Image processing algorithms determine the color of the object to be classified, and accordingly, the arm is commanded to pick it up and place it in the designated location for that color.
+<div dir="rtl" style="text-align: justify;">
 
+## بيانات النشر
 
+- **الجهة الناشرة:** مركز الشام للدراسات والبحوث  
+- **تاريخ النشر:** 26 تموز 2023  
 
-## Link
+</div>
 
-https://shamuniversity.com/sham-center-list/articles/8
+---
+
+<div dir="rtl" style="text-align: justify;">
+
+## رابط البحث
+
+[الاطلاع على المقال في موقع مركز الشام للدراسات](https://shamuniversity.com/sham-center-list/articles/8)
+
+</div>
