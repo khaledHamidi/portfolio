@@ -10,11 +10,6 @@ tags:
   - Karabuk University
 show_related: true
 reading_time: 2
-hero: /tech-honot/1.jpg
-gallery:
-  - /tech-honot/1.jpg
-  - /tech-honot/2.jpg
-  - /tech-honot/3.jpg
 ---
 
 <div dir="ltr" style="text-align: justify;">
