@@ -4,9 +4,8 @@ summary: Easily manage your projects - create ideation mind maps, Gantt charts, 
 authors:
   - admin
 tags:
-  - Academic
-  - Project
-  - Scientific paper
+  - automation
+  - research
 reading_time: true
 commentable: true
 pager: true

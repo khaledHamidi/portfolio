@@ -7,8 +7,8 @@ draft: false
 authors:
   - admin
 tags:
-  - program
-  - Project
+  - software
+  - networking
 rtl: true
 
 ---
