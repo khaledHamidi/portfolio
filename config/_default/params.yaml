@@ -30,7 +30,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under CC BY-NC-ND 4.0'
+    notice: '© {year} Khaled HAMIDI. This work is licensed under CC BY-NC-ND 4.0'
     license:
       enable: true
       allow_derivatives: false
