@@ -11,6 +11,7 @@ authors:
   - admin
 tags:
   - Karabuk university
+  - انجازات
 ---
 
 # Honored by Karabuk University Rector
