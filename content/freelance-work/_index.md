@@ -1,3 +1,3 @@
 ---
-title: My freelance work on mostaql.com
+Title: Highlights of My Freelance Work on Mostaql.com
 ---
