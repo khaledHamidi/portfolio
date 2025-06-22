@@ -10,7 +10,7 @@ description: "A smart approach for real-time inspection and selection of objects
 tags: 
   - robotics
   - research
-
+---
 
 
 ## Filtering and Classification of Shapes Chromatically Using a 4.DOF Robotic Arm
