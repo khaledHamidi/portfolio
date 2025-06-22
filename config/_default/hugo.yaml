@@ -41,7 +41,6 @@ languages:
     weight: 1
   ar:
     weight: 2
-
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true

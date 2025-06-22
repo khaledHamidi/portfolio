@@ -42,8 +42,6 @@ Team Members:
 **Social Media Highlights:**
 - [LinkedIn Post](https://www.linkedin.com/posts/enghamidi_youthtechbegin2025-karaftncago-finalist-activity-7342498575953657856-Kv7h?utm_source=share&utm_medium=member_desktop)
 
-{{< youtube 1TTvNnnO54k >}}
-
 ---
 
 <div dir="rtl" style="text-align: justify;">
