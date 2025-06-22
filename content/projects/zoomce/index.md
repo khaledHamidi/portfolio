@@ -8,7 +8,7 @@ authors:
 tags:
   - software
   - automation
-
+---
 
 # Ground Scale Management System
 

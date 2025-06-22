@@ -8,7 +8,7 @@ authors:
 tags:
   - software
   - business
-
+---
 ## Overview
 
 Pharmacy Plus is the ultimate solution for managing your pharmacy operations. Developed with a user-friendly interface and powerful features, this application empowers you to take control of your inventory, sales, and customer management processes with ease.
