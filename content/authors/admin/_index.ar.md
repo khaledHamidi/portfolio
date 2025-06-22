@@ -1,34 +1,38 @@
 ---
 # Display name
-title: خالد حميدي
+title: خالد الحميدي
 
 # Name pronunciation (optional)
 name_pronunciation: خالد بسام حميدي كنو
 
 # Full name (for SEO)
 first_name: خالد
-last_name: حميدي
+last_name: الحميدي
 
 # Status emoji
 status:
   icon: 🟢
 
+# Is this the primary user of the site?
 superuser: true
 
-role: B.Tech Mechatronics |  M.S. Aerospacer | AI & Systems Developer
+# Role/position/tagline
+role: بكالوريوس ميكاترونكس | ماجستير طيران | مطوّر ذكاء صناعي وأنظمة ذكية
 
+# Organizations/Affiliations to show in About widget
 organizations:
-  - name: Gaziantep University 
+  - name: جامعة غازي عنتاب
     url: https://ae.gantep.edu.tr//
-  - name: Robotech team 
+  - name: فريق روبوتك
     url: https://fb.com/ar.robotech
 
-bio: خيميائي الميكاترونكس والطيران يقطّر التعقيد إلى شيفرة حيّة، ويصوغ آلاتٍ ذكية تمحو المسافة بين الحلم والواقع، لتجعل نبض الغد مسموعًا الآن.
+# Short bio (displayed in user profile at end of posts)
+bio: خيميائي الميكاترونكس والطيران، يقطّر التعقيد إلى شيفرة حيّة، ويصوغ آلاتٍ ذكية تمحو المسافة بين الحلم والواقع، لتجعل نبض الغد مسموعًا الآن.
 
 profiles:
   - icon: at-symbol
     url: 'mailto:hamidi@engineer.com'
-    label: البريد الالكتروني
+    label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/engkhamidi
   - icon: brands/instagram
@@ -41,13 +45,14 @@ profiles:
     url: https://orcid.org/0009-0004-2962-0833     
   - icon: brands/github
     url: https://www.github.com/khaledHamidi  
-   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
     url: uploads/resume.pdf
-    label: السيرة الذاتية
+    label: resume.pdf
+
 highlight_name: true
 website: "https://khaledhamidi.netlify.app"
 ---
+
 <div dir="rtl" style="text-align: justify;">
-خيميائي الميكاترونكس والطيران يقطّر التعقيد إلى شيفرة حيّة، ويصوغ آلاتٍ ذكية تمحو المسافة بين الحلم والواقع، لتجعل نبض الغد مسموعًا الآن
+خيميائي الميكاترونكس والطيران، يقطّر التعقيد إلى شيفرة حيّة، ويصوغ آلاتٍ ذكية تمحو المسافة بين الحلم والواقع، لتجعل نبض الغد مسموعًا الآن.
 </div>

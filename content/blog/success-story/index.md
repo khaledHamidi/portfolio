@@ -37,24 +37,6 @@ Below is the full video interview as published on Dr. Al-Shebib’s Facebook pag
 
 ---
 
-<div dir="rtl" style="text-align: justify;">
-
-### القصة باللغة العربية | من رحم المعاناة إلى القمّة
-
-في زمنٍ كثرت فيه التحدّيات، ووسط ظروفٍ لم تكن يومًا سهلة، برزت واحدة من أروع قصص النجاح.  
-خالد حميدي — طالب سوري — بدأ رحلته التعليمية داخل سوريا، تحت سماءٍ يعلوها صوت الطائرات بدل أجراس المدارس.  
-ورغم كلّ شيء، لم يستسلم، بل حمل حلمه إلى تركيا لاجئًا، يواجه غربةً قاسية وحاجزَ لغةٍ صعب.  
-تعلّم التركية وطوّر نفسه حتى اعتاد الغربة وصارت دافعًا لا عائقًا، فتفوّق على ذاته وعلى جميع التحديات.
-
-**النتيجة:** المرتبة الأولى على كلية التكنولوجيا – قسم هندسة الميكاترونيكس – في جامعة كارابوك.  
-إنها ليست مجرّد شهادة، بل قصةُ نضالٍ لطالبٍ أبى أن يكون رقمًا في قوائم اللجوء فأصبح رقمًا أوّل في قوائم التميّز.
-
-</div>
-
----
-
-<div dir="ltr" style="text-align: justify;">
-
 ### Turkish Summary | Bir Başarı Hikayesi
 
 Zorlukların arttığı bir dönemde, Halid Hamidi’nin hikâyesi en ilham verici örneklerden biri oldu.  
@@ -62,19 +44,7 @@ Suriye’de savaş ortamında eğitimine başlayan Halid, Türkiye’ye sığın
 Türkçeyi kısa sürede öğrenerek *Karabük Üniversitesi Mekatronik Mühendisliği* bölümünde **birinci** olmayı başardı.  
 Bu sadece bir diploma değil; azmin ve iradenin zaferidir.
 
-</div>
-
 ---
-
-<div dir="rtl" style="text-align: justify; background:#000d2f; padding:1em; border-radius:6px;">
-
-#### تعليق خالد على منشور الدكتور مصعب
-
-> لا تسعني الكلمات للتعبير عن شكري وامتناني العميق للدكتور مصعب على هذه اللفتة الكريمة، وللمقابلة البسيطة التي جرت بيننا، ولتسليطه الضوء على رحلتي المتواضعة. وإنه لشرف كبير أن تكون قصتي أول عمل يُنشر من قصص النجاح على صفحته، وهو بحد ذاته نجاح أعتزّ به، ودافع لبذل المزيد.  
-> أسأل الله أن تكون منارة إلهام لكل من يسير في هذا الدرب.
-
-</div>
-
 {{% callout tip %}}
 **Message to readers:** Circumstances can be harsher than imagined, yet steadfast willpower ultimately prevails.
 {{% /callout %}}

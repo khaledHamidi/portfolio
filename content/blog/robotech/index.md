@@ -1,40 +1,61 @@
 ---
-title: إطلاق فريق روبوتك
-summary: تأسيس فريق شبابي لدعم الطلبة السوريين وتطوير التعليم التقني.
+title: Launch of Robotech Team
+summary: A youth initiative to support Syrian students and promote technological education.
 date: 2021-04-01
 draft: false
 authors: 
   - admin
 tags:
-  - technology
-  - community
+  - Technology
+  - Community
 show_related: true
 reading_time: 1
 ---
-<div dir="rtl" style="text-align: justify;">
 
-## لمحة عامة
+<div dir="ltr" style="text-align: justify;">
 
-أُطلق فريق روبوتك في نيسان 2021 بمبادرة من المهندس خالد حميدي، كفريق شبابي يهتم بتطوير التعليم وتمكين الطلبة الجامعيين في الشمال السوري. جاء تأسيس الفريق استجابةً لحاجة ملحة إلى بيئة تدريبية فعالة تدمج التقنية بالتعليم.
+## About the Initiative
 
-## التفاصيل
+In April 2021, engineer **Khaled HAMIDI** founded the **Robotech Team**, a youth-led initiative aimed at empowering university students in northern Syria and advancing education through technology.  
+The team was launched in response to the urgent need for an effective training environment that integrates practical technology with modern educational practices.
 
-يركز الفريق على:
-
-- تعزيز المهارات القيادية والتفكير الإبداعي.
-- استخدام التكنولوجيا لتحسين واقع التعليم.
-- إنشاء منصة تدريبية تشمل الصف الإلكتروني ومتابعة الأنشطة.
-
-وقد أُطلق منصة روبوتك الإلكترونية :
-
-[robotech-edu.com](http://robotech-edu.com/)
-
-
-فريق روبوتك مستمر بتقديم برامج تفاعلية تدعم تطور الطلبة. يمكن متابعة جديد الفريق عبر معرفات المنصة:
 </div>
 
+---
 
-[linkedin](https://www.linkedin.com/company/robotech-team)
-[facebook](https://www.facebook.com/ar.robotech)
-[instagram](https://www.instagram.com/ar.robotech)
+<div dir="ltr" style="text-align: justify;">
 
+## Team Objectives
+
+Robotech focuses on:
+
+- Enhancing leadership and creative thinking among students.  
+- Utilizing technology to improve educational outcomes.  
+- Building a training platform that includes virtual classrooms and activity tracking.
+
+</div>
+
+---
+
+<div dir="ltr" style="text-align: justify;">
+
+## Robotech Platform
+
+To support its mission, the **Robotech educational platform** was launched:  
+[robotech-edu.com](http://robotech-edu.com/)  
+
+The team continues to deliver interactive programs that foster student growth and technical competence across the region.
+
+</div>
+
+---
+
+<div dir="ltr" style="text-align: justify;">
+
+## Follow the Team on Social Media:
+
+- [LinkedIn](https://www.linkedin.com/company/robotech-team)  
+- [Facebook](https://www.facebook.com/ar.robotech)  
+- [Instagram](https://www.instagram.com/ar.robotech)
+
+</div>
