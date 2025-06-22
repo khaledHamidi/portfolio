@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'العربية بلص'
 date: 2023-10-24
 type: landing
 sections:

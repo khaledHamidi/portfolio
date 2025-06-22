@@ -1,0 +1,45 @@
+# Navigation Links
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: الريسية
+    url: /
+    weight: 10
+
+  - name: الإنجازات
+    url: achievements/
+    weight: 20
+
+  - name: الشهادات
+    url: certificates/
+    weight: 30
+
+  - name: المدونة
+    url: blog/
+    weight: 35
+
+  - name: الأعمال
+    url: tags/
+    weight: 40
+
+  - name: مشاريع
+    identifier: projects
+    url: projects/
+    weight: 60
+    main:
+  - name: الأعمال المهنية والأكادمية
+    parent: projects
+    URL: Projects/
+    weight: 103
+  - name: هواية
+    parent: projects
+    URL: projects-w1/
+    weight: 103
+  - Name: تم نشرها
+    URL: published-projects/
+    parent: projects
+    weight: 102
+  - name: اعمال حرة
+    url: freelance-work/
+    parent: projects
+    weight: 101
