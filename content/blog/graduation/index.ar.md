@@ -6,8 +6,8 @@ draft: false
 authors: 
   - admin
 tags:
-  - achievement
-  - education
+  - إنجازات
+  - تعليم
 show_related: true
 reading_time: true
 css:

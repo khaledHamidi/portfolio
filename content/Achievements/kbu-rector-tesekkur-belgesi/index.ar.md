@@ -8,8 +8,8 @@ reading_time: true
 authors:
   - admin
 tags:
-  - achievement
-  - research
+  - إنجازات
+  - بحث علمي
 ---
 
 <div dir="rtl" style="text-align: justify;">
