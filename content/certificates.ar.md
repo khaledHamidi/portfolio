@@ -10,11 +10,10 @@ tags:
   - certificates
   - education
 show_related: true
-reading_time: 4
+reading_time: 5
 ---
 
 <style>
-/* --- تنسيق مخصَّص للجدول فقط --- */
 .cert-table{width:100%;border-collapse:collapse;margin-top:1rem}
 .cert-table thead th{padding:.6rem;text-align:center;border-bottom:2px solid #555}
 .cert-table td{padding:.8rem;vertical-align:top;border-bottom:1px solid #333}
@@ -23,59 +22,114 @@ reading_time: 4
 </style>
 
 <div dir="rtl" style="text-align: justify; direction: rtl;">
-  يضمّ هذا المعرض شهادات خالد في الأمن السيبراني، تحليل البيانات، الروبوتات، البحث العلمي، ريادة الأعمال، والطاقة المتجددة. بالضغط على أي صورة تُفتح الشهادة الأصلية (صورة أو PDF).
+  يضمّ هذا المعرض شهادات خالد في مجالات الأمن السيبراني، تحليل البيانات، الذكاء الاصطناعي، الأنظمة المدمجة، الروبوتات، الطاقة المتجددة، القيادة، والبحث العلمي.
 </div>
 
-<table class="cert-table" style="direction: rtl; width: 100%; border-collapse: collapse; text-align: right;">
-  <thead>
-    <tr>
-      <th style="padding: 8px; border-bottom: 1px solid #ccc;">الشهادة</th>
-      <th style="padding: 8px; border-bottom: 1px solid #ccc;">الوصف</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: top; padding: 8px;">
-        <a href="/certificates/cer_1.jpg">
-          <img src="/certificates/cer_1.jpg" alt="Cyber Security Certificate" style="max-width: 150px;">
-        </a>
-      </td>
-      <td style="vertical-align: top; padding: 8px;">
-        <strong>Oxford Home Study Centre – Certificate in Cyber Security</strong><br>
-        إنهاء جميع متطلبات دورة الأمن السيبراني (16 سبتمبر 2023).
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top; padding: 8px;">
-        <a href="/certificates/cer_4.jpg">
-          <img src="/certificates/cer_4.jpg" alt="Diploma in Data Analysis" style="max-width: 150px;">
-        </a>
-      </td>
-      <td style="vertical-align: top; padding: 8px;">
-        <strong>Diploma in Data Analysis</strong><br>
-        مشاريع تحليل بيانات مكثّفة من Oxford HSC (16 سبتمبر 2023).
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top; padding: 8px;">
-        <a href="/certificates/cer_3.jpg">
-          <img src="/certificates/cer_3.jpg" alt="Self-Driving Cars" style="max-width: 150px;">
-        </a>
-      </td>
-      <td style="vertical-align: top; padding: 8px;">
-        <strong>University of Toronto / Coursera – Introduction to Self-Driving Cars</strong><br>
-        شهادة إتمام بتاريخ 6 أبريل 2024.
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top; padding: 8px;">
-        <a href="/certificates/Tubitak.pdf">📄</a>
-      </td>
-      <td style="vertical-align: top; padding: 8px;">
-        <strong>TÜBİTAK 2209-A – تمويل مشروع روبوت جوّال</strong><br>
-        خطاب قبول الدعم البحثي (22 مارس 2024).
-      </td>
-    </tr>
-  </tbody>
+## 🔧 شهادات تقنية وصناعية
+
+### 🛡️ أمن سيبراني وتحليل بيانات
+<table class="cert-table" dir="rtl">
+<thead><tr><th>الشهادة</th><th>الوصف</th></tr></thead>
+<tbody>
+<tr>
+<td><a href="/certificates/cer_1.jpg"><img src="/certificates/cer_1.jpg" alt="Cyber Security"></a></td>
+<td><strong>أمن سيبراني – Oxford HSC</strong><br>دورة معتمدة في حماية الأنظمة والمعلومات – 16-09-2023.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_4.jpg"><img src="/certificates/cer_4.jpg" alt="Data Analysis"></a></td>
+<td><strong>تحليل البيانات – Oxford HSC</strong><br>دبلوم مكثف في استخدام أدوات التحليل – 24-07-2023.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_6.jpg"><img src="/certificates/cer_6.jpg" alt="Cyber Security Karabuk"></a></td>
+<td><strong>أمن سيبراني – Karabük</strong><br>مشاركة في مؤتمر جامعي بمجال الأمن السيبراني – 23-03-2022.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_9.jpg"><img src="/certificates/cer_9.jpg" alt="Intro to Cyber Security"></a></td>
+<td><strong>مقدمة في الأمن السيبراني – Karabük</strong><br>مقرر جامعي بدون تاريخ.</td>
+</tr>
+</tbody>
 </table>
----
+
+### 🚗 الذكاء الاصطناعي والمركبات الذاتية
+<table class="cert-table" dir="rtl"><tbody>
+<tr>
+<td><a href="/certificates/cer_3.jpg"><img src="/certificates/cer_3.jpg" alt="Self-Driving Cars"></a></td>
+<td><strong>السيارات ذاتية القيادة – Toronto / Coursera</strong><br>مبادئ البرمجة والإدراك للمركبات الذكية – 06-04-2024.</td>
+</tr>
+</tbody></table>
+
+### ☀️ الطاقة والأنظمة الكهروضوئية
+<table class="cert-table" dir="rtl"><tbody>
+<tr>
+<td><a href="/certificates/cer_5.jpg"><img src="/certificates/cer_5.jpg" alt="PV Systems"></a></td>
+<td><strong>أنظمة شمسية – On-Grid PV</strong><br>ورشة عمل تطبيقية لمدة ساعتين – 08-09-2020.</td>
+</tr>
+</tbody></table>
+
+### 🧩 البرمجة والتصميم
+<table class="cert-table" dir="rtl"><tbody>
+<tr>
+<td><a href="/certificates/cer_13.jpg"><img src="/certificates/cer_13.jpg" alt="Arduino"></a></td>
+<td><strong>برمجة الأردوينو – إدراك</strong><br>أساسيات التحكم الدقيق – 07-2020.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_10.jpg"><img src="/certificates/cer_10.jpg" alt="Basic Program"></a></td>
+<td><strong>المهارات التقنية – Karabük</strong><br>دورة جامعية حول استخدام البرامج المكتبية.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_11.jpg"><img src="/certificates/cer_11.jpg" alt="Web Design"></a></td>
+<td><strong>تصميم المواقع – Karabük</strong><br>مقرر متخصص في أساسيات واجهات الويب.</td>
+</tr>
+</tbody></table>
+
+## 🧠 القيادة وريادة الأعمال
+<table class="cert-table" dir="rtl"><tbody>
+<tr>
+<td><a href="/certificates/cer_7.jpg"><img src="/certificates/cer_7.jpg" alt="Entrepreneurship"></a></td>
+<td><strong>ريادة الأعمال – منصة فرصة</strong><br>برنامج تدريبي لتأسيس المشاريع – 09-05-2021.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_8.jpg"><img src="/certificates/cer_8.jpg" alt="Leadership"></a></td>
+<td><strong>القيادة المستقبلية – Karabük</strong><br>مهارات التأثير وبناء فرق العمل.</td>
+</tr>
+</tbody></table>
+
+## 🧪 البحث العلمي والدعم الجامعي
+<table class="cert-table" dir="rtl"><tbody>
+<tr>
+<td><a href="/certificates/kbu-rector-tesekkur-belgesi.jpg"><img src="/certificates/kbu-rector-tesekkur-belgesi.jpg" alt="Tubitak"></a></td>
+<td><strong>شكر جامعي – Karabük</strong><br>مساهمة بحثية ضمن مشروع مدعوم من TÜBİTAK – 2023.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_12.jpg"><img src="/certificates/cer_12.jpg" alt="Tubitak Approval"></a></td>
+<td><strong>دعم مشروع روبوت ذاتي – TÜBİTAK</strong><br>خطاب قبول دعم رسمي – 22-03-2024.</td>
+</tr>
+</tbody></table>
+
+## 🌐 مهارات تقنية ولغوية
+<table class="cert-table" dir="rtl"><tbody>
+<tr>
+<td><a href="/certificates/cer_15.jpg"><img src="/certificates/cer_15.jpg" alt="Word Specto"></a></td>
+<td><strong>معالجة النصوص – Word & Specto</strong><br>شهادة إتمام مساق – 07-2020.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_16.jpg"><img src="/certificates/cer_16.jpg" alt="Google Analytics"></a></td>
+<td><strong>Google Analytics</strong><br>شهادة صالحة حتى 2024 – 16-09-2023.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_14.jpg"><img src="/certificates/cer_14.jpg" alt="English Test"></a></td>
+<td><strong>اختبار اللغة الإنجليزية – 72%</strong><br>اختبار مستوى تم بتاريخ 29-11-2024.</td>
+</tr>
+</tbody></table>
+
+## 🏛️ مشاركات أكاديمية وصناعية
+<table class="cert-table" dir="rtl"><tbody>
+<tr>
+<td><a href="/certificates/cer_17.jpg"><img src="/certificates/cer_17.jpg" alt="ICENSOS"></a></td>
+<td><strong>ICENSOS 2024 – تركيا</strong><br>مشاركة بحثية وتقديم شفهي بمؤتمر علمي – 16-17/05/2024.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_2.jpg"><img src="/certificates/cer_2.jpg" alt="Al-Qistas"></a></td>
+<td><strong>تدريب صناعي – Al-Qistas</strong><br>سنتان من التطبيق العملي – 05-2020.</td>
+</tr>
+</tbody></table>
