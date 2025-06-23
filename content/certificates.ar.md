@@ -1,14 +1,14 @@
 ---
-title: "شهادات"
-summary: "معرض يوثّق إنجازات خالد الأكاديمية والبحثية."
+title: "الشهادات والتكريم"
+summary: "معرض يوثّق الإنجازات الأكاديمية."
 date: 2025-06-22
 draft: false
 authors:
   - admin
 tags:
-  - achievements
-  - certificates
-  - education
+  - إنجازات
+  - شهادات
+  - تعليم
 show_related: true
 reading_time: 5
 ---
