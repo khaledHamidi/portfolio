@@ -22,61 +22,60 @@ reading_time: 4
 @media(max-width:600px){.cert-table img{max-width:120px}}
 </style>
 
-<div dir="rtl" style="text-align:justify">
-يضمّ هذا المعرض شهادات خالد في الأمن السيبراني، تحليل البيانات، الروبوتات، البحث العلمي، ريادة الأعمال، والطاقة المتجددة. بالضغط على أي صورة تُفتح الشهادة الأصلية (صورة أو PDF).
+<div dir="rtl" style="text-align: justify; direction: rtl;">
+  يضمّ هذا المعرض شهادات خالد في الأمن السيبراني، تحليل البيانات، الروبوتات، البحث العلمي، ريادة الأعمال، والطاقة المتجددة. بالضغط على أي صورة تُفتح الشهادة الأصلية (صورة أو PDF).
 </div>
 
-<table class="cert-table" dir="rtl">
+<table class="cert-table" style="direction: rtl; width: 100%; border-collapse: collapse; text-align: right;">
   <thead>
     <tr>
-      <th>الشهادة</th>
-      <th>الوصف</th>
+      <th style="padding: 8px; border-bottom: 1px solid #ccc;">الشهادة</th>
+      <th style="padding: 8px; border-bottom: 1px solid #ccc;">الوصف</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>
+      <td style="vertical-align: top; padding: 8px;">
         <a href="/certificates/cer_1.jpg">
-          <img src="/certificates/cer_1.jpg" alt="Cyber Security Certificate">
+          <img src="/certificates/cer_1.jpg" alt="Cyber Security Certificate" style="max-width: 150px;">
         </a>
       </td>
-      <td>
+      <td style="vertical-align: top; padding: 8px;">
         <strong>Oxford Home Study Centre – Certificate in Cyber Security</strong><br>
         إنهاء جميع متطلبات دورة الأمن السيبراني (16 سبتمبر 2023).
       </td>
     </tr>
     <tr>
-      <td>
+      <td style="vertical-align: top; padding: 8px;">
         <a href="/certificates/cer_4.jpg">
-          <img src="/certificates/cer_4.jpg" alt="Diploma in Data Analysis">
+          <img src="/certificates/cer_4.jpg" alt="Diploma in Data Analysis" style="max-width: 150px;">
         </a>
       </td>
-      <td>
+      <td style="vertical-align: top; padding: 8px;">
         <strong>Diploma in Data Analysis</strong><br>
         مشاريع تحليل بيانات مكثّفة من Oxford HSC (16 سبتمبر 2023).
       </td>
     </tr>
     <tr>
-      <td>
+      <td style="vertical-align: top; padding: 8px;">
         <a href="/certificates/cer_3.jpg">
-          <img src="/certificates/cer_3.jpg" alt="Self-Driving Cars">
+          <img src="/certificates/cer_3.jpg" alt="Self-Driving Cars" style="max-width: 150px;">
         </a>
       </td>
-      <td>
+      <td style="vertical-align: top; padding: 8px;">
         <strong>University of Toronto / Coursera – Introduction to Self-Driving Cars</strong><br>
         شهادة إتمام بتاريخ 6 أبريل 2024.
       </td>
     </tr>
     <tr>
-      <td>
+      <td style="vertical-align: top; padding: 8px;">
         <a href="/certificates/Tubitak.pdf">📄</a>
       </td>
-      <td>
+      <td style="vertical-align: top; padding: 8px;">
         <strong>TÜBİTAK 2209-A – تمويل مشروع روبوت جوّال</strong><br>
         خطاب قبول الدعم البحثي (22 مارس 2024).
       </td>
     </tr>
-    <!-- --- أكمل بقية الصفوف بنفس الصيغة --- -->
   </tbody>
 </table>
 ---
