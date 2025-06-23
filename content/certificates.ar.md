@@ -14,17 +14,55 @@ reading_time: 5
 ---
 
 <style>
-.cert-table{width:100%;border-collapse:collapse;margin-top:1rem}
-.cert-table thead th{padding:.6rem;text-align:center;border-bottom:2px solid #555}
-.cert-table td{padding:.8rem;vertical-align:top;border-bottom:1px solid #333}
-.cert-table img{max-width:180px;height:auto;border-radius:4px;display:block;margin:auto}
-@media(max-width:600px){.cert-table img{max-width:120px}}
+.cert-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  direction: rtl; /* يضبط اتجاه الجدول كله */
+}
+.cert-table thead th {
+  padding: 0.6rem;
+  text-align: right;
+  border-bottom: 2px solid #555;
+  direction: rtl;
+}
+.cert-table td {
+  padding: 0.8rem;
+  vertical-align: top;
+  border-bottom: 1px solid #333;
+  text-align: right;
+  direction: rtl;
+}
+.cert-table img {
+  max-width: 180px;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .cert-table img {
+    max-width: 120px;
+  }
+}
 </style>
 
 <div dir="rtl" style="text-align: justify; direction: rtl;">
   يضمّ هذا المعرض شهادات في مجالات الأمن السيبراني، تحليل البيانات، الذكاء الاصطناعي، الأنظمة المدمجة، الروبوتات، الطاقة المتجددة، القيادة، والبحث العلمي.
 </div>
 <div dir="rtl" style="direction: rtl; text-align: justify;">
+
+## 🏛️ مشاركات أكاديمية وصناعية
+<table class="cert-table" dir="rtl"><tbody>
+<tr>
+<td><a href="/certificates/cer_17.jpg"><img src="/certificates/cer_17.jpg" alt="ICENSOS"></a></td>
+<td><strong>ICENSOS 2024 – تركيا</strong><br>مشاركة بحثية وتقديم شفهي بمؤتمر علمي – 16-17/05/2024.</td>
+</tr>
+<tr>
+<td><a href="/certificates/cer_2.jpg"><img src="/certificates/cer_2.jpg" alt="Al-Qistas"></a></td>
+<td><strong>تدريب صناعي – Al-Qistas</strong><br>سنتان من التطبيق العملي – 05-2020.</td>
+</tr>
+</tbody></table>
 
 ## 🔧 شهادات تقنية وصناعية
 
@@ -123,15 +161,5 @@ reading_time: 5
 </tr>
 </tbody></table>
 
-## 🏛️ مشاركات أكاديمية وصناعية
-<table class="cert-table" dir="rtl"><tbody>
-<tr>
-<td><a href="/certificates/cer_17.jpg"><img src="/certificates/cer_17.jpg" alt="ICENSOS"></a></td>
-<td><strong>ICENSOS 2024 – تركيا</strong><br>مشاركة بحثية وتقديم شفهي بمؤتمر علمي – 16-17/05/2024.</td>
-</tr>
-<tr>
-<td><a href="/certificates/cer_2.jpg"><img src="/certificates/cer_2.jpg" alt="Al-Qistas"></a></td>
-<td><strong>تدريب صناعي – Al-Qistas</strong><br>سنتان من التطبيق العملي – 05-2020.</td>
-</tr>
-</tbody></table>
+
 </div>
