@@ -22,8 +22,9 @@ reading_time: 5
 </style>
 
 <div dir="rtl" style="text-align: justify; direction: rtl;">
-  يضمّ هذا المعرض شهادات خالد في مجالات الأمن السيبراني، تحليل البيانات، الذكاء الاصطناعي، الأنظمة المدمجة، الروبوتات، الطاقة المتجددة، القيادة، والبحث العلمي.
+  يضمّ هذا المعرض شهادات في مجالات الأمن السيبراني، تحليل البيانات، الذكاء الاصطناعي، الأنظمة المدمجة، الروبوتات، الطاقة المتجددة، القيادة، والبحث العلمي.
 </div>
+<div dir="rtl" style="direction: rtl; text-align: justify;">
 
 ## 🔧 شهادات تقنية وصناعية
 
@@ -41,11 +42,11 @@ reading_time: 5
 </tr>
 <tr>
 <td><a href="/certificates/cer_6.jpg"><img src="/certificates/cer_6.jpg" alt="Cyber Security Karabuk"></a></td>
-<td><strong>أمن سيبراني – Karabük</strong><br>مشاركة في مؤتمر جامعي بمجال الأمن السيبراني – 23-03-2022.</td>
+<td><strong>مؤتمر حول الأمن السبراني – الإدارة العامة لشؤون الصحة والثقافة والرياضة</strong><br>مشاركة في مؤتمر جامعي بمجال الأمن السيبراني – 23-03-2022.</td>
 </tr>
 <tr>
 <td><a href="/certificates/cer_9.jpg"><img src="/certificates/cer_9.jpg" alt="Intro to Cyber Security"></a></td>
-<td><strong>مقدمة في الأمن السيبراني – Karabük</strong><br>مقرر جامعي بدون تاريخ.</td>
+<td><strong> كورس في الأمن السيبراني – جامعة كارابوك</strong><br>على امتداد 14 اسبوع مع واجبات وأختبارات.</td>
 </tr>
 </tbody>
 </table>
@@ -54,7 +55,7 @@ reading_time: 5
 <table class="cert-table" dir="rtl"><tbody>
 <tr>
 <td><a href="/certificates/cer_3.jpg"><img src="/certificates/cer_3.jpg" alt="Self-Driving Cars"></a></td>
-<td><strong>السيارات ذاتية القيادة – Toronto / Coursera</strong><br>مبادئ البرمجة والإدراك للمركبات الذكية – 06-04-2024.</td>
+<td><strong>المركبات ذاتية القيادة – University of Toronto</strong><br>البرمجة والإدراك للمركبات ذاتية القيادة – 06-04-2024.</td>
 </tr>
 </tbody></table>
 
@@ -62,7 +63,7 @@ reading_time: 5
 <table class="cert-table" dir="rtl"><tbody>
 <tr>
 <td><a href="/certificates/cer_5.jpg"><img src="/certificates/cer_5.jpg" alt="PV Systems"></a></td>
-<td><strong>أنظمة شمسية – On-Grid PV</strong><br>ورشة عمل تطبيقية لمدة ساعتين – 08-09-2020.</td>
+<td><strong>أنظمة شمسية – On-Grid PV</strong><br>ورشة عمل تطبيقية – 08-09-2020.</td>
 </tr>
 </tbody></table>
 
@@ -74,11 +75,11 @@ reading_time: 5
 </tr>
 <tr>
 <td><a href="/certificates/cer_10.jpg"><img src="/certificates/cer_10.jpg" alt="Basic Program"></a></td>
-<td><strong>المهارات التقنية – Karabük</strong><br>دورة جامعية حول استخدام البرامج المكتبية.</td>
+<td><strong>كورس في لغة برمجة R</strong><br>كورس في لغة R يركّز على تحليل البيانات والأساليب الإحصائية باستخدام R.</td>
 </tr>
 <tr>
 <td><a href="/certificates/cer_11.jpg"><img src="/certificates/cer_11.jpg" alt="Web Design"></a></td>
-<td><strong>تصميم المواقع – Karabük</strong><br>مقرر متخصص في أساسيات واجهات الويب.</td>
+<td><strong>تصميم المواقع – جامعة كارابوك</strong><br>تصميم المواقع وبرمجتها.</td>
 </tr>
 </tbody></table>
 
@@ -133,3 +134,4 @@ reading_time: 5
 <td><strong>تدريب صناعي – Al-Qistas</strong><br>سنتان من التطبيق العملي – 05-2020.</td>
 </tr>
 </tbody></table>
+</div>
