@@ -99,11 +99,11 @@ reading_time: 5
 <table class="cert-table" dir="rtl"><tbody>
 <tr>
 <td><a href="/certificates/kbu-rector-tesekkur-belgesi.jpg"><img src="/certificates/kbu-rector-tesekkur-belgesi.jpg" alt="Tubitak"></a></td>
-<td><strong>شكر جامعي – Karabük</strong><br>مساهمة بحثية ضمن مشروع مدعوم من TÜBİTAK – 2023.</td>
+<td><strong>شهادة شكر من رئيس الجامعة</strong><br>مساهمة بحثية ضمن مشروع مدعوم من TÜBİTAK – 2023.</td>
 </tr>
 <tr>
 <td><a href="/certificates/cer_12.jpg"><img src="/certificates/cer_12.jpg" alt="Tubitak Approval"></a></td>
-<td><strong>دعم مشروع روبوت ذاتي – TÜBİTAK</strong><br>خطاب قبول دعم رسمي – 22-03-2024.</td>
+<td><strong>دعم مشروع منصة روبوتية ذاتية القيادة متعددة الأغراض – TÜBİTAK</strong><br>خطاب قبول دعم رسمي – 22-03-2024.</td>
 </tr>
 </tbody></table>
 
@@ -111,11 +111,11 @@ reading_time: 5
 <table class="cert-table" dir="rtl"><tbody>
 <tr>
 <td><a href="/certificates/cer_15.jpg"><img src="/certificates/cer_15.jpg" alt="Word Specto"></a></td>
-<td><strong>معالجة النصوص – Word & Specto</strong><br>شهادة إتمام مساق – 07-2020.</td>
+<td><strong>معالجة النصوص</strong><br>شهادة إتمام مساق – 07-2020.</td>
 </tr>
 <tr>
 <td><a href="/certificates/cer_16.jpg"><img src="/certificates/cer_16.jpg" alt="Google Analytics"></a></td>
-<td><strong>Google Analytics</strong><br>شهادة صالحة حتى 2024 – 16-09-2023.</td>
+<td><strong>Google Analytics</strong><br>شهادة صالحة حتى.</td>
 </tr>
 <tr>
 <td><a href="/certificates/cer_14.jpg"><img src="/certificates/cer_14.jpg" alt="English Test"></a></td>
