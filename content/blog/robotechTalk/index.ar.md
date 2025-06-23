@@ -6,9 +6,9 @@ draft: false
 authors: 
   -admin
 tags:
-  - technology
-  - community
-  - event
+  - تكنولوجيا
+  - مجتمع
+  - فعاليات
 show_related: true
 reading_time: 3
 ---

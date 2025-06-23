@@ -7,7 +7,7 @@ authors:
   - admin
 tags:
   - تعليم
-  - إنجاز
+  - إنجازات
 show_related: false
 ---
 

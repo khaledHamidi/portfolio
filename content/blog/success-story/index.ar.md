@@ -6,7 +6,7 @@ draft: false
 authors:
   - admin
 tags:
-  - إنجاز
+  - إنجازات
   - مجتمع
   - رأي
 show_related: true

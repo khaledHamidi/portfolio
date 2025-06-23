@@ -6,7 +6,7 @@ draft: false
 authors:
   - admin
 tags:
-  - إنجاز
+  - إنجازات
   - فعاليات
 show_related: true
 reading_time: 2

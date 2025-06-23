@@ -7,7 +7,7 @@ reading_time: true
 authors:
   - admin
 tags:
-  - إنجاز
+  - إنجازات
   - بحث علمي
   - روبوتات
 ---
