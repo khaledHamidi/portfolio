@@ -27,7 +27,7 @@ organizations:
     url: https://fb.com/ar.robotech
 
 # Short bio (displayed in user profile at end of posts)
-bio: A Mechatronics & Aerospace alchemist who distills complexity into living code, forging intelligent machines that blur the line between dream and reality and let tomorrow’s heartbeat echo today. خيميائي الميكاترونكس والطيران يقطّر التعقيد إلى شيفرة حيّة، ويصوغ آلاتٍ ذكية تمحو المسافة بين الحلم والواقع، لتجعل نبض الغد مسموعًا الآن.
+bio: A Mechatronics and Aerospace visionary, distilling complexity into living code, forging sentient machines that blur the line between dream and reality — letting tomorrow’s heartbeat echo through today..
 
 profiles:
   - icon: at-symbol
@@ -52,7 +52,5 @@ profiles:
 highlight_name: true
 website: "https://khaledhamidi.netlify.app"
 ---
-A Mechatronics & Aerospace alchemist who distills complexity into living code, forging intelligent machines that blur the line between dream and reality and let tomorrow’s heartbeat echo today.
-<div dir="rtl" style="text-align: justify;">
-خيميائي الميكاترونكس والطيران يقطّر التعقيد إلى شيفرة حيّة، ويصوغ آلاتٍ ذكية تمحو المسافة بين الحلم والواقع، لتجعل نبض الغد مسموعًا الآن
-</div>
+A Mechatronics and Aerospace visionary, distilling complexity into living code, forging sentient machines that blur the line between dream and reality — letting tomorrow’s heartbeat echo through today..
+ 
