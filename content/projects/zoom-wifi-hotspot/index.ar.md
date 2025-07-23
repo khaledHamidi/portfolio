@@ -54,4 +54,4 @@ rtl: true
 
 ## حمّل التطبيق
 
-📎 [رابط التحميل من GitHub](https://github.com/khaledHamidi/zoom-wifi-hotspot/releases)
+📎 [رابط التحميل من GitHub](https://khaledhamidi.github.io/Zoom-WiFi-HOTSPOT)

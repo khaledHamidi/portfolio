@@ -52,6 +52,6 @@ profiles:
 highlight_name: true
 website: "https://khaledhamidi.netlify.app"
 ---
-A Mechatronics and Aerospace visionary, distilling complexity into living code, forging sentient machines that blur the line between dream and reality — letting tomorrow’s heartbeat echo through today..
+A Mechatronics and Aerospace visionary, distilling complexity into living code, forging sentient machines that blur the line between dream and reality — letting tomorrow’s heartbeat echo through today  +6.
 <a href="https://khaledhamidi.netlify.app/ar/">اضغط هنا لتحويل الموقع إلى اللغة العربية</a>
 

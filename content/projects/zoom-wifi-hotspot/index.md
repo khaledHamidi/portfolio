@@ -80,7 +80,7 @@ ZOOM WIFI HOTSPOT is a super-easy solution to turn your laptop into a portable W
 
 ### حمّل التطبيق
 
-> آخر نسخة مستقرة (Windows Installer) متاحة عبر [هذا الرابط](https://github.com/khaledHamidi/zoom-wifi-hotspot/releases).  
+> آخر نسخة مستقرة (Windows Installer) متاحة عبر [هذا الرابط](https://khaledhamidi.github.io/Zoom-WiFi-HOTSPOT).  
 > للإبلاغ عن الأعطال أو اقتراح ميزات جديدة، يُرجى فتح تذكرة على GitHub.
 
 </div>
