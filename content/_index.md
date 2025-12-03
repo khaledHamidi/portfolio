@@ -83,7 +83,22 @@ sections:
                   <a href="https://linkedin.com/in/enghamidi" style="background: #0a66c2;">LinkedIn</a>
               </div>
             </div>
-              
+              <div class="hero-stats">
+                <div class="hero-stat-strip">
+                  <div class="hero-stat-card purple">
+                    <h4>15+</h4>
+                    <p>Projects</p>
+                  </div>
+                  <div class="hero-stat-card pink">
+                    <h4>2+</h4>
+                    <p>Clients</p>
+                  </div>
+                  <div class="hero-stat-card cyan">
+                    <h4>3+</h4>
+                    <p>Open Source</p>
+                  </div>
+              </div>
+            </div>
               <div style="flex: 2 1 520px; align-self: stretch; display: flex;">
               <style>
                 .hero-slider-shell { position: relative; width: 100%; height: 100%; border-radius: 24px; overflow: hidden; box-shadow: 0 35px 80px rgba(7,10,18,0.45); }
@@ -164,6 +179,124 @@ sections:
         padding: [0, 0, 0, 0]
 
   # Featured Projects Collection (for the slider)
+  - block: markdown
+    content:
+      title: ''
+      text: |
+        <section class="hero-stats-link-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; padding: 2.2rem 4%; box-sizing: border-box;">
+          <style>
+            .hero-stats-link-section { background: #f8f9ff; }
+            .dark .hero-stats-link-section { background: #050712; }
+            .hero-stats-link-shell { max-width: 1400px; margin: 0 auto; display: flex; flex-direction: column; gap: 1.2rem; }
+            .hero-stats-link-row {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              gap: 1.4rem;
+              flex-wrap: wrap;
+              padding: 1rem 1.4rem;
+              border-radius: 20px;
+              border: 1px solid rgba(15,23,42,0.08);
+              background: rgba(255,255,255,0.85);
+              box-shadow: 0 18px 40px rgba(15,23,42,0.08);
+            }
+            .dark .hero-stats-link-row {
+              border-color: rgba(255,255,255,0.08);
+              background: rgba(9,11,18,0.78);
+              box-shadow: 0 22px 60px rgba(0,0,0,0.55);
+            }
+            .hero-stats--single { flex: 1 1 360px; justify-content: flex-start; }
+            .hero-stats--single .hero-stat-strip { justify-content: flex-start; gap: 0.75rem; }
+            .hero-stats--single .hero-stat-card { min-width: 140px; }
+            .hero-link-card {
+              flex: 1 1 320px;
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              padding: 1.1rem 1.4rem;
+              border-radius: 18px;
+              text-decoration: none;
+              border: 1px solid rgba(15,23,42,0.06);
+              background: #fff;
+              color: #101427;
+              transition: transform 0.2s ease, box-shadow 0.2s ease;
+            }
+            .hero-link-card:hover { transform: translateY(-3px); box-shadow: 0 18px 30px rgba(96,125,244,0.25); }
+            .dark .hero-link-card { border-color: rgba(255,255,255,0.08); background: rgba(13,17,30,0.92); color: #f5f6ff; }
+            .hero-link-card img {
+              width: 54px;
+              height: 54px;
+              border-radius: 14px;
+              object-fit: cover;
+              border: 1px solid rgba(255,255,255,0.2);
+            }
+            .hero-link-text { display: flex; flex-direction: column; }
+            .hero-link-text strong { font-size: 1.02rem; letter-spacing: 0.01em; }
+            .hero-link-text span { font-size: 0.82rem; color: #4b5164; }
+            .dark .hero-link-text span { color: #b9c2e4; }
+            @media (max-width: 720px) {
+              .hero-stats-link-row { flex-direction: column; align-items: stretch; }
+              .hero-stats--single { width: 100%; }
+            }
+          </style>
+          <div class="hero-stats-link-shell">
+            <div class="hero-stats-link-row">
+              <div class="hero-stats hero-stats--single">
+                <div class="hero-stat-strip">
+                  <div class="hero-stat-card purple">
+                    <h4>15+</h4>
+                    <p>Projects</p>
+                  </div>
+                </div>
+              </div>
+              <a class="hero-link-card" href="https://bit.ly/hamidi-portfolio" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/filetype-pdf/6c63ff" alt="Deck icon">
+                <div class="hero-link-text">
+                  <strong>Portfolio Deck</strong>
+                  <span>Slide summary & wins</span>
+                </div>
+              </a>
+            </div>
+            <div class="hero-stats-link-row">
+              <div class="hero-stats hero-stats--single">
+                <div class="hero-stat-strip">
+                  <div class="hero-stat-card pink">
+                    <h4>2+</h4>
+                    <p>Clients</p>
+                  </div>
+                </div>
+              </div>
+              <a class="hero-link-card" href="https://calendly.com/hamidi/intro" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="Meet icon">
+                <div class="hero-link-text">
+                  <strong>Book Intro Call</strong>
+                  <span>15 min discovery chat</span>
+                </div>
+              </a>
+            </div>
+            <div class="hero-stats-link-row">
+              <div class="hero-stats hero-stats--single">
+                <div class="hero-stat-strip">
+                  <div class="hero-stat-card cyan">
+                    <h4>3+</h4>
+                    <p>Open Source</p>
+                  </div>
+                </div>
+              </div>
+              <a class="hero-link-card" href="https://github.com/khaledHamidi" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/github/2f80ed" alt="GitHub icon">
+                <div class="hero-link-text">
+                  <strong>Open Source Work</strong>
+                  <span>Robotics & IoT repos</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+
   - block: accomplishments
     content:
       title: 'Featured Projects'
