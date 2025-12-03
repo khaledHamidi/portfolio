@@ -6,8 +6,8 @@ draft: false
 authors:
   - admin
 tags:
-  - software
-  - automation
+  - desktop
+  - networking
 ---
 
 # Ground Scale Management System

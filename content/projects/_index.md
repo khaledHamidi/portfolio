@@ -1,13 +1,13 @@
 ---
-title: جميع المشاريع
-summary: استكشف جميع مشاريعي التقنية والهندسية مع إمكانية الفلترة حسب التصنيفات
+title: All Projects
+summary: Explore all my technical and engineering projects with filtering by categories
 type: landing
 
 sections:
   - block: collection
     content:
-      title: 'المشاريع المميزة ⭐'
-      text: أهم وأبرز المشاريع
+      title: 'Featured ⭐'
+      text: Most important and impactful projects
       filters:
         folders:
           - projects
@@ -20,8 +20,8 @@ sections:
 
   - block: collection
     content:
-      title: 'مشاريع العملاء 💼'
-      text: مشاريع احترافية تم تسليمها للعملاء
+      title: 'Client Projects'
+      text: Professional projects delivered to clients
       filters:
         folders:
           - projects
@@ -33,8 +33,8 @@ sections:
 
   - block: collection
     content:
-      title: 'المشاريع مفتوحة المصدر 🌐'
-      text: مساهمات مجتمعية ومشاريع مفتوحة
+      title: 'Open Source'
+      text: Community contributions and open projects
       filters:
         folders:
           - projects
@@ -46,8 +46,8 @@ sections:
 
   - block: collection
     content:
-      title: 'المشاريع البحثية 🎓'
-      text: مشاريع أكاديمية وبحثية
+      title: 'Research Projects'
+      text: Academic and research projects
       filters:
         folders:
           - projects
@@ -59,8 +59,8 @@ sections:
 
   - block: collection
     content:
-      title: 'مشاريع IoT & Hardware 🔧'
-      text: أنظمة ذكية وإنترنت الأشياء
+      title: 'IoT & Hardware Projects'
+      text: Smart systems and Internet of Things
       filters:
         folders:
           - projects
@@ -73,7 +73,7 @@ sections:
 
   - block: collection
     content:
-      title: 'تطبيقات سطح المكتب 💻'
+      title: 'Desktop Applications'
       filters:
         folders:
           - projects
@@ -85,7 +85,7 @@ sections:
 
   - block: collection
     content:
-      title: 'تطبيقات الويب والموبايل 📱'
+      title: 'Web & Mobile Apps'
       filters:
         folders:
           - projects
@@ -98,8 +98,8 @@ sections:
 
   - block: collection
     content:
-      title: 'جميع المشاريع 📂'
-      text: عرض كامل لجميع المشاريع
+      title: 'All Projects'
+      text: Complete view of all projects
       filters:
         folders:
           - projects

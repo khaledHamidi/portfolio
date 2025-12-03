@@ -6,8 +6,8 @@ draft: false
 authors:
   - admin
 tags:
-  - software
-  - technology
+  - web
+  - mobile
 ---
 
 1. **High Reliability**: The system is developed using the latest technologies and industry standards to ensure reliable performance.

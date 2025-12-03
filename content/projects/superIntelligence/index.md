@@ -6,8 +6,9 @@ draft: false
 authors:
   - admin
 tags:
-  - software
+  - featured
   - iot
+  - web
   - embedded
 ---
 The perfect solution for your IoT projects

@@ -59,12 +59,31 @@ sections:
 
   - block: collection
     content:
-      title: Projects
-      summary: Most recent publications and updates.
+      title: '⭐ Featured Projects'
+      text: My most impactful and important work
       filters:
         folders:
           - projects
+        tags:
+          - featured
+      count: 3
     design:
       spacing:
-        padding: ['3rem', 0, '3rem', 0]
+        padding: ['3rem', 0, '1rem', 0]
+      view: card
+      columns: '2'
+
+  - block: collection
+    content:
+      title: 'Recent Projects'
+      text: Latest work and updates
+      filters:
+        folders:
+          - projects
+      count: 6
+    design:
+      spacing:
+        padding: ['1rem', 0, '3rem', 0]
+      view: compact
+      columns: '2'
 ---

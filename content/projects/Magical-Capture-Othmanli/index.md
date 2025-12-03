@@ -6,7 +6,7 @@ draft: false
 authors:
   - admin
 tags:
-  - software
+  - desktop
   - education
 ---
  

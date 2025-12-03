@@ -22,24 +22,32 @@ main:
     url: tags/
     weight: 40
 
-  - name: مشاريع
+  - name: المشاريع
     identifier: projects
-    url: projects/
+    url: /projects/
     weight: 60
-    main:
-  - name: الأعمال المهنية والأكادمية
-    parent: مشاريع
-    URL: Projects/
-    weight: 103
-  - name: هواية
-    parent: مشاريع
-    URL: projects-w1/
-    weight: 103
-  - Name: تم نشرها
-    URL: published-projects/
-    parent: مشاريع
-    weight: 102
-  - name: اعمال حرة
-    url: freelance-work/
-    parent: مشاريع
-    weight: 101
+
+  - name: جميع المشاريع
+    parent: projects
+    url: /projects/
+    weight: 61
+
+  - name: المشاريع المميزة
+    parent: projects
+    url: /projects-featured/
+    weight: 62
+
+  - name: مشاريع العملاء
+    parent: projects
+    url: /projects-clients/
+    weight: 63
+
+  - name: المشاريع مفتوحة المصدر
+    parent: projects
+    url: /projects-opensource/
+    weight: 64
+
+  - name: المشاريع البحثية
+    parent: projects
+    url: /projects-research/
+    weight: 65

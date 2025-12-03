@@ -6,7 +6,8 @@ authors:
   - admin
 tags:
   - open-source
-  - software
+  - embedded
+  - iot
 image:
   caption: 'Image credit: [**Unsplash**](https://github.com/khaledHamidi/Logic-Element-Explorer/blob/main/image.jpg)'
 ---

@@ -7,9 +7,10 @@ draft: false
 authors:
   - admin
 tags:
-  - freelance
-  - automation
+  - client-work
   - iot
+  - automation
+  - hardware
 categories:
   - "Engineering Projects"
   - "Home Automation"

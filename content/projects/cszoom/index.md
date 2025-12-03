@@ -6,8 +6,9 @@ draft: false
 authors:
   - admin
 tags:
-  - game
-  - software
+  - desktop
+  - entertainment
+  - networking
 ---
  The CS-ZOOM project aims to enhance the classic Counter-Strike experience by introducing a modified version of the game, specifically tailored to improve gameplay and accessibility. Leveraging AMX Mod X and the C programming language, this project enables players to enjoy a richer and more immersive gaming environment.
 

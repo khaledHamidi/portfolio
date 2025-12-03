@@ -24,22 +24,30 @@ main:
 
   - name: Projects
     identifier: projects
-    url: projects/
+    url: /projects/
     weight: 60
-    main:
-  - name: My Projects list
+
+  - name: All Projects
     parent: projects
-    URL: Projects/
-    weight: 103
-  - name: Hobby projects
+    url: /projects/
+    weight: 61
+
+  - name: Featured Projects
     parent: projects
-    URL: projects-w1/
-    weight: 103
-  - Name: Published Projects
-    URL: published-projects/
+    url: /projects-featured/
+    weight: 62
+
+  - name: Client Work
     parent: projects
-    weight: 102
-  - name: Freelance Work
-    url: freelance-work/
+    url: /projects-clients/
+    weight: 63
+
+  - name: Open Source
     parent: projects
-    weight: 101
+    url: /projects-opensource/
+    weight: 64
+
+  - name: Research
+    parent: projects
+    url: /projects-research/
+    weight: 65

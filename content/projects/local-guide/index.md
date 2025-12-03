@@ -7,8 +7,8 @@ draft: false
 authors:
   - admin
 tags:
-  - freelance
-  - technology
+  - client-work
+  - web
   - networking
 ---
 

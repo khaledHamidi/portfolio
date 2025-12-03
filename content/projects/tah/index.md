@@ -7,7 +7,8 @@ authors:
   - admin
 tags:
   - embedded
-  - software
+  - iot
+  - research
 ---
  It is a project that I did while studying at the university for the microprocessors course.ي
 

@@ -6,7 +6,8 @@ authors:
   - admin
 tags:
   - open-source
-  - software
+  - desktop
+  - education
 ---
 # GeoSketch - Geometric Drow and Collision Detection
 
