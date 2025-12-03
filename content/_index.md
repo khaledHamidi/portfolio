@@ -289,7 +289,7 @@ sections:
                 </div>
               </div>
               <div class="hero-links-double">
-                <a class="hero-link-card" href="https://calendly.com/khaledhamidi/intro" target="_blank" rel="noopener">
+                <a class="hero-link-card" href="https://calendly.com/khaledhamidi" target="_blank" rel="noopener">
                   <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="Meet icon">
                   <div class="hero-link-text">
                     <strong>Book Intro Call</strong>
@@ -333,6 +333,15 @@ sections:
             </div>
           </div>
         </section>
+        <style>
+          .grid.grid-cols-1.md\:grid-cols-2 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 1rem !important; }
+          .grid.grid-cols-1.md\:grid-cols-2 > a { min-height: 260px !important; }
+          .grid.grid-cols-1.md\:grid-cols-2 > a > div:first-child { height: 160px !important; }
+          .grid.grid-cols-1.md\:grid-cols-2 > a > div:last-child { padding: 0.75rem !important; }
+          .grid.grid-cols-1.md\:grid-cols-2 > a h3 { font-size: 0.82rem !important; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; }
+          .text-center.mb-10 { margin-bottom: 1.2rem !important; }
+          .text-center.mb-10 h2 { font-size: 1.2rem !important; }
+        </style>
     design:
       spacing:
         padding: [0, 0, 0, 0]
