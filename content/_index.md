@@ -176,23 +176,24 @@ sections:
               margin: 0 auto;
               display: flex;
               flex-direction: column;
-              gap: 0.75rem;
+              gap: 0.5rem;
               height: 300px;
               max-height: 300px;
+              overflow-y: auto;
             }
             .hero-stats-link-row {
               display: flex;
               align-items: center;
               justify-content: space-between;
-              gap: 1.1rem;
-              flex-wrap: wrap;
-              padding: 0.75rem 1rem;
-              border-radius: 20px;
+              gap: 1rem;
+              flex-wrap: nowrap;
+              padding: 0.6rem 0.9rem;
+              border-radius: 16px;
               border: 1px solid rgba(15,23,42,0.08);
               background: rgba(255,255,255,0.85);
-              box-shadow: 0 18px 40px rgba(15,23,42,0.08);
-              flex: 1 1 0;
-              min-height: 0;
+              box-shadow: 0 14px 30px rgba(15,23,42,0.08);
+              flex-shrink: 0;
+              min-height: 80px;
             }
             .dark .hero-stats-link-row {
               border-color: rgba(255,255,255,0.08);
@@ -202,10 +203,12 @@ sections:
             .hero-stats--single { flex: 0 0 260px; justify-content: flex-start; }
             .hero-stats--single .hero-stat-strip { justify-content: flex-start; gap: 0.75rem; }
             .hero-stats--single .hero-stat-card {
-              min-width: 220px;
-              padding: 0.9rem 0.7rem;
-              box-shadow: 0 12px 20px rgba(15,23,42,0.15);
+              min-width: 200px;
+              padding: 0.7rem 0.6rem;
+              box-shadow: 0 10px 18px rgba(15,23,42,0.15);
             }
+            .hero-stat-card h4 { font-size: 1.5rem !important; margin: 0 !important; }
+            .hero-stat-card p { font-size: 0.68rem !important; }
             .hero-links-double {
               flex: 1 1 620px;
               display: grid;
@@ -220,9 +223,9 @@ sections:
             .hero-link-card {
               display: flex;
               align-items: center;
-              gap: 0.9rem;
-              padding: 0.95rem 1.1rem;
-              border-radius: 18px;
+              gap: 0.75rem;
+              padding: 0.7rem 0.9rem;
+              border-radius: 14px;
               text-decoration: none;
               border: 1px solid rgba(15,23,42,0.06);
               background: #fff;
@@ -232,15 +235,15 @@ sections:
             .hero-link-card:hover { transform: translateY(-3px); box-shadow: 0 18px 30px rgba(96,125,244,0.25); }
             .dark .hero-link-card { border-color: rgba(255,255,255,0.08); background: rgba(13,17,30,0.92); color: #f5f6ff; }
             .hero-link-card img {
-              width: 48px;
-              height: 48px;
-              border-radius: 14px;
+              width: 42px;
+              height: 42px;
+              border-radius: 12px;
               object-fit: cover;
               border: 1px solid rgba(255,255,255,0.2);
             }
             .hero-link-text { display: flex; flex-direction: column; }
-            .hero-link-text strong { font-size: 0.98rem; letter-spacing: 0.01em; }
-            .hero-link-text span { font-size: 0.78rem; color: #4b5164; }
+            .hero-link-text strong { font-size: 0.92rem; letter-spacing: 0.01em; }
+            .hero-link-text span { font-size: 0.72rem; color: #4b5164; }
             .dark .hero-link-text span { color: #b9c2e4; }
             @media (max-width: 720px) {
               .hero-stats-link-row { flex-direction: column; align-items: stretch; }
@@ -305,23 +308,23 @@ sections:
                 <div class="hero-stat-strip">
                   <div class="hero-stat-card cyan">
                     <h4>3+</h4>
-                    <p>Open Source</p>
+                    <p>Brand Partners</p>
                   </div>
                 </div>
               </div>
               <div class="hero-links-double">
-                <a class="hero-link-card" href="https://github.com/khaledHamidi" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/github/2f80ed" alt="GitHub icon">
+                <a class="hero-link-card" href="http://facebook.com/ar.robotech/" target="_blank" rel="noopener">
+                  <img src="/media/robotech.jpg" alt="Robotech team">
                   <div class="hero-link-text">
-                    <strong>Open Source Work</strong>
-                    <span>Robotics & IoT repos</span>
+                    <strong>Robotech Team</strong>
+                    <span>Robotics education & community</span>
                   </div>
                 </a>
-                <a class="hero-link-card" href="https://chrome.google.com/webstore/search/Hamidi%20Suite" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/chrome/2f80ed" alt="Chrome Web Store icon">
+                <a class="hero-link-card" href="#" target="_blank" rel="noopener">
+                  <img src="/media/تميز.png" alt="Tamayuz partner">
                   <div class="hero-link-text">
-                    <strong>Chrome Store Toolkit</strong>
-                    <span>Ad blocker, start page, YouTube search improver</span>
+                    <strong>Tamayuz Partnership</strong>
+                    <span>Strategic partner in academic studies & research</span>
                   </div>
                 </a>
               </div>
