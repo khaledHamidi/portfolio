@@ -183,37 +183,51 @@ sections:
     content:
       title: ''
       text: |
-        <section class="hero-stats-link-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; padding: 2.2rem 4%; box-sizing: border-box;">
+        <section class="hero-stats-link-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; padding: 2rem 4%; box-sizing: border-box;">
           <style>
             .hero-stats-link-section { background: #f8f9ff; }
             .dark .hero-stats-link-section { background: #050712; }
-            .hero-stats-link-shell { max-width: 1400px; margin: 0 auto; display: flex; flex-direction: column; gap: 1.2rem; }
+            .hero-stats-link-shell { max-width: 1400px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem; }
             .hero-stats-link-row {
               display: flex;
               align-items: center;
               justify-content: space-between;
-              gap: 1.4rem;
+              gap: 1.1rem;
               flex-wrap: wrap;
-              padding: 1rem 1.4rem;
+              padding: 0.85rem 1.1rem;
               border-radius: 20px;
               border: 1px solid rgba(15,23,42,0.08);
               background: rgba(255,255,255,0.85);
               box-shadow: 0 18px 40px rgba(15,23,42,0.08);
+              max-height: 300px;
             }
             .dark .hero-stats-link-row {
               border-color: rgba(255,255,255,0.08);
               background: rgba(9,11,18,0.78);
               box-shadow: 0 22px 60px rgba(0,0,0,0.55);
             }
-            .hero-stats--single { flex: 1 1 360px; justify-content: flex-start; }
+            .hero-stats--single { flex: 0 0 260px; justify-content: flex-start; }
             .hero-stats--single .hero-stat-strip { justify-content: flex-start; gap: 0.75rem; }
-            .hero-stats--single .hero-stat-card { min-width: 140px; }
+            .hero-stats--single .hero-stat-card {
+              min-width: 220px;
+              padding: 0.9rem 0.7rem;
+              box-shadow: 0 12px 20px rgba(15,23,42,0.15);
+            }
+            .hero-links-double {
+              flex: 1 1 620px;
+              display: grid;
+              grid-template-columns: repeat(2, minmax(200px, 1fr));
+              gap: 0.9rem;
+              width: 100%;
+            }
+            @media (max-width: 960px) {
+              .hero-links-double { grid-template-columns: 1fr; }
+            }
             .hero-link-card {
-              flex: 1 1 320px;
               display: flex;
               align-items: center;
-              gap: 1rem;
-              padding: 1.1rem 1.4rem;
+              gap: 0.9rem;
+              padding: 0.95rem 1.1rem;
               border-radius: 18px;
               text-decoration: none;
               border: 1px solid rgba(15,23,42,0.06);
@@ -224,15 +238,15 @@ sections:
             .hero-link-card:hover { transform: translateY(-3px); box-shadow: 0 18px 30px rgba(96,125,244,0.25); }
             .dark .hero-link-card { border-color: rgba(255,255,255,0.08); background: rgba(13,17,30,0.92); color: #f5f6ff; }
             .hero-link-card img {
-              width: 54px;
-              height: 54px;
+              width: 48px;
+              height: 48px;
               border-radius: 14px;
               object-fit: cover;
               border: 1px solid rgba(255,255,255,0.2);
             }
             .hero-link-text { display: flex; flex-direction: column; }
-            .hero-link-text strong { font-size: 1.02rem; letter-spacing: 0.01em; }
-            .hero-link-text span { font-size: 0.82rem; color: #4b5164; }
+            .hero-link-text strong { font-size: 0.98rem; letter-spacing: 0.01em; }
+            .hero-link-text span { font-size: 0.78rem; color: #4b5164; }
             .dark .hero-link-text span { color: #b9c2e4; }
             @media (max-width: 720px) {
               .hero-stats-link-row { flex-direction: column; align-items: stretch; }
@@ -249,13 +263,22 @@ sections:
                   </div>
                 </div>
               </div>
-              <a class="hero-link-card" href="https://bit.ly/hamidi-portfolio" target="_blank" rel="noopener">
-                <img src="https://cdn.simpleicons.org/filetype-pdf/6c63ff" alt="Deck icon">
-                <div class="hero-link-text">
-                  <strong>Portfolio Deck</strong>
-                  <span>Slide summary & wins</span>
-                </div>
-              </a>
+              <div class="hero-links-double">
+                <a class="hero-link-card" href="https://bit.ly/hamidi-portfolio" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/filetype-pdf/6c63ff" alt="Deck icon">
+                  <div class="hero-link-text">
+                    <strong>Portfolio Deck</strong>
+                    <span>Slide summary & wins</span>
+                  </div>
+                </a>
+                <a class="hero-link-card" href="https://bit.ly/hamidi-case-study" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/notion/6c63ff" alt="Case study icon">
+                  <div class="hero-link-text">
+                    <strong>Case Studies</strong>
+                    <span>Robotics & automation notes</span>
+                  </div>
+                </a>
+              </div>
             </div>
             <div class="hero-stats-link-row">
               <div class="hero-stats hero-stats--single">
@@ -266,13 +289,22 @@ sections:
                   </div>
                 </div>
               </div>
-              <a class="hero-link-card" href="https://calendly.com/hamidi/intro" target="_blank" rel="noopener">
-                <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="Meet icon">
-                <div class="hero-link-text">
-                  <strong>Book Intro Call</strong>
-                  <span>15 min discovery chat</span>
-                </div>
-              </a>
+              <div class="hero-links-double">
+                <a class="hero-link-card" href="https://calendly.com/hamidi/intro" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="Meet icon">
+                  <div class="hero-link-text">
+                    <strong>Book Intro Call</strong>
+                    <span>15 min discovery chat</span>
+                  </div>
+                </a>
+                <a class="hero-link-card" href="https://wa.me/905555555555" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/whatsapp/ff80b5" alt="WhatsApp icon">
+                  <div class="hero-link-text">
+                    <strong>Direct WhatsApp</strong>
+                    <span>Quick project check-in</span>
+                  </div>
+                </a>
+              </div>
             </div>
             <div class="hero-stats-link-row">
               <div class="hero-stats hero-stats--single">
@@ -283,13 +315,22 @@ sections:
                   </div>
                 </div>
               </div>
-              <a class="hero-link-card" href="https://github.com/khaledHamidi" target="_blank" rel="noopener">
-                <img src="https://cdn.simpleicons.org/github/2f80ed" alt="GitHub icon">
-                <div class="hero-link-text">
-                  <strong>Open Source Work</strong>
-                  <span>Robotics & IoT repos</span>
-                </div>
-              </a>
+              <div class="hero-links-double">
+                <a class="hero-link-card" href="https://github.com/khaledHamidi" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/github/2f80ed" alt="GitHub icon">
+                  <div class="hero-link-text">
+                    <strong>Open Source Work</strong>
+                    <span>Robotics & IoT repos</span>
+                  </div>
+                </a>
+                <a class="hero-link-card" href="https://www.behance.net/khaledhamidi" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/behance/2f80ed" alt="Behance icon">
+                  <div class="hero-link-text">
+                    <strong>Visual Explorations</strong>
+                    <span>Concept art & UX sketches</span>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section>
