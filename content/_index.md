@@ -334,13 +334,43 @@ sections:
           </div>
         </section>
         <style>
-          .grid.grid-cols-1.md\:grid-cols-2 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 1rem !important; }
-          .grid.grid-cols-1.md\:grid-cols-2 > a { min-height: 260px !important; }
-          .grid.grid-cols-1.md\:grid-cols-2 > a > div:first-child { height: 160px !important; }
-          .grid.grid-cols-1.md\:grid-cols-2 > a > div:last-child { padding: 0.75rem !important; }
-          .grid.grid-cols-1.md\:grid-cols-2 > a h3 { font-size: 0.82rem !important; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; }
-          .text-center.mb-10 { margin-bottom: 1.2rem !important; }
-          .text-center.mb-10 h2 { font-size: 1.2rem !important; }
+          /* Force 3-column grid for accomplishments */
+          .grid-cols-1 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 1.2rem !important; }
+          @media (min-width: 768px) {
+            .md\:grid-cols-2 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+            .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+          }
+          /* Compact card sizing */
+          .grid > a[href*="/projects/"],
+          .grid > a[href*="/achievements/"] {
+            min-height: 240px !important;
+            max-height: 280px !important;
+          }
+          .grid > a[href*="/projects/"] > div:first-of-type,
+          .grid > a[href*="/achievements/"] > div:first-of-type {
+            height: 150px !important;
+            max-height: 150px !important;
+          }
+          .grid > a[href*="/projects/"] > div:last-of-type,
+          .grid > a[href*="/achievements/"] > div:last-of-type {
+            padding: 0.65rem !important;
+          }
+          /* Single-line titles with ellipsis */
+          .grid h3 {
+            font-size: 0.78rem !important;
+            line-height: 1.3 !important;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+            max-width: 100% !important;
+          }
+          /* Smaller section headings */
+          .text-center h2 {
+            font-size: 1.15rem !important;
+            margin-bottom: 1rem !important;
+          }
+          .mb-10 { margin-bottom: 1rem !important; }
+          .mb-6 { margin-bottom: 0.8rem !important; }
         </style>
     design:
       spacing:
