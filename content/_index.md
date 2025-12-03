@@ -223,6 +223,7 @@ sections:
             }
             .hero-link-card {
               display: flex;
+              height: 80px !important;
               align-items: center;
               gap: 0.6rem;
               padding: 0.4rem 0.65rem;
