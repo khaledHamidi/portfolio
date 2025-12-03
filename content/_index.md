@@ -11,7 +11,7 @@ sections:
             <div style="flex: 1 1 320px; background: #fff; padding: 1.6rem; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
               <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.4rem; margin-bottom: 1rem;">
                 <div style="width: 130px; height: 130px; border-radius: 65px; overflow: hidden; border: 4px solid #667eea;">
-                  <img src="/authors/admin/avatar.jpg" alt="Khaled HAMIDI" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                  <img src="https://media.licdn.com/dms/image/v2/D4D03AQGOWF7a_NvOPg/profile-displayphoto-shrink_800_800/B4DZdFETNpHAAg-/0/1749210445136?e=1766620800&v=beta&t=bq3umVfviafLRdLRWHjtO3uQhqSootb5XfZTXthqyYk" alt="Khaled HAMIDI" style="width: 100%; height: 100%; object-fit: cover; display: block;">
                 </div>
                 <h2 style="margin: 0.2rem 0; font-size: 1.55rem; color: #222;">Khaled HAMIDI</h2>
                 <p style="color: #555; margin: 0; font-size: 0.95rem;">Lead Mechatronics & Aerospace Engineer</p>
@@ -45,38 +45,89 @@ sections:
                 </div>
               </div>
             </div>
-            <div style="flex: 1.4 1 360px; background: linear-gradient(135deg, #f5f7fa 0%, #e8eef3 100%); padding: 2rem; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); min-height: 400px;">
-              <h3 style="margin: 0 0 0.35rem 0; font-size: 1.5rem; color: #333;">Featured Projects</h3>
-              <p style="color: #666; font-size: 0.92rem; margin-bottom: 1.5rem;">A quick look at flagship client deliveries and research prototypes.</p>
-              <div style="display: flex; gap: 0.9rem; flex-wrap: nowrap;">
-                <a href="/projects/pharmacy/" style="flex: 1 1 33%; text-decoration: none; color: inherit;">
-                  <div style="background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08); display: flex; flex-direction: column; height: 100%;">
-                    <div style="height: 150px; background: url('/projects/pharmacy/featured.png') center/cover no-repeat;"></div>
-                    <div style="padding: 0.8rem 1rem;">
-                      <h4 style="margin: 0; font-size: 1rem; color: #222;">Pharmacy Plus</h4>
-                      <p style="margin: 0.3rem 0 0 0; font-size: 0.82rem; color: #666;">Enterprise desktop automation</p>
-                    </div>
-                  </div>
-                </a>
-                <a href="/projects/superIntelligence/" style="flex: 1 1 33%; text-decoration: none; color: inherit;">
-                  <div style="background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08); display: flex; flex-direction: column; height: 100%;">
-                    <div style="height: 150px; background: url('/projects/superIntelligence/featured.jpg') center/cover no-repeat;"></div>
-                    <div style="padding: 0.8rem 1rem;">
-                      <h4 style="margin: 0; font-size: 1rem; color: #222;">Super Intelligence</h4>
-                      <p style="margin: 0.3rem 0 0 0; font-size: 0.82rem; color: #666;">IoT monitoring platform</p>
-                    </div>
-                  </div>
-                </a>
-                <a href="/projects/Smart-window-system/" style="flex: 1 1 33%; text-decoration: none; color: inherit;">
-                  <div style="background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08); display: flex; flex-direction: column; height: 100%;">
-                    <div style="height: 150px; background: url('/projects/Smart-window-system/featured.jpg') center/cover no-repeat;"></div>
-                    <div style="padding: 0.8rem 1rem;">
-                      <h4 style="margin: 0; font-size: 1rem; color: #222;">Smart Window System</h4>
-                      <p style="margin: 0.3rem 0 0 0; font-size: 0.82rem; color: #666;">Energy-aware automation</p>
-                    </div>
-                  </div>
-                </a>
+            <div style="flex: 1.4 1 360px; min-height: 400px; display: flex; flex-direction: column; gap: 0.9rem;">
+              <style>
+                .hero-slider-shell { position: relative; width: 100%; }
+                .hero-slider-window { overflow: hidden; border-radius: 18px; box-shadow: 0 25px 65px rgba(5,6,10,0.45); }
+                .hero-slider-track { display: flex; transition: transform 0.65s cubic-bezier(0.4,0.15,0.2,1); }
+                .hero-slider-slide { min-width: 100%; position: relative; }
+                .hero-slider-image { width: 100%; padding-top: 58%; background-size: cover; background-position: center; position: relative; }
+                .hero-slider-image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(4,5,10,0.05) 0%, rgba(4,5,10,0.8) 100%); }
+                .hero-slider-text { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; padding: 1.4rem; color: #fff; z-index: 1; }
+                .hero-slider-text h4 { margin: 0; font-size: 1.3rem; letter-spacing: 0.02em; }
+                .hero-slider-text p { margin: 0.3rem 0 0; font-size: 0.95rem; color: rgba(255,255,255,0.85); }
+                .hero-slider-nav { display: flex; gap: 0.5rem; }
+                .hero-slider-btn { width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.35); background: rgba(11,13,22,0.8); color: #fff; cursor: pointer; font-size: 1.2rem; transition: background 0.2s ease; }
+                .hero-slider-btn:hover { background: rgba(255,255,255,0.15); }
+                .hero-slider-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.8rem; }
+                .hero-slider-head h3 { margin: 0; font-size: 1.5rem; color: #0f111a; }
+                .hero-slider-head p { margin: 0.25rem 0 0 0; font-size: 0.92rem; color: #5a5f6f; max-width: 320px; }
+                @media (max-width: 960px) {
+                  .hero-slider-head { flex-direction: column; align-items: flex-start; }
+                }
+              </style>
+              <div class="hero-slider-head">
+                <div>
+                  <h3>Featured Projects</h3>
+                  <p>Auto curated work samples with immersive visuals.</p>
+                </div>
+                <div class="hero-slider-nav">
+                  <button class="hero-slider-btn" data-hero-slider-prev aria-label="Previous project">&#10094;</button>
+                  <button class="hero-slider-btn" data-hero-slider-next aria-label="Next project">&#10095;</button>
+                </div>
               </div>
+              <div class="hero-slider-shell" id="hero-featured-slider">
+                <div class="hero-slider-window">
+                  <div class="hero-slider-track" data-hero-slider-track>
+                    <a class="hero-slider-slide" data-hero-slide href="/projects/pharmacy/">
+                      <div class="hero-slider-image" style="background-image: url('/projects/pharmacy/featured.png');">
+                        <div class="hero-slider-text">
+                          <h4>Pharmacy Plus</h4>
+                          <p>Enterprise desktop automation</p>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="hero-slider-slide" data-hero-slide href="/projects/superIntelligence/">
+                      <div class="hero-slider-image" style="background-image: url('/projects/superIntelligence/featured.jpg');">
+                        <div class="hero-slider-text">
+                          <h4>Super Intelligence</h4>
+                          <p>IoT monitoring platform</p>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="hero-slider-slide" data-hero-slide href="/projects/Smart-window-system/">
+                      <div class="hero-slider-image" style="background-image: url('/projects/Smart-window-system/featured.jpg');">
+                        <div class="hero-slider-text">
+                          <h4>Smart Window System</h4>
+                          <p>Energy-aware automation</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <script>
+                (function() {
+                  const shell = document.getElementById('hero-featured-slider');
+                  if (!shell) return;
+                  const track = shell.querySelector('[data-hero-slider-track]');
+                  const slides = shell.querySelectorAll('[data-hero-slide]');
+                  const prev = document.querySelector('[data-hero-slider-prev]');
+                  const next = document.querySelector('[data-hero-slider-next]');
+                  if (!track || slides.length === 0 || !prev || !next) return;
+                  let index = 0;
+                  const update = () => {
+                    track.style.transform = `translateX(-${index * 100}%)`;
+                  };
+                  const go = (delta) => {
+                    index = (index + delta + slides.length) % slides.length;
+                    update();
+                  };
+                  prev.addEventListener('click', () => go(-1));
+                  next.addEventListener('click', () => go(1));
+                  setInterval(() => go(1), 7000);
+                })();
+              </script>
             </div>
           </div>
         </div>

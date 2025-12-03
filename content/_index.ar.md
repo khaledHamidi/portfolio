@@ -58,7 +58,7 @@ sections:
             <div style="flex: 1 1 320px; background: #fff; padding: 1.6rem; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
               <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.4rem; margin-bottom: 1rem;" dir="rtl">
                 <div style="width: 130px; height: 130px; border-radius: 65px; overflow: hidden; border: 4px solid #667eea;">
-                  <img src="/authors/admin/avatar.jpg" alt="خالد حميدي" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                  <img src="https://media.licdn.com/dms/image/v2/D4D03AQGOWF7a_NvOPg/profile-displayphoto-shrink_800_800/B4DZdFETNpHAAg-/0/1749210445136?e=1766620800&v=beta&t=bq3umVfviafLRdLRWHjtO3uQhqSootb5XfZTXthqyYk" alt="خالد حميدي" style="width: 100%; height: 100%; object-fit: cover; display: block;">
                 </div>
                 <h2 style="margin: 0.2rem 0; font-size: 1.55rem; color: #222;">خالد حميدي</h2>
                 <p style="color: #555; margin: 0; font-size: 0.95rem;">مهندس ميكاترونيكس وطيران</p>
