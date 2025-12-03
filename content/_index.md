@@ -6,9 +6,9 @@ sections:
     content:
       title: ''
       text: |
-        <div class="hero-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; background: linear-gradient(to bottom, #f7f8fc 0%, #ffffff 100%); padding: 2.2rem 4%; box-sizing: border-box;">
+        <div class="hero-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; padding: 2.2rem 4%; box-sizing: border-box;">
           <style>
-            .hero-section { color: #111528; }
+            .hero-section { color: #111528; background: linear-gradient(to bottom, #f7f8fc 0%, #ffffff 100%); }
             .dark .hero-section { background: linear-gradient(180deg, #05060e 0%, #0f1324 100%); color: #f5f6ff; }
             .hero-grid { max-width: 1400px; margin: 0 auto; display: flex; gap: 1.25rem; align-items: stretch; justify-content: space-between; flex-wrap: wrap; }
             .hero-profile-card {
