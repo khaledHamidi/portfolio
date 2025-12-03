@@ -6,46 +6,100 @@ sections:
     content:
       title: ''
       text: |
-        <div style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; background: linear-gradient(to bottom, #f7f8fc 0%, #ffffff 100%); padding: 2.2rem 4%; box-sizing: border-box;">
-          <div style="max-width: 1400px; margin: 0 auto; display: flex; gap: 1.25rem; align-items: stretch; justify-content: space-between; flex-wrap: wrap;">
-            <div style="flex: 1 1 320px; background: #fff; padding: 1.6rem; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+        <div class="hero-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; background: linear-gradient(to bottom, #f7f8fc 0%, #ffffff 100%); padding: 2.2rem 4%; box-sizing: border-box;">
+          <style>
+            .hero-section { color: #111528; }
+            .dark .hero-section { background: linear-gradient(180deg, #05060e 0%, #0f1324 100%); color: #f5f6ff; }
+            .hero-grid { max-width: 1400px; margin: 0 auto; display: flex; gap: 1.25rem; align-items: stretch; justify-content: space-between; flex-wrap: wrap; }
+            .hero-profile-card {
+              flex: 1 1 320px;
+              background: #fff;
+              padding: 1.6rem;
+              border-radius: 18px;
+              box-shadow: 0 14px 35px rgba(15,23,42,0.12);
+              border: 1px solid rgba(15,23,42,0.05);
+            }
+            .dark .hero-profile-card {
+              background: rgba(13,16,28,0.95);
+              border-color: rgba(129,140,248,0.25);
+              box-shadow: 0 18px 40px rgba(0,0,0,0.55);
+            }
+            .hero-profile-card h2 { margin: 0.2rem 0; font-size: 1.55rem; color: inherit; }
+            .hero-profile-card p { margin: 0; color: #566074; font-size: 0.95rem; }
+            .dark .hero-profile-card p { color: #cbd2ea; }
+            .hero-meta-row { display: flex; justify-content: space-between; font-size: 0.9rem; color: #4b5164; }
+            .hero-meta-row strong { color: #111528; }
+            .dark .hero-meta-row { color: #b7bdd6; }
+            .dark .hero-meta-row strong { color: #f7f8ff; }
+            .hero-links { display: flex; gap: 0.55rem; flex-wrap: wrap; justify-content: center; }
+            .hero-links a {
+              flex: 1 1 110px;
+              text-align: center;
+              padding: 0.5rem 0.8rem;
+              color: #fff;
+              text-decoration: none;
+              border-radius: 8px;
+              font-size: 0.9rem;
+              font-weight: 600;
+            }
+            .hero-stats { flex: 1 1 260px; display: flex; align-items: center; justify-content: center; }
+            .hero-stat-strip { display: flex; gap: 0.6rem; width: 100%; justify-content: center; flex-wrap: nowrap; min-width: 240px; }
+            .hero-stat-card {
+              flex: 1;
+              min-width: 90px;
+              padding: 1rem 0.7rem;
+              border-radius: 14px;
+              text-align: center;
+              color: #fff;
+              box-shadow: 0 12px 25px rgba(15,23,42,0.25);
+            }
+            .hero-stat-card h4 { font-size: 1.7rem; margin: 0; font-weight: 700; }
+            .hero-stat-card p { margin: 0.1rem 0 0 0; font-size: 0.72rem; letter-spacing: 0.5px; text-transform: uppercase; }
+            .hero-stat-card.purple { background: linear-gradient(135deg, #6c63ff 0%, #7f6bda 100%); }
+            .hero-stat-card.pink { background: linear-gradient(135deg, #ff80b5 0%, #ff6b6b 100%); }
+            .hero-stat-card.cyan { background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%); }
+            .hero-slider-shell { position: relative; width: 100%; height: 100%; border-radius: 24px; overflow: hidden; box-shadow: 0 35px 80px rgba(7,10,18,0.45); }
+            .dark .hero-slider-shell { box-shadow: 0 45px 90px rgba(0,0,0,0.65); }
+          </style>
+          <div class="hero-grid">
+            <div class="hero-profile-card">
               <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.4rem; margin-bottom: 1rem;">
                 <div style="width: 130px; height: 130px; border-radius: 65px; overflow: hidden; border: 4px solid #667eea;">
                   <img src="https://media.licdn.com/dms/image/v2/D4D03AQGOWF7a_NvOPg/profile-displayphoto-shrink_800_800/B4DZdFETNpHAAg-/0/1749210445136?e=1766620800&v=beta&t=bq3umVfviafLRdLRWHjtO3uQhqSootb5XfZTXthqyYk" alt="Khaled HAMIDI" style="width: 100%; height: 100%; object-fit: cover; margin: 0 !important; display: block;">
                 </div>
-                <h2 style="margin: 0.2rem 0; font-size: 1.55rem; color: #222;">Khaled HAMIDI</h2>
-                <p style="color: #555; margin: 0; font-size: 0.95rem;">Lead Mechatronics & Aerospace Engineer</p>
-                <p style="color: #777; margin: 0; font-size: 0.88rem;">Intelligent Systems Architect</p>
+                  <h2>Khaled HAMIDI</h2>
+                  <p>Lead Mechatronics & Aerospace Engineer</p>
+                  <p style="font-size: 0.88rem;">Intelligent Systems Architect</p>
               </div>
-              <div style="display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 1rem; font-size: 0.9rem; color: #555;">
-                <div style="display: flex; justify-content: space-between;"><span>Location</span><strong>Doha · Remote</strong></div>
-                <div style="display: flex; justify-content: space-between;"><span>Experience</span><strong>7+ years</strong></div>
-                <div style="display: flex; justify-content: space-between;"><span>Focus</span><strong>Robotics · AI · IoT</strong></div>
-                <div style="display: flex; justify-content: space-between;"><span>Availability</span><strong>Consulting & R&D</strong></div>
+                <div style="display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 1rem;">
+                  <div class="hero-meta-row"><span>Location</span><strong>Doha · Remote</strong></div>
+                  <div class="hero-meta-row"><span>Experience</span><strong>7+ years</strong></div>
+                  <div class="hero-meta-row"><span>Focus</span><strong>Robotics · AI · IoT</strong></div>
+                  <div class="hero-meta-row"><span>Availability</span><strong>Consulting & R&D</strong></div>
               </div>
-              <div style="display: flex; gap: 0.55rem; flex-wrap: wrap; justify-content: center;">
-                <a href="mailto:hamidi@engineer.com" style="flex: 1 1 110px; text-align: center; padding: 0.5rem 0.8rem; background: #667eea; color: #fff; text-decoration: none; border-radius: 6px; font-size: 0.9rem;">Email</a>
-                <a href="https://github.com/khaledHamidi" style="flex: 1 1 110px; text-align: center; padding: 0.5rem 0.8rem; background: #222; color: #fff; text-decoration: none; border-radius: 6px; font-size: 0.9rem;">GitHub</a>
-                <a href="https://linkedin.com/in/enghamidi" style="flex: 1 1 110px; text-align: center; padding: 0.5rem 0.8rem; background: #0066b2; color: #fff; text-decoration: none; border-radius: 6px; font-size: 0.9rem;">LinkedIn</a>
-              </div>
-            </div>
-            <div style="flex: 1 1 260px; display: flex; align-items: center; justify-content: center;">
-              <div style="display: flex; gap: 0.6rem; width: 100%; justify-content: center; flex-wrap: nowrap; min-width: 240px;">
-                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1rem 0.7rem; border-radius: 12px; text-align: center; color: #fff; flex: 1; min-width: 90px; box-shadow: 0 4px 10px rgba(102,126,234,0.3);">
-                  <h4 style="font-size: 1.75rem; margin: 0; font-weight: bold;">15+</h4>
-                  <p style="margin: 0.1rem 0 0 0; font-size: 0.7rem; letter-spacing: 0.5px;">Projects</p>
-                </div>
-                <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 1rem 0.7rem; border-radius: 12px; text-align: center; color: #fff; flex: 1; min-width: 90px; box-shadow: 0 4px 10px rgba(240,147,251,0.3);">
-                  <h4 style="font-size: 1.75rem; margin: 0; font-weight: bold;">2+</h4>
-                  <p style="margin: 0.1rem 0 0 0; font-size: 0.7rem; letter-spacing: 0.5px;">Clients</p>
-                </div>
-                <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 1rem 0.7rem; border-radius: 12px; text-align: center; color: #fff; flex: 1; min-width: 90px; box-shadow: 0 4px 10px rgba(79,172,254,0.3);">
-                  <h4 style="font-size: 1.75rem; margin: 0; font-weight: bold;">3+</h4>
-                  <p style="margin: 0.1rem 0 0 0; font-size: 0.7rem; letter-spacing: 0.5px;">Open Source</p>
-                </div>
+                <div class="hero-links">
+                  <a href="mailto:hamidi@engineer.com" style="background: linear-gradient(135deg, #6c63ff 0%, #8f7afa 100%);">Email</a>
+                  <a href="https://github.com/khaledHamidi" style="background: #1f2432;">GitHub</a>
+                  <a href="https://linkedin.com/in/enghamidi" style="background: #0a66c2;">LinkedIn</a>
               </div>
             </div>
-            <div style="flex: 2 1 520px; align-self: stretch; display: flex;">
+              <div class="hero-stats">
+                <div class="hero-stat-strip">
+                  <div class="hero-stat-card purple">
+                    <h4>15+</h4>
+                    <p>Projects</p>
+                  </div>
+                  <div class="hero-stat-card pink">
+                    <h4>2+</h4>
+                    <p>Clients</p>
+                  </div>
+                  <div class="hero-stat-card cyan">
+                    <h4>3+</h4>
+                    <p>Open Source</p>
+                  </div>
+              </div>
+            </div>
+              <div style="flex: 2 1 520px; align-self: stretch; display: flex;">
               <style>
                 .hero-slider-shell { position: relative; width: 100%; height: 100%; border-radius: 24px; overflow: hidden; box-shadow: 0 35px 80px rgba(7,10,18,0.45); }
                 .hero-slider-window { width: 100%; height: 100%; overflow: hidden; }
