@@ -86,7 +86,7 @@ sections:
               <div class="hero-stats">
                 <div class="hero-stat-strip">
                   <div class="hero-stat-card purple">
-                    <h4>15+</h4>
+                    <h4>30+</h4>
                     <p>Projects</p>
                   </div>
                   <div class="hero-stat-card pink">
@@ -258,7 +258,7 @@ sections:
               <div class="hero-stats hero-stats--single">
                 <div class="hero-stat-strip">
                   <div class="hero-stat-card purple">
-                    <h4>15+</h4>
+                    <h4>30+</h4>
                     <p>Projects</p>
                   </div>
                 </div>
@@ -271,11 +271,11 @@ sections:
                     <span>Slide summary & wins</span>
                   </div>
                 </a>
-                <a class="hero-link-card" href="https://bit.ly/hamidi-case-study" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/notion/6c63ff" alt="Case study icon">
+                <a class="hero-link-card" href="https://www.youtube.com/@EngHamidi" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/youtube/ff4d4d" alt="YouTube icon">
                   <div class="hero-link-text">
-                    <strong>Case Studies</strong>
-                    <span>Robotics & automation notes</span>
+                    <strong>Mechatronics Channel</strong>
+                    <span>Aerospace & robotics course drops</span>
                   </div>
                 </a>
               </div>
@@ -297,11 +297,11 @@ sections:
                     <span>15 min discovery chat</span>
                   </div>
                 </a>
-                <a class="hero-link-card" href="https://wa.me/905555555555" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/whatsapp/ff80b5" alt="WhatsApp icon">
+                <a class="hero-link-card" href="https://play.google.com/store/apps/dev?id=KhaledHamidiLabs" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/googleplay/ff80b5" alt="Google Play icon">
                   <div class="hero-link-text">
-                    <strong>Direct WhatsApp</strong>
-                    <span>Quick project check-in</span>
+                    <strong>Google Play Studio</strong>
+                    <span>Useful automation & IoT apps</span>
                   </div>
                 </a>
               </div>
@@ -323,11 +323,11 @@ sections:
                     <span>Robotics & IoT repos</span>
                   </div>
                 </a>
-                <a class="hero-link-card" href="https://www.behance.net/khaledhamidi" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/behance/2f80ed" alt="Behance icon">
+                <a class="hero-link-card" href="https://chrome.google.com/webstore/search/Hamidi%20Suite" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/chrome/2f80ed" alt="Chrome Web Store icon">
                   <div class="hero-link-text">
-                    <strong>Visual Explorations</strong>
-                    <span>Concept art & UX sketches</span>
+                    <strong>Chrome Store Toolkit</strong>
+                    <span>Ad blocker, start page, YouTube search improver</span>
                   </div>
                 </a>
               </div>
