@@ -9,8 +9,6 @@ sections:
         <div style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; background: linear-gradient(to bottom, #f7f8fc 0%, #ffffff 100%); padding: 2.2rem 4%; box-sizing: border-box;">
           <div style="max-width: 1400px; margin: 0 auto; display: flex; gap: 1.25rem; align-items: stretch; justify-content: space-between; flex-wrap: wrap; direction: ltr;">
             <div style="flex: 1.4 1 360px; background: linear-gradient(135deg, #f5f7fa 0%, #e8eef3 100%); padding: 2rem; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); min-height: 400px;">
-              <h3 style="margin: 0 0 0.35rem 0; font-size: 1.5rem; color: #333; text-align: right;">المشاريع المميزة</h3>
-              <p style="color: #666; font-size: 0.92rem; margin-bottom: 1.5rem; text-align: right;">أبرز الحلول لعملائي ومشاريعي البحثية.</p>
               <div style="display: flex; gap: 0.9rem; flex-wrap: nowrap;">
                 <a href="/ar/projects/pharmacy/" style="flex: 1 1 33%; text-decoration: none; color: inherit;">
                   <div style="background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08); display: flex; flex-direction: column; height: 100%;">
