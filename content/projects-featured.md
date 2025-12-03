@@ -1,7 +1,18 @@
 ---
 title: Featured Projects
-summary: My most important and impactful projects
-type: page
----
+type: landing
 
-{{< list_projects tags="featured" >}}
+sections:
+  - block: collection
+    content:
+      title: 'Featured Projects'
+      text: My most important and impactful projects
+      filters:
+        folders:
+          - projects
+        tags:
+          - featured
+    design:
+      view: card
+      columns: '2'
+---

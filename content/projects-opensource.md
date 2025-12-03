@@ -1,7 +1,18 @@
 ---
 title: Open Source Projects
-summary: Community-driven open source contributions
-type: page
----
+type: landing
 
-{{< list_projects tags="open-source" >}}
+sections:
+  - block: collection
+    content:
+      title: 'Open Source Projects'
+      text: Community-driven open source contributions
+      filters:
+        folders:
+          - projects
+        tags:
+          - open-source
+    design:
+      view: card
+      columns: '2'
+---

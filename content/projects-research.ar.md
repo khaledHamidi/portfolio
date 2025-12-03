@@ -1,7 +1,18 @@
 ---
 title: المشاريع البحثية
-summary: مشاريع أكاديمية وبحثية
-type: page
----
+type: landing
 
-{{< list_projects tags="research" >}}
+sections:
+  - block: collection
+    content:
+      title: 'المشاريع البحثية'
+      text: مشاريع أكاديمية وبحثية
+      filters:
+        folders:
+          - projects
+        tags:
+          - research
+    design:
+      view: card
+      columns: '2'
+---

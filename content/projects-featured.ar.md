@@ -1,7 +1,18 @@
 ---
 title: المشاريع المميزة
-summary: أهم مشاريعي وأكثرها تأثيراً
-type: page
----
+type: landing
 
-{{< list_projects tags="featured" >}}
+sections:
+  - block: collection
+    content:
+      title: 'المشاريع المميزة'
+      text: أهم مشاريعي وأكثرها تأثيراً
+      filters:
+        folders:
+          - projects
+        tags:
+          - featured
+    design:
+      view: card
+      columns: '2'
+---

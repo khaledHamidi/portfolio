@@ -1,7 +1,18 @@
 ---
 title: مشاريع العملاء
-summary: مشاريع احترافية تم تسليمها للعملاء
-type: page
----
+type: landing
 
-{{< list_projects tags="client-work" >}}
+sections:
+  - block: collection
+    content:
+      title: 'مشاريع العملاء'
+      text: مشاريع احترافية تم تسليمها للعملاء
+      filters:
+        folders:
+          - projects
+        tags:
+          - client-work
+    design:
+      view: card
+      columns: '2'
+---

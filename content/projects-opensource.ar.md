@@ -1,7 +1,18 @@
 ---
 title: المشاريع مفتوحة المصدر
-summary: مساهمات مجتمعية ومشاريع مفتوحة المصدر
-type: page
----
+type: landing
 
-{{< list_projects tags="open-source" >}}
+sections:
+  - block: collection
+    content:
+      title: 'المشاريع مفتوحة المصدر'
+      text: مساهمات مجتمعية ومشاريع مفتوحة
+      filters:
+        folders:
+          - projects
+        tags:
+          - open-source
+    design:
+      view: card
+      columns: '2'
+---

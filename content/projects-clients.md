@@ -1,7 +1,18 @@
 ---
 title: Client Projects
-summary: Professional projects delivered to clients
-type: page
----
+type: landing
 
-{{< list_projects tags="client-work" >}}
+sections:
+  - block: collection
+    content:
+      title: 'Client Projects'
+      text: Professional projects delivered to clients
+      filters:
+        folders:
+          - projects
+        tags:
+          - client-work
+    design:
+      view: card
+      columns: '2'
+---

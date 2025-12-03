@@ -1,7 +1,18 @@
 ---
 title: Research Projects
-summary: Academic and research-oriented projects
-type: page
----
+type: landing
 
-{{< list_projects tags="research" >}}
+sections:
+  - block: collection
+    content:
+      title: 'Research Projects'
+      text: Academic and research-oriented projects
+      filters:
+        folders:
+          - projects
+        tags:
+          - research
+    design:
+      view: card
+      columns: '2'
+---
