@@ -83,22 +83,7 @@ sections:
                   <a href="https://linkedin.com/in/enghamidi" style="background: #0a66c2;">LinkedIn</a>
               </div>
             </div>
-              <div class="hero-stats">
-                <div class="hero-stat-strip">
-                  <div class="hero-stat-card purple">
-                    <h4>15+</h4>
-                    <p>Projects</p>
-                  </div>
-                  <div class="hero-stat-card pink">
-                    <h4>2+</h4>
-                    <p>Clients</p>
-                  </div>
-                  <div class="hero-stat-card cyan">
-                    <h4>3+</h4>
-                    <p>Open Source</p>
-                  </div>
-              </div>
-            </div>
+              
               <div style="flex: 2 1 520px; align-self: stretch; display: flex;">
               <style>
                 .hero-slider-shell { position: relative; width: 100%; height: 100%; border-radius: 24px; overflow: hidden; box-shadow: 0 35px 80px rgba(7,10,18,0.45); }
