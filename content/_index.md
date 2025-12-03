@@ -125,9 +125,9 @@ sections:
         padding: [0, 0, 0, 0]
 
   # Featured Projects Collection (for the slider)
-  - block: collection
+  - block: accomplishments
     content:
-      title: ''
+      title: 'Featured Projects'
       filters:
         folders:
           - projects
