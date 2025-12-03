@@ -199,7 +199,7 @@ sections:
               border: 1px solid rgba(15,23,42,0.08);
               background: rgba(255,255,255,0.85);
               box-shadow: 0 18px 40px rgba(15,23,42,0.08);
-              max-height: 300px;
+              max-height: 100px;
             }
             .dark .hero-stats-link-row {
               border-color: rgba(255,255,255,0.08);
@@ -290,7 +290,7 @@ sections:
                 </div>
               </div>
               <div class="hero-links-double">
-                <a class="hero-link-card" href="https://calendly.com/hamidi/intro" target="_blank" rel="noopener">
+                <a class="hero-link-card" href="https://calendly.com/khaledhamidi/intro" target="_blank" rel="noopener">
                   <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="Meet icon">
                   <div class="hero-link-text">
                     <strong>Book Intro Call</strong>
