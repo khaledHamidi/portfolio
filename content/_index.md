@@ -315,14 +315,14 @@ sections:
               </div>
               <div class="hero-links-double">
                 <a class="hero-link-card" href="http://facebook.com/ar.robotech/" target="_blank" rel="noopener">
-                  <img src="/media/robotech.jpg" alt="Robotech team">
+                  <img src="/uploads/robotech.jpg" alt="Robotech team">
                   <div class="hero-link-text">
                     <strong>Robotech Team</strong>
                     <span>Robotics education & community</span>
                   </div>
                 </a>
                 <a class="hero-link-card" href="#" target="_blank" rel="noopener">
-                  <img src="/media/تميز.png" alt="Tamayuz partner">
+                  <img src="/uploads/تميز.png" alt="Tamayuz partner">
                   <div class="hero-link-text">
                     <strong>Tamayuz Partnership</strong>
                     <span>Strategic partner in academic studies & research</span>
