@@ -83,23 +83,7 @@ sections:
                   <a href="https://linkedin.com/in/enghamidi" style="background: #0a66c2;">LinkedIn</a>
               </div>
             </div>
-              <div class="hero-stats">
-                <div class="hero-stat-strip">
-                  <div class="hero-stat-card purple">
-                    <h4>30+</h4>
-                    <p>Projects</p>
-                  </div>
-                  <div class="hero-stat-card pink">
-                    <h4>2+</h4>
-                    <p>Clients</p>
-                  </div>
-                  <div class="hero-stat-card cyan">
-                    <h4>3+</h4>
-                    <p>Open Source</p>
-                  </div>
-              </div>
-            </div>
-              <div style="flex: 2 1 520px; align-self: stretch; display: flex;">
+            <div style="flex: 2 1 520px; align-self: stretch; display: flex;">
               <style>
                 .hero-slider-shell { position: relative; width: 100%; height: 100%; border-radius: 24px; overflow: hidden; box-shadow: 0 35px 80px rgba(7,10,18,0.45); }
                 .hero-slider-window { width: 100%; height: 100%; overflow: hidden; }
@@ -187,19 +171,28 @@ sections:
           <style>
             .hero-stats-link-section { background: #f8f9ff; }
             .dark .hero-stats-link-section { background: #050712; }
-            .hero-stats-link-shell { max-width: 1400px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem; }
+            .hero-stats-link-shell {
+              max-width: 1400px;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              gap: 0.75rem;
+              height: 300px;
+              max-height: 300px;
+            }
             .hero-stats-link-row {
               display: flex;
               align-items: center;
               justify-content: space-between;
               gap: 1.1rem;
               flex-wrap: wrap;
-              padding: 0.85rem 1.1rem;
+              padding: 0.75rem 1rem;
               border-radius: 20px;
               border: 1px solid rgba(15,23,42,0.08);
               background: rgba(255,255,255,0.85);
               box-shadow: 0 18px 40px rgba(15,23,42,0.08);
-              max-height: 100px;
+              flex: 1 1 0;
+              min-height: 0;
             }
             .dark .hero-stats-link-row {
               border-color: rgba(255,255,255,0.08);
@@ -221,6 +214,7 @@ sections:
               width: 100%;
             }
             @media (max-width: 960px) {
+              .hero-stats-link-shell { height: auto; }
               .hero-links-double { grid-template-columns: 1fr; }
             }
             .hero-link-card {
