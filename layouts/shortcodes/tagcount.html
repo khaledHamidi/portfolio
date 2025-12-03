@@ -1,0 +1,6 @@
+{{ $name := .Get "name" }}
+{{- with index site.Taxonomies.tags $name -}}
+{{ len .Pages }}
+{{- else -}}
+0
+{{- end -}}
