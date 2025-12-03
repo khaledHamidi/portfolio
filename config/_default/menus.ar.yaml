@@ -14,11 +14,11 @@ main:
     url: certificates/
     weight: 30
 
-  - name: المدونة
+  - name: المنشورات
     url: blog/
     weight: 35
 
-  - name: الأعمال
+  - name: التصنيفات
     url: tags/
     weight: 40
 
