@@ -8,6 +8,7 @@ authors:
 tags:
   - desktop
   - networking
+  - featured
 rtl: true
 ---
 

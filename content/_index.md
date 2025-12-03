@@ -45,38 +45,27 @@ sections:
                 </div>
               </div>
             </div>
-            <div style="flex: 1.4 1 360px; min-height: 400px; display: flex; flex-direction: column; gap: 0.9rem;">
+            <div style="flex: 2 1 520px; align-self: stretch; display: flex;">
               <style>
-                .hero-slider-shell { position: relative; width: 100%; }
-                .hero-slider-window { overflow: hidden; border-radius: 18px; box-shadow: 0 25px 65px rgba(5,6,10,0.45); }
-                .hero-slider-track { display: flex; transition: transform 0.65s cubic-bezier(0.4,0.15,0.2,1); }
-                .hero-slider-slide { min-width: 100%; position: relative; }
-                .hero-slider-image { width: 100%; padding-top: 58%; background-size: cover; background-position: center; position: relative; }
-                .hero-slider-image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(4,5,10,0.05) 0%, rgba(4,5,10,0.8) 100%); }
-                .hero-slider-text { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; padding: 1.4rem; color: #fff; z-index: 1; }
-                .hero-slider-text h4 { margin: 0; font-size: 1.3rem; letter-spacing: 0.02em; }
-                .hero-slider-text p { margin: 0.3rem 0 0; font-size: 0.95rem; color: rgba(255,255,255,0.85); }
-                .hero-slider-nav { display: flex; gap: 0.5rem; }
-                .hero-slider-btn { width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.35); background: rgba(11,13,22,0.8); color: #fff; cursor: pointer; font-size: 1.2rem; transition: background 0.2s ease; }
-                .hero-slider-btn:hover { background: rgba(255,255,255,0.15); }
-                .hero-slider-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.8rem; }
-                .hero-slider-head h3 { margin: 0; font-size: 1.5rem; color: #0f111a; }
-                .hero-slider-head p { margin: 0.25rem 0 0 0; font-size: 0.92rem; color: #5a5f6f; max-width: 320px; }
+                .hero-slider-shell { position: relative; width: 100%; height: 100%; border-radius: 24px; overflow: hidden; box-shadow: 0 35px 80px rgba(7,10,18,0.45); }
+                .hero-slider-window { width: 100%; height: 100%; overflow: hidden; }
+                .hero-slider-track { display: flex; height: 100%; transition: transform 0.6s cubic-bezier(0.42,0.05,0.2,1); }
+                .hero-slider-slide { min-width: 100%; height: 100%; position: relative; }
+                .hero-slider-image { width: 100%; height: 100%; background-size: cover; background-position: center; position: relative; }
+                .hero-slider-image::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.18), transparent 50%), linear-gradient(180deg, rgba(4,5,10,0.05) 0%, rgba(4,5,10,0.85) 100%); }
+                .hero-slider-text { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; padding: 1.85rem; color: #fff; z-index: 1; }
+                .hero-slider-text h4 { margin: 0; font-size: 1.5rem; letter-spacing: 0.03em; }
+                .hero-slider-text p { margin: 0.35rem 0 0; font-size: 1rem; color: rgba(255,255,255,0.88); }
+                .hero-slider-btn { position: absolute; top: 1.6rem; right: 1.2rem; width: 46px; height: 46px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.35); background: rgba(6,8,12,0.78); color: #fff; cursor: pointer; font-size: 1.35rem; z-index: 2; transition: background 0.2s ease, transform 0.2s ease; }
+                .hero-slider-btn--prev { right: 4.6rem; }
+                .hero-slider-btn:hover { background: rgba(255,255,255,0.25); transform: translateY(-2px); }
                 @media (max-width: 960px) {
-                  .hero-slider-head { flex-direction: column; align-items: flex-start; }
+                  .hero-slider-shell { min-height: 360px; }
                 }
               </style>
-              <div class="hero-slider-head">
-                <div>
-                  <h3>Featured Projects</h3>
-                  <p>Auto curated work samples with immersive visuals.</p>
-                </div>
-                <div class="hero-slider-nav">
-                  <button class="hero-slider-btn" data-hero-slider-prev aria-label="Previous project">&#10094;</button>
-                  <button class="hero-slider-btn" data-hero-slider-next aria-label="Next project">&#10095;</button>
-                </div>
-              </div>
               <div class="hero-slider-shell" id="hero-featured-slider">
+                <button class="hero-slider-btn hero-slider-btn--prev" data-hero-slider-prev aria-label="Previous project">&#10094;</button>
+                <button class="hero-slider-btn" data-hero-slider-next aria-label="Next project">&#10095;</button>
                 <div class="hero-slider-window">
                   <div class="hero-slider-track" data-hero-slider-track>
                     <a class="hero-slider-slide" data-hero-slide href="/projects/pharmacy/">

@@ -61,4 +61,3 @@ Highlights from Khaled’s valedictory speech at Karabuk University, 17 May 2025
 
 
 | ![img1](/tech-honor/2.jpg) | ![img2](/tech-honor/3.jpg) |
-| ![img3](/tech-honor/4.jpg)

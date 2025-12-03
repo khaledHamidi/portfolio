@@ -10,6 +10,7 @@ description: "A smart approach for real-time inspection and selection of objects
 tags: 
   - robotics
   - research
+  - featured
 ---
 
 

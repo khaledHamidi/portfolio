@@ -9,6 +9,7 @@ tags:
   - iot
   - automation
   - hardware
+  - featured
 ---
 The European Car Wash Control System project aims to develop a comprehensive software application in C# that allows users to efficiently manage and control the operations of car wash facilities. This system focuses on providing an intuitive user interface along with advanced features for managing car wash processes.
  

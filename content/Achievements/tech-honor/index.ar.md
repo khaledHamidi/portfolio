@@ -62,6 +62,5 @@ reading_time: 2
 <div dir="rtl" style="text-align: center;">
 
 | ![img1](/tech-honor/2.jpg) | ![img2](/tech-honor/3.jpg) |  
-| ![img3](/tech-honor/4.jpg) |
 
 </div>
