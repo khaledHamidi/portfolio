@@ -39,10 +39,12 @@
           </div>
         {{ end }}
 
+        {{ $rawTitle := $item.Title | plainify | replaceRE "\s+" " " | strings.TrimSpace }}
+        {{ $displayTitle := truncate 55 $rawTitle }}
         <div class="p-6">
           <h3 class="text-base font-semibold text-gray-800 dark:text-white"
-              style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-            {{ $item.Title }}
+              style="display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+            {{ $displayTitle }}
           </h3>
         </div>
 
