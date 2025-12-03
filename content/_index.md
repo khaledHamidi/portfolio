@@ -133,14 +133,13 @@ sections:
           - projects
         tags:
           - featured
-      count: 5
+      count: 3
     design:
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: [20px, 0, 0, 0]
       view: showcase
       columns: '1'
 
-  # Section D: Other Sections
   - block: accomplishments
     content:
       title: 'Latest Achievements'
