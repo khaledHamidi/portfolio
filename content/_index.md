@@ -72,10 +72,10 @@ sections:
                   <p style="font-size: 0.88rem;">Intelligent Systems Architect</p>
               </div>
                 <div style="display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 1rem;">
-                  <div class="hero-meta-row"><span>Location</span><strong>Doha · Remote</strong></div>
-                  <div class="hero-meta-row"><span>Experience</span><strong>7+ years</strong></div>
-                  <div class="hero-meta-row"><span>Focus</span><strong>Robotics · AI · IoT</strong></div>
-                  <div class="hero-meta-row"><span>Availability</span><strong>Consulting & R&D</strong></div>
+                  <div class="hero-meta-row"><span>Location</span><strong>Syria · Remote</strong></div>
+                  <div class="hero-meta-row"><span>Experience</span><strong>9+ years</strong></div>
+                  <div class="hero-meta-row"><span>Focus</span><strong>Robotics · AI</strong></div>
+                  <div class="hero-meta-row"><span>Availability</span><strong>Consulting, develop R&D</strong></div>
               </div>
                 <div class="hero-links">
                   <a href="mailto:hamidi@engineer.com" style="background: linear-gradient(135deg, #6c63ff 0%, #8f7afa 100%);">Email</a>
@@ -283,7 +283,7 @@ sections:
               <div class="hero-stats hero-stats--single">
                 <div class="hero-stat-strip">
                   <div class="hero-stat-card pink">
-                    <h4>2+</h4>
+                    <h4>40+</h4>
                     <p>Clients</p>
                   </div>
                 </div>
@@ -309,7 +309,7 @@ sections:
               <div class="hero-stats hero-stats--single">
                 <div class="hero-stat-strip">
                   <div class="hero-stat-card cyan">
-                    <h4>3+</h4>
+                    <h4>three</h4>
                     <p>Brand Partners</p>
                   </div>
                 </div>
@@ -343,7 +343,7 @@ sections:
           /* Compact card sizing */
           .grid > a[href*="/projects/"],
           .grid > a[href*="/achievements/"] {
-            min-height: 240px !important;
+            min-height: 100px !important;
             max-height: 280px !important;
           }
           .grid > a[href*="/projects/"] > div:first-of-type,
@@ -427,7 +427,7 @@ sections:
       count: 6
     design:
       spacing:
-        padding: ['2rem', 0, '3rem', 0]
+        padding: ['0rem', 0, '0rem', 0]
       view: compact
       columns: '2'
 ---

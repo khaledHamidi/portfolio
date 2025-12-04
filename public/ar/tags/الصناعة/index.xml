@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الصناعة | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A9/</link><atom:link href="http://localhost:1313/ar/tags/%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A9/index.xml" rel="self" type="application/rss+xml"/><description>الصناعة</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>الصناعة</title><link>http://localhost:1313/ar/tags/%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A9/</link></image><item><title>نظام إدارة ميزان أرضي رقمي</title><link>http://localhost:1313/ar/projects/zoomce/</link><pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoomce/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
+&lt;p>طوّر المهندس &lt;strong>خالد حميدي&lt;/strong> نظامًا رقميًا مخصصًا لصالح إحدى شركات إعادة التدوير بهدف تحسين دقة وكفاءة قياس أوزان الشاحنات والمركبات عبر ميزان أرضي صناعي.&lt;/p>
+&lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>ميزان أرضي رقمي&lt;/strong> متصل بالحاسوب عبر منفذ تسلسلي (Serial Port).&lt;/li>
+&lt;li>&lt;strong>تطبيق مكتبي بلغة C#&lt;/strong> يقرأ البيانات فورًا من الميزان ويعالجها.&lt;/li>
+&lt;li>&lt;strong>واجهة استخدام رسومية&lt;/strong> لعرض الوزن والتعامل مع العمليات اليومية.&lt;/li>
+&lt;li>&lt;strong>طباعة فواتير&lt;/strong> وإيصالات دخول وخروج المركبات.&lt;/li>
+&lt;li>&lt;strong>أرشفة يومية/شهرية&lt;/strong> للأوزان والمعاملات على شكل ملف Excel.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ميزات-رئيسية">ميزات رئيسية&lt;/h2>
+&lt;ul>
+&lt;li>🧾 قراءة الوزن أوتوماتيكيًا من الميزان&lt;/li>
+&lt;li>🔄 تحديث مباشر للبيانات من الأجهزة الموصولة&lt;/li>
+&lt;li>💾 حفظ البيانات بأمان مع إمكانية التصدير&lt;/li>
+&lt;li>🖨️ طباعة الفواتير بتنسيق احترافي&lt;/li>
+&lt;li>📊 تقارير شاملة بإحصائيات يومية وشهرية وسنوية&lt;/li>
+&lt;/ul>
+&lt;h2 id="الأثر">الأثر&lt;/h2>
+&lt;p>ساهم النظام في:&lt;/p>
+&lt;ul>
+&lt;li>تسريع عملية الوزن&lt;/li>
+&lt;li>تقليل التلاعب البشري&lt;/li>
+&lt;li>ضمان الدقة المحاسبية&lt;/li>
+&lt;li>تحسين أرشفة وأمان البيانات&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&amp;ldquo;كل غرام محسوب، وكل شاحنة موثّقة.. النظام سهّل كل شيء.&amp;rdquo; — أحد مستخدمي النظام&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="صور-من-النظام">صور من النظام&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/gallery/blob/main/ground-scale/g2.png?raw=true" alt="واجهة البرنامج" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>📎
+&lt;/p></description></item></channel></rss>

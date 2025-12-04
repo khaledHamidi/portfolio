@@ -1,0 +1,3 @@
+# Exclude todo folder from version control
+todo/
+server

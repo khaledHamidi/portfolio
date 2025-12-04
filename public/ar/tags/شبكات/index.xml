@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>شبكات | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link><atom:link href="http://localhost:1313/ar/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><description>شبكات</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Mon, 12 Jun 2023 12:00:00 +0300</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>شبكات</title><link>http://localhost:1313/ar/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link></image><item><title>Local Guide | نظام ملاحة ذكي للروبوتات الذاتية</title><link>http://localhost:1313/ar/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/window-control-system/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
+&lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
+تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
+&lt;p>يرتكز النظام على الاتصال بخادم إشارات عبر واجهة برمجة تطبيقات (API) لتلقّي بيانات لحظية حول موقع الروبوت والبيئة المحيطة به، ما يمكّن من اتخاذ قرارات ذكية حول التنقل والمسار.&lt;/p>
+&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
+&lt;ul>
+&lt;li>🔍 &lt;strong>تخطيط المسار بالذكاء الاصطناعي&lt;/strong>: تحليل البيئة المحيطة لتحديد أفضل طريق ممكن وتفادي العوائق وتقليل الوقت المستغرق.&lt;/li>
+&lt;li>🛰️ &lt;strong>تكامل مع خادم إشارات&lt;/strong>: استقبال بيانات الموقع والمجسّات بشكل مباشر ولحظي.&lt;/li>
+&lt;li>🔄 &lt;strong>اتصال API فعّال&lt;/strong>: تبادل بيانات لحظي مع خادم الإشارات لتحديث موقع الروبوت واستجابته.&lt;/li>
+&lt;li>🚧 &lt;strong>تفادي العوائق&lt;/strong>: اعتماد خوارزميات ذكية لتجنّب التصادم مع العقبات المتغيرة.&lt;/li>
+&lt;li>🔁 &lt;strong>قابلية التوسعة والتكيّف&lt;/strong>: تصميم مرن يناسب تطبيقات مختلفة من التنقل الداخلي وحتى الاستكشاف الخارجي.&lt;/li>
+&lt;/ul>
+&lt;h2 id="نتائج-المشروع">نتائج المشروع&lt;/h2>
+&lt;p>برهن مشروع Local Guide على فعالية دمج الذكاء الاصطناعي مع Python في تطوير حلول ملاحة مستقلة.&lt;br>
+وتميّز النظام بدقته وسرعة استجابته، مما يجعله مناسبًا لمجالات متعدّدة تشمل الأتمتة الصناعية والخدمات اللوجستية.&lt;/p>
+&lt;p>تصميمه المعياري يتيح تطويره مستقبلًا وتخصيصه لسيناريوهات مختلفة، مما يجعله مثالًا على تكامل التكنولوجيا الحديثة لحل تحديات واقعية في عالم الروبوتات.&lt;/p>
+&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
+&lt;p>حصل المشروع على تقييم ممتاز من العميل، بـ 5 نجوم في جميع الجوانب:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>المعيار&lt;/th>
+&lt;th>التقييم&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>الاحترافية في التعامل&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>التواصل والمتابعة&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>جودة العمل المنجَز&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الخبرة في مجال المشروع&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الالتزام بموعد التسليم&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الرغبة بالتعامل مستقبلًا&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>
+&lt;figure id="figure-تقييم-ممتاز-لمشروع-نظام-التحكم-في-النوافذ">
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://mostaql.hsoubcdn.com/reviews/598503/review-684980-6026465-og.png?v=9be959de2d6f14767801cc04ba33f4c8" alt="تقييم المشروع" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+تقييم ممتاز لمشروع نظام التحكم في النوافذ
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>📎
+&lt;/p>
+&lt;/div></description></item><item><title>برنامج لمشاركة الإنترنت من الحاسوب إلى الهواتف – حل لمشكلة عامة</title><link>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
+&lt;p>في خضمّ الحرب الدائرة في بلده، كانت خدمات الإنترنت شبه معدومة، الأمر الذي دفع &lt;strong>المهندس خالد حميدي&lt;/strong> إلى ابتكار برنامج بسيط يحوّل الحاسوب إلى نقطة اتصال لاسلكي (Hotspot) توزّع الإنترنت على الهواتف القريبة.&lt;/p>
+&lt;h2 id="من-الفكرة-إلى-التطبيق">من الفكرة إلى التطبيق&lt;/h2>
+&lt;ul>
+&lt;li>انطلقت الفكرة بسبب انقطاع الشبكة وصعوبة الوصول إلى أجهزة الراوتر.&lt;/li>
+&lt;li>بدأ خالد بتعلّم أساسيات الشبكات وواجهات برمجة Windows.&lt;/li>
+&lt;li>استخدم لغة ‎C#‎ وواجهة WMI لإنشاء واجهة رسومية تتحكم بالشبكة.&lt;/li>
+&lt;li>الإصدار الأول دعم تحويل أي نوع اتصال إلى شبكة Wi-Fi بنقرة واحدة.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&amp;ldquo;كان التحدي الأكبر هو ضمان الثبات مع أقل استهلاك للموارد.&amp;rdquo; — خالد&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="الانتشار-والتأثير">الانتشار والتأثير&lt;/h2>
+&lt;ul>
+&lt;li>خلال السنة الأولى، وصل عدد التنزيلات إلى 3000+.&lt;/li>
+&lt;li>التطبيق أصبح شائعًا في المناطق المحاصرة لتوفير اتصال جماعي بتكلفة منخفضة.&lt;/li>
+&lt;li>دعم أنظمة Windows: XP, 7, 8, 8.1, 10&lt;/li>
+&lt;li>توفّر باللغتين: العربية والإنجليزية&lt;/li>
+&lt;/ul>
+&lt;h2 id="من-مشروع-شخصي-إلى-ميزة-رسمية">من مشروع شخصي إلى ميزة رسمية&lt;/h2>
+&lt;p>بعد نجاح التطبيق، اقترح خالد فكرته على منتدى مطوري Microsoft، وتم دمج ميزة Mobile Hotspot في Windows 10 الإصدار 1703.&lt;/p>
+&lt;h2 id="معرض-الصور">معرض الصور&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/gallery/blob/main/zwh/2.jpg?raw=true" alt="صورة للبرنامج" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
+&lt;ul>
+&lt;li>متوافق مع جميع إصدارات Windows&lt;/li>
+&lt;li>مجاني بالكامل&lt;/li>
+&lt;li>تصميم خفيف يدعم الأجهزة الضعيفة&lt;/li>
+&lt;/ul>
+&lt;h2 id="دروس-مستفادة">دروس مستفادة&lt;/h2>
+&lt;ol>
+&lt;li>الابتكار يولد من الحاجة&lt;/li>
+&lt;li>التعلم الذاتي يفتح الآفاق&lt;/li>
+&lt;li>مشاركة المعرفة تطور المشاريع&lt;/li>
+&lt;li>فكر عالميًا ولو بدأت محليًا&lt;/li>
+&lt;/ol>
+&lt;h2 id="حمل-التطبيق">حمّل التطبيق&lt;/h2>
+&lt;p>📎
+&lt;/p></description></item></channel></rss>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>شهادات | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA/</link><atom:link href="http://localhost:1313/ar/tags/%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><description>شهادات</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Sun, 22 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>شهادات</title><link>http://localhost:1313/ar/tags/%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA/</link></image><item><title>الشهادات والتكريم</title><link>http://localhost:1313/ar/certificates/</link><pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/certificates/</guid><description>&lt;style>
+.cert-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 1rem;
+direction: rtl; /* يضبط اتجاه الجدول كله */
+}
+.cert-table thead th {
+padding: 0.6rem;
+text-align: right;
+border-bottom: 2px solid #555;
+direction: rtl;
+}
+.cert-table td {
+padding: 0.8rem;
+vertical-align: top;
+border-bottom: 1px solid #333;
+text-align: right;
+direction: rtl;
+}
+.cert-table img {
+max-width: 180px;
+height: auto;
+border-radius: 4px;
+display: block;
+margin: auto;
+}
+@media (max-width: 600px) {
+.cert-table img {
+max-width: 120px;
+}
+}
+&lt;/style>
+&lt;div dir="rtl" style="text-align: justify; direction: rtl;">
+يضمّ هذا المعرض شهادات في مجالات الأمن السيبراني، تحليل البيانات، الذكاء الاصطناعي، الأنظمة المدمجة، الروبوتات، الطاقة المتجددة، القيادة، والبحث العلمي.
+&lt;/div>
+&lt;div dir="rtl" style="direction: rtl; text-align: justify;">
+&lt;h2 id="-مشاركات-أكاديمية-وصناعية">🏛️ مشاركات أكاديمية وصناعية&lt;/h2>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_17.jpg">&lt;img src="http://localhost:1313/certificates/cer_17.jpg" alt="ICENSOS">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>ICENSOS 2024 – تركيا&lt;/strong>&lt;br>مشاركة بحثية وتقديم شفهي بمؤتمر علمي – 16-17/05/2024.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_2.jpg">&lt;img src="http://localhost:1313/certificates/cer_2.jpg" alt="Al-Qistas">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>تدريب صناعي – Al-Qistas&lt;/strong>&lt;br>سنتان من التطبيق العملي – 05-2020.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h2 id="-شهادات-تقنية-وصناعية">🔧 شهادات تقنية وصناعية&lt;/h2>
+&lt;h3 id="-أمن-سيبراني-وتحليل-بيانات">🛡️ أمن سيبراني وتحليل بيانات&lt;/h3>
+&lt;table class="cert-table" dir="rtl">
+&lt;thead>&lt;tr>&lt;th>الشهادة&lt;/th>&lt;th>الوصف&lt;/th>&lt;/tr>&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_1.jpg">&lt;img src="http://localhost:1313/certificates/cer_1.jpg" alt="Cyber Security">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>أمن سيبراني – Oxford HSC&lt;/strong>&lt;br>دورة معتمدة في حماية الأنظمة والمعلومات – 16-09-2023.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_4.jpg">&lt;img src="http://localhost:1313/certificates/cer_4.jpg" alt="Data Analysis">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>تحليل البيانات – Oxford HSC&lt;/strong>&lt;br>دبلوم مكثف في استخدام أدوات التحليل – 24-07-2023.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_6.jpg">&lt;img src="http://localhost:1313/certificates/cer_6.jpg" alt="Cyber Security Karabuk">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>مؤتمر حول الأمن السبراني – الإدارة العامة لشؤون الصحة والثقافة والرياضة&lt;/strong>&lt;br>مشاركة في مؤتمر جامعي بمجال الأمن السيبراني – 23-03-2022.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_9.jpg">&lt;img src="http://localhost:1313/certificates/cer_9.jpg" alt="Intro to Cyber Security">&lt;/a>&lt;/td>
+&lt;td>&lt;strong> كورس في الأمن السيبراني – جامعة كارابوك&lt;/strong>&lt;br>على امتداد 14 اسبوع مع واجبات وأختبارات.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="-الذكاء-الاصطناعي-والمركبات-الذاتية">🚗 الذكاء الاصطناعي والمركبات الذاتية&lt;/h3>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_3.jpg">&lt;img src="http://localhost:1313/certificates/cer_3.jpg" alt="Self-Driving Cars">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>المركبات ذاتية القيادة – University of Toronto&lt;/strong>&lt;br>البرمجة والإدراك للمركبات ذاتية القيادة – 06-04-2024.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h3 id="-الطاقة-والأنظمة-الكهروضوئية">☀️ الطاقة والأنظمة الكهروضوئية&lt;/h3>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_5.jpg">&lt;img src="http://localhost:1313/certificates/cer_5.jpg" alt="PV Systems">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>أنظمة شمسية – On-Grid PV&lt;/strong>&lt;br>ورشة عمل تطبيقية – 08-09-2020.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h3 id="-البرمجة-والتصميم">🧩 البرمجة والتصميم&lt;/h3>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_13.jpg">&lt;img src="http://localhost:1313/certificates/cer_13.jpg" alt="Arduino">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>برمجة الأردوينو – إدراك&lt;/strong>&lt;br>أساسيات التحكم الدقيق – 07-2020.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_10.jpg">&lt;img src="http://localhost:1313/certificates/cer_10.jpg" alt="Basic Program">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>كورس في لغة برمجة R&lt;/strong>&lt;br>كورس في لغة R يركّز على تحليل البيانات والأساليب الإحصائية باستخدام R.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_11.jpg">&lt;img src="http://localhost:1313/certificates/cer_11.jpg" alt="Web Design">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>تصميم المواقع – جامعة كارابوك&lt;/strong>&lt;br>تصميم المواقع وبرمجتها.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h2 id="-القيادة-وريادة-الأعمال">🧠 القيادة وريادة الأعمال&lt;/h2>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_7.jpg">&lt;img src="http://localhost:1313/certificates/cer_7.jpg" alt="Entrepreneurship">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>ريادة الأعمال – منصة فرصة&lt;/strong>&lt;br>برنامج تدريبي لتأسيس المشاريع – 09-05-2021.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_8.jpg">&lt;img src="http://localhost:1313/certificates/cer_8.jpg" alt="Leadership">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>القيادة المستقبلية – Karabük&lt;/strong>&lt;br>مهارات التأثير وبناء فرق العمل.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h2 id="-البحث-العلمي-والدعم-الجامعي">🧪 البحث العلمي والدعم الجامعي&lt;/h2>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/kbu-rector-tesekkur-belgesi.jpg">&lt;img src="http://localhost:1313/certificates/kbu-rector-tesekkur-belgesi.jpg" alt="Tubitak">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>شهادة شكر من رئيس الجامعة&lt;/strong>&lt;br>مساهمة بحثية ضمن مشروع مدعوم من TÜBİTAK – 2023.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_12.jpg">&lt;img src="http://localhost:1313/certificates/cer_12.jpg" alt="Tubitak Approval">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>دعم مشروع منصة روبوتية ذاتية القيادة متعددة الأغراض – TÜBİTAK&lt;/strong>&lt;br>خطاب قبول دعم رسمي – 22-03-2024.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h2 id="-مهارات-تقنية-ولغوية">🌐 مهارات تقنية ولغوية&lt;/h2>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_15.jpg">&lt;img src="http://localhost:1313/certificates/cer_15.jpg" alt="Word Specto">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>معالجة النصوص&lt;/strong>&lt;br>شهادة إتمام مساق – 07-2020.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_16.jpg">&lt;img src="http://localhost:1313/certificates/cer_16.jpg" alt="Google Analytics">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>Google Analytics&lt;/strong>&lt;br>شهادة صالحة حتى.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_14.jpg">&lt;img src="http://localhost:1313/certificates/cer_14.jpg" alt="English Test">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>اختبار اللغة الإنجليزية – 72%&lt;/strong>&lt;br>اختبار مستوى تم بتاريخ 29-11-2024.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;/div></description></item></channel></rss>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Client-Work | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/tags/client-work/</link><atom:link href="http://localhost:1313/tags/client-work/index.xml" rel="self" type="application/rss+xml"/><description>Client-Work</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Jun 2023 12:00:00 +0300</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>Client-Work</title><link>http://localhost:1313/tags/client-work/</link></image><item><title>Local Guide</title><link>http://localhost:1313/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/projects/window-control-system/</guid><description>&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>The &amp;ldquo;Local Guide&amp;rdquo; project aims to develop an intelligent navigation system for autonomous robots using artificial intelligence (AI) and a beacon server. The system leverages Python to create a robust algorithm that determines the optimal path for the robot to reach its destination, in this case, a parking lot.&lt;/p>
+&lt;p>The project&amp;rsquo;s core component is a Python-based system that communicates with a beacon server via an API. The beacon server provides real-time data on the robot&amp;rsquo;s location and the surrounding environment, enabling the Python system to calculate the most efficient route to the parking lot.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>AI-powered Path Planning&lt;/strong>: The Python system utilizes artificial intelligence algorithms to analyze the environmental data from the beacon server and determine the optimal path for the robot to reach the parking lot while avoiding obstacles and minimizing travel time.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Beacon Server Integration&lt;/strong>: The system seamlessly integrates with a beacon server, which acts as a central hub for tracking the robot&amp;rsquo;s location and gathering environmental data from various sensors and beacons.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>API Communication&lt;/strong>: The Python system communicates with the beacon server via a well-defined API, enabling efficient data exchange and real-time updates on the robot&amp;rsquo;s location and surroundings.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Obstacle Avoidance&lt;/strong>: The AI algorithms take into account potential obstacles along the path, allowing the robot to navigate safely and efficiently through dynamic environments.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Scalability and Adaptability&lt;/strong>: The system is designed to be scalable and adaptable, making it suitable for deployment in various scenarios and environments, from indoor navigation to outdoor exploration.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="project-outcome">Project Outcome&lt;/h2>
+&lt;p>The &amp;ldquo;Local Guide&amp;rdquo; project successfully demonstrated the power of artificial intelligence and Python programming in developing intelligent navigation systems for autonomous robots. The system&amp;rsquo;s ability to leverage real-time data from the beacon server and calculate optimal paths has proven to be a valuable asset in enhancing the efficiency and autonomy of robotic navigation.&lt;/p>
+&lt;p>With its modular design and scalability, the &amp;ldquo;Local Guide&amp;rdquo; system has the potential to be adapted for various applications, from industrial automation to logistics and transportation. The project showcases the possibilities of combining cutting-edge technologies like AI, Python programming, and beacon servers to solve complex navigation challenges.&lt;/p>
+&lt;p>The client provided an excellent review , rating it 5 stars across various aspects:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Criteria&lt;/th>
+&lt;th>Rating&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Professionalism in dealing&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Communication and follow-up&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Quality of work delivered&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Experience in the project field&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Delivery on time&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Deal with him again&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>
+&lt;figure id="figure-excellent-rating-for-the-window-control-system-project">
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://mostaql.hsoubcdn.com/reviews/598503/review-684980-6026465-og.png?v=9be959de2d6f14767801cc04ba33f4c8" alt="Project Rating" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Excellent rating for the Window Control System project
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>For more details about this project, please visit the
+.&lt;/p></description></item><item><title>Window Control System</title><link>http://localhost:1313/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/projects/window-control-system/</guid><description>&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This project involved designing and implementing a window control system to protect homes from dust and sand during sandstorms, a common occurrence in Saudi Arabia. The system works by automatically closing the windows when a sandstorm is detected, preventing dust and sand from entering the home.&lt;/p>
+&lt;p>The system comprises sensors to detect sandstorms and a motor mechanism to open and close the windows. It also includes a notification feature that sends short messages to the homeowner&amp;rsquo;s phone when a sandstorm is detected and the windows are being closed.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Sandstorm detection sensors&lt;/li>
+&lt;li>Automated window opening and closing mechanism&lt;/li>
+&lt;li>Real-time notification system for homeowners&lt;/li>
+&lt;li>Energy-efficient and low-maintenance design&lt;/li>
+&lt;/ul>
+&lt;h2 id="project-outcome">Project Outcome&lt;/h2>
+&lt;p>The project was successfully completed, and the client in Saudi Arabia was highly satisfied with the results. The window control system received an excellent rating for its effectiveness in protecting homes from sandstorms and its user-friendly features.&lt;/p>
+&lt;h2 id="client-review">Client Review&lt;/h2>
+&lt;p>The client provided an excellent review for the Window Control System project, rating it 5 stars across various aspects:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Criteria&lt;/th>
+&lt;th>Rating&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Professionalism in dealing&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Communication and follow-up&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Quality of work delivered&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Experience in the project field&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Delivery on time&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Deal with him again&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>
+&lt;figure id="figure-excellent-rating-for-the-window-control-system-project">
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="window-control-system-rating.jpg" alt="Project Rating" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Excellent rating for the Window Control System project
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>For more details about this project, please visit the
+.&lt;/p></description></item></channel></rss>

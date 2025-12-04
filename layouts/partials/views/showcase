@@ -1,0 +1,25 @@
+{{/* Showcase view - single item */}}
+{{ $item := .item }}
+{{ $link := $item.RelPermalink }}
+
+<article class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+  {{ with partial "functions/get_featured_image.html" $item }}
+    {{ $src := . }}
+    {{ with .RelPermalink }}{{ $src = . }}{{ end }}
+    <a href="{{ $link }}" class="block relative h-64 overflow-hidden">
+      <img src="{{ $src }}" alt="{{ $item.Title }}" 
+           class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    </a>
+  {{ end }}
+  <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+    <h3 class="text-xl font-bold mb-2">
+      <a href="{{ $link }}" class="hover:text-primary-300">
+        {{ $item.Title | markdownify | emojify }}
+      </a>
+    </h3>
+    {{ with $item.Summary }}
+      <p class="text-sm text-gray-200 line-clamp-2">{{ . }}</p>
+    {{ end }}
+  </div>
+</article>

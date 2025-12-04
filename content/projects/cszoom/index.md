@@ -1,7 +1,7 @@
 ---
 title: COUNTER-STRIKE ZOOM
 summary: Custom version of Counter Strike 1.6
-date: 206-02-01
+date: 2016-02-01
 draft: false
 authors:
   - admin

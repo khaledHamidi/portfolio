@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>بحث علمي | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%A8%D8%AD%D8%AB-%D8%B9%D9%84%D9%85%D9%8A/</link><atom:link href="http://localhost:1313/ar/tags/%D8%A8%D8%AD%D8%AB-%D8%B9%D9%84%D9%85%D9%8A/index.xml" rel="self" type="application/rss+xml"/><description>بحث علمي</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>بحث علمي</title><link>http://localhost:1313/ar/tags/%D8%A8%D8%AD%D8%AB-%D8%B9%D9%84%D9%85%D9%8A/</link></image><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تصميم-وتصنيع-آلة-تعبئة-كهربائية-هوائية-مفتوحة-المصدر-للمواد-الحبيبية-بكميات-ثابتة">تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة&lt;/h2>
+&lt;p>تُقدّم هذه الدراسة نموذجًا مبتكرًا لآلة تعبئة ذكية لا تعتمد على الحساسات لضبط الكمية، بل تستند إلى آلية ميكانيكية دقيقة تقوم برفع الحاوية وملئها بكميات محددة تصل حتى 250 مل، مما يجعلها مثالية للمواد الخشنة أو الحبيبية.&lt;br>
+تم تطوير النظام باستخدام مكوّنات كهربائية-هوائية، حيث تُدار حركة الأسطوانة من خلال صمام كهرومغناطيسي (Solenoid Valve)، ويتحكم بها متحكم أردوينو مع حساس IR وسير ناقل (Conveyor Belt) يعمل بمحرك تيار مستمر (DC Motor).&lt;/p>
+&lt;p>تتميّز الآلة بسهولة الإنتاج باستخدام طابعة ثلاثية الأبعاد بمساحة 200x200 مم، مع إمكانية تخصيص التصميم ليناسب متطلبات متنوعة.&lt;br>
+تُعدّ الطبيعة المفتوحة للمشروع دعوةً للمجتمع التقني للمساهمة في تحسينه وتطويره، بما يدعم بيئة ابتكار مستمرة في أنظمة التعبئة الآلية.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>الجهة الناشرة:&lt;/strong> المجلة الدولية لعلوم الطبيعة والهندسة المتقدمة&lt;/li>
+&lt;li>&lt;strong>السنة:&lt;/strong> 2024&lt;/li>
+&lt;li>&lt;strong>المجلد:&lt;/strong> 8&lt;/li>
+&lt;li>&lt;strong>العدد:&lt;/strong> 4&lt;/li>
+&lt;li>&lt;strong>الصفحات:&lt;/strong> 122–128&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="رابط-البحث">رابط البحث&lt;/h2>
+&lt;p>
+&lt;/p>
+&lt;/div></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1313/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/4dof-robotic-arm/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تصنيف-وفرز-الأشكال-لونيا-باستخدام-ذراع-روبوتية-بأربع-درجات-حرية">تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية&lt;/h2>
+&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
+ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.&lt;/p>
+&lt;p>تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>الجهة الناشرة:&lt;/strong> مركز الشام للدراسات والبحوث&lt;/li>
+&lt;li>&lt;strong>تاريخ النشر:&lt;/strong> 26 تموز 2023&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="رابط-البحث">رابط البحث&lt;/h2>
+&lt;p>
+&lt;/p>
+&lt;/div></description></item><item><title>تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم</title><link>http://localhost:1313/ar/achievements/tubitak/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/tubitak/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تمويل-tübitak-لمشروع-روبوت-متنقل-ذاتي-التحكم">تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم&lt;/h2>
+&lt;p>حصل مشروع خالد بعنوان&lt;br>
+&lt;strong>&amp;ldquo;تطوير روبوت متنقل ذاتي متعدد المهام لأغراض التعليم والبحث العلمي&amp;rdquo;&lt;/strong>&lt;br>
+على تمويل من مؤسسة
+ضمن برنامج دعم مشاريع أبحاث الطلبة الجامعيين (2209-A).&lt;/p>
+&lt;p>يهدف المشروع إلى تصميم وتطوير منصة روبوتية قادرة على أداء مهام متنوعة بشكل ذاتي، مع إمكانية التكامل مع أنظمة خارجية.&lt;br>
+ويُعد هذا الدعم من TÜBİTAK دفعة قوية نحو تحويل الفكرة إلى إنجاز فعلي يُسهم في تطوير المعرفة العلمية وتعزيز الابتكار في مجال التكنولوجيا.&lt;/p>
+&lt;/div></description></item><item><title>تكريم خالد من رئيس جامعة كارابوك عن مشروع TÜBİTAK 2209A</title><link>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</link><pubDate>Tue, 30 May 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تكريم-من-رئيس-جامعة-كارابوك">تكريم من رئيس جامعة كارابوك&lt;/h2>
+&lt;p>في قاعة المؤتمرات &amp;ldquo;حميت تشيبني&amp;rdquo; بتاريخ 30 مايو 2024، تلقّى خالد شهادة تقدير من رئيس جامعة كارابوك الأستاذ الدكتور فاتح قرشق، وذلك ضمن فعالية خصّصت لتكريم الطلبة والمشرفين الذين قُبلت مشاريعهم في الدورة الثانية لعام 2023 من برنامج TÜBİTAK 2209 A-B.&lt;/p>
+&lt;p>يمثّل هذا المشروع المتميّز الذي أُدرج تحت إطار برنامج TÜBİTAK 2209A دليلاً على الكفاءة البحثية التي يتمتّع بها خالد، كما يعكس الإمكانات الابتكارية لمشروعه العلمي.&lt;br>
+ويأتي هذا التكريم في سياق جهود الجامعة المتواصلة في دعم التميّز وتشجيع البحث العلمي.&lt;/p>
+&lt;p>عبّر خالد عن شكره لإدارة الجامعة وأساتذته وزملائه على دعمهم المتواصل، مؤكّدًا عزمه على مواصلة الإسهام في ميادين البحث والابتكار العلمي.&lt;/p>
+&lt;/div></description></item></channel></rss>

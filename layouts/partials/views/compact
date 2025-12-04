@@ -1,0 +1,31 @@
+{{/* Compact view - single item */}}
+{{ $item := .item }}
+{{ $link := $item.RelPermalink }}
+
+<article class="flex flex-col md:flex-row gap-2 p-2 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition-shadow">
+
+  {{ with partial "functions/get_featured_image.html" $item }}
+    {{ $src := . }}
+    {{ with .RelPermalink }}{{ $src = . }}{{ end }}
+    <div class="flex-shrink-0">
+      <a href="{{ $link }}" class="block w-full md:w-48 h-32 overflow-hidden rounded-lg">
+        <img src="{{ $src }}" alt="{{ $item.Title }}" class="w-full h-full object-cover">
+      </a>
+    </div>
+  {{ end }}
+  <div class="flex-1">
+    <h3 class="text-base font-semibold mb-2 text-gray-900 dark:text-white">
+      <a href="{{ $link }}" class="hover:text-primary-600 dark:hover:text-primary-400">
+        {{ $item.Title | markdownify | emojify }}
+      </a>
+    </h3>
+    {{ with $item.Summary }}
+      <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2">{{ . }}</p>
+    {{ end }}
+    {{ with $item.Date }}
+      <time class="text-xs text-gray-500 dark:text-gray-500 mt-2 block">
+        {{ .Format "January 2, 2006" }}
+      </time>
+    {{ end }}
+  </div>
+</article>

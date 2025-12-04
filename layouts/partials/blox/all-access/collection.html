@@ -1,0 +1,90 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $query := site.RegularPages }}
+
+{{ with $block.content.filters.folders }}
+  {{ $query = where $query "Section" "in" . }}
+{{ end }}
+
+{{ with $block.content.filters.tags }}
+  {{ $query = where $query ".Params.tags" "intersect" . }}
+{{ end }}
+
+{{ $count := default 5 $block.content.count }}
+{{ $query = first $count $query }}
+{{ $collectionTitle := default "" $block.content.title }}
+{{ $collectionTitleLower := lower $collectionTitle }}
+{{ $isBlogCollection := or (strings.Contains $collectionTitleLower "blog") (strings.Contains $collectionTitleLower "مقال") }}
+
+{{ with $block.content.title }}
+<div class="text-center mb-6">
+  <h2 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+    {{ . | emojify | $page.RenderString }}
+  </h2>
+  {{ with $block.content.text }}
+    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">{{ . }}</p>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ if $isBlogCollection }}
+<style>
+  @media (min-width: 768px) {
+    [data-collection-type="blog"] .collection-card {
+      align-items: stretch;
+      max-height: 400px;
+    }
+    [data-collection-type="blog"] .collection-card-img,
+    [data-collection-type="blog"] .collection-card-img a,
+    [data-collection-type="blog"] .collection-card-img img {
+      height: 180px;
+      max-height: 180px;
+    }
+    [data-collection-type="blog"] .collection-card-details {
+      justify-content: space-between;
+    }
+    [data-collection-type="blog"] .collection-card-copy {
+      max-height: 118px;
+      overflow: hidden;
+    }
+  }
+</style>
+{{ end }}
+
+<div class="container mx-auto max-w-screen-2xl px-6"{{ if $isBlogCollection }} data-collection-type="blog"{{ end }}>
+  <div class="space-y-4">
+    {{ range $item := $query }}
+      {{ $img := partial "functions/get_featured_image.html" $item }}
+      {{ $link := $item.RelPermalink }}
+      
+      <article class="flex flex-col md:flex-row gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition-shadow collection-card">
+        {{ with $img }}
+          {{ $src := . }}
+          {{ with .RelPermalink }}{{ $src = . }}{{ end }}
+          <div class="flex-shrink-0 collection-card-img">
+            <a href="{{ $link }}" class="block w-full md:w-48 h-32 overflow-hidden rounded-lg">
+              <img src="{{ $src }}" alt="{{ $item.Title }}" class="w-full h-full object-cover collection-card-image">
+            </a>
+          </div>
+        {{ end }}
+        <div class="flex-1 collection-card-details flex flex-col gap-3">
+          <div class="collection-card-copy">
+            <h3 class="text-base font-semibold mb-2 text-gray-900 dark:text-white">
+              <a href="{{ $link }}" class="hover:text-primary-600 dark:hover:text-primary-400">
+                {{ $item.Title | markdownify | emojify }}
+              </a>
+            </h3>
+            {{ with $item.Summary }}
+              <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2">{{ . }}</p>
+            {{ end }}
+          </div>
+          {{ with $item.Date }}
+            <time class="text-xs text-gray-500 dark:text-gray-500 mt-2 block">
+              {{ .Format "January 2, 2006" }}
+            </time>
+          {{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</div>

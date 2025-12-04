@@ -1,0 +1,42 @@
+/* Override article page main content width to be wider (approximately 40% of screen) */
+
+/* Increase max-width of main content from 56rem (6xl) to wider */
+main.max-w-6xl {
+  max-width: 1000px !important;
+}
+
+article > main {
+  max-width: 1000px !important;
+}
+
+/* Ensure the article container distributes space properly */
+article {
+  justify-content: center !important;
+}
+
+/* Make TOC narrower to accommodate wider content */
+nav.hb-toc {
+  max-width: 18vw !important;
+  flex-basis: 18vw !important;
+}
+
+/* On smaller screens, revert to full width */
+@media (max-width: 1400px) {
+  main.max-w-6xl,
+  article > main {
+    max-width: 800px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  main.max-w-6xl,
+  article > main {
+    max-width: 100% !important;
+  }
+  
+  nav.hb-toc {
+    display: none !important;
+  }
+}
+
+

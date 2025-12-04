@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>مفتوح المصدر | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D9%85%D9%81%D8%AA%D9%88%D8%AD-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/</link><atom:link href="http://localhost:1313/ar/tags/%D9%85%D9%81%D8%AA%D9%88%D8%AD-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/index.xml" rel="self" type="application/rss+xml"/><description>مفتوح المصدر</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>مفتوح المصدر</title><link>http://localhost:1313/ar/tags/%D9%85%D9%81%D8%AA%D9%88%D8%AD-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/</link></image><item><title>GeoSketch | برنامج رسم هندسي مع اكتشاف التصادم</title><link>http://localhost:1313/ar/projects/geosketch/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/geosketch/</guid><description>&lt;h1 id="geosketch--الرسم-الهندسي-واكتشاف-التصادم">GeoSketch | الرسم الهندسي واكتشاف التصادم&lt;/h1>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/GeoSketch/blob/master/images/Screenshot.jpg" alt="صورة GeoSketch" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>GeoSketch هو برنامج مكتوب بلغة C# يُقدّم بيئة تفاعلية لرسم الأشكال الهندسية، مع ميزة فريدة في اكتشاف التصادمات والتقاطعات بين الأشكال بشكل لحظي. يمكّنك البرنامج من إطلاق العنان لإبداعك، ومراقبة تفاعل الأشكال في الوقت الحقيقي.&lt;/p>
+&lt;hr>
+&lt;h2 id="المميزات">المميزات:&lt;/h2>
+&lt;p>🎨 &lt;strong>رسم حر وسلس&lt;/strong>&lt;br>
+لوحة رسم سهلة الاستخدام تتيح للمستخدم رسم خطوط، دوائر، مستطيلات، وغيرها من الأشكال بكل سهولة.&lt;/p>
+&lt;p>🚨 &lt;strong>كشف التصادمات&lt;/strong>&lt;br>
+يمتلك GeoSketch محركًا ذكيًا لاكتشاف التصادمات، حيث يحدد تلقائيًا نقاط التقاطع أو التداخل بين الأشكال المرسومة ويقوم بإبرازها بصريًا.&lt;/p>
+&lt;p>🖼️ &lt;strong>تصدير وحفظ&lt;/strong>&lt;br>
+إمكانية حفظ الرسومات وتصديرها كصور لاستخدامها لاحقًا أو مشاركتها.&lt;/p>
+&lt;hr>
+&lt;h2 id="التحميل">التحميل:&lt;/h2>
+&lt;p>📥
+&lt;/p>
+&lt;p>💻 يمكنك أيضًا تحميل أحدث نسخة من قسم الإصدارات في
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="خطوات-البدء">خطوات البدء:&lt;/h2>
+&lt;ol>
+&lt;li>قم بتحميل البرنامج وتثبيته.&lt;/li>
+&lt;li>افتح GeoSketch وابدأ باختيار أداة الرسم المناسبة (نقطة، دائرة، مستطيل&amp;hellip;).&lt;/li>
+&lt;li>ارسم على اللوحة باستخدام الماوس أو جهاز الإدخال.&lt;/li>
+&lt;li>سيعرض البرنامج تقاطعات الأشكال فورًا أثناء الرسم.&lt;/li>
+&lt;li>احفظ مشروعك أو ابدأ من جديد بكل سهولة.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="المساهمة">المساهمة:&lt;/h2>
+&lt;p>مرحبًا بجميع المساهمين!&lt;br>
+يمكنك الإبلاغ عن المشاكل، واقتراح ميزات جديدة، أو إرسال Pull Requests عبر
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="الترخيص">الترخيص:&lt;/h2>
+&lt;p>🔓 البرنامج مرخّص تحت رخصة
+، ما يتيح حرية الاستخدام والتعديل والنشر.&lt;/p>
+&lt;hr>
+&lt;h2 id="الشكر-والتقدير">الشكر والتقدير:&lt;/h2>
+&lt;p>💡 يُهدي فريق التطوير شكره العميق لمجتمع البرمجيات مفتوحة المصدر ولكل من ساهم في تطوير الأدوات والمكتبات المستخدمة في GeoSketch.&lt;/p>
+&lt;p>
+&lt;/p></description></item><item><title>QistasLinks</title><link>http://localhost:1313/ar/projects/qistaslinks/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistaslinks/</guid><description>&lt;h1 id="qistaslinks">QistasLinks&lt;/h1>
+&lt;p>&lt;strong>الحل الأمثل للمشاريع التي تعتمد على الاتصالات التسلسلية (Serial Communication)&lt;/strong>&lt;/p>
+&lt;p>
+&lt;br>
+&lt;/p>
+&lt;p>مكتبة QistasLinks بلغة C#، تسهّل التواصل التسلسلي عبر منفذ RS232 لأي مشروع يحتاج اتصالاً بالمتحكمات الدقيقة. توفّر هذه المكتبة وسائل سهلة الاستخدام وخصائص قوية تجعل من عملية التبادل البياني بين الحاسوب والمتحكمات دقيقة وفعالة، مما يجعلها خيارًا مثاليًا لمشاريع .NET التي تعتمد على الاتصال التسلسلي.&lt;/p>
+&lt;h2 id="من-المستفيد-من-qistaslinks">من المستفيد من QistasLinks؟&lt;/h2>
+&lt;p>صُمّمت مكتبة QistasLinks للمطورين والأفراد الذين يعملون على مشاريع تعتمد على الاتصال التسلسلي مع المتحكمات الدقيقة، مثل Arduino وPIC وAVR، أو الأجهزة الإلكترونية التي تحتاج لإرسال واستقبال البيانات.&lt;/p>
+&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>الاتصال التسلسلي:&lt;/strong> تمكّن المكتبة من إجراء عمليات القراءة والكتابة بسلاسة عبر منافذ RS232، مما يوفر قناة اتصال موثوقة ومرنة.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>نمط تبادل البيانات:&lt;/strong> توفّر المكتبة نمطًا مرنًا لنقل البيانات يسهل من التفاعل بين الحواسيب والمتحكمات الدقيقة.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>دعم صيغة الأوامر:&lt;/strong> يمكن استخدام صيغة مخصصة للأوامر لتوجيه الأوامر للأجهزة المتصلة بشكل دقيق ومنظّم.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="دعم-أنماط-بيانات-مخصصة">دعم أنماط بيانات مخصصة&lt;/h3>
+&lt;p>توفر QistasLinks القدرة على تحديد نمط مخصص لتبادل البيانات مثل: &lt;code>&amp;lt;data...&amp;gt;&lt;/code> أو &lt;code>{data...}&lt;/code> أو &lt;code>data...
+&lt;/code>. هذه الأنماط يمكن تخصيصها حسب حاجة المشروع.&lt;/p>
+&lt;h3 id="تسلسل-وفك-تسلسل-الأوامر">تسلسل وفك تسلسل الأوامر&lt;/h3>
+&lt;p>توفر المكتبة نظامًا لتحليل الأوامر بشكل يسمح بفهم الأمر ومكوناته مثل:
+&lt;code>&amp;quot;#opration# #key#:#value#&amp;quot;&lt;/code>&lt;br>
+عند استقبال البيانات بهذا الشكل، يتم تحويلها إلى كائن ديناميكي يمكن التعامل معه برمجيًا.&lt;/p>
+&lt;p>مثلاً:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">SET speed:120
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>يترجم إلى:&lt;br>
+&lt;code>obj.operation = &amp;quot;SET&amp;quot;&lt;/code>&lt;br>
+&lt;code>obj.key = &amp;quot;speed&amp;quot;&lt;/code>&lt;br>
+&lt;code>obj.value = 120&lt;/code>&lt;/p>
+&lt;h2 id="التثبيت">التثبيت&lt;/h2>
+&lt;h3 id="تثبيت-يدوي">تثبيت يدوي:&lt;/h3>
+&lt;ol>
+&lt;li>حمّل ملف &lt;code>QistasLinks.Dll&lt;/code> من مجلد التنزيلات.&lt;/li>
+&lt;li>أضف المكتبة إلى مشروعك في C#.&lt;/li>
+&lt;li>تأكد أن المشروع يستخدم إصدار .NET المناسب.&lt;/li>
+&lt;li>أعد بناء المشروع لتأكيد إضافة المكتبة بنجاح.&lt;/li>
+&lt;/ol>
+&lt;h3 id="تثبيت-عبر-nuget">تثبيت عبر NuGet:&lt;/h3>
+&lt;ul>
+&lt;li>باستخدام CLI:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">dotnet add package Qistas.QistasLinks --version 1.0.0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>عبر Visual Studio:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="n">NuGet&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="nb">Install-Package&lt;/span> &lt;span class="n">Qistas&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">QistasLinks&lt;/span> &lt;span class="n">-Version&lt;/span> &lt;span class="mf">1.0&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
+&lt;br>
+أو يمكن تحميلها من SourceForge.&lt;/p>
+&lt;h2 id="أمثلة-على-الاستخدام">أمثلة على الاستخدام&lt;/h2>
+&lt;p>يمكنك الاطلاع على أمثلة عملية من خلال مجلد
+&lt;br>
+أو عبر هذا المثال:&lt;br>
+&lt;/p>
+&lt;h2 id="ملفات-المصدر-المفتوح">ملفات المصدر المفتوح&lt;/h2>
+&lt;p>المشروع متاح عبر GitHub:&lt;br>
+&lt;/p>
+&lt;h2 id="الترخيص">الترخيص&lt;/h2>
+&lt;p>تم ترخيص QistasLinks بموجب رخصة
+.&lt;/p>
+&lt;h2 id="الدعم">الدعم&lt;/h2>
+&lt;p>لطرح أي استفسارات أو مشاكل، يرجى فتح بلاغ (Issue) على صفحة GitHub الخاصة بالمشروع.&lt;/p>
+&lt;h2 id="الشكر-والتقدير">الشكر والتقدير&lt;/h2>
+&lt;ul>
+&lt;li>QistasLinks هو جزء من مشروع Qistas الهادف لتوفير أدوات ومكتبات تسهّل التكامل مع المتحكمات الدقيقة.&lt;/li>
+&lt;li>شكر خاص لمجتمع البرمجيات المفتوحة المصدر على دعمه ومساهماته.&lt;/li>
+&lt;/ul>
+&lt;h2 id="للتواصل">للتواصل&lt;/h2>
+&lt;p>للاستفسارات والمعلومات الإضافية:&lt;br>
+&lt;/p>
+&lt;p>شكرًا لاستخدامكم QistasLinks!&lt;/p></description></item></channel></rss>

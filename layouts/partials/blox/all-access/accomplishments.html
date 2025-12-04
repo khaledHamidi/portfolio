@@ -4,6 +4,9 @@
 {{ with $block.content.filters.folders }}
   {{ $query = where $query "Section" "in" . }}
 {{ end }}
+{{ with $block.content.filters.tags }}
+  {{ $query = where $query ".Params.tags" "intersect" . }}
+{{ end }}
 {{ $count := default 3 $block.content.count }}
 {{ $query = first $count $query }}
 

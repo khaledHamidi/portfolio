@@ -1,26 +1,22 @@
 ﻿---
-title: Design and Manufacturing of an Open-Source Electro-Pneumatic Filling Machine for Fixed Granule Quantities
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+title: DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE
+summary: This article eliminates the need for sensors used in adjusting the measurement amount. A filling machine that quantifies ingredients using a mechanical mechanism that lifts offers design and manufacturing.
+
 authors:
   - admin
 tags:
   - research
   - automation
 reading_time: true
-commentable: true
+commentable: false
 pager: true
 show_related: true
 image:
-  caption: 'Khaled HAMIDI research'
+  caption: 'Electro-Pneumatic Filling Machine'
 date: 2024-05-01
 ---
 
- 
-
-
-
-
-DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE FOR FIXED GRANULATE QUANTITIES
+ DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE FOR FIXED GRANULATE QUANTITIES
 
 ### Publication Information
 

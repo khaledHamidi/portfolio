@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>روبوتات | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA/</link><atom:link href="http://localhost:1313/ar/tags/%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><description>روبوتات</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>روبوتات</title><link>http://localhost:1313/ar/tags/%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA/</link></image><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1313/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/4dof-robotic-arm/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تصنيف-وفرز-الأشكال-لونيا-باستخدام-ذراع-روبوتية-بأربع-درجات-حرية">تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية&lt;/h2>
+&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
+ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.&lt;/p>
+&lt;p>تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>الجهة الناشرة:&lt;/strong> مركز الشام للدراسات والبحوث&lt;/li>
+&lt;li>&lt;strong>تاريخ النشر:&lt;/strong> 26 تموز 2023&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="رابط-البحث">رابط البحث&lt;/h2>
+&lt;p>
+&lt;/p>
+&lt;/div></description></item><item><title>تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم</title><link>http://localhost:1313/ar/achievements/tubitak/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/tubitak/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تمويل-tübitak-لمشروع-روبوت-متنقل-ذاتي-التحكم">تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم&lt;/h2>
+&lt;p>حصل مشروع خالد بعنوان&lt;br>
+&lt;strong>&amp;ldquo;تطوير روبوت متنقل ذاتي متعدد المهام لأغراض التعليم والبحث العلمي&amp;rdquo;&lt;/strong>&lt;br>
+على تمويل من مؤسسة
+ضمن برنامج دعم مشاريع أبحاث الطلبة الجامعيين (2209-A).&lt;/p>
+&lt;p>يهدف المشروع إلى تصميم وتطوير منصة روبوتية قادرة على أداء مهام متنوعة بشكل ذاتي، مع إمكانية التكامل مع أنظمة خارجية.&lt;br>
+ويُعد هذا الدعم من TÜBİTAK دفعة قوية نحو تحويل الفكرة إلى إنجاز فعلي يُسهم في تطوير المعرفة العلمية وتعزيز الابتكار في مجال التكنولوجيا.&lt;/p>
+&lt;/div></description></item></channel></rss>

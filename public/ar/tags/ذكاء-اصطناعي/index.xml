@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ذكاء اصطناعي | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A/</link><atom:link href="http://localhost:1313/ar/tags/%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A/index.xml" rel="self" type="application/rss+xml"/><description>ذكاء اصطناعي</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>ذكاء اصطناعي</title><link>http://localhost:1313/ar/tags/%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A/</link></image><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1313/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/4dof-robotic-arm/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تصنيف-وفرز-الأشكال-لونيا-باستخدام-ذراع-روبوتية-بأربع-درجات-حرية">تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية&lt;/h2>
+&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
+ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.&lt;/p>
+&lt;p>تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>الجهة الناشرة:&lt;/strong> مركز الشام للدراسات والبحوث&lt;/li>
+&lt;li>&lt;strong>تاريخ النشر:&lt;/strong> 26 تموز 2023&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="رابط-البحث">رابط البحث&lt;/h2>
+&lt;p>
+&lt;/p>
+&lt;/div></description></item></channel></rss>

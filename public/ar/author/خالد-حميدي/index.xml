@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>خالد حميدي | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/author/%D8%AE%D8%A7%D9%84%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A/</link><atom:link href="http://localhost:1313/ar/author/%D8%AE%D8%A7%D9%84%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A/index.xml" rel="self" type="application/rss+xml"/><description>خالد حميدي</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Sun, 22 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/author/khaled-hamidi/avatar_hu8332110391340345738.jpg</url><title>خالد حميدي</title><link>http://localhost:1313/ar/author/%D8%AE%D8%A7%D9%84%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A/</link></image><item><title>الشهادات والتكريم</title><link>http://localhost:1313/ar/certificates/</link><pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/certificates/</guid><description>&lt;style>
+.cert-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 1rem;
+direction: rtl; /* يضبط اتجاه الجدول كله */
+}
+.cert-table thead th {
+padding: 0.6rem;
+text-align: right;
+border-bottom: 2px solid #555;
+direction: rtl;
+}
+.cert-table td {
+padding: 0.8rem;
+vertical-align: top;
+border-bottom: 1px solid #333;
+text-align: right;
+direction: rtl;
+}
+.cert-table img {
+max-width: 180px;
+height: auto;
+border-radius: 4px;
+display: block;
+margin: auto;
+}
+@media (max-width: 600px) {
+.cert-table img {
+max-width: 120px;
+}
+}
+&lt;/style>
+&lt;div dir="rtl" style="text-align: justify; direction: rtl;">
+يضمّ هذا المعرض شهادات في مجالات الأمن السيبراني، تحليل البيانات، الذكاء الاصطناعي، الأنظمة المدمجة، الروبوتات، الطاقة المتجددة، القيادة، والبحث العلمي.
+&lt;/div>
+&lt;div dir="rtl" style="direction: rtl; text-align: justify;">
+&lt;h2 id="-مشاركات-أكاديمية-وصناعية">🏛️ مشاركات أكاديمية وصناعية&lt;/h2>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_17.jpg">&lt;img src="http://localhost:1313/certificates/cer_17.jpg" alt="ICENSOS">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>ICENSOS 2024 – تركيا&lt;/strong>&lt;br>مشاركة بحثية وتقديم شفهي بمؤتمر علمي – 16-17/05/2024.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_2.jpg">&lt;img src="http://localhost:1313/certificates/cer_2.jpg" alt="Al-Qistas">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>تدريب صناعي – Al-Qistas&lt;/strong>&lt;br>سنتان من التطبيق العملي – 05-2020.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h2 id="-شهادات-تقنية-وصناعية">🔧 شهادات تقنية وصناعية&lt;/h2>
+&lt;h3 id="-أمن-سيبراني-وتحليل-بيانات">🛡️ أمن سيبراني وتحليل بيانات&lt;/h3>
+&lt;table class="cert-table" dir="rtl">
+&lt;thead>&lt;tr>&lt;th>الشهادة&lt;/th>&lt;th>الوصف&lt;/th>&lt;/tr>&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_1.jpg">&lt;img src="http://localhost:1313/certificates/cer_1.jpg" alt="Cyber Security">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>أمن سيبراني – Oxford HSC&lt;/strong>&lt;br>دورة معتمدة في حماية الأنظمة والمعلومات – 16-09-2023.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_4.jpg">&lt;img src="http://localhost:1313/certificates/cer_4.jpg" alt="Data Analysis">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>تحليل البيانات – Oxford HSC&lt;/strong>&lt;br>دبلوم مكثف في استخدام أدوات التحليل – 24-07-2023.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_6.jpg">&lt;img src="http://localhost:1313/certificates/cer_6.jpg" alt="Cyber Security Karabuk">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>مؤتمر حول الأمن السبراني – الإدارة العامة لشؤون الصحة والثقافة والرياضة&lt;/strong>&lt;br>مشاركة في مؤتمر جامعي بمجال الأمن السيبراني – 23-03-2022.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_9.jpg">&lt;img src="http://localhost:1313/certificates/cer_9.jpg" alt="Intro to Cyber Security">&lt;/a>&lt;/td>
+&lt;td>&lt;strong> كورس في الأمن السيبراني – جامعة كارابوك&lt;/strong>&lt;br>على امتداد 14 اسبوع مع واجبات وأختبارات.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="-الذكاء-الاصطناعي-والمركبات-الذاتية">🚗 الذكاء الاصطناعي والمركبات الذاتية&lt;/h3>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_3.jpg">&lt;img src="http://localhost:1313/certificates/cer_3.jpg" alt="Self-Driving Cars">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>المركبات ذاتية القيادة – University of Toronto&lt;/strong>&lt;br>البرمجة والإدراك للمركبات ذاتية القيادة – 06-04-2024.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h3 id="-الطاقة-والأنظمة-الكهروضوئية">☀️ الطاقة والأنظمة الكهروضوئية&lt;/h3>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_5.jpg">&lt;img src="http://localhost:1313/certificates/cer_5.jpg" alt="PV Systems">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>أنظمة شمسية – On-Grid PV&lt;/strong>&lt;br>ورشة عمل تطبيقية – 08-09-2020.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h3 id="-البرمجة-والتصميم">🧩 البرمجة والتصميم&lt;/h3>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_13.jpg">&lt;img src="http://localhost:1313/certificates/cer_13.jpg" alt="Arduino">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>برمجة الأردوينو – إدراك&lt;/strong>&lt;br>أساسيات التحكم الدقيق – 07-2020.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_10.jpg">&lt;img src="http://localhost:1313/certificates/cer_10.jpg" alt="Basic Program">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>كورس في لغة برمجة R&lt;/strong>&lt;br>كورس في لغة R يركّز على تحليل البيانات والأساليب الإحصائية باستخدام R.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_11.jpg">&lt;img src="http://localhost:1313/certificates/cer_11.jpg" alt="Web Design">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>تصميم المواقع – جامعة كارابوك&lt;/strong>&lt;br>تصميم المواقع وبرمجتها.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h2 id="-القيادة-وريادة-الأعمال">🧠 القيادة وريادة الأعمال&lt;/h2>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_7.jpg">&lt;img src="http://localhost:1313/certificates/cer_7.jpg" alt="Entrepreneurship">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>ريادة الأعمال – منصة فرصة&lt;/strong>&lt;br>برنامج تدريبي لتأسيس المشاريع – 09-05-2021.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_8.jpg">&lt;img src="http://localhost:1313/certificates/cer_8.jpg" alt="Leadership">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>القيادة المستقبلية – Karabük&lt;/strong>&lt;br>مهارات التأثير وبناء فرق العمل.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h2 id="-البحث-العلمي-والدعم-الجامعي">🧪 البحث العلمي والدعم الجامعي&lt;/h2>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/kbu-rector-tesekkur-belgesi.jpg">&lt;img src="http://localhost:1313/certificates/kbu-rector-tesekkur-belgesi.jpg" alt="Tubitak">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>شهادة شكر من رئيس الجامعة&lt;/strong>&lt;br>مساهمة بحثية ضمن مشروع مدعوم من TÜBİTAK – 2023.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_12.jpg">&lt;img src="http://localhost:1313/certificates/cer_12.jpg" alt="Tubitak Approval">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>دعم مشروع منصة روبوتية ذاتية القيادة متعددة الأغراض – TÜBİTAK&lt;/strong>&lt;br>خطاب قبول دعم رسمي – 22-03-2024.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;h2 id="-مهارات-تقنية-ولغوية">🌐 مهارات تقنية ولغوية&lt;/h2>
+&lt;table class="cert-table" dir="rtl">&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_15.jpg">&lt;img src="http://localhost:1313/certificates/cer_15.jpg" alt="Word Specto">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>معالجة النصوص&lt;/strong>&lt;br>شهادة إتمام مساق – 07-2020.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_16.jpg">&lt;img src="http://localhost:1313/certificates/cer_16.jpg" alt="Google Analytics">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>Google Analytics&lt;/strong>&lt;br>شهادة صالحة حتى.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/cer_14.jpg">&lt;img src="http://localhost:1313/certificates/cer_14.jpg" alt="English Test">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>اختبار اللغة الإنجليزية – 72%&lt;/strong>&lt;br>اختبار مستوى تم بتاريخ 29-11-2024.&lt;/td>
+&lt;/tr>
+&lt;/tbody>&lt;/table>
+&lt;/div></description></item><item><title>تأهّل خالد إلى نهائيات Youth Tech Begin 2025</title><link>http://localhost:1313/ar/achievements/ytb-finalist/</link><pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/achievements/ytb-finalist/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تأهل-خالد-إلى-نهائيات-youth-tech-begin-2025">تأهّل خالد إلى نهائيات Youth Tech Begin 2025&lt;/h2>
+&lt;p>يتقدّم خالد وفريقه بخالص الشكر والتقدير بعد تأهّلهم إلى نهائيات &lt;strong>مسابقة Youth Tech Begin 2025&lt;/strong>، والتي نظّمت ضمن برنامج التسريع Karınca GO في &lt;strong>تكنوبارك جامعة مدنيّت – إسطنبول&lt;/strong>.&lt;/p>
+&lt;p>شارك الفريق بمشروع مبتكر يتمثّل في &lt;strong>جهاز استشعار حيوي للتشخيص السريع&lt;/strong>، قادر على تحليل مؤشّرات حيوية متعدّدة من قطرة دم واحدة.&lt;br>
+يجمع النظام بين التصميم الهندسي، والمعرفة الطبية، والذكاء الحاسوبي، ليقدّم أداة ذكية ومحمولة لفحوصات طبية ميدانية سريعة ودقيقة.&lt;/p>
+&lt;blockquote>
+&lt;p>«كان شرفًا لي أن أكون جزءًا من هذه الرحلة مع فريق شغوف ومتميّز. ونحن متحمسون لما هو قادم.» — خالد&lt;/p>
+&lt;/blockquote>
+&lt;p>نشكر المنظّمين والمشرفين ولجنة التحكيم على توفير بيئة تحفيزية تدعم الابتكار وتُعزّز روح التعاون العلمي العالمي بين الشباب.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="أعضاء-الفريق">أعضاء الفريق:&lt;/h2>
+&lt;ul>
+&lt;li>محمد صلاح&lt;/li>
+&lt;li>محمد حسين&lt;/li>
+&lt;li>خالد الحميدي كينو&lt;/li>
+&lt;li>هاشم سعيد أحمد عبده القوامي&lt;/li>
+&lt;li>رضوان العياني&lt;/li>
+&lt;li>يوسف م.&lt;/li>
+&lt;li>عبد الفتاح الصبري&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="team-photo.jpg" alt="صورة الفريق" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;br>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="sensor-readout.jpg" alt="نتائج الجهاز" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;br>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="pitch.jpg" alt="لحظة العرض" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="من-وسائل-التواصل-الاجتماعي">من وسائل التواصل الاجتماعي&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;/li>
+&lt;/ul>
+&lt;/div></description></item><item><title>(مقابلة تلفزيونية)قصة نجاح |من رحم المعاناة إلى القمّة</title><link>http://localhost:1313/ar/blog/success-story/</link><pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/blog/success-story/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;p>في زمنٍ كثرت فيه التحدّيات، ووسط ظروفٍ لم تكن يومًا سهلة، برزت واحدة من أروع قصص النجاح.&lt;br>
+خالد حميدي — طالب سوري — بدأ رحلته التعليمية داخل سوريا، تحت سماءٍ يعلوها صوت الطائرات بدل أجراس المدارس.&lt;br>
+ورغم كلّ شيء، لم يستسلم، بل حمل حلمه إلى تركيا لاجئًا، يواجه غربةً قاسية وحاجزَ لغةٍ صعب.&lt;br>
+تعلّم التركية وطوّر نفسه حتى اعتاد الغربة وصارت دافعًا لا عائقًا، فتفوّق على ذاته وعلى جميع التحديات.&lt;/p>
+&lt;p>&lt;strong>النتيجة:&lt;/strong> المرتبة الأولى على كلية التكنولوجيا – قسم هندسة الميكاترونيكس – في جامعة كارابوك.&lt;br>
+إنها ليست مجرّد شهادة، بل قصةُ نضالٍ لطالبٍ أبى أن يكون رقمًا في قوائم اللجوء فأصبح رقمًا أوّل في قوائم التميّز.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify; background:#000d2f; padding:1em; border-radius:6px;">
+&lt;h4 id="تعليق-خالد-على-منشور-الدكتور-مصعب">تعليق خالد على منشور الدكتور مصعب&lt;/h4>
+&lt;blockquote>
+&lt;p>لا تسعني الكلمات للتعبير عن شكري وامتناني العميق للدكتور مصعب على هذه اللفتة الكريمة، وللمقابلة البسيطة التي جرت بيننا، ولتسليطه الضوء على رحلتي المتواضعة. وإنه لشرف كبير أن تكون قصتي أول عمل يُنشر من قصص النجاح على صفحته، وهو بحد ذاته نجاح أعتزّ به، ودافع لبذل المزيد.&lt;br>
+أسأل الله أن تكون منارة إلهام لكل من يسير في هذا الدرب.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item><item><title>تكريم خالد في حفل تخرج كلية التكنولوجيا بجامعة كارابوك</title><link>http://localhost:1313/ar/achievements/tech-honor/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/achievements/tech-honor/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تكريم-خالد-في-حفل-تخرج-كلية-التكنولوجيا--جامعة-كارابوك">تكريم خالد في حفل تخرّج كلية التكنولوجيا – جامعة كارابوك&lt;/h2>
+&lt;p>في 17 مايو 2025، عاد خالد إلى جامعة كارابوك للمشاركة في حفل تخرّج كلية التكنولوجيا.&lt;br>
+وخلال الحفل، تم تكريمه كأفضل خريج في الكلية، كما أُتيحت له فرصة إلقاء كلمة الخريجين.&lt;br>
+جاء هذا التكريم تتويجًا لعام من التميّز الأكاديمي المتسارع، ويعكس تفانيه في الابتكار وخدمة مجتمعه.&lt;/p>
+&lt;blockquote>
+&lt;p>«ما جئتُ إلا لأشارك أحبّتي فرحتهم، ولأقول إن كلَّ نجاحٍ هو ثمرةُ دعمكم.» — خالد&lt;/p>
+&lt;/blockquote>
+&lt;p>أهدى خالد هذا التكريم إلى والديه، تقديرًا لدعمهما المستمر، كما عبّر عن امتنانه لأساتذته وزملائه الذين كان لهم دور بارز في رحلته العلمية.&lt;br>
+وقدّم شكره الخاص لجامعة كارابوك على دعوتها الكريمة التي مكّنته من مشاركة فرحة دفعة 2025 من جديد.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="مقتطفات-من-كلمة-خالد--17-مايو-2025">مقتطفات من كلمة خالد – 17 مايو 2025&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1TTvNnnO54k?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="الخبر-على-موقع-الجامعة">الخبر على موقع الجامعة&lt;/h2>
+&lt;p>
+&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="كلمات-خالد-على-منصات-التواصل">كلمات خالد على منصّات التواصل&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Instagram:&lt;/strong>
+&lt;/li>
+&lt;li>&lt;strong>LinkedIn:&lt;/strong>
+&lt;/li>
+&lt;/ul>
+&lt;iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/engkhamidi/posts/pfbid0Lac2qcgtFQrzEEiHgNwZwREQTHWzmeEA73AXuJH1GPFSEf7csjCbq3jr3aqVcftFl&amp;show_text=true&amp;width=500" width="500" height="762" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: center;">
+&lt;p>|
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/tech-honor/2.jpg" alt="img1" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+|
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/tech-honor/3.jpg" alt="img2" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+|&lt;/p>
+&lt;/div></description></item><item><title>بدأت دراسة الماجستير في جامعة غازي عنتاب</title><link>http://localhost:1313/ar/blog/master/</link><pubDate>Thu, 06 Mar 2025 13:00:00 +0300</pubDate><guid>http://localhost:1313/ar/blog/master/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;p>بدأ خالد الحميدي فصلًا جديدًا في مسيرته الأكاديمية، حيث التحق ببرنامج الماجستير في &lt;strong>هندسة الطيران والفضاء&lt;/strong> في &lt;strong>جامعة غازي عنتاب&lt;/strong>.&lt;/p>
+&lt;p>يمثّل هذا الانتقال خطوة استراتيجية لتعميق معارفه في مجالات الديناميكا الهوائية، والمركبات الفضائية، والنمذجة الحاسوبية، سعيًا إلى دمج التخصصات الهندسية في حلول بحثية وتطبيقية متقدّمة.&lt;/p>
+&lt;p>وقد عبّر خالد عن تقديره لكل من دعمه في هذه الرحلة، مؤكدًا أن هذا التقدّم ليس محطة نهائية، بل انطلاقة جديدة نحو البحث، والتطوير، والمساهمة في مستقبل الصناعة الفضائية.&lt;/p>
+&lt;/div></description></item><item><title>التخرج بمرتبة الشرف العليا</title><link>http://localhost:1313/ar/blog/graduation/</link><pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/blog/graduation/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;p>وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا&lt;br>
+الحمد لله الذي ما ختم جهد إلا بعونه ولا تم سعي إلا بفضله وتوفيقه، سبحان الذي بفضله وعطائه تتحقق الإنجازات، وبنوره وهدايته تستنير الطرقات. سبحان الذي إذا أعطَى أدهشَ بالعطاء.&lt;/p>
+&lt;p>أحمد الله تعالى أن وفقني لإكمال دراستي وأن أكرمني بتخرجي وأنا في السنة الثالثة وبمرتبة الشرف العليا. لم يكن هذا النجاح وليد اللحظة، ولكنه حصيلة الجد والاجتهاد والكد والتعب.&lt;/p>
+&lt;p>أهدي نجاح وتفوقي إلى من لا يضاهيهما أحد في الكون، إلى من أمرنا الله ببرّهما، إلى أمي وأبي، اللذان وقفا بجانبي طوال رحلتي دون كلل أو ملل. لقد كنتم نعم السند والعون في تحقيق هذا الحلم. أسأل الله أن يجزيكم خير الجزاء وأن يحفظكم بحفظه وكرمه.&lt;/p>
+&lt;p>كما أود أن أعبر عن شكري وتقديري العميق لإخوتي وأهلي وأقربائي وأساتذتي، ولكل من كان له عون في نجاحي. لقد كان دعمهم وتشجيعهم أساساً لتحقيق هذا الإنجاز الكبير.&lt;br>
+وأيضاً، أتوجه بالشكر الخاص إلى أصدقائي الأعزاء الذين شاركوني فرحتي وساندوني خلال مسيرتي.&lt;/p>
+&lt;p>اللهم لا تحرمني طموحاً أسمو إليه، واجعلني يا رب نافعًا لأمتي، واجعل كل أعمالي خالصة لوجهك الكريم.&lt;/p>
+&lt;p>جامعة كارابوك،&lt;br>
+كلية التكنولوجيا،&lt;br>
+هندسة الميكاترونكس&lt;/p>
+&lt;/div></description></item><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تصميم-وتصنيع-آلة-تعبئة-كهربائية-هوائية-مفتوحة-المصدر-للمواد-الحبيبية-بكميات-ثابتة">تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة&lt;/h2>
+&lt;p>تُقدّم هذه الدراسة نموذجًا مبتكرًا لآلة تعبئة ذكية لا تعتمد على الحساسات لضبط الكمية، بل تستند إلى آلية ميكانيكية دقيقة تقوم برفع الحاوية وملئها بكميات محددة تصل حتى 250 مل، مما يجعلها مثالية للمواد الخشنة أو الحبيبية.&lt;br>
+تم تطوير النظام باستخدام مكوّنات كهربائية-هوائية، حيث تُدار حركة الأسطوانة من خلال صمام كهرومغناطيسي (Solenoid Valve)، ويتحكم بها متحكم أردوينو مع حساس IR وسير ناقل (Conveyor Belt) يعمل بمحرك تيار مستمر (DC Motor).&lt;/p>
+&lt;p>تتميّز الآلة بسهولة الإنتاج باستخدام طابعة ثلاثية الأبعاد بمساحة 200x200 مم، مع إمكانية تخصيص التصميم ليناسب متطلبات متنوعة.&lt;br>
+تُعدّ الطبيعة المفتوحة للمشروع دعوةً للمجتمع التقني للمساهمة في تحسينه وتطويره، بما يدعم بيئة ابتكار مستمرة في أنظمة التعبئة الآلية.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>الجهة الناشرة:&lt;/strong> المجلة الدولية لعلوم الطبيعة والهندسة المتقدمة&lt;/li>
+&lt;li>&lt;strong>السنة:&lt;/strong> 2024&lt;/li>
+&lt;li>&lt;strong>المجلد:&lt;/strong> 8&lt;/li>
+&lt;li>&lt;strong>العدد:&lt;/strong> 4&lt;/li>
+&lt;li>&lt;strong>الصفحات:&lt;/strong> 122–128&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="رابط-البحث">رابط البحث&lt;/h2>
+&lt;p>
+&lt;/p>
+&lt;/div></description></item><item><title>Local Guide | نظام ملاحة ذكي للروبوتات الذاتية</title><link>http://localhost:1313/ar/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/window-control-system/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
+&lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
+تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
+&lt;p>يرتكز النظام على الاتصال بخادم إشارات عبر واجهة برمجة تطبيقات (API) لتلقّي بيانات لحظية حول موقع الروبوت والبيئة المحيطة به، ما يمكّن من اتخاذ قرارات ذكية حول التنقل والمسار.&lt;/p>
+&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
+&lt;ul>
+&lt;li>🔍 &lt;strong>تخطيط المسار بالذكاء الاصطناعي&lt;/strong>: تحليل البيئة المحيطة لتحديد أفضل طريق ممكن وتفادي العوائق وتقليل الوقت المستغرق.&lt;/li>
+&lt;li>🛰️ &lt;strong>تكامل مع خادم إشارات&lt;/strong>: استقبال بيانات الموقع والمجسّات بشكل مباشر ولحظي.&lt;/li>
+&lt;li>🔄 &lt;strong>اتصال API فعّال&lt;/strong>: تبادل بيانات لحظي مع خادم الإشارات لتحديث موقع الروبوت واستجابته.&lt;/li>
+&lt;li>🚧 &lt;strong>تفادي العوائق&lt;/strong>: اعتماد خوارزميات ذكية لتجنّب التصادم مع العقبات المتغيرة.&lt;/li>
+&lt;li>🔁 &lt;strong>قابلية التوسعة والتكيّف&lt;/strong>: تصميم مرن يناسب تطبيقات مختلفة من التنقل الداخلي وحتى الاستكشاف الخارجي.&lt;/li>
+&lt;/ul>
+&lt;h2 id="نتائج-المشروع">نتائج المشروع&lt;/h2>
+&lt;p>برهن مشروع Local Guide على فعالية دمج الذكاء الاصطناعي مع Python في تطوير حلول ملاحة مستقلة.&lt;br>
+وتميّز النظام بدقته وسرعة استجابته، مما يجعله مناسبًا لمجالات متعدّدة تشمل الأتمتة الصناعية والخدمات اللوجستية.&lt;/p>
+&lt;p>تصميمه المعياري يتيح تطويره مستقبلًا وتخصيصه لسيناريوهات مختلفة، مما يجعله مثالًا على تكامل التكنولوجيا الحديثة لحل تحديات واقعية في عالم الروبوتات.&lt;/p>
+&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
+&lt;p>حصل المشروع على تقييم ممتاز من العميل، بـ 5 نجوم في جميع الجوانب:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>المعيار&lt;/th>
+&lt;th>التقييم&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>الاحترافية في التعامل&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>التواصل والمتابعة&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>جودة العمل المنجَز&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الخبرة في مجال المشروع&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الالتزام بموعد التسليم&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الرغبة بالتعامل مستقبلًا&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>
+&lt;figure id="figure-تقييم-ممتاز-لمشروع-نظام-التحكم-في-النوافذ">
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://mostaql.hsoubcdn.com/reviews/598503/review-684980-6026465-og.png?v=9be959de2d6f14767801cc04ba33f4c8" alt="تقييم المشروع" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+تقييم ممتاز لمشروع نظام التحكم في النوافذ
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>📎
+&lt;/p>
+&lt;/div></description></item><item><title>تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم</title><link>http://localhost:1313/ar/achievements/tubitak/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/tubitak/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تمويل-tübitak-لمشروع-روبوت-متنقل-ذاتي-التحكم">تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم&lt;/h2>
+&lt;p>حصل مشروع خالد بعنوان&lt;br>
+&lt;strong>&amp;ldquo;تطوير روبوت متنقل ذاتي متعدد المهام لأغراض التعليم والبحث العلمي&amp;rdquo;&lt;/strong>&lt;br>
+على تمويل من مؤسسة
+ضمن برنامج دعم مشاريع أبحاث الطلبة الجامعيين (2209-A).&lt;/p>
+&lt;p>يهدف المشروع إلى تصميم وتطوير منصة روبوتية قادرة على أداء مهام متنوعة بشكل ذاتي، مع إمكانية التكامل مع أنظمة خارجية.&lt;br>
+ويُعد هذا الدعم من TÜBİTAK دفعة قوية نحو تحويل الفكرة إلى إنجاز فعلي يُسهم في تطوير المعرفة العلمية وتعزيز الابتكار في مجال التكنولوجيا.&lt;/p>
+&lt;/div></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/window-control-system/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;p>يتناول هذا المشروع تصميم وتنفيذ نظام تحكم بالنوافذ لحماية المنازل من الغبار والرمال أثناء العواصف الرملية، وهي ظاهرة شائعة في السعودية.&lt;br>
+يعمل النظام على إغلاق النوافذ تلقائيًا عند اكتشاف العاصفة الرملية، مما يمنع دخول الغبار إلى المنزل.&lt;/p>
+&lt;p>يتكوّن النظام من حساسات لاكتشاف العواصف، وآلية ميكانيكية تعمل بمحرك لفتح وإغلاق النوافذ، إلى جانب ميزة إرسال إشعارات قصيرة إلى هاتف مالك المنزل عند تشغيل النظام.&lt;/p>
+&lt;h2 id="المميزات">المميزات&lt;/h2>
+&lt;ul>
+&lt;li>حساسات اكتشاف العواصف الرملية&lt;/li>
+&lt;li>آلية آلية لفتح وإغلاق النوافذ&lt;/li>
+&lt;li>نظام إشعارات لحظية&lt;/li>
+&lt;li>تصميم موفّر للطاقة وسهل الصيانة&lt;/li>
+&lt;/ul>
+&lt;h2 id="نتيجة-المشروع">نتيجة المشروع&lt;/h2>
+&lt;p>تم تنفيذ المشروع بنجاح، وأعرب العميل في السعودية عن رضاه التام عن النتيجة.&lt;br>
+نال النظام تقييمًا عاليًا لفعاليته في حماية المنازل وسهولة استخدامه.&lt;/p>
+&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>المعيار&lt;/th>
+&lt;th>التقييم&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>الاحترافية في التعامل&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>التواصل والمتابعة&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>جودة العمل المنجَز&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الخبرة في مجال المشروع&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الالتزام بالوقت&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>التعامل معه مجددًا&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>
+&lt;figure id="figure-تقييم-ممتاز-لمشروع-نظام-التحكم-بالنوافذ">
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="window-control-system-rating.jpg" alt="تقييم المشروع" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+تقييم ممتاز لمشروع نظام التحكم بالنوافذ
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>📎
+&lt;/p></description></item><item><title>ورشة محاكاة وبرمجة أردوينو</title><link>http://localhost:1313/ar/achievements/arduino-cuarse/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/arduino-cuarse/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>أقيمت ورشة ناجحة حول محاكاة وبرمجة أردوينو، شارك فيها مئة متدرب. تمحورت الورشة حول التعريف بمنصة أردوينو واستخدام برنامج بروتيوس لمحاكاة الدارات وبرمجتها.&lt;/p>
+&lt;h2 id="تفاصيل-الورشة">تفاصيل الورشة&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>المدة&lt;/strong>: 16 جلسة&lt;/li>
+&lt;li>&lt;strong>المحاضر&lt;/strong>: محمد كنچو (8 جلسات حول برنامج Mixly للبرمجة)&lt;/li>
+&lt;li>&lt;strong>المنظم&lt;/strong>: فريق روبوتك&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/hg8iuxEnKoE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2 id="نموذج-من-محتوى-الدروس">نموذج من محتوى الدروس&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/11.jpg" alt="content Example 1" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/22.jpg" alt="content Example 2" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="مقدمة-عن-أردوينو-وبروتيوس">مقدمة عن أردوينو وبروتيوس&lt;/h2>
+&lt;p>بدأت الورشة بشرح منصة أردوينو مفتوحة المصدر المخصصة لبناء المشاريع التفاعلية، وتطبيق بروتيوس الخاص بمحاكاة الدارات وبرمجتها.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/1.png" alt="Project Example 1" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/2.png" alt="Project Example 2" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/3.png" alt="Project Example 3" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/4.png" alt="Project Example 4" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/5.png" alt="Project Example 5" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="الشهادات-والتقييم">الشهادات والتقييم&lt;/h3>
+&lt;p>عقب انتهاء الورشة جرى توزيع شهادات على جميع المتدربين، وقد حازت الورشة تقييمًا مميزًا بلغ 4.6 من 5 من قبل الحضور.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/certificate.jpg" alt="Certificate" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="الخلاصة">الخلاصة&lt;/h2>
+&lt;p>قدّمت ورشة محاكاة وبرمجة أردوينو تجربة تعليمية متكاملة للمشاركين شملت الجوانب النظرية والعملية في أردوينو ومحاكاة الدارات وبرمجتها، وحظيت بتقييم ممتاز يعكس نجاحها والتزام المنظمين بتقديم محتوى ذو جودة عالية.&lt;/p>
+&lt;p>لمزيد من المعلومات حول الدورات أو الورش القادمة يرجى زيارة فريق روبوتك أو التواصل معي.&lt;/p>
+&lt;/div></description></item><item><title>تكريم خالد من رئيس جامعة كارابوك عن مشروع TÜBİTAK 2209A</title><link>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</link><pubDate>Tue, 30 May 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تكريم-من-رئيس-جامعة-كارابوك">تكريم من رئيس جامعة كارابوك&lt;/h2>
+&lt;p>في قاعة المؤتمرات &amp;ldquo;حميت تشيبني&amp;rdquo; بتاريخ 30 مايو 2024، تلقّى خالد شهادة تقدير من رئيس جامعة كارابوك الأستاذ الدكتور فاتح قرشق، وذلك ضمن فعالية خصّصت لتكريم الطلبة والمشرفين الذين قُبلت مشاريعهم في الدورة الثانية لعام 2023 من برنامج TÜBİTAK 2209 A-B.&lt;/p>
+&lt;p>يمثّل هذا المشروع المتميّز الذي أُدرج تحت إطار برنامج TÜBİTAK 2209A دليلاً على الكفاءة البحثية التي يتمتّع بها خالد، كما يعكس الإمكانات الابتكارية لمشروعه العلمي.&lt;br>
+ويأتي هذا التكريم في سياق جهود الجامعة المتواصلة في دعم التميّز وتشجيع البحث العلمي.&lt;/p>
+&lt;p>عبّر خالد عن شكره لإدارة الجامعة وأساتذته وزملائه على دعمهم المتواصل، مؤكّدًا عزمه على مواصلة الإسهام في ميادين البحث والابتكار العلمي.&lt;/p>
+&lt;/div></description></item><item><title>الفائز في هاكاثون ASP.NET عن نظام إدارة الطلبات</title><link>http://localhost:1313/ar/achievements/kbuhackathon/</link><pubDate>Mon, 01 May 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/kbuhackathon/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="خالد-يفوز-ببطولة-هاكاثون-aspnet-عبر-مشروع-نظام-إدارة-الطلبات">خالد يفوز ببطولة هاكاثون ASP.NET عبر مشروع نظام إدارة الطلبات&lt;/h2>
+&lt;p>في إنجاز متميّز، أحرز خالد المركز الأول في هاكاثون تقني مرموق نظّمته جامعة كارابوك تحت إشراف نادي &amp;ldquo;تقنيات الدفاع&amp;rdquo; ورعاية شركة Enoca.&lt;br>
+استمر الهاكاثون من الساعة 5 مساءً حتى 6 صباحًا، بمشاركة أكثر من 100 متسابق من أصحاب الكفاءات العالية.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="نظام-إدارة-الطلبات-oms">نظام إدارة الطلبات (OMS)&lt;/h2>
+&lt;p>قدّم خالد مشروعًا تقنيًا متقدّمًا بعنوان &amp;ldquo;نظام إدارة الطلبات&amp;rdquo;، مستندًا إلى أحدث الأدوات والأساليب البرمجية المتّبعة في الصناعة.&lt;br>
+اعتمد المشروع على البنية المعمارية متعددة الطبقات (N-Tier Architecture)، واستخدم التقنيات التالية:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ASP.NET Core 6 API&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>نمط Repository Service&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>قاعدة بيانات MSSQL باستخدام Code First&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Entity Framework Core&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>هيكلة مثالية لروابط API&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>تصفية الإجراءات المخصّصة (Custom Action Filter)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>نظام تسجيل دخول وتفويض للمستخدمين (مدير، شركة، ضيف)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>إدارة أخطاء شاملة (Global Error Handling)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>استخدام الكاش (Caching)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>الهجرات (Migrations - Project.Data)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>مكوّنات المشروع:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Project.API (واجهة الويب)&lt;/li>
+&lt;li>Project.Core&lt;/li>
+&lt;li>Project.Data&lt;/li>
+&lt;li>Project.Service&lt;/li>
+&lt;li>Project.Common&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="مبادئ-التصميم-المعماري">مبادئ التصميم المعماري&lt;/h2>
+&lt;p>تميّز نظام خالد بتطبيق أفضل الممارسات في هندسة البرمجيات، حيث اعتمد على:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>نمط CQRS مع Mediatr وOnion Architecture&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>مستودعات مخصصة مع DTO للطلبات والأوامر&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>AutoMapper&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>نمط وحدة العمل (Unit of Work Pattern)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="المشروع-على-github">المشروع على GitHub&lt;/h2>
+&lt;p>
+&lt;/p>
+&lt;p>يمثّل هذا المشروع نموذجًا رائدًا لتطبيقات ASP.NET Core القابلة للتوسّع والمبنية وفق أحدث المعايير البرمجية.&lt;br>
+ويؤكد هذا الفوز المهني تميّز خالد والتزامه العميق بمجال هندسة البرمجيات وقدرته على تقديم حلول عالية الجودة في ظروف تنافسية مشدّدة.&lt;/p>
+&lt;/div></description></item><item><title>GeoSketch | برنامج رسم هندسي مع اكتشاف التصادم</title><link>http://localhost:1313/ar/projects/geosketch/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/geosketch/</guid><description>&lt;h1 id="geosketch--الرسم-الهندسي-واكتشاف-التصادم">GeoSketch | الرسم الهندسي واكتشاف التصادم&lt;/h1>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/GeoSketch/blob/master/images/Screenshot.jpg" alt="صورة GeoSketch" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>GeoSketch هو برنامج مكتوب بلغة C# يُقدّم بيئة تفاعلية لرسم الأشكال الهندسية، مع ميزة فريدة في اكتشاف التصادمات والتقاطعات بين الأشكال بشكل لحظي. يمكّنك البرنامج من إطلاق العنان لإبداعك، ومراقبة تفاعل الأشكال في الوقت الحقيقي.&lt;/p>
+&lt;hr>
+&lt;h2 id="المميزات">المميزات:&lt;/h2>
+&lt;p>🎨 &lt;strong>رسم حر وسلس&lt;/strong>&lt;br>
+لوحة رسم سهلة الاستخدام تتيح للمستخدم رسم خطوط، دوائر، مستطيلات، وغيرها من الأشكال بكل سهولة.&lt;/p>
+&lt;p>🚨 &lt;strong>كشف التصادمات&lt;/strong>&lt;br>
+يمتلك GeoSketch محركًا ذكيًا لاكتشاف التصادمات، حيث يحدد تلقائيًا نقاط التقاطع أو التداخل بين الأشكال المرسومة ويقوم بإبرازها بصريًا.&lt;/p>
+&lt;p>🖼️ &lt;strong>تصدير وحفظ&lt;/strong>&lt;br>
+إمكانية حفظ الرسومات وتصديرها كصور لاستخدامها لاحقًا أو مشاركتها.&lt;/p>
+&lt;hr>
+&lt;h2 id="التحميل">التحميل:&lt;/h2>
+&lt;p>📥
+&lt;/p>
+&lt;p>💻 يمكنك أيضًا تحميل أحدث نسخة من قسم الإصدارات في
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="خطوات-البدء">خطوات البدء:&lt;/h2>
+&lt;ol>
+&lt;li>قم بتحميل البرنامج وتثبيته.&lt;/li>
+&lt;li>افتح GeoSketch وابدأ باختيار أداة الرسم المناسبة (نقطة، دائرة، مستطيل&amp;hellip;).&lt;/li>
+&lt;li>ارسم على اللوحة باستخدام الماوس أو جهاز الإدخال.&lt;/li>
+&lt;li>سيعرض البرنامج تقاطعات الأشكال فورًا أثناء الرسم.&lt;/li>
+&lt;li>احفظ مشروعك أو ابدأ من جديد بكل سهولة.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="المساهمة">المساهمة:&lt;/h2>
+&lt;p>مرحبًا بجميع المساهمين!&lt;br>
+يمكنك الإبلاغ عن المشاكل، واقتراح ميزات جديدة، أو إرسال Pull Requests عبر
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="الترخيص">الترخيص:&lt;/h2>
+&lt;p>🔓 البرنامج مرخّص تحت رخصة
+، ما يتيح حرية الاستخدام والتعديل والنشر.&lt;/p>
+&lt;hr>
+&lt;h2 id="الشكر-والتقدير">الشكر والتقدير:&lt;/h2>
+&lt;p>💡 يُهدي فريق التطوير شكره العميق لمجتمع البرمجيات مفتوحة المصدر ولكل من ساهم في تطوير الأدوات والمكتبات المستخدمة في GeoSketch.&lt;/p>
+&lt;p>
+&lt;/p></description></item><item><title>QistasLinks</title><link>http://localhost:1313/ar/projects/qistaslinks/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistaslinks/</guid><description>&lt;h1 id="qistaslinks">QistasLinks&lt;/h1>
+&lt;p>&lt;strong>الحل الأمثل للمشاريع التي تعتمد على الاتصالات التسلسلية (Serial Communication)&lt;/strong>&lt;/p>
+&lt;p>
+&lt;br>
+&lt;/p>
+&lt;p>مكتبة QistasLinks بلغة C#، تسهّل التواصل التسلسلي عبر منفذ RS232 لأي مشروع يحتاج اتصالاً بالمتحكمات الدقيقة. توفّر هذه المكتبة وسائل سهلة الاستخدام وخصائص قوية تجعل من عملية التبادل البياني بين الحاسوب والمتحكمات دقيقة وفعالة، مما يجعلها خيارًا مثاليًا لمشاريع .NET التي تعتمد على الاتصال التسلسلي.&lt;/p>
+&lt;h2 id="من-المستفيد-من-qistaslinks">من المستفيد من QistasLinks؟&lt;/h2>
+&lt;p>صُمّمت مكتبة QistasLinks للمطورين والأفراد الذين يعملون على مشاريع تعتمد على الاتصال التسلسلي مع المتحكمات الدقيقة، مثل Arduino وPIC وAVR، أو الأجهزة الإلكترونية التي تحتاج لإرسال واستقبال البيانات.&lt;/p>
+&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>الاتصال التسلسلي:&lt;/strong> تمكّن المكتبة من إجراء عمليات القراءة والكتابة بسلاسة عبر منافذ RS232، مما يوفر قناة اتصال موثوقة ومرنة.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>نمط تبادل البيانات:&lt;/strong> توفّر المكتبة نمطًا مرنًا لنقل البيانات يسهل من التفاعل بين الحواسيب والمتحكمات الدقيقة.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>دعم صيغة الأوامر:&lt;/strong> يمكن استخدام صيغة مخصصة للأوامر لتوجيه الأوامر للأجهزة المتصلة بشكل دقيق ومنظّم.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="دعم-أنماط-بيانات-مخصصة">دعم أنماط بيانات مخصصة&lt;/h3>
+&lt;p>توفر QistasLinks القدرة على تحديد نمط مخصص لتبادل البيانات مثل: &lt;code>&amp;lt;data...&amp;gt;&lt;/code> أو &lt;code>{data...}&lt;/code> أو &lt;code>data...
+&lt;/code>. هذه الأنماط يمكن تخصيصها حسب حاجة المشروع.&lt;/p>
+&lt;h3 id="تسلسل-وفك-تسلسل-الأوامر">تسلسل وفك تسلسل الأوامر&lt;/h3>
+&lt;p>توفر المكتبة نظامًا لتحليل الأوامر بشكل يسمح بفهم الأمر ومكوناته مثل:
+&lt;code>&amp;quot;#opration# #key#:#value#&amp;quot;&lt;/code>&lt;br>
+عند استقبال البيانات بهذا الشكل، يتم تحويلها إلى كائن ديناميكي يمكن التعامل معه برمجيًا.&lt;/p>
+&lt;p>مثلاً:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">SET speed:120
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>يترجم إلى:&lt;br>
+&lt;code>obj.operation = &amp;quot;SET&amp;quot;&lt;/code>&lt;br>
+&lt;code>obj.key = &amp;quot;speed&amp;quot;&lt;/code>&lt;br>
+&lt;code>obj.value = 120&lt;/code>&lt;/p>
+&lt;h2 id="التثبيت">التثبيت&lt;/h2>
+&lt;h3 id="تثبيت-يدوي">تثبيت يدوي:&lt;/h3>
+&lt;ol>
+&lt;li>حمّل ملف &lt;code>QistasLinks.Dll&lt;/code> من مجلد التنزيلات.&lt;/li>
+&lt;li>أضف المكتبة إلى مشروعك في C#.&lt;/li>
+&lt;li>تأكد أن المشروع يستخدم إصدار .NET المناسب.&lt;/li>
+&lt;li>أعد بناء المشروع لتأكيد إضافة المكتبة بنجاح.&lt;/li>
+&lt;/ol>
+&lt;h3 id="تثبيت-عبر-nuget">تثبيت عبر NuGet:&lt;/h3>
+&lt;ul>
+&lt;li>باستخدام CLI:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">dotnet add package Qistas.QistasLinks --version 1.0.0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>عبر Visual Studio:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="n">NuGet&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="nb">Install-Package&lt;/span> &lt;span class="n">Qistas&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">QistasLinks&lt;/span> &lt;span class="n">-Version&lt;/span> &lt;span class="mf">1.0&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
+&lt;br>
+أو يمكن تحميلها من SourceForge.&lt;/p>
+&lt;h2 id="أمثلة-على-الاستخدام">أمثلة على الاستخدام&lt;/h2>
+&lt;p>يمكنك الاطلاع على أمثلة عملية من خلال مجلد
+&lt;br>
+أو عبر هذا المثال:&lt;br>
+&lt;/p>
+&lt;h2 id="ملفات-المصدر-المفتوح">ملفات المصدر المفتوح&lt;/h2>
+&lt;p>المشروع متاح عبر GitHub:&lt;br>
+&lt;/p>
+&lt;h2 id="الترخيص">الترخيص&lt;/h2>
+&lt;p>تم ترخيص QistasLinks بموجب رخصة
+.&lt;/p>
+&lt;h2 id="الدعم">الدعم&lt;/h2>
+&lt;p>لطرح أي استفسارات أو مشاكل، يرجى فتح بلاغ (Issue) على صفحة GitHub الخاصة بالمشروع.&lt;/p>
+&lt;h2 id="الشكر-والتقدير">الشكر والتقدير&lt;/h2>
+&lt;ul>
+&lt;li>QistasLinks هو جزء من مشروع Qistas الهادف لتوفير أدوات ومكتبات تسهّل التكامل مع المتحكمات الدقيقة.&lt;/li>
+&lt;li>شكر خاص لمجتمع البرمجيات المفتوحة المصدر على دعمه ومساهماته.&lt;/li>
+&lt;/ul>
+&lt;h2 id="للتواصل">للتواصل&lt;/h2>
+&lt;p>للاستفسارات والمعلومات الإضافية:&lt;br>
+&lt;/p>
+&lt;p>شكرًا لاستخدامكم QistasLinks!&lt;/p></description></item><item><title>نظام إدارة ميزان أرضي رقمي</title><link>http://localhost:1313/ar/projects/zoomce/</link><pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoomce/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
+&lt;p>طوّر المهندس &lt;strong>خالد حميدي&lt;/strong> نظامًا رقميًا مخصصًا لصالح إحدى شركات إعادة التدوير بهدف تحسين دقة وكفاءة قياس أوزان الشاحنات والمركبات عبر ميزان أرضي صناعي.&lt;/p>
+&lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>ميزان أرضي رقمي&lt;/strong> متصل بالحاسوب عبر منفذ تسلسلي (Serial Port).&lt;/li>
+&lt;li>&lt;strong>تطبيق مكتبي بلغة C#&lt;/strong> يقرأ البيانات فورًا من الميزان ويعالجها.&lt;/li>
+&lt;li>&lt;strong>واجهة استخدام رسومية&lt;/strong> لعرض الوزن والتعامل مع العمليات اليومية.&lt;/li>
+&lt;li>&lt;strong>طباعة فواتير&lt;/strong> وإيصالات دخول وخروج المركبات.&lt;/li>
+&lt;li>&lt;strong>أرشفة يومية/شهرية&lt;/strong> للأوزان والمعاملات على شكل ملف Excel.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ميزات-رئيسية">ميزات رئيسية&lt;/h2>
+&lt;ul>
+&lt;li>🧾 قراءة الوزن أوتوماتيكيًا من الميزان&lt;/li>
+&lt;li>🔄 تحديث مباشر للبيانات من الأجهزة الموصولة&lt;/li>
+&lt;li>💾 حفظ البيانات بأمان مع إمكانية التصدير&lt;/li>
+&lt;li>🖨️ طباعة الفواتير بتنسيق احترافي&lt;/li>
+&lt;li>📊 تقارير شاملة بإحصائيات يومية وشهرية وسنوية&lt;/li>
+&lt;/ul>
+&lt;h2 id="الأثر">الأثر&lt;/h2>
+&lt;p>ساهم النظام في:&lt;/p>
+&lt;ul>
+&lt;li>تسريع عملية الوزن&lt;/li>
+&lt;li>تقليل التلاعب البشري&lt;/li>
+&lt;li>ضمان الدقة المحاسبية&lt;/li>
+&lt;li>تحسين أرشفة وأمان البيانات&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&amp;ldquo;كل غرام محسوب، وكل شاحنة موثّقة.. النظام سهّل كل شيء.&amp;rdquo; — أحد مستخدمي النظام&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="صور-من-النظام">صور من النظام&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/gallery/blob/main/ground-scale/g2.png?raw=true" alt="واجهة البرنامج" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>📎
+&lt;/p></description></item><item><title>نظام إدارة مغسلة السيارات الأوروبية</title><link>http://localhost:1313/ar/projects/vechiles-wach-system/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/vechiles-wach-system/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;p>تم تطوير هذا النظام بطلب من مغسلة &amp;ldquo;السيارات الأوروبية&amp;rdquo; في مدينة الباب، ويهدف إلى تنظيم عمليات المغسلة من استلام المركبات حتى التسليم والفوترة.&lt;/p>
+&lt;h2 id="ميزات-النظام">ميزات النظام&lt;/h2>
+&lt;ul>
+&lt;li>🧾 &lt;strong>نموذج دخول وتسجيل تلقائي للعميل&lt;/strong>&lt;/li>
+&lt;li>🚗 &lt;strong>إدخال بيانات السيارة ونوع الغسيل المطلوب&lt;/strong>&lt;/li>
+&lt;li>⏱️ &lt;strong>تسجيل وقت الدخول والخروج تلقائيًا&lt;/strong>&lt;/li>
+&lt;li>📊 &lt;strong>توليد تقارير يومية وشهرية&lt;/strong>&lt;/li>
+&lt;li>🧮 &lt;strong>متابعة الدخل والمصاريف&lt;/strong>&lt;/li>
+&lt;li>👥 &lt;strong>إدارة المستخدمين والصلاحيات&lt;/strong>&lt;/li>
+&lt;li>💰 &lt;strong>حساب الأرباح والخسائر ومراقبة الأداء المالي&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="التقنيات-المستخدمة">التقنيات المستخدمة&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>لغة البرمجة:&lt;/strong> C#&lt;/li>
+&lt;li>&lt;strong>قاعدة البيانات:&lt;/strong> SQL Server&lt;/li>
+&lt;li>&lt;strong>الواجهة:&lt;/strong> Windows Forms GUI&lt;/li>
+&lt;/ul>
+&lt;h2 id="النتيجة">النتيجة&lt;/h2>
+&lt;p>أدى استخدام النظام إلى تحسين كفاءة المغسلة بشكل كبير، من خلال أتمتة العمليات وتقليل التكاليف التشغيلية.&lt;/p>
+&lt;p>📎
+&lt;/p></description></item><item><title>إطلاق فريق روبوتك</title><link>http://localhost:1313/ar/blog/robotech/</link><pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/blog/robotech/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="لمحة-عن-تأسيس-الفريق">لمحة عن تأسيس الفريق&lt;/h2>
+&lt;p>في نيسان 2021، أطلق المهندس خالد حميدي مبادرة &lt;strong>&amp;ldquo;فريق روبوتك&amp;rdquo;&lt;/strong>، كمنصة شبابية تهدف إلى تمكين الطلبة الجامعيين في الشمال السوري وتطوير التعليم من خلال التقنية.&lt;br>
+جاء تأسيس الفريق استجابة لحاجة حقيقية لبيئة تعليمية مرنة تجمع بين الجانب الأكاديمي والتطبيقي، وتوفّر فرصًا حقيقية للتعلّم العملي والعمل الجماعي.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="أهداف-الفريق">أهداف الفريق&lt;/h2>
+&lt;p>يركز فريق روبوتك على المحاور التالية:&lt;/p>
+&lt;ul>
+&lt;li>تعزيز المهارات القيادية والإبداع التقني لدى الطلبة.&lt;/li>
+&lt;li>دمج التكنولوجيا في العملية التعليمية بأساليب حديثة.&lt;/li>
+&lt;li>بناء مجتمع تدريبي فعّال يشمل صفوفًا إلكترونية ونشاطات تطبيقية.&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="المنصة-الإلكترونية">المنصة الإلكترونية&lt;/h2>
+&lt;p>تم إطلاق &lt;strong>منصة روبوتك التعليمية&lt;/strong> لتكون حاضنة للأنشطة والدورات التدريبية:&lt;br>
+&lt;/p>
+&lt;p>ويواصل الفريق تطوير برامجه التفاعلية وتوسيع نطاق تأثيره لدعم الشباب الطامح في مجالات التقنية والابتكار.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تابع-الفريق-على-المنصات-الاجتماعية">تابع الفريق على المنصات الاجتماعية:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;/li>
+&lt;li>
+&lt;/li>
+&lt;li>
+&lt;/li>
+&lt;/ul>
+&lt;/div></description></item><item><title>برنامج الشاشات الذكية التعليمية</title><link>http://localhost:1313/ar/projects/magical-capture-othmanli/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/magical-capture-othmanli/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;p>تم تطوير هذا البرنامج لمساعدة معلمي منهج اليوس (YÖS) في مركز التعليم العثماني.&lt;br>
+يهدف التطبيق إلى تعزيز تدريس مادة الرياضيات من خلال استخدام شاشات ذكية وأقلام رقمية ومشروع العرض بدلًا من اللوحة البيضاء التقليدية.&lt;/p>
+&lt;h2 id="المزايا">المزايا&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>التقاط الأسئلة مباشرة&lt;/strong> من الشاشة لعرضها أو مشاركتها.&lt;/li>
+&lt;li>&lt;strong>نقل السؤال إلى صفحة فارغة&lt;/strong> لإتاحة مساحة نظيفة للشرح التفصيلي والحل.&lt;/li>
+&lt;li>&lt;strong>حفظ الشروحات&lt;/strong> بحيث يمكن الرجوع إليها لاحقًا أو إعادة استخدامها.&lt;/li>
+&lt;/ul>
+&lt;h2 id="آلية-العمل">آلية العمل&lt;/h2>
+&lt;p>يستخدم البرنامج شاشة ذكية وقلم رقمي ومُشغّل عرض (projector) لخلق بيئة تعليمية تفاعلية.&lt;br>
+يمكن للمعلم التقاط السؤال مباشرة من الشاشة، ثم نقله إلى صفحة جديدة لتقديم شرح مفصل خطوة بخطوة باستخدام القلم الذكي.&lt;/p>
+&lt;p>كما يوفّر البرنامج خاصية حفظ الدروس والتوضيحات، مما يساعد في أرشفة المحتوى التعليمي واستعادته لاحقًا.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KdlR9muAwTw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2 id="الخلاصة">الخلاصة&lt;/h2>
+&lt;p>يُعد برنامج الشاشات الذكية التعليمية أداة فعالة لتعزيز تدريس الرياضيات وجعل الدروس أكثر تفاعلًا ووضوحًا.&lt;br>
+بفضل دمجه بين الأجهزة الذكية والوظائف البرمجية، يمكن للمعلمين تقديم تجربة تعليمية أكثر سلاسة وتأثيرًا.&lt;/p>
+&lt;h2 id="الحصول-على-البرنامج">الحصول على البرنامج&lt;/h2>
+&lt;p>البرنامج مجاني، للحصول عليه يرجى
+&lt;br>
+تطوير: &lt;strong>خالد الحميدي&lt;/strong>&lt;/p></description></item><item><title>Pharmacy Plus | تطبيق إدارة الصيدليات المثالي</title><link>http://localhost:1313/ar/projects/pharmacy/</link><pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/pharmacy/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;p>Pharmacy Plus هو حل متكامل لإدارة عمليات الصيدلية اليومية.&lt;br>
+تم تطويره بواجهة استخدام سهلة وميزات قوية تمكّن أصحاب الصيدليات من التحكم في المخزون، والمبيعات، والعملاء بكل كفاءة وسرعة.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>لوحة تحكم مركزية&lt;/strong>: لمتابعة حالة الصيدلية واتخاذ قرارات سريعة مبنية على بيانات مباشرة.&lt;/li>
+&lt;li>&lt;strong>إدارة الطلبيات&lt;/strong>: إنشاء وتعديل وطباعة الفواتير بسهولة وسرعة.&lt;/li>
+&lt;li>&lt;strong>تتبع المبيعات&lt;/strong>: تصفية وتحليل البيانات وإنشاء كشوف حسابات مفصلة.&lt;/li>
+&lt;li>&lt;strong>إدارة الموارد&lt;/strong>: البحث وإضافة وتعديل المنتجات، وتصنيفها حسب النوع (حبوب، كبسولات، سوائل&amp;hellip;).&lt;/li>
+&lt;li>&lt;strong>متابعة تواريخ الصلاحية&lt;/strong>: تنبيهات تلقائية للأدوية منتهية أو على وشك الانتهاء.&lt;/li>
+&lt;li>&lt;strong>دعم الباركود&lt;/strong>: لتسريع عملية تسجيل المنتجات ومتابعة المخزون.&lt;/li>
+&lt;li>&lt;strong>الطباعة&lt;/strong>: فواتير، تقارير، كشوفات مالية والمزيد بسهولة.&lt;/li>
+&lt;/ol>
+&lt;h2 id="الفوائد">الفوائد&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>عمليات مبسّطة&lt;/strong>: توفير الوقت وتقليل الأخطاء عبر أتمتة المهام اليومية.&lt;/li>
+&lt;li>&lt;strong>تحكم دقيق بالمخزون&lt;/strong>: تجنّب نقص أو فائض الأدوية.&lt;/li>
+&lt;li>&lt;strong>تحسين خدمة العملاء&lt;/strong>: الوصول السريع إلى بيانات العميل والطلبيات.&lt;/li>
+&lt;li>&lt;strong>أمان البيانات&lt;/strong>: حفظ احتياطي وتشفير للبيانات الحساسة.&lt;/li>
+&lt;li>&lt;strong>قابلية التوسعة&lt;/strong>: يدعم عدد غير محدود من الفواتير والمستخدمين.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ابدأ-الآن">ابدأ الآن&lt;/h2>
+&lt;p>قم بتحميل Pharmacy Plus اليوم، وابدأ في إدارة صيدليتك بكفاءة.&lt;br>
+📎
+&lt;/p></description></item><item><title>Super Intelligence | نظام ذكي للتحكم بالأجهزة المضمّنة عبر الإنترنت</title><link>http://localhost:1313/ar/projects/superintelligence/</link><pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/superintelligence/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>Super Intelligence هو نظام تحكّم ذكي يربط بين لوحات التطوير مثل Arduino وESP8266 بلوحة تحكم على الإنترنت، مما يتيح للمستخدمين التحكم في أجهزتهم من أي مكان في العالم.&lt;/p>
+&lt;p>تم تطوير هذا المشروع باستخدام تقنيات PHP وHTML وMySQL لتوفير واجهة ويب تفاعلية وسهلة الاستخدام، بالإضافة إلى برمجة خاصة بالأجهزة المضمّنة لضمان الاتصال والاستجابة السريعة.&lt;/p>
+&lt;h2 id="المميزات">المميزات&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>لوحة تحكم على الويب&lt;/strong>: يمكن الدخول إليها من أي متصفح لإدارة وتشغيل الأجهزة المرتبطة.&lt;/li>
+&lt;li>&lt;strong>تسجيل الدخول الآمن&lt;/strong>: لكل مستخدم حساب خاص لحماية أجهزته من التحكم غير المصرّح به.&lt;/li>
+&lt;li>&lt;strong>قاعدة بيانات MySQL&lt;/strong>: لحفظ معلومات المستخدمين، حالات الأجهزة، والتاريخ الزمني للأوامر.&lt;/li>
+&lt;li>&lt;strong>اتصال مباشر مع الأجهزة&lt;/strong>: إرسال واستقبال أوامر من الأجهزة المضمّنة باستخدام بروتوكولات بسيطة وفعالة.&lt;/li>
+&lt;li>&lt;strong>إمكانية التوسعة&lt;/strong>: يمكن ربط النظام مع عدد غير محدود من الأجهزة أو المشاريع.&lt;/li>
+&lt;/ul>
+&lt;h2 id="التطبيقات-العملية">التطبيقات العملية&lt;/h2>
+&lt;ul>
+&lt;li>التحكم في أنظمة الإضاءة المنزلية عن بُعد.&lt;/li>
+&lt;li>مراقبة أجهزة استشعار بيئية مثل الحرارة والرطوبة.&lt;/li>
+&lt;li>إدارة مشاريع ذكية ضمن المكاتب أو المصانع.&lt;/li>
+&lt;/ul>
+&lt;h2 id="لماذا-super-intelligence">لماذا Super Intelligence؟&lt;/h2>
+&lt;p>يوفّر النظام حلًا متكاملًا لإدارة مشاريع إنترنت الأشياء بسهولة، دون الحاجة إلى سيرفرات مكلفة أو أنظمة معقّدة.&lt;br>
+يُمكن للمستخدم النهائي بناء بيئة ذكية خاصّة به بأقل التكاليف وبأعلى مرونة.&lt;/p></description></item><item><title>Qistas AC | نظام المحاسبة وإدارة المحلات</title><link>http://localhost:1313/ar/projects/qistasac/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistasac/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>Qistas AC هو برنامج شامل لإدارة المحلات التجارية مصمّم للعمل على أنظمة تشغيل سطح المكتب.&lt;br>
+يقدّم واجهة استخدام مرنة وسلسة تتيح لأصحاب المشاريع إدارة عملياتهم اليومية بكفاءة وسهولة.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>واجهة سهلة الاستخدام&lt;/strong>: تصميم نظيف وبسيط يسهّل المهام اليومية ويقلل من الوقت المطلوب للتعلم.&lt;/li>
+&lt;li>&lt;strong>إدارة المخزون&lt;/strong>: تتبع مستويات المخزون، وتحركات البضائع، وتنبيهات انخفاض الكمية.&lt;/li>
+&lt;li>&lt;strong>المبيعات والفوترة&lt;/strong>: إنشاء الفواتير، تسجيل المدفوعات، وتتبع الأرصدة المتبقية.&lt;/li>
+&lt;li>&lt;strong>المحاسبة والتقارير المالية&lt;/strong>: توليد تقارير مالية دقيقة مثل الأرباح والخسائر وتحليل الأداء العام.&lt;/li>
+&lt;li>&lt;strong>إدارة العملاء والمورّدين&lt;/strong>: حفظ بيانات المعاملات وتتبع الحسابات المستحقة.&lt;/li>
+&lt;li>&lt;strong>تحديثات تلقائية&lt;/strong>: الحصول على تحديثات دورية لضمان الأمان وتحسين الميزات.&lt;/li>
+&lt;/ul>
+&lt;h2 id="لماذا-تختار-qistas-ac">لماذا تختار Qistas AC؟&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>حل شامل&lt;/strong>: يجمع بين المخزون، المبيعات، المحاسبة والتقارير في منصة واحدة.&lt;/li>
+&lt;li>&lt;strong>سهولة الاستخدام&lt;/strong>: لا حاجة لتدريب طويل، البرنامج مصمّم ليكون بديهيًا.&lt;/li>
+&lt;li>&lt;strong>قابل للتوسعة&lt;/strong>: يناسب المشاريع الصغيرة والكبيرة مع تطوّر أعمالها.&lt;/li>
+&lt;li>&lt;strong>موثوق وآمن&lt;/strong>: يحتوي على حماية قوية وتحديثات دورية للحفاظ على استقرار البيانات.&lt;/li>
+&lt;/ol></description></item><item><title>مشروع قراءة وتسجيل درجة الحرارة والرطوبة</title><link>http://localhost:1313/ar/projects/tah/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/tah/</guid><description>&lt;p>هذا المشروع تم إنجازه كجزء من مادة المتحكّمات الدقيقة خلال الدراسة الجامعية.&lt;/p>
+&lt;ul>
+&lt;li>يتكوّن من حساس SH10 لدرجة الحرارة والرطوبة، متصل بلوحة Arduino Uno.&lt;/li>
+&lt;li>تم تطوير تطبيق مكتبي بلغة C# لعرض البيانات.&lt;/li>
+&lt;li>يتم تسجيل القيم في قاعدة بيانات بصيغة XML.&lt;/li>
+&lt;li>يمكن عرض رسم بياني لتغيّر القيم بمرور الوقت.&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/tW-qlXYOt0g?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ملفات-التحميل">ملفات التحميل&lt;/h2>
+&lt;ol>
+&lt;li>كود الأردوينو&lt;/li>
+&lt;li>مشروع Visual Studio بلغة C#&lt;/li>
+&lt;li>الداتا شيت الخاص بالحساس&lt;/li>
+&lt;li>عرض PowerPoint (بالعربية)&lt;/li>
+&lt;/ol>
+&lt;p>📎
+&lt;/p></description></item><item><title>برنامج لمشاركة الإنترنت من الحاسوب إلى الهواتف – حل لمشكلة عامة</title><link>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
+&lt;p>في خضمّ الحرب الدائرة في بلده، كانت خدمات الإنترنت شبه معدومة، الأمر الذي دفع &lt;strong>المهندس خالد حميدي&lt;/strong> إلى ابتكار برنامج بسيط يحوّل الحاسوب إلى نقطة اتصال لاسلكي (Hotspot) توزّع الإنترنت على الهواتف القريبة.&lt;/p>
+&lt;h2 id="من-الفكرة-إلى-التطبيق">من الفكرة إلى التطبيق&lt;/h2>
+&lt;ul>
+&lt;li>انطلقت الفكرة بسبب انقطاع الشبكة وصعوبة الوصول إلى أجهزة الراوتر.&lt;/li>
+&lt;li>بدأ خالد بتعلّم أساسيات الشبكات وواجهات برمجة Windows.&lt;/li>
+&lt;li>استخدم لغة ‎C#‎ وواجهة WMI لإنشاء واجهة رسومية تتحكم بالشبكة.&lt;/li>
+&lt;li>الإصدار الأول دعم تحويل أي نوع اتصال إلى شبكة Wi-Fi بنقرة واحدة.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&amp;ldquo;كان التحدي الأكبر هو ضمان الثبات مع أقل استهلاك للموارد.&amp;rdquo; — خالد&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="الانتشار-والتأثير">الانتشار والتأثير&lt;/h2>
+&lt;ul>
+&lt;li>خلال السنة الأولى، وصل عدد التنزيلات إلى 3000+.&lt;/li>
+&lt;li>التطبيق أصبح شائعًا في المناطق المحاصرة لتوفير اتصال جماعي بتكلفة منخفضة.&lt;/li>
+&lt;li>دعم أنظمة Windows: XP, 7, 8, 8.1, 10&lt;/li>
+&lt;li>توفّر باللغتين: العربية والإنجليزية&lt;/li>
+&lt;/ul>
+&lt;h2 id="من-مشروع-شخصي-إلى-ميزة-رسمية">من مشروع شخصي إلى ميزة رسمية&lt;/h2>
+&lt;p>بعد نجاح التطبيق، اقترح خالد فكرته على منتدى مطوري Microsoft، وتم دمج ميزة Mobile Hotspot في Windows 10 الإصدار 1703.&lt;/p>
+&lt;h2 id="معرض-الصور">معرض الصور&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/gallery/blob/main/zwh/2.jpg?raw=true" alt="صورة للبرنامج" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
+&lt;ul>
+&lt;li>متوافق مع جميع إصدارات Windows&lt;/li>
+&lt;li>مجاني بالكامل&lt;/li>
+&lt;li>تصميم خفيف يدعم الأجهزة الضعيفة&lt;/li>
+&lt;/ul>
+&lt;h2 id="دروس-مستفادة">دروس مستفادة&lt;/h2>
+&lt;ol>
+&lt;li>الابتكار يولد من الحاجة&lt;/li>
+&lt;li>التعلم الذاتي يفتح الآفاق&lt;/li>
+&lt;li>مشاركة المعرفة تطور المشاريع&lt;/li>
+&lt;li>فكر عالميًا ولو بدأت محليًا&lt;/li>
+&lt;/ol>
+&lt;h2 id="حمل-التطبيق">حمّل التطبيق&lt;/h2>
+&lt;p>📎
+&lt;/p></description></item><item><title>CS-ZOOM | نسخة مطوّرة من Counter Strike 1.6</title><link>http://localhost:1313/ar/projects/cszoom/</link><pubDate>Wed, 01 Feb 2006 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/cszoom/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;p>يقدّم مشروع &lt;strong>CS-ZOOM&lt;/strong> نسخة مطوّرة من لعبة &lt;strong>Counter Strike 1.6&lt;/strong>، تهدف إلى تحسين تجربة اللعب الكلاسيكية من خلال إضافات خاصة تجعلها أكثر سلاسة وتفاعلية.&lt;br>
+يعتمد المشروع على &lt;strong>AMX Mod X&lt;/strong> ولغة البرمجة &lt;strong>C&lt;/strong> لتوفير تجربة غنية ومناسبة لمختلف المستخدمين.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;h3 id="-1-طريقة-لعب-قابلة-للتخصيص">🎮 1. طريقة لعب قابلة للتخصيص&lt;/h3>
+&lt;p>يتيح النظام للاعبين التحكّم بالإعدادات مثل الجاذبية وسلوك الخصوم، مما يمنح حرية تصميم تجربة تناسب كل لاعب — سواء أراد تحديًا فرديًا أو أسلوبًا أكثر استرخاء.&lt;/p>
+&lt;h3 id="-2-وضع-الرسوميات-عالية-الجودة-hd">💻 2. وضع الرسوميات عالية الجودة (HD)&lt;/h3>
+&lt;p>يُحسّن هذا الوضع من الأداء والمظهر البصري للعبة، مما يساعد على تتبّع الخصوم بشكل أفضل والتنقّل داخل بيئة اللعب بسهولة أكبر.&lt;/p>
+&lt;h3 id="-3-اللعب-ضد-الروبوتات">🤖 3. اللعب ضد الروبوتات&lt;/h3>
+&lt;p>يمكن للاعبين التدريب وصقل مهاراتهم باللعب ضد خصوم آليين، دون الحاجة إلى اتصال بالإنترنت أو التنافس مع لاعبين بشريين.&lt;/p>
+&lt;h3 id="-4-موارد-غير-محدودة">💰 4. موارد غير محدودة&lt;/h3>
+&lt;p>تتوفّر جميع الأسلحة مع رصيد غير محدود، عبر أداة ZConfig التي تتيح تجهيز الأسلحة بسرعة باستخدام الأزرار (X / C / V).&lt;/p>
+&lt;h3 id="-5-أوضاع-لعب-متعددة">🕹️ 5. أوضاع لعب متعددة&lt;/h3>
+&lt;p>يتضمن CS-ZOOM ستة أوضاع مختلفة ضمن لعبة واحدة، مما يوفّر مرونة كبيرة للاعبين سواء في الوضع الفردي أو عبر السيرفرات.&lt;/p>
+&lt;h3 id="-6-شعارات-مخصصة">🎨 6. شعارات مخصصة&lt;/h3>
+&lt;p>يمكن تغيير الشعار داخل اللعبة بالضغط على الزر T، مع أكثر من 100 شعار مختلف للاختيار، مما يمنح طابعًا شخصيًا لتجربة اللعب.&lt;/p>
+&lt;h3 id="-7-مجتمع-ألعاب-محلي">🌍 7. مجتمع ألعاب محلي&lt;/h3>
+&lt;p>انضم إلى أول سيرفر ألعاب في سوريا وكن جزءًا من مجتمع متنامٍ من اللاعبين.&lt;br>
+لا يقتصر CS-ZOOM على كونه مجرد لعبة، بل هو منصة تفاعلية تعزّز التواصل وروح الفريق بين اللاعبين.&lt;/p>
+&lt;h2 id="الخلاصة">الخلاصة&lt;/h2>
+&lt;p>إن &lt;strong>CS-ZOOM&lt;/strong> أكثر من مجرد تعديل للعبة Counter-Strike؛ بل هو إعادة ابتكار شاملة تعزز إمكانية الوصول والتخصيص والانخراط المجتمعي.&lt;br>
+مع ميزاته الفريدة، يضع هذا المشروع حجر الأساس لعصر جديد من الألعاب يجمع بين الكلاسيكية والحداثة.&lt;/p>
+&lt;p>🔗
+&lt;br>
+👨‍💻 تنفيذ: خالد حميدي –
+&lt;/p></description></item></channel></rss>
