@@ -5,10 +5,12 @@ date: 2019-02-01
 draft: false
 authors:
   - admin
+categories:
+  - Engineering & Robotics
 tags:
-  - embedded
-  - iot
-  - research
+  - IoT
+  - Desktop App
+  - Research
 ---
  It is a project that I did while studying at the university for the microprocessors course.ي
 

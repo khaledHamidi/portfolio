@@ -1,13 +1,14 @@
 ---
 title: Logic gates simulator
-summary: Logic Element Explorer is an application that allows you to simulate logic gates, flip-flops, decoders, encoders, multiplexers, and demultiplexers, and compare two signals. It provides a user-friendly interface for exploring and understanding various logic elements.
+summary: "A desktop simulator for exploring and testing various logic gates and digital circuit elements."
 date: 2020-08-20
 authors:
   - admin
+categories:
+  - "Software Development"
 tags:
-  - open-source
-  - desktop
-  - education
+  - "Desktop App"
+  - Education
 image:
   caption: 'Image credit: [**Unsplash**](https://github.com/khaledHamidi/Logic-Element-Explorer/blob/main/image.jpg)'
 ---

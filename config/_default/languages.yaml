@@ -5,5 +5,8 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  weight: 1
+ar:
+  languageCode: ar
+  rtl: true
+  weight: 2

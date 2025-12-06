@@ -5,11 +5,13 @@ date: 2023-05-01T12:00:00+03:00
 draft: false
 show_related: true
 reading_time: true
+show_date_updated: false
 authors:
   - admin
+categories:
+  - "Community & Education"
 tags:
-  - achievement
-  - event
+  - Event
 ---
 # ASP.NET Hackathon Winner: Khaled's Order Management System.
 

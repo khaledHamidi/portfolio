@@ -5,11 +5,11 @@ date: 2025-06-22
 draft: false
 authors:
   - admin
+categories:
+  - "أكاديمي وبحثي"
 tags:
-  - إنجازات
-  - طبي حيوي
-  - تكنولوجيا
-  - مجتمع
+  - طبي
+  - فعاليات
 ---
 
 <div dir="rtl" style="text-align: justify;">

@@ -1,15 +1,15 @@
 ---
 title: Pharmacy Plus The Ideal Pharmacy Management Application
-summary: Pharmacy Plus is a comprehensive application designed to streamline the management of your pharmacy, providing a wide range of features and functionalities to enhance efficiency and productivity.
+summary: "Pharmacy Plus: A comprehensive desktop application for streamlined pharmacy management and operations."
 date: 2020-03-10
 draft: false
 authors:
   - admin
+categories:
+  - "Software Development"
 tags:
-  - featured
-  - desktop
-  - business
-  - healthcare
+  - Desktop App
+  - Healthcare
 ---
 ## Overview
 

@@ -6,13 +6,20 @@ reading_time: false
 ---
 
 This is a collection of my certificates and training
+### Innovation & Invention Conference – Istanbul 2025
+**Issuing Organization:** Yemeni Friendship and Cooperation Association, Turkey  
+**Issue Date:** 2025  
+**Description:** Third place award at the Creativity and Innovation Conference for the POC Nephrocare project.
+
+![Innovation & Invention – Nephrocare](/certificates/Nephrocare.jpg)
+
 ### Autonomouse Vehicles
 **Issuing Organization:** University of Toronto  
 **Issue Date:** 2024-04-01
 
 [View Credential](https://www.coursera.org/account/accomplishments/verify/XD6FYG8MLU8M)
 
-![Introduction to Self-Driving Cars Certificate](cer_3.jpg)
+![Introduction to Self-Driving Cars Certificate](/cer_3.jpg)
 
 ### SAP
 **Issuing Organization:** enoca  
@@ -26,7 +33,7 @@ This is a collection of my certificates and training
 
 [View Credential](https://www.linkedin.com/in/enghamidi/details/certifications/)
 
-![Diploma in Data Analysis Certificate](cer_4.jpg)
+![Diploma in Data Analysis Certificate](/cer_4.jpg)
 
 
 ### Vocational training 
@@ -36,7 +43,7 @@ This is a collection of my certificates and training
 
 [View Credential](https://www.linkedin.com/in/enghamidi/details/certifications/)
 
-![Vocational training in AlQistas co](cer_2.jpg)
+![Vocational training in AlQistas co](/cer_2.jpg)
 
 
 
@@ -44,7 +51,7 @@ This is a collection of my certificates and training
 **Issuing Organization:** Accurate Methods Corporation  
 **Issue Date:** 2024-09-08
 
-![INTRODUCTION TO ON-GRID PHOTOVOLTAIC SYSTEMS Certificate](cer_5.jpg)
+![INTRODUCTION TO ON-GRID PHOTOVOLTAIC SYSTEMS Certificate](/cer_5.jpg)
 
 ## Cyber Security
 ### Cyber Security 1
@@ -52,7 +59,7 @@ This is a collection of my certificates and training
 
 **Issue Date:** 23 Mart 2022
 
-![Katilim belesi ](cer_1.jpg)
+![Katilim belesi ](/cer_1.jpg)
 
 ### Cyber Security 2
 **Issuing Organization:** sağlık kültür ve spor daire başkanlığı, Karabuk 
@@ -60,4 +67,4 @@ This is a collection of my certificates and training
 **Issue Date:** 16 September 2023
 [View Credential](https://www.linkedin.com/in/enghamidi/details/certifications/)
 
-![Katilim belesi ](cer_6.jpg)
+![Katilim belesi ](/cer_6.jpg)

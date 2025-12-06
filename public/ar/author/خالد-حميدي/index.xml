@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>خالد حميدي | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/author/%D8%AE%D8%A7%D9%84%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A/</link><atom:link href="http://localhost:1313/ar/author/%D8%AE%D8%A7%D9%84%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A/index.xml" rel="self" type="application/rss+xml"/><description>خالد حميدي</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Sun, 22 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/author/khaled-hamidi/avatar_hu8332110391340345738.jpg</url><title>خالد حميدي</title><link>http://localhost:1313/ar/author/%D8%AE%D8%A7%D9%84%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A/</link></image><item><title>الشهادات والتكريم</title><link>http://localhost:1313/ar/certificates/</link><pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/certificates/</guid><description>&lt;style>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>خالد حميدي | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/author/%D8%AE%D8%A7%D9%84%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A/</link><atom:link href="http://localhost:1313/ar/author/%D8%AE%D8%A7%D9%84%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A/index.xml" rel="self" type="application/rss+xml"/><description>خالد حميدي</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/en/author/khaled-hamidi/avatar_hu8332110391340345738.jpg</url><title>خالد حميدي</title><link>http://localhost:1313/ar/author/%D8%AE%D8%A7%D9%84%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A/</link></image><item><title>سجّل الآن في دورة ICDL المعتمدة</title><link>http://localhost:1313/ar/education/icdl/</link><pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/education/icdl/</guid><description>&lt;p>هل ترغب في تطوير مهاراتك في الحاسوب؟ سجّل الآن في دورة ICDL المعتمدة لدى أكاديمية تميّز للخدمات الجامعية.&lt;/p>
+&lt;p>تغطي هذه الدورة الشاملة:&lt;/p>
+&lt;ul>
+&lt;li>أساسيات الحاسوب&lt;/li>
+&lt;li>الإنترنت والبريد الإلكتروني&lt;/li>
+&lt;li>معالجة النصوص (Word)&lt;/li>
+&lt;li>الجداول الإلكترونية (Excel)&lt;/li>
+&lt;li>العروض التقديمية (PowerPoint)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>تفاصيل التسجيل:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>الرسوم:&lt;/strong> 10$&lt;/li>
+&lt;li>&lt;strong>آخر موعد للتسجيل:&lt;/strong> 25 سبتمبر&lt;/li>
+&lt;/ul>
+&lt;p>احجز مكانك الآن وابدأ رحلتك نحو التميّز الرقمي!&lt;/p></description></item><item><title>الشهادات والتكريم</title><link>http://localhost:1313/ar/certificates/</link><pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/certificates/</guid><description>&lt;style>
 .cert-table {
 width: 100%;
 border-collapse: collapse;
@@ -38,6 +52,10 @@ max-width: 120px;
 &lt;h2 id="-مشاركات-أكاديمية-وصناعية">🏛️ مشاركات أكاديمية وصناعية&lt;/h2>
 &lt;table class="cert-table" dir="rtl">&lt;tbody>
 &lt;tr>
+&lt;td>&lt;a href="http://localhost:1313/certificates/Nephrocare.jpg">&lt;img src="http://localhost:1313/certificates/Nephrocare.jpg" alt="Nephrocare">&lt;/a>&lt;/td>
+&lt;td>&lt;strong>مؤتمر الإبداع والابتكار – إسطنبول 2025&lt;/strong>&lt;br>المركز الخامس عن مشروع POC Nephrocare، مقدّم من جمعية الصداقة والتعاون اليمنية – تركيا.&lt;/td>
+&lt;/tr>
+&lt;tr>
 &lt;td>&lt;a href="http://localhost:1313/certificates/cer_17.jpg">&lt;img src="http://localhost:1313/certificates/cer_17.jpg" alt="ICENSOS">&lt;/a>&lt;/td>
 &lt;td>&lt;strong>ICENSOS 2024 – تركيا&lt;/strong>&lt;br>مشاركة بحثية وتقديم شفهي بمؤتمر علمي – 16-17/05/2024.&lt;/td>
 &lt;/tr>
@@ -69,14 +87,14 @@ max-width: 120px;
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h3 id="-الذكاء-الاصطناعي-والمركبات-الذاتية">🚗 الذكاء الاصطناعي والمركبات الذاتية&lt;/h3>
+&lt;h3 id="والمركبات-الذاتية">والمركبات الذاتية&lt;/h3>
 &lt;table class="cert-table" dir="rtl">&lt;tbody>
 &lt;tr>
 &lt;td>&lt;a href="http://localhost:1313/certificates/cer_3.jpg">&lt;img src="http://localhost:1313/certificates/cer_3.jpg" alt="Self-Driving Cars">&lt;/a>&lt;/td>
 &lt;td>&lt;strong>المركبات ذاتية القيادة – University of Toronto&lt;/strong>&lt;br>البرمجة والإدراك للمركبات ذاتية القيادة – 06-04-2024.&lt;/td>
 &lt;/tr>
 &lt;/tbody>&lt;/table>
-&lt;h3 id="-الطاقة-والأنظمة-الكهروضوئية">☀️ الطاقة والأنظمة الكهروضوئية&lt;/h3>
+&lt;h3 id="-الطاقة">☀️ الطاقة&lt;/h3>
 &lt;table class="cert-table" dir="rtl">&lt;tbody>
 &lt;tr>
 &lt;td>&lt;a href="http://localhost:1313/certificates/cer_5.jpg">&lt;img src="http://localhost:1313/certificates/cer_5.jpg" alt="PV Systems">&lt;/a>&lt;/td>
@@ -181,7 +199,7 @@ max-width: 120px;
 &lt;li>
 &lt;/li>
 &lt;/ul>
-&lt;/div></description></item><item><title>(مقابلة تلفزيونية)قصة نجاح |من رحم المعاناة إلى القمّة</title><link>http://localhost:1313/ar/blog/success-story/</link><pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/blog/success-story/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/div></description></item><item><title>(مقابلة تلفزيونية)قصة نجاح |من رحم المعاناة إلى القمّة</title><link>http://localhost:1313/ar/posts/success-story/</link><pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/success-story/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;p>في زمنٍ كثرت فيه التحدّيات، ووسط ظروفٍ لم تكن يومًا سهلة، برزت واحدة من أروع قصص النجاح.&lt;br>
 خالد حميدي — طالب سوري — بدأ رحلته التعليمية داخل سوريا، تحت سماءٍ يعلوها صوت الطائرات بدل أجراس المدارس.&lt;br>
 ورغم كلّ شيء، لم يستسلم، بل حمل حلمه إلى تركيا لاجئًا، يواجه غربةً قاسية وحاجزَ لغةٍ صعب.&lt;br>
@@ -190,6 +208,7 @@ max-width: 120px;
 إنها ليست مجرّد شهادة، بل قصةُ نضالٍ لطالبٍ أبى أن يكون رقمًا في قوائم اللجوء فأصبح رقمًا أوّل في قوائم التميّز.&lt;/p>
 &lt;/div>
 &lt;hr>
+&lt;iframe src="https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fwww.facebook.com%2F61577204031577%2Fvideos%2F700719286197956%2F&amp;show_text=true&amp;width=560&amp;t=47" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">&lt;/iframe>
 &lt;div dir="rtl" style="text-align: justify; background:#000d2f; padding:1em; border-radius:6px;">
 &lt;h4 id="تعليق-خالد-على-منشور-الدكتور-مصعب">تعليق خالد على منشور الدكتور مصعب&lt;/h4>
 &lt;blockquote>
@@ -237,19 +256,348 @@ max-width: 120px;
 &lt;p>|
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/tech-honor/2.jpg" alt="img1" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="img1" srcset="
+/media/tech-honor/2_hu8602481546504337804.webp 400w,
+/media/tech-honor/2_hu6667929985172462621.webp 760w,
+/media/tech-honor/2_hu17259898124989744330.webp 1200w"
+src="http://localhost:1313/media/tech-honor/2_hu8602481546504337804.webp"
+width="760"
+height="585"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 |
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/tech-honor/3.jpg" alt="img2" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="img2" srcset="
+/media/tech-honor/3_hu5253919605744838696.webp 400w,
+/media/tech-honor/3_hu10965267989318169679.webp 760w,
+/media/tech-honor/3_hu5811867521083313550.webp 1200w"
+src="http://localhost:1313/media/tech-honor/3_hu5253919605744838696.webp"
+width="760"
+height="443"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 |&lt;/p>
-&lt;/div></description></item><item><title>بدأت دراسة الماجستير في جامعة غازي عنتاب</title><link>http://localhost:1313/ar/blog/master/</link><pubDate>Thu, 06 Mar 2025 13:00:00 +0300</pubDate><guid>http://localhost:1313/ar/blog/master/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/div></description></item><item><title>تدريب على كتابة حلقات البحث والتوثيق العلمي</title><link>http://localhost:1313/ar/education/writing/</link><pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/education/writing/</guid><description>&lt;p>يسر مكتب الطلبة في الجامعة الدولية للعلوم والنهضة بالتعاون مع منصة تميز أن يعلن لكم عن انطلاق تدريب مميز بعنوان: &lt;strong>&amp;ldquo;كتابة حلقات البحث والتوثيق العلمي&amp;rdquo;&lt;/strong>.&lt;/p>
+&lt;p>هذا التدريب التطبيقي موجه لطلاب وخريجي المراحل الجامعية والدراسات العليا، ويجمع بين المهارة العلمية والإعداد المنهجي لتعزيز قدراتكم البحثية.&lt;/p>
+&lt;p>&lt;strong>تفاصيل التدريب:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>التاريخ:&lt;/strong> السبت والأحد، 3-4 مايو 2025&lt;/li>
+&lt;li>&lt;strong>الوقت:&lt;/strong> 8:30 مساءً بتوقيت سوريا&lt;/li>
+&lt;li>&lt;strong>المنصة:&lt;/strong> Microsoft Teams&lt;/li>
+&lt;/ul>
+&lt;p>شهادة حضور إلكترونية ستُمنح لجميع المشاركين. ندعوكم إلى اغتنام هذه الفرصة النوعية لتعزيز مهاراتكم البحثية، والانضمام إلى نخبة من الطامحين في التميّز الأكاديمي.&lt;/p></description></item><item><title>مهارات الذكاء الاصطناعي لمستقبلٍ واعد</title><link>http://localhost:1313/ar/education/ai/</link><pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/education/ai/</guid><description>&lt;p>بكل فخرٍ واهتمام، نعلن عن انطلاق السلسلة الثانية من تدريبات الذكاء الاصطناعي لعام 2025، والتي تأتي استكمالًا لمسيرة التميز والإقبال الكبير الذي شهدته السلسلة الأولى، تحت عنوان: &lt;strong>&amp;ldquo;تميّز بذكاء&amp;rdquo;&lt;/strong>.&lt;/p>
+&lt;p>تهدف هذه السلسلة إلى تمكين المشاركين من أدوات الذكاء الاصطناعي، وتطوير مهاراتهم في مجالات متعددة تشمل الكتابة، الترجمة، البرمجة، التعليم، والبحث العلمي، بأسلوبٍ تطبيقي وعملي.&lt;/p>
+&lt;p>&lt;strong>تفاصيل التدريب:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>المنصة:&lt;/strong> يُقام عبر تطبيق Microsoft Teams&lt;/li>
+&lt;li>&lt;strong>الشهادة:&lt;/strong> يُمنح المشاركون شهادة حضور إلكترونية عند إتمام ما لا يقل عن 70٪ من عدد الساعات.&lt;/li>
+&lt;li>&lt;strong>التكلفة:&lt;/strong> السلسلة مجانية ومفتوحة للجميع.&lt;/li>
+&lt;/ul>
+&lt;p>لا تفوّتوا هذه الفرصة لصقل مهاراتكم والاستعداد لمستقبلٍ يقوده الذكاء! تابعوا حساباتنا لمعرفة مواعيد الجلسات والتسجيل.&lt;/p></description></item><item><title>إعلان استقطاب مبرمجين: مشروع فضائي سلامتك</title><link>http://localhost:1313/ar/posts/robotech/developer-call/</link><pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/robotech/developer-call/</guid><description>&lt;p>هل تمتلك مهارات برمجية ولمسة تقنية؟ نحن نبحث عن مطورين مبدعين لإنشاء تطبيقات ومواقع ويب لمشروع &amp;ldquo;فضائي سلامتك&amp;rdquo; المبتكر!&lt;/p>
+&lt;p>&lt;strong>من نبحث عنه؟&lt;/strong>
+مطور شغوف، يتقن بناء واجهات وتجارب مستخدم سلسة، ويجيد تحويل الأفكار إلى تطبيقات واقعية وعملية.&lt;/p>
+&lt;p>&lt;strong>شرط أساسي:&lt;/strong>
+كجزء من التجربة النهائية، يجب رفع التطبيق على متجر Google Play.&lt;/p>
+&lt;p>&lt;strong>هل أنت جاهز؟&lt;/strong>
+أرسل لنا نبذة عنك وأعمالك السابقة عبر الرابط التالي:&lt;/p>
+&lt;p>
+&lt;/p></description></item><item><title>اختتام تدريب 'أساسيات Canva – المستوى الأول' بنجاح</title><link>http://localhost:1313/ar/posts/canva-workshop/</link><pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/canva-workshop/</guid><description>&lt;p>بكل فخر نختتم تدريب &amp;ldquo;أساسيات Canva – المستوى الأول&amp;rdquo; الذي أُقيم في 5-6-7 أبريل 2025، وكان من أكثر التدريبات إلهامًا هذا العام. شهدنا تفاعلاً رائعًا، وتعلّمنا أكثر من 4 ساعات متواصلة بشغف دون كلل.&lt;/p>
+&lt;p>تقديرًا لالتزامهم، تم منح 112 شهادة حضور للمشاركين الذين استوفوا شرط الحضور بنسبة 70%.&lt;/p>
+&lt;p>واختتم التدريب بمسابقة تصميم أضاءت مواهب مجتمعنا، شارك فيها 43 متسابقًا، واختير 15 تصميمًا عبّرت عن تنوع القدرات والإبداع.&lt;/p>
+&lt;p>شكرًا منصة تميز للخدمات الجامعية وللمبدع المدرب المهندس خالد حميدي على هذا العطاء الملهم. ونعدكم بأن القادم أجمل&amp;hellip;&lt;/p>
+&lt;p>إلى لقاء قريب في سلسلة جديدة بعنوان: &amp;ldquo;منهجية بحثية بعقل رقمي: مهارات أكاديمية وتقنية لزمن متجدّد&amp;rdquo;&lt;/p>
+&lt;iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fengkhamidi%2Fposts%2Fpfbid0qgYGwSRTRuWLATgNgnAyYj54XvmGFW2Fnvvr6p8DHiNdeZonwyxxbjwy7UkL1Bxgl&amp;show_text=true&amp;width=500" width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">&lt;/iframe></description></item><item><title>اكتشف أسرار التصميم في Canva</title><link>http://localhost:1313/ar/education/canva/</link><pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/education/canva/</guid><description>&lt;p>تعلن منصة تميُّز للخدمات الجامعية والتدريب عن إطلاق دورة تدريبية مجانية بعنوان: &lt;strong>&amp;ldquo;اكتشف أسرار التصميم في Canva&amp;rdquo;&lt;/strong>.&lt;/p>
+&lt;p>انضموا إلى المدربين المبدعين، &lt;strong>الأستاذ محمد حميدي&lt;/strong> و&lt;strong>المهندس خالد كنو&lt;/strong>، لإطلاق العنان لقدراتكم في التصميم.&lt;/p>
+&lt;p>&lt;strong>تفاصيل الدورة:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>التاريخ:&lt;/strong> 5 - 6 أبريل 2025&lt;/li>
+&lt;li>&lt;strong>الوقت:&lt;/strong> 8:30 مساءً بتوقيت دمشق ومكة&lt;/li>
+&lt;li>&lt;strong>المنصة:&lt;/strong> أونلاين عبر Microsoft Teams&lt;/li>
+&lt;li>&lt;strong>الشهادة:&lt;/strong> يوجد شهادة حضور لمن يُتم 70% من الدورة.&lt;/li>
+&lt;/ul>
+&lt;p>التدريب مجاني بالكامل ولا يحتاج لأي خبرة مسبقة، يكفي حماسك وشغفك! ستتضمن الورشة أيضًا مسابقات وجوائز للمشاركين المتميزين.&lt;/p></description></item><item><title>بدأت دراسة الماجستير في جامعة غازي عنتاب</title><link>http://localhost:1313/ar/posts/master/</link><pubDate>Thu, 06 Mar 2025 13:00:00 +0300</pubDate><guid>http://localhost:1313/ar/posts/master/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;p>بدأ خالد الحميدي فصلًا جديدًا في مسيرته الأكاديمية، حيث التحق ببرنامج الماجستير في &lt;strong>هندسة الطيران والفضاء&lt;/strong> في &lt;strong>جامعة غازي عنتاب&lt;/strong>.&lt;/p>
 &lt;p>يمثّل هذا الانتقال خطوة استراتيجية لتعميق معارفه في مجالات الديناميكا الهوائية، والمركبات الفضائية، والنمذجة الحاسوبية، سعيًا إلى دمج التخصصات الهندسية في حلول بحثية وتطبيقية متقدّمة.&lt;/p>
 &lt;p>وقد عبّر خالد عن تقديره لكل من دعمه في هذه الرحلة، مؤكدًا أن هذا التقدّم ليس محطة نهائية، بل انطلاقة جديدة نحو البحث، والتطوير، والمساهمة في مستقبل الصناعة الفضائية.&lt;/p>
-&lt;/div></description></item><item><title>التخرج بمرتبة الشرف العليا</title><link>http://localhost:1313/ar/blog/graduation/</link><pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/blog/graduation/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/div></description></item><item><title>Kenobot: منصة روبوتية ذاتية القيادة</title><link>http://localhost:1313/ar/hero/kenobot/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/kenobot/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>Kenobot منصة روبوتية متكاملة ومصممة كحل تجاري للملاحة الذاتية وتطوير الروبوتات. تصميم المنصة مرن وقابل للتطوير، مما يجعلها مناسبة لمجموعة واسعة من التطبيقات، من الخدمات اللوجستية الداخلية إلى الأبحاث المتقدمة.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="Kenobot" srcset="
+/en/hero/kenobot/Kenobot_hu13690977621405041432.webp 400w,
+/en/hero/kenobot/Kenobot_hu12904453175978178220.webp 760w,
+/en/hero/kenobot/Kenobot_hu772046578941458115.webp 1200w"
+src="http://localhost:1313/en/hero/kenobot/Kenobot_hu13690977621405041432.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="بنية-التحكم-المزدوجة">بنية التحكم المزدوجة&lt;/h3>
+&lt;p>تعتمد Kenobot على بنية تحكم من طبقتين لتحقيق الأداء العالي والموثوقية:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>الطبقة العليا (High-Level Control):&lt;/strong> تستخدم حاسوب &lt;strong>Raspberry Pi 5&lt;/strong> لمعالجة بيانات الحساسات المعقدة، وتطبيق خوارزميات الملاحة الذاتية، وإدارة النظام.&lt;/li>
+&lt;li>&lt;strong>الطبقة المنخفضة (Low-Level Control):&lt;/strong> تعتمد على لوحة &lt;strong>Arduino Mega&lt;/strong> للتحكم الدقيق في المحركات والمشغلات، وقراءة البيانات الأولية من المستشعرات منخفضة المستوى، مما يضمن استجابة سريعة ومستقرة.&lt;/li>
+&lt;/ol>
+&lt;h3 id="الملاحة-الذاتية-بدون-gps">الملاحة الذاتية بدون GPS&lt;/h3>
+&lt;p>من أبرز ميزات Kenobot قدرتها على الملاحة بدقة في البيئات المغلقة التي لا تتوفر فيها إشارة GPS. تعتمد المنصة على خوارزميات متقدمة مثل SLAM (التموضع ورسم الخرائط في ان واحد) باستخدام بيانات من حساسات مثل LIDAR والكاميرات لتحديد موقعها ورسم خريطة للبيئة المحيطة بشكل مستقل.
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="kenobot2" srcset="
+/en/hero/kenobot/kenobot2_hu2036028500574705620.webp 400w,
+/en/hero/kenobot/kenobot2_hu18418366311908760989.webp 760w,
+/en/hero/kenobot/kenobot2_hu6408071147380027251.webp 1200w"
+src="http://localhost:1313/en/hero/kenobot/kenobot2_hu2036028500574705620.webp"
+width="664"
+height="403"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="نظام-الاتصالات">نظام الاتصالات&lt;/h3>
+&lt;p>تدعم المنصة نظام اتصالات لاسلكي ثنائي الاتجاه لتبادل البيانات والأوامر بين الروبوت ومحطة التحكم. يتم توصيل جهاز الاستقبال بالحاسوب عبر منفذ USB للمراقبة والتحكم.
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="kenobot5" srcset="
+/en/hero/kenobot/kenobot5_hu585457607378248751.webp 400w,
+/en/hero/kenobot/kenobot5_hu16788491153956685347.webp 760w,
+/en/hero/kenobot/kenobot5_hu8247943638241275706.webp 1200w"
+src="http://localhost:1313/en/hero/kenobot/kenobot5_hu585457607378248751.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="ميزات-التطوير-الافتراضية">ميزات التطوير الافتراضية&lt;/h3>
+&lt;p>لتمكين المطورين من اختبار وتجربة الخوارزميات والتطبيقات بامان، تم تزويد كل منصة بميزات افتراضية وهمية. هذه البيئة الافتراضية تحاكي مهام وحمولات مختلفة دون الحاجة لوجودها الفعلي، مما يسرع دورة التطوير ويقلل المخاطر.&lt;/p>
+&lt;h3 id="تطبيقات-محتملة">تطبيقات محتملة&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>الامن والمراقبة:&lt;/strong> القيام بدوريات ذاتية في المناطق المحددة.&lt;/li>
+&lt;li>&lt;strong>الأبحاث والتطوير:&lt;/strong> منصة اختبار قوية لخوارزميات الذكاء الاصطناعي والروبوتات.
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="kenobot3" srcset="
+/en/hero/kenobot/kenobot3_hu12724093064960011798.webp 400w,
+/en/hero/kenobot/kenobot3_hu11674876008488447451.webp 760w,
+/en/hero/kenobot/kenobot3_hu537732736007319942.webp 1200w"
+src="http://localhost:1313/en/hero/kenobot/kenobot3_hu12724093064960011798.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;/ul></description></item><item><title>تحليل ومحاكاة الكينماتيكا الأمامية والعكسية لروبوت صناعي 6R في MATLAB</title><link>http://localhost:1313/ar/projects/kinematics-analysis-6r-robot/</link><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/kinematics-analysis-6r-robot/</guid><description>&lt;h2 id="مقدمة">مقدمة&lt;/h2>
+&lt;p>تركز هذه الدراسة على Elfin E15، وهو روبوت صناعي 6-DOF من Han&amp;rsquo;s Robot، يتكون من ستة مفاصل دورانية. يستخدم التحليل معلمات Denavit-Hartenberg (D-H) لنمذجة حركية الروبوت.&lt;/p>
+&lt;h3 id="معلمات-d-h">معلمات D-H&lt;/h3>
+&lt;p>يعد جدول معلمات D-H أمرًا بالغ الأهمية لتحديد بنية الروبوت، بما في ذلك أطوال الوصلات واتجاهات المفاصل.&lt;/p>
+&lt;p>&lt;strong>الجدول 1: معلمات إحداثيات وصلة ذراع الروبوت Elfin E15&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>الرابط&lt;/th>
+&lt;th>α_(i-1)&lt;/th>
+&lt;th>a_(i-1)&lt;/th>
+&lt;th>d_i&lt;/th>
+&lt;th>θ_i&lt;/th>
+&lt;th>متغير المفصل&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>h_1&lt;/td>
+&lt;td>θ_1&lt;/td>
+&lt;td>θ_1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>90&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>θ_2&lt;/td>
+&lt;td>θ_2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>a_2&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>θ_3&lt;/td>
+&lt;td>θ_3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>-90&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>d_4&lt;/td>
+&lt;td>θ_4&lt;/td>
+&lt;td>θ_4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>+90&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>θ_5&lt;/td>
+&lt;td>θ_5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>-90&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>d_6&lt;/td>
+&lt;td>θ_6&lt;/td>
+&lt;td>θ_6&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>الجدول 2: أطوال الوصلات (مم)&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>الرابط&lt;/th>
+&lt;th>الطول&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>h_1&lt;/td>
+&lt;td>262&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>a_2&lt;/td>
+&lt;td>580&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>d_4&lt;/td>
+&lt;td>520&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>d_6&lt;/td>
+&lt;td>173&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="تحليل-الكينماتيكا-الأمامية">تحليل الكينماتيكا الأمامية&lt;/h2>
+&lt;p>تحدد الكينماتيكا الأمامية موضع واتجاه المستجيب النهائي من زوايا مفاصل معينة. يتم تحقيق ذلك عن طريق حساب مصفوفات التحويل بين إطارات المفاصل المجاورة.&lt;/p>
+&lt;h3 id="محاكاة-matlab">محاكاة MATLAB&lt;/h3>
+&lt;p>تم تطوير تطبيق MATLAB App Designer لمحاكاة حركة الروبوت. تحسب الدالة &lt;code>robot_fkine&lt;/code> مصفوفات التحويل التراكمية وتصور الروبوت في مخطط ثلاثي الأبعاد.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="محاكاة الكينماتيكا الأمامية" srcset="
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu5029732473421680724.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu1381607180089422800.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu18007931118044576637.webp 1200w"
+src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu5029732473421680724.webp"
+width="718"
+height="632"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="تحليل-الكينماتيكا-العكسية">تحليل الكينماتيكا العكسية&lt;/h2>
+&lt;p>تحسب الكينماتيكا العكسية زوايا المفاصل المطلوبة لتحقيق موضع واتجاه المستجيب النهائي المطلوب. هذه مشكلة أكثر تعقيدًا، وغالبًا ما يكون لها حلول متعددة.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="محاكاة الكينماتيكا العكسية" srcset="
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu84899364215454693.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu4442455092246897181.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu5511955697912877658.webp 1200w"
+src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu84899364215454693.webp"
+width="760"
+height="349"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="محاكاة-الحركة">محاكاة الحركة&lt;/h2>
+&lt;p>يتم تخطيط مسار الروبوت عن طريق الاستيفاء بين تكوينات المفاصل الأولية والنهائية. تستخدم الكينماتيكا الأمامية لحساب مسار المستجيب النهائي، والذي يتم تحريكه بعد ذلك.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="محاكاة حركة الروبوت" srcset="
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu16832595402498787554.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu17908008611996152299.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu1986716169494807438.webp 1200w"
+src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/robot-movement_hu16832595402498787554.webp"
+width="760"
+height="213"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="تحميل">تحميل&lt;/h2>
+&lt;p>
+&lt;/p></description></item><item><title>إعلان استقطاب: مشروع فضائي سلامتك</title><link>http://localhost:1313/ar/posts/robotech/hiring-announcement/</link><pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/robotech/hiring-announcement/</guid><description>&lt;p>يعلن فريق روبوتك بالتعاون مع منظمة بيتنا (Baytna) عن استقطاب مدربين/ات وميسرين/ات لمشروعه الجديد &lt;strong>&amp;ldquo;فضائي سلامتك&amp;rdquo;&lt;/strong> ضمن التدريبات التالية:&lt;/p>
+&lt;ol>
+&lt;li>مفهوم بناء السلام&lt;/li>
+&lt;li>كتابة وصياغة المشاريع لتعزيز بناء السلام&lt;/li>
+&lt;li>المواطنة الرقمية&lt;/li>
+&lt;li>السلامة الرقمية&lt;/li>
+&lt;/ol>
+&lt;p>بالإضافة إلى ميسر/ة جلسات حوار مجتمعية.&lt;/p>
+&lt;p>فعلى الراغبين بالتقديم تعبئة الرابط التالي:
+&lt;/p></description></item><item><title>إطلاق مبادرة 'فضائي سلامتك'</title><link>http://localhost:1313/ar/posts/robotech/your-peace-is-my-space/</link><pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/robotech/your-peace-is-my-space/</guid><description>&lt;p>تم بحمد الله إطلاق أولى فعاليات مشروع &lt;strong>&amp;ldquo;فضائي سلامتك&amp;rdquo;&lt;/strong> الذي سعينا إليه طويلاً، ليواكب الاحتياجات الراهنة. كم هو جميلٌ أن نرى رؤيتنا وقد غدت واقعًا يزرع الأمل ويُتيح أدوات التغيير على الأرض وفي الفضاء الرقمي.&lt;/p>
+&lt;p>بالشراكة مع منظمة &lt;strong>بيتنا (Baytna)&lt;/strong>، أطلق فريق روبوتك أولى ورشاتنا ضمن المشروع، حيث بدأنا بتدريب مميز حول &lt;strong>&amp;ldquo;مفهوم بناء السلام&amp;rdquo;&lt;/strong>، بمشاركة فعالة من فرق شبابية ونسائية وأشخاص معنيين من ذوي الإعاقة في مدينة إعزاز.&lt;/p>
+&lt;p>كما شارك في الورشة 16 جهة من الفرق التطوعية ومنظمات المجتمع المدني، مما أغنى النقاشات ووسّع آفاق التعاون.&lt;/p>
+&lt;p>نؤمن أن بناء السلام يبدأ من فهم عميق للمفاهيم، وتمكين الأفراد ليكونوا صانعي تغيير في مجتمعاتهم، سواء على الأرض أو في الفضاء الرقمي.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="وصف" srcset="
+/en/posts/robotech/your-peace-is-my-space/your-peace-is-my-space_hu15037165198268357874.webp 400w,
+/en/posts/robotech/your-peace-is-my-space/your-peace-is-my-space_hu18300810765215989519.webp 760w,
+/en/posts/robotech/your-peace-is-my-space/your-peace-is-my-space_hu3977136601895537385.webp 1200w"
+src="http://localhost:1313/en/posts/robotech/your-peace-is-my-space/your-peace-is-my-space_hu15037165198268357874.webp"
+width="571"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Far.robotech%2Fposts%2Fpfbid0pAWwqKkD1AF59E7Uku2w4hGAaNV3FxDMGbvo3cwuZzK6fW1gKDLqVq68bBbZNrtfl&amp;show_text=true&amp;width=500" width="500" height="756" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">&lt;/iframe></description></item><item><title>الملتقى الاستشاري الهندسي الأول في إعزاز</title><link>http://localhost:1313/ar/posts/engineering-advisory-forum-1/</link><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/engineering-advisory-forum-1/</guid><description>&lt;p>انعقد يوم الخميس، 7 تشرين الثاني، في مدينة إعزاز &amp;ldquo;الملتقى الاستشاري الهندسي الأول&amp;rdquo; الذي تم تنظيمه بالتعاون مع منصة تميز للخدمات الجامعية وبحضور كريم من الطلبة الأحرار، الذين أبدوا حماساً كبيراً للمشاركة في الفعالية. أضاف المهندس خالد حميدي، المشرف على الملتقى بخبرته الواسعة، نكهة خاصة على النقاشات، وكان للدعم الكريم من مؤسسة المتميزون التعليمية دور أساسي في إنجاح هذا الحدث.&lt;/p>
+&lt;p>شهد الملتقى نقاشات ثرية حول موقع ومكانة مهندس الميكاترونكس في المنطقة، وكيف يُمكن لهذا التخصص أن يُسهم في إطلاق مشاريع تطبيقية مُبتكرة. وتم استعراض نماذج ناجحة لمشاريع سابقة، مما ألهم الحضور وأعطاهم فكرةً واضحة عن التطبيقات العملية لهذا التخصص.&lt;/p>
+&lt;p>ولم يغفل الملتقى عن التطرق إلى آفاق المستقبل، حيث قُدمت استشارات قيّمة حول التخصصات الهندسية المستقبلية الواعدة، كـهندسة الطاقة المتجددة، والذكاء الاصطناعي، وهندسة الروبوتات، مُركزًا على تلبية احتياجات سوق العمل المحلي وتوجيه الطلاب نحو مسارات مهنية مُزدهرة.&lt;/p>
+&lt;p>وتميز الملتقى بعرض ستة مشاريع من قِبل الطلاب، تنوعت ما بين الروبوتات، والطاقة المتجدة، والبرمجيات. خضعت هذه المشاريع لتقييم مُفصل ومناقشات بناءة، مما أتاح للطلاب فرصة ثمينة لعرض أفكارهم وتلقي التوجيه اللازم.&lt;/p>
+&lt;p>وفي لحظة مؤثرة، تم تكريم مؤسسة المتميزون التعليمية بدرعٍ تقديري، تسلّمه ممثلها، تقديراً وامتناناً لجهودها القيّمة ومساهمتها الفعّالة في إنجاح هذا الملتقى.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="جانب من تكريم مؤسسي المتميزون بدرع تذكاري" srcset="
+/en/posts/engineering-advisory-forum-1/1_hu10777358506807324830.webp 400w,
+/en/posts/engineering-advisory-forum-1/1_hu18142263398562066046.webp 760w,
+/en/posts/engineering-advisory-forum-1/1_hu8570993782992264425.webp 1200w"
+src="http://localhost:1313/en/posts/engineering-advisory-forum-1/1_hu10777358506807324830.webp"
+width="760"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fengkhamidi%2Fposts%2Fpfbid02VowEnVgypkGPhQavqs15AJJNo21gjCHmRfUaAQPExSVjDEQsM62TYusy4qgbjxETl&amp;show_text=true&amp;width=500" width="500" height="755" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">&lt;/iframe></description></item><item><title>الملتقى الاستشاري الهندسي الأول</title><link>http://localhost:1313/ar/posts/engineering-advisory/</link><pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/engineering-advisory/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+يسر فريق روبوتك بالتعاون مع منصة تميز دعوتكم لحضور ندوة حوارية بعنوان:
+الملتقى الاستشاري الهندسي
+📅 الخميس 7 تشرين الثاني
+⏰ الساعة 6 مساء
+📍 مقر الفريق - مدينة إعزاز
+&lt;p>اللقاء بإشراف المهندس: خالد حميدي&lt;/p>
+&lt;h3 id="أهداف-اللقاء">أهداف اللقاء:&lt;/h3>
+&lt;ul>
+&lt;li>مناقشة المشاريع من منظور عملي ونظري.&lt;/li>
+&lt;li>تقديم استشارات تساعد في تطوير المشاريع وتحسينها.&lt;/li>
+&lt;li>إيجاد حلول للمشاكل التي قد تواجهكم.&lt;/li>
+&lt;/ul>
+&lt;h3 id="مميزات-المشاركة">مميزات المشاركة:&lt;/h3>
+&lt;ul>
+&lt;li>ضيافة مجانية&lt;/li>
+&lt;li>مواصلات مجانية ذهاباً وإياباً&lt;/li>
+&lt;li>فرصة للتواصل مع خبراء ومهنيين في المجال الهندسي&lt;/li>
+&lt;/ul>
+&lt;p>🚨 الدعوة مفتوحة لعدد محدود من المشاركين. لذا، سارعوا بالتسجيل عبر الرابط، فالمقاعد محدودة!&lt;br>
+&lt;/p>
+&lt;p>لا تفوتوا هذه الفرصة الفريدة لتطوير مشاريعكم والارتقاء بها إلى مستويات جديدة.&lt;br>
+ننتظركم في &amp;ldquo;اللقاء الهندسي الأول&amp;rdquo;.&lt;/p>
+&lt;/div></description></item><item><title>التخرج بمرتبة الشرف العليا</title><link>http://localhost:1313/ar/posts/graduation/</link><pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/graduation/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;p>وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا&lt;br>
 الحمد لله الذي ما ختم جهد إلا بعونه ولا تم سعي إلا بفضله وتوفيقه، سبحان الذي بفضله وعطائه تتحقق الإنجازات، وبنوره وهدايته تستنير الطرقات. سبحان الذي إذا أعطَى أدهشَ بالعطاء.&lt;/p>
 &lt;p>أحمد الله تعالى أن وفقني لإكمال دراستي وأن أكرمني بتخرجي وأنا في السنة الثالثة وبمرتبة الشرف العليا. لم يكن هذا النجاح وليد اللحظة، ولكنه حصيلة الجد والاجتهاد والكد والتعب.&lt;/p>
@@ -261,11 +609,27 @@ max-width: 120px;
 كلية التكنولوجيا،&lt;br>
 هندسة الميكاترونكس&lt;/p>
 &lt;/div></description></item><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="فيديو">فيديو&lt;/h2>
+&lt;p>هذا الفيديو يشرح كيفية عمل الآلة.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Nckfvm2GynY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/p>
 &lt;h2 id="تصميم-وتصنيع-آلة-تعبئة-كهربائية-هوائية-مفتوحة-المصدر-للمواد-الحبيبية-بكميات-ثابتة">تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة&lt;/h2>
 &lt;p>تُقدّم هذه الدراسة نموذجًا مبتكرًا لآلة تعبئة ذكية لا تعتمد على الحساسات لضبط الكمية، بل تستند إلى آلية ميكانيكية دقيقة تقوم برفع الحاوية وملئها بكميات محددة تصل حتى 250 مل، مما يجعلها مثالية للمواد الخشنة أو الحبيبية.&lt;br>
 تم تطوير النظام باستخدام مكوّنات كهربائية-هوائية، حيث تُدار حركة الأسطوانة من خلال صمام كهرومغناطيسي (Solenoid Valve)، ويتحكم بها متحكم أردوينو مع حساس IR وسير ناقل (Conveyor Belt) يعمل بمحرك تيار مستمر (DC Motor).&lt;/p>
 &lt;p>تتميّز الآلة بسهولة الإنتاج باستخدام طابعة ثلاثية الأبعاد بمساحة 200x200 مم، مع إمكانية تخصيص التصميم ليناسب متطلبات متنوعة.&lt;br>
 تُعدّ الطبيعة المفتوحة للمشروع دعوةً للمجتمع التقني للمساهمة في تحسينه وتطويره، بما يدعم بيئة ابتكار مستمرة في أنظمة التعبئة الآلية.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
+&lt;p>توضح هذه الصورة النظام الكهربائي والهوائي.&lt;/p>
+&lt;figure>&lt;img src="http://localhost:1313/media/images/filling-machine-electro-pneumatic-system.jpg">&lt;figcaption>
+&lt;h4>النظام الكهربائي والهوائي&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
 &lt;/div>
 &lt;hr>
 &lt;div dir="rtl" style="text-align: justify;">
@@ -280,10 +644,203 @@ max-width: 120px;
 &lt;/div>
 &lt;hr>
 &lt;div dir="rtl" style="text-align: justify;">
-&lt;h2 id="رابط-البحث">رابط البحث&lt;/h2>
+&lt;h2 id="روابط">روابط&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;/li>
+&lt;li>
+&lt;/li>
+&lt;li>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="اقتباس">اقتباس&lt;/h2>
+&lt;p>APA
+HAMIDI, K., ABDULSELAM, A., &amp;amp; BUĞDAY, D. Ö. G. M. (2024). DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE FOR FIXED GRANULATE QUANTITIES. International Journal of Advanced Natural Sciences and Engineering Researches, 8(4), 122–128.&lt;/p>
+&lt;/div></description></item><item><title>التحكم الطولي في المركبات المستقلة</title><link>http://localhost:1313/ar/hero/av/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/av/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;p>يركز هذا البحث على تصميم وتحسين أنظمة التحكم الطولي للمركبات ذاتية القيادة (AVs). يتمحور جوهر الدراسة حول تطبيق &lt;strong>وحدات التحكم بالمنطق الضبابي (FLC)&lt;/strong> ودمجها مع &lt;strong>وحدات التحكم PID&lt;/strong> التقليدية لإنشاء أنظمة تحكم هجينة ومتقدمة.&lt;/p>
+&lt;p>الهدف الأساسي هو تعزيز سلامة وموثوقية وكفاءة المركبات المستقلة. من خلال تطوير وحدات تحكم قادرة على إدارة الطبيعة الديناميكية والمعقدة لبيئات القيادة في العالم الحقيقي، يهدف هذا المشروع إلى تحسين زمن استجابة السيارة واستقرارها.&lt;/p>
 &lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="autonomous vehicle" srcset="
+/en/hero/av/av_hu1992617688241104894.webp 400w,
+/en/hero/av/av_hu15473852881787687693.webp 760w,
+/en/hero/av/av_hu1039182901271111275.webp 1200w"
+src="http://localhost:1313/en/hero/av/av_hu1992617688241104894.webp"
+width="760"
+height="653"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 &lt;/p>
-&lt;/div></description></item><item><title>Local Guide | نظام ملاحة ذكي للروبوتات الذاتية</title><link>http://localhost:1313/ar/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/window-control-system/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="الأهداف-والأساليب-الرئيسية">الأهداف والأساليب الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>التحكم بالمنطق الضبابي&lt;/strong>: يستكشف استخدام المنطق الضبابي للتعامل مع الغموض والشكوك الكامنة في التحكم الطولي للمركبة (على سبيل المثال، التسارع، والكبح، والحفاظ على مسافات آمنة).&lt;/li>
+&lt;li>&lt;strong>نظام FLC-PID الهجين&lt;/strong>: يتضمن جزء كبير من البحث تصميم واختبار نظام هجين يجمع بين نقاط القوة التكيفية للمنطق الضبابي واستقرار التحكم PID.&lt;/li>
+&lt;li>&lt;strong>تطوير نموذج أولي&lt;/strong>: يشمل المشروع تصميم نموذج أولي لمركبة مستقلة لتكون بمثابة منصة اختبار لخوارزميات التحكم المطورة.&lt;/li>
+&lt;li>&lt;strong>تحليل الأداء&lt;/strong>: أظهر تنفيذ واختبار أنظمة التحكم تحسينات كبيرة في استجابة النظام واستقراره، مما يؤكد إمكانية التطبيق في العالم الحقيقي.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="robot" srcset="
+/en/hero/av/2_hu2949458785717201155.webp 400w,
+/en/hero/av/2_hu6641939472858165950.webp 760w,
+/en/hero/av/2_hu6001617812959739385.webp 1200w"
+src="http://localhost:1313/en/hero/av/2_hu2949458785717201155.webp"
+width="760"
+height="386"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="robot" srcset="
+/en/hero/av/3_hu2261569377939652540.webp 400w,
+/en/hero/av/3_hu9341678575793859296.webp 760w,
+/en/hero/av/3_hu7782481396795671165.webp 1200w"
+src="http://localhost:1313/en/hero/av/3_hu2261569377939652540.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="robot" srcset="
+/en/hero/av/4_hu15191957136124545335.webp 400w,
+/en/hero/av/4_hu13836004331211398489.webp 760w,
+/en/hero/av/4_hu2624328732635266318.webp 1200w"
+src="http://localhost:1313/en/hero/av/4_hu15191957136124545335.webp"
+width="760"
+height="342"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="robot" srcset="
+/en/hero/av/5_hu7744538201150100094.webp 400w,
+/en/hero/av/5_hu3424715750421058474.webp 760w,
+/en/hero/av/5_hu2739134883705974662.webp 1200w"
+src="http://localhost:1313/en/hero/av/5_hu7744538201150100094.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>إطلاق مجتمع روبوتك للإبداع التقني</title><link>http://localhost:1313/ar/posts/robotechtalk/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/robotechtalk/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;p>في خطوة جديدة تعكس التزام فريق &lt;strong>روبوتك&lt;/strong> بتمكين الشباب وتعزيز مهاراتهم التقنية، تم إطلاق &lt;strong>مجتمع روبوتك للإبداع التقني&lt;/strong>، كمجتمع مفتوح يوفّر بيئة محفزة للتعلم والتعاون وتبادل المعرفة في مجالات الروبوتات والتكنولوجيا الحديثة.&lt;/p>
+&lt;h2 id="ما-الذي-يقدمه-المجتمع">ما الذي يقدمه المجتمع؟&lt;/h2>
+&lt;ul>
+&lt;li>🔧 &lt;strong>ورشات تدريبية متخصصة:&lt;/strong> تغطي مجالات متعددة تشمل برمجة الروبوتات، تصميم الأنظمة، الذكاء الاصطناعي، والتعلم الآلي.&lt;/li>
+&lt;li>🤝 &lt;strong>مشاركة مشاريع وأدوات:&lt;/strong> مساحة مفتوحة لتبادل الأدوات والمصادر، والحصول على ملاحظات بنّاءة لتحسين المشاريع.&lt;/li>
+&lt;li>💬 &lt;strong>نقاشات تفاعلية:&lt;/strong> منتدى مجتمعي لتبادل الخبرات ومناقشة التحديات والأفكار في مختلف جوانب التقنية.&lt;/li>
+&lt;li>❓ &lt;strong>اسأل خبير:&lt;/strong> قناة لطرح الأسئلة التقنية على مختصين في البرمجة والهندسة وعلوم الحاسوب.&lt;/li>
+&lt;li>💡 &lt;strong>منصة للابتكار:&lt;/strong> دعم عملي لتحويل الأفكار التقنية إلى نماذج ومشاريع حقيقية.&lt;/li>
+&lt;li>🛠️ &lt;strong>حلول هندسية:&lt;/strong> استشارات فنية لتطوير التصاميم وتحسين الأداء الميكانيكي والإلكتروني.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="شعار مجتمع روبوتك" srcset="
+/media/blog/robotechTalk_hu9897671199688584118.webp 400w,
+/media/blog/robotechTalk_hu15900762313813202166.webp 760w,
+/media/blog/robotechTalk_hu15937329582132281198.webp 1200w"
+src="http://localhost:1313/media/blog/robotechTalk_hu9897671199688584118.webp"
+width="507"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="الختام">الختام&lt;/h2>
+&lt;p>الانضمام مجاني ومتاح للجميع عبر:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>تلغرام:&lt;/strong>
+&lt;/li>
+&lt;li>&lt;strong>واتساب:&lt;/strong>
+&lt;/li>
+&lt;/ul>
+&lt;p>ندعو كل المهتمين بالروبوتات والتقنية للانضمام والمشاركة في بناء مجتمع معرفي فعّال.&lt;/p>
+&lt;/div></description></item><item><title>تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم</title><link>http://localhost:1313/ar/achievements/tubitak/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/tubitak/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تمويل-tübitak-لمشروع-روبوت-متنقل-ذاتي-التحكم">تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم&lt;/h2>
+&lt;p>حصل مشروع خالد بعنوان&lt;br>
+&lt;strong>&amp;ldquo;تطوير روبوت متنقل ذاتي متعدد المهام لأغراض التعليم والبحث العلمي&amp;rdquo;&lt;/strong>&lt;br>
+على تمويل من مؤسسة
+ضمن برنامج دعم مشاريع أبحاث الطلبة الجامعيين (2209-A).&lt;/p>
+&lt;p>يهدف المشروع إلى تصميم وتطوير منصة روبوتية قادرة على أداء مهام متنوعة بشكل ذاتي، مع إمكانية التكامل مع أنظمة خارجية.&lt;br>
+ويُعد هذا الدعم من TÜBİTAK دفعة قوية نحو تحويل الفكرة إلى إنجاز فعلي يُسهم في تطوير المعرفة العلمية وتعزيز الابتكار في مجال التكنولوجيا.&lt;/p>
+&lt;/div></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/sws/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/sws/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;p>يتناول هذا المشروع تصميم وتنفيذ نظام تحكم بالنوافذ لحماية المنازل من الغبار والرمال أثناء العواصف الرملية، وهي ظاهرة شائعة في السعودية.&lt;br>
+يعمل النظام على إغلاق النوافذ تلقائيًا عند اكتشاف العاصفة الرملية، مما يمنع دخول الغبار إلى المنزل.&lt;/p>
+&lt;p>يتكوّن النظام من حساسات لاكتشاف العواصف، وآلية ميكانيكية تعمل بمحرك لفتح وإغلاق النوافذ، إلى جانب ميزة إرسال إشعارات قصيرة إلى هاتف مالك المنزل عند تشغيل النظام.&lt;/p>
+&lt;h2 id="المميزات">المميزات&lt;/h2>
+&lt;ul>
+&lt;li>حساسات اكتشاف العواصف الرملية&lt;/li>
+&lt;li>آلية آلية لفتح وإغلاق النوافذ&lt;/li>
+&lt;li>نظام إشعارات لحظية&lt;/li>
+&lt;li>تصميم موفّر للطاقة وسهل الصيانة&lt;/li>
+&lt;/ul>
+&lt;h2 id="نتيجة-المشروع">نتيجة المشروع&lt;/h2>
+&lt;p>تم تنفيذ المشروع بنجاح، وأعرب العميل في السعودية عن رضاه التام عن النتيجة.&lt;br>
+نال النظام تقييمًا عاليًا لفعاليته في حماية المنازل وسهولة استخدامه.&lt;/p>
+&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="التقيم" srcset="
+/en/projects/sws/badge_hu10665682049558335899.webp 400w,
+/en/projects/sws/badge_hu2110014805596361415.webp 760w,
+/en/projects/sws/badge_hu8747777280006912142.webp 1200w"
+src="http://localhost:1313/en/projects/sws/badge_hu10665682049558335899.webp"
+width="760"
+height="399"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>المعيار&lt;/th>
+&lt;th>التقييم&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>الاحترافية في التعامل&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>التواصل والمتابعة&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>جودة العمل المنجَز&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الخبرة في مجال المشروع&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الالتزام بالوقت&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>التعامل معه مجددًا&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>
+&lt;figure id="figure-تقييم-ممتاز-لمشروع-نظام-التحكم-بالنوافذ">
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="window-control-system-rating.jpg" alt="تقييم المشروع" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+تقييم ممتاز لمشروع نظام التحكم بالنوافذ
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>📎
+&lt;/p></description></item><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:1313/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
 &lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
 تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
@@ -300,8 +857,21 @@ max-width: 120px;
 &lt;p>برهن مشروع Local Guide على فعالية دمج الذكاء الاصطناعي مع Python في تطوير حلول ملاحة مستقلة.&lt;br>
 وتميّز النظام بدقته وسرعة استجابته، مما يجعله مناسبًا لمجالات متعدّدة تشمل الأتمتة الصناعية والخدمات اللوجستية.&lt;/p>
 &lt;p>تصميمه المعياري يتيح تطويره مستقبلًا وتخصيصه لسيناريوهات مختلفة، مما يجعله مثالًا على تكامل التكنولوجيا الحديثة لحل تحديات واقعية في عالم الروبوتات.&lt;/p>
-&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
+&lt;h2 id="تقييم">تقييم&lt;/h2>
 &lt;p>حصل المشروع على تقييم ممتاز من العميل، بـ 5 نجوم في جميع الجوانب:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="التقيم" srcset="
+/en/projects/lg/badge_hu3034371145428125111.webp 400w,
+/en/projects/lg/badge_hu12181493154512379697.webp 760w,
+/en/projects/lg/badge_hu18213919312010536174.webp 1200w"
+src="http://localhost:1313/en/projects/lg/badge_hu3034371145428125111.webp"
+width="760"
+height="399"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -346,73 +916,7 @@ max-width: 120px;
 &lt;/p>
 &lt;p>📎
 &lt;/p>
-&lt;/div></description></item><item><title>تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم</title><link>http://localhost:1313/ar/achievements/tubitak/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/tubitak/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
-&lt;h2 id="تمويل-tübitak-لمشروع-روبوت-متنقل-ذاتي-التحكم">تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم&lt;/h2>
-&lt;p>حصل مشروع خالد بعنوان&lt;br>
-&lt;strong>&amp;ldquo;تطوير روبوت متنقل ذاتي متعدد المهام لأغراض التعليم والبحث العلمي&amp;rdquo;&lt;/strong>&lt;br>
-على تمويل من مؤسسة
-ضمن برنامج دعم مشاريع أبحاث الطلبة الجامعيين (2209-A).&lt;/p>
-&lt;p>يهدف المشروع إلى تصميم وتطوير منصة روبوتية قادرة على أداء مهام متنوعة بشكل ذاتي، مع إمكانية التكامل مع أنظمة خارجية.&lt;br>
-ويُعد هذا الدعم من TÜBİTAK دفعة قوية نحو تحويل الفكرة إلى إنجاز فعلي يُسهم في تطوير المعرفة العلمية وتعزيز الابتكار في مجال التكنولوجيا.&lt;/p>
-&lt;/div></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/window-control-system/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
-&lt;p>يتناول هذا المشروع تصميم وتنفيذ نظام تحكم بالنوافذ لحماية المنازل من الغبار والرمال أثناء العواصف الرملية، وهي ظاهرة شائعة في السعودية.&lt;br>
-يعمل النظام على إغلاق النوافذ تلقائيًا عند اكتشاف العاصفة الرملية، مما يمنع دخول الغبار إلى المنزل.&lt;/p>
-&lt;p>يتكوّن النظام من حساسات لاكتشاف العواصف، وآلية ميكانيكية تعمل بمحرك لفتح وإغلاق النوافذ، إلى جانب ميزة إرسال إشعارات قصيرة إلى هاتف مالك المنزل عند تشغيل النظام.&lt;/p>
-&lt;h2 id="المميزات">المميزات&lt;/h2>
-&lt;ul>
-&lt;li>حساسات اكتشاف العواصف الرملية&lt;/li>
-&lt;li>آلية آلية لفتح وإغلاق النوافذ&lt;/li>
-&lt;li>نظام إشعارات لحظية&lt;/li>
-&lt;li>تصميم موفّر للطاقة وسهل الصيانة&lt;/li>
-&lt;/ul>
-&lt;h2 id="نتيجة-المشروع">نتيجة المشروع&lt;/h2>
-&lt;p>تم تنفيذ المشروع بنجاح، وأعرب العميل في السعودية عن رضاه التام عن النتيجة.&lt;br>
-نال النظام تقييمًا عاليًا لفعاليته في حماية المنازل وسهولة استخدامه.&lt;/p>
-&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>المعيار&lt;/th>
-&lt;th>التقييم&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>الاحترافية في التعامل&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>التواصل والمتابعة&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>جودة العمل المنجَز&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>الخبرة في مجال المشروع&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>الالتزام بالوقت&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>التعامل معه مجددًا&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>
-&lt;figure id="figure-تقييم-ممتاز-لمشروع-نظام-التحكم-بالنوافذ">
-&lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="window-control-system-rating.jpg" alt="تقييم المشروع" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-تقييم ممتاز لمشروع نظام التحكم بالنوافذ
-&lt;/figcaption>&lt;/figure>
-&lt;/p>
-&lt;p>📎
-&lt;/p></description></item><item><title>ورشة محاكاة وبرمجة أردوينو</title><link>http://localhost:1313/ar/achievements/arduino-cuarse/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/arduino-cuarse/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/div></description></item><item><title>ورشة محاكاة وبرمجة أردوينو</title><link>http://localhost:1313/ar/achievements/arduino-cuarse/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/arduino-cuarse/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>أقيمت ورشة ناجحة حول محاكاة وبرمجة أردوينو، شارك فيها مئة متدرب. تمحورت الورشة حول التعريف بمنصة أردوينو واستخدام برنامج بروتيوس لمحاكاة الدارات وبرمجتها.&lt;/p>
 &lt;h2 id="تفاصيل-الورشة">تفاصيل الورشة&lt;/h2>
@@ -429,11 +933,25 @@ max-width: 120px;
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/11.jpg" alt="content Example 1" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="content Example 1" srcset="
+/media/arduino-cuarse/files/11_hu10099879675594179965.webp 400w,
+/media/arduino-cuarse/files/11_hu6420922738198027479.webp 760w,
+/media/arduino-cuarse/files/11_hu11822370757677321700.webp 1200w"
+src="http://localhost:1313/media/arduino-cuarse/files/11_hu10099879675594179965.webp"
+width="587"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/22.jpg" alt="content Example 2" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="content Example 2" srcset="
+/media/arduino-cuarse/files/22_hu12940673404015746907.webp 400w,
+/media/arduino-cuarse/files/22_hu16692473574271778793.webp 760w,
+/media/arduino-cuarse/files/22_hu17925858278480616784.webp 1200w"
+src="http://localhost:1313/media/arduino-cuarse/files/22_hu12940673404015746907.webp"
+width="587"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h2 id="مقدمة-عن-أردوينو-وبروتيوس">مقدمة عن أردوينو وبروتيوس&lt;/h2>
@@ -441,23 +959,58 @@ max-width: 120px;
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/1.png" alt="Project Example 1" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="Project Example 1" srcset="
+/media/arduino-cuarse/files/1_hu4032888504294827556.webp 400w,
+/media/arduino-cuarse/files/1_hu8427337394276921402.webp 760w,
+/media/arduino-cuarse/files/1_hu12820048965105992662.webp 1200w"
+src="http://localhost:1313/media/arduino-cuarse/files/1_hu4032888504294827556.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/2.png" alt="Project Example 2" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="Project Example 2" srcset="
+/media/arduino-cuarse/files/2_hu7932126458866373799.webp 400w,
+/media/arduino-cuarse/files/2_hu17710947327993781312.webp 760w,
+/media/arduino-cuarse/files/2_hu7807916285788262775.webp 1200w"
+src="http://localhost:1313/media/arduino-cuarse/files/2_hu7932126458866373799.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/3.png" alt="Project Example 3" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="Project Example 3" srcset="
+/media/arduino-cuarse/files/3_hu4835037603250050770.webp 400w,
+/media/arduino-cuarse/files/3_hu11756776219733133263.webp 760w,
+/media/arduino-cuarse/files/3_hu8443553629793165423.webp 1200w"
+src="http://localhost:1313/media/arduino-cuarse/files/3_hu4835037603250050770.webp"
+width="760"
+height="430"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/4.png" alt="Project Example 4" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="Project Example 4" srcset="
+/media/arduino-cuarse/files/4_hu6054785144826684856.webp 400w,
+/media/arduino-cuarse/files/4_hu2552928411579604616.webp 760w,
+/media/arduino-cuarse/files/4_hu10149174021050957869.webp 1200w"
+src="http://localhost:1313/media/arduino-cuarse/files/4_hu6054785144826684856.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/5.png" alt="Project Example 5" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="Project Example 5" srcset="
+/media/arduino-cuarse/files/5_hu14350339793079773456.webp 400w,
+/media/arduino-cuarse/files/5_hu9091140433557680457.webp 760w,
+/media/arduino-cuarse/files/5_hu4005013823451857470.webp 1200w"
+src="http://localhost:1313/media/arduino-cuarse/files/5_hu14350339793079773456.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h3 id="الشهادات-والتقييم">الشهادات والتقييم&lt;/h3>
@@ -465,13 +1018,20 @@ max-width: 120px;
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="http://localhost:1313/arduino-cuarse/files/certificate.jpg" alt="Certificate" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="Certificate" srcset="
+/media/arduino-cuarse/files/certificate_hu12362454085079630516.webp 400w,
+/media/arduino-cuarse/files/certificate_hu18076959278979305477.webp 760w,
+/media/arduino-cuarse/files/certificate_hu15348885108428490543.webp 1200w"
+src="http://localhost:1313/media/arduino-cuarse/files/certificate_hu12362454085079630516.webp"
+width="760"
+height="535"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h2 id="الخلاصة">الخلاصة&lt;/h2>
 &lt;p>قدّمت ورشة محاكاة وبرمجة أردوينو تجربة تعليمية متكاملة للمشاركين شملت الجوانب النظرية والعملية في أردوينو ومحاكاة الدارات وبرمجتها، وحظيت بتقييم ممتاز يعكس نجاحها والتزام المنظمين بتقديم محتوى ذو جودة عالية.&lt;/p>
 &lt;p>لمزيد من المعلومات حول الدورات أو الورش القادمة يرجى زيارة فريق روبوتك أو التواصل معي.&lt;/p>
-&lt;/div></description></item><item><title>تكريم خالد من رئيس جامعة كارابوك عن مشروع TÜBİTAK 2209A</title><link>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</link><pubDate>Tue, 30 May 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/div></description></item><item><title>تكريم من رئيس جامعة كارابوك</title><link>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</link><pubDate>Tue, 30 May 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="تكريم-من-رئيس-جامعة-كارابوك">تكريم من رئيس جامعة كارابوك&lt;/h2>
 &lt;p>في قاعة المؤتمرات &amp;ldquo;حميت تشيبني&amp;rdquo; بتاريخ 30 مايو 2024، تلقّى خالد شهادة تقدير من رئيس جامعة كارابوك الأستاذ الدكتور فاتح قرشق، وذلك ضمن فعالية خصّصت لتكريم الطلبة والمشرفين الذين قُبلت مشاريعهم في الدورة الثانية لعام 2023 من برنامج TÜBİTAK 2209 A-B.&lt;/p>
 &lt;p>يمثّل هذا المشروع المتميّز الذي أُدرج تحت إطار برنامج TÜBİTAK 2209A دليلاً على الكفاءة البحثية التي يتمتّع بها خالد، كما يعكس الإمكانات الابتكارية لمشروعه العلمي.&lt;br>
@@ -570,21 +1130,127 @@ max-width: 120px;
 &lt;h2 id="الشكر-والتقدير">الشكر والتقدير:&lt;/h2>
 &lt;p>💡 يُهدي فريق التطوير شكره العميق لمجتمع البرمجيات مفتوحة المصدر ولكل من ساهم في تطوير الأدوات والمكتبات المستخدمة في GeoSketch.&lt;/p>
 &lt;p>
-&lt;/p></description></item><item><title>QistasLinks</title><link>http://localhost:1313/ar/projects/qistaslinks/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistaslinks/</guid><description>&lt;h1 id="qistaslinks">QistasLinks&lt;/h1>
-&lt;p>&lt;strong>الحل الأمثل للمشاريع التي تعتمد على الاتصالات التسلسلية (Serial Communication)&lt;/strong>&lt;/p>
+&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/hero/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>نظام أوامر ديناميكي&lt;/strong>: يمكنك بسهولة تعريف وتسجيل أوامر مخصصة باستخدام صيغة بسيطة قائمة على الماكرو (&lt;code>DEF&lt;/code> و &lt;code>REG&lt;/code>).&lt;/li>
+&lt;li>&lt;strong>دعم معلمات متعددة الأنواع&lt;/strong>: تحليل الأعداد الصحيحة، والأعداد العشرية، والسلاسل النصية، والأعداد الطويلة من الأوامر التسلسلية الواردة.&lt;/li>
+&lt;li>&lt;strong>استجابات مبسطة&lt;/strong>: إرسال سلاسل نصية منسقة مرة أخرى إلى الجهاز المضيف من خلال استدعاء واحد &lt;code>link.response()&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>خفيفة وفعالة&lt;/strong>: مصممة للمتحكمات الدقيقة، تتميز Qlink ببصمة ذاكرة صغيرة وتعالج الأوامر في الوقت الفعلي.&lt;/li>
+&lt;li>&lt;strong>تحكم عبر منصات متعددة&lt;/strong>: تمكين التحكم السلس في الأردوينو من جهاز كمبيوتر (Windows/Linux)، أو Mac، أو Raspberry Pi.&lt;/li>
+&lt;/ul>
+&lt;h2 id="حالات-استخدام-شائعة">حالات استخدام شائعة&lt;/h2>
+&lt;ul>
+&lt;li>التحكم في الروبوتات أو آلات CNC من تطبيق سطح مكتب.&lt;/li>
+&lt;li>إرسال بيانات الاستشعار من الأردوينو إلى برنامج Python لتسجيلها أو تحليلها.&lt;/li>
+&lt;li>إنشاء نماذج أولية تفاعلية تستجيب للأوامر من طرفية تسلسلية.&lt;/li>
+&lt;li>تكوين إعدادات الجهاز (مثل سطوع LED، سرعة المحرك) بشكل فوري دون إعادة برمجة.&lt;/li>
+&lt;/ul>
+&lt;h2 id="مثال-على-الكود-التحكم-في-وميض-بسيط">مثال على الكود: التحكم في وميض بسيط&lt;/h2>
+&lt;p>يوضح المثال التالي كيفية التحكم في الـ LED المدمج على لوحة الأردوينو باستخدام أمر &lt;code>DELAY&lt;/code> يتم إرساله عبر الاتصال التسلسلي.&lt;/p>
+&lt;div dir="ltr">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;Qlink.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1000&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// الفاصل الزمني الافتراضي للوميض
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">Qlink&lt;/span> &lt;span class="nf">link&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Serial&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تهيئة Qlink على منفذ الاتصال التسلسلي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// تعريف الأمر &amp;#34;DELAY&amp;#34; الذي يقبل معاملًا صحيحًا واحدًا
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">DEF&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">DELAY&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">INT&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Convert&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Args&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="kt">int&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">response&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Blink interval updated to %d ms&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">setup&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">begin&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">9600&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">pinMode&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">OUTPUT&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">REG&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">link&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">DELAY&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تسجيل الأمر DELAY
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">loop&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">loop&lt;/span>&lt;span class="p">();&lt;/span> &lt;span class="c1">// الاستماع باستمرار للأوامر الواردة
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// وميض الـ LED بالفاصل الزمني الحالي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">HIGH&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LOW&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل `DELAY 500` من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.
 &lt;p>
-&lt;br>
-&lt;/p>
+&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/projects/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>نظام أوامر ديناميكي&lt;/strong>: يمكنك بسهولة تعريف وتسجيل أوامر مخصصة باستخدام صيغة بسيطة قائمة على الماكرو (&lt;code>DEF&lt;/code> و &lt;code>REG&lt;/code>).&lt;/li>
+&lt;li>&lt;strong>دعم معلمات متعددة الأنواع&lt;/strong>: تحليل الأعداد الصحيحة، والأعداد العشرية، والسلاسل النصية، والأعداد الطويلة من الأوامر التسلسلية الواردة.&lt;/li>
+&lt;li>&lt;strong>استجابات مبسطة&lt;/strong>: إرسال سلاسل نصية منسقة مرة أخرى إلى الجهاز المضيف من خلال استدعاء واحد &lt;code>link.response()&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>خفيفة وفعالة&lt;/strong>: مصممة للمتحكمات الدقيقة، تتميز Qlink ببصمة ذاكرة صغيرة وتعالج الأوامر في الوقت الفعلي.&lt;/li>
+&lt;li>&lt;strong>تحكم عبر منصات متعددة&lt;/strong>: تمكين التحكم السلس في الأردوينو من جهاز كمبيوتر (Windows/Linux)، أو Mac، أو Raspberry Pi.&lt;/li>
+&lt;/ul>
+&lt;h2 id="حالات-استخدام-شائعة">حالات استخدام شائعة&lt;/h2>
+&lt;ul>
+&lt;li>التحكم في الروبوتات أو آلات CNC من تطبيق سطح مكتب.&lt;/li>
+&lt;li>إرسال بيانات الاستشعار من الأردوينو إلى برنامج Python لتسجيلها أو تحليلها.&lt;/li>
+&lt;li>إنشاء نماذج أولية تفاعلية تستجيب للأوامر من طرفية تسلسلية.&lt;/li>
+&lt;li>تكوين إعدادات الجهاز (مثل سطوع LED، سرعة المحرك) بشكل فوري دون إعادة برمجة.&lt;/li>
+&lt;/ul>
+&lt;h2 id="طريقة-التثبيت">طريقة التثبيت&lt;/h2>
+&lt;p>أسهل طريقة للتثبيت هي مباشرة عبر Arduino IDE:&lt;/p>
+&lt;ol>
+&lt;li>افتح برنامج Arduino IDE.&lt;/li>
+&lt;li>اذهب إلى &lt;strong>Sketch&lt;/strong> &amp;gt; &lt;strong>Include Library&lt;/strong> &amp;gt; &lt;strong>Manage Libraries&amp;hellip;&lt;/strong>.&lt;/li>
+&lt;li>ابحث عن &amp;ldquo;&lt;strong>Qlink&lt;/strong>&amp;rdquo;.&lt;/li>
+&lt;li>انقر على &lt;strong>Install&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>بدلاً من ذلك، يمكنك تثبيت المكتبة يدويًا من الملف أدناه.&lt;/p>
+&lt;h2 id="مثال-على-الكود-التحكم-في-وميض-بسيط">مثال على الكود: التحكم في وميض بسيط&lt;/h2>
+&lt;p>يوضح المثال التالي كيفية التحكم في الـ LED المدمج على لوحة الأردوينو باستخدام أمر &lt;code>DELAY&lt;/code> يتم إرساله عبر الاتصال التسلسلي.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;Qlink.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1000&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// الفاصل الزمني الافتراضي للوميض
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">Qlink&lt;/span> &lt;span class="nf">link&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Serial&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تهيئة Qlink على منفذ الاتصال التسلسلي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// تعريف الأمر &amp;#34;DELAY&amp;#34; الذي يقبل معاملًا صحيحًا واحدًا
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">DEF&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">DELAY&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">INT&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Convert&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Args&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="kt">int&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">response&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Blink interval updated to %d ms&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">setup&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">begin&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">9600&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">pinMode&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">OUTPUT&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">REG&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">link&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">DELAY&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تسجيل الأمر DELAY
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">loop&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">loop&lt;/span>&lt;span class="p">();&lt;/span> &lt;span class="c1">// الاستماع باستمرار للأوامر الواردة
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// وميض الـ LED بالفاصل الزمني الحالي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">HIGH&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LOW&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل &lt;code>DELAY 500&lt;/code> من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.&lt;/p>
+&lt;p>
+&lt;/p></description></item><item><title>مكتبة QistasLinks للسي شارب</title><link>http://localhost:1313/ar/projects/qistaslinks/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistaslinks/</guid><description>&lt;p style="margin-bottom: 1rem;">
+&lt;a href="https://doi.org/10.5281/zenodo.8248290" target="_blank" rel="noopener">
+&lt;img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8248290.svg" alt="DOI">
+&lt;/img>
+&lt;/a>
+&lt;p>
 &lt;p>مكتبة QistasLinks بلغة C#، تسهّل التواصل التسلسلي عبر منفذ RS232 لأي مشروع يحتاج اتصالاً بالمتحكمات الدقيقة. توفّر هذه المكتبة وسائل سهلة الاستخدام وخصائص قوية تجعل من عملية التبادل البياني بين الحاسوب والمتحكمات دقيقة وفعالة، مما يجعلها خيارًا مثاليًا لمشاريع .NET التي تعتمد على الاتصال التسلسلي.&lt;/p>
 &lt;h2 id="من-المستفيد-من-qistaslinks">من المستفيد من QistasLinks؟&lt;/h2>
-&lt;p>صُمّمت مكتبة QistasLinks للمطورين والأفراد الذين يعملون على مشاريع تعتمد على الاتصال التسلسلي مع المتحكمات الدقيقة، مثل Arduino وPIC وAVR، أو الأجهزة الإلكترونية التي تحتاج لإرسال واستقبال البيانات.&lt;/p>
+&lt;p>صُمّمت مكتبة QistasLinks للمطورين والأفراد الذين يعملون على مشاريع تعتمد على الاتصال التسلسلي مع المتحكمات مثل Arduino وPIC وAVR، أو الأجهزة الإلكترونية التي تحتاج لإرسال واستقبال البيانات.&lt;/p>
 &lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>الاتصال التسلسلي:&lt;/strong> تمكّن المكتبة من إجراء عمليات القراءة والكتابة بسلاسة عبر منافذ RS232، مما يوفر قناة اتصال موثوقة ومرنة.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>نمط تبادل البيانات:&lt;/strong> توفّر المكتبة نمطًا مرنًا لنقل البيانات يسهل من التفاعل بين الحواسيب والمتحكمات الدقيقة.&lt;/p>
+&lt;p>&lt;strong>نمط تبادل البيانات:&lt;/strong> توفّر المكتبة نمطًا مرنًا لنقل البيانات يسهل من التفاعل بين الحواسيب والمتحكمات .&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>دعم صيغة الأوامر:&lt;/strong> يمكن استخدام صيغة مخصصة للأوامر لتوجيه الأوامر للأجهزة المتصلة بشكل دقيق ومنظّم.&lt;/p>
@@ -638,7 +1304,7 @@ max-width: 120px;
 &lt;p>لطرح أي استفسارات أو مشاكل، يرجى فتح بلاغ (Issue) على صفحة GitHub الخاصة بالمشروع.&lt;/p>
 &lt;h2 id="الشكر-والتقدير">الشكر والتقدير&lt;/h2>
 &lt;ul>
-&lt;li>QistasLinks هو جزء من مشروع Qistas الهادف لتوفير أدوات ومكتبات تسهّل التكامل مع المتحكمات الدقيقة.&lt;/li>
+&lt;li>QistasLinks هو جزء من مشروع Qistas الهادف لتوفير أدوات ومكتبات تسهّل التكامل مع المتحكمات .&lt;/li>
 &lt;li>شكر خاص لمجتمع البرمجيات المفتوحة المصدر على دعمه ومساهماته.&lt;/li>
 &lt;/ul>
 &lt;h2 id="للتواصل">للتواصل&lt;/h2>
@@ -649,7 +1315,7 @@ max-width: 120px;
 &lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>ميزان أرضي رقمي&lt;/strong> متصل بالحاسوب عبر منفذ تسلسلي (Serial Port).&lt;/li>
-&lt;li>&lt;strong>تطبيق مكتبي بلغة C#&lt;/strong> يقرأ البيانات فورًا من الميزان ويعالجها.&lt;/li>
+&lt;li>&lt;strong>تطبيقات بلغة C#&lt;/strong> يقرأ البيانات فورًا من الميزان ويعالجها.&lt;/li>
 &lt;li>&lt;strong>واجهة استخدام رسومية&lt;/strong> لعرض الوزن والتعامل مع العمليات اليومية.&lt;/li>
 &lt;li>&lt;strong>طباعة فواتير&lt;/strong> وإيصالات دخول وخروج المركبات.&lt;/li>
 &lt;li>&lt;strong>أرشفة يومية/شهرية&lt;/strong> للأوزان والمعاملات على شكل ملف Excel.&lt;/li>
@@ -702,7 +1368,7 @@ max-width: 120px;
 &lt;h2 id="النتيجة">النتيجة&lt;/h2>
 &lt;p>أدى استخدام النظام إلى تحسين كفاءة المغسلة بشكل كبير، من خلال أتمتة العمليات وتقليل التكاليف التشغيلية.&lt;/p>
 &lt;p>📎
-&lt;/p></description></item><item><title>إطلاق فريق روبوتك</title><link>http://localhost:1313/ar/blog/robotech/</link><pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/blog/robotech/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/p></description></item><item><title>إطلاق فريق روبوتك</title><link>http://localhost:1313/ar/posts/robotech/launch/</link><pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/posts/robotech/launch/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="لمحة-عن-تأسيس-الفريق">لمحة عن تأسيس الفريق&lt;/h2>
 &lt;p>في نيسان 2021، أطلق المهندس خالد حميدي مبادرة &lt;strong>&amp;ldquo;فريق روبوتك&amp;rdquo;&lt;/strong>، كمنصة شبابية تهدف إلى تمكين الطلبة الجامعيين في الشمال السوري وتطوير التعليم من خلال التقنية.&lt;br>
 جاء تأسيس الفريق استجابة لحاجة حقيقية لبيئة تعليمية مرنة تجمع بين الجانب الأكاديمي والتطبيقي، وتوفّر فرصًا حقيقية للتعلّم العملي والعمل الجماعي.&lt;/p>
@@ -758,7 +1424,207 @@ max-width: 120px;
 &lt;h2 id="الحصول-على-البرنامج">الحصول على البرنامج&lt;/h2>
 &lt;p>البرنامج مجاني، للحصول عليه يرجى
 &lt;br>
-تطوير: &lt;strong>خالد الحميدي&lt;/strong>&lt;/p></description></item><item><title>Pharmacy Plus | تطبيق إدارة الصيدليات المثالي</title><link>http://localhost:1313/ar/projects/pharmacy/</link><pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/pharmacy/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+تطوير: &lt;strong>خالد الحميدي&lt;/strong>&lt;/p></description></item><item><title>محاكي البوابات المنطقية</title><link>http://localhost:1313/ar/projects/logicgatesimulator/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/logicgatesimulator/</guid><description>&lt;h1 id="مستكشف-العناصر-المنطقية">مستكشف العناصر المنطقية&lt;/h1>
+&lt;p>&lt;em>محاكي البوابات المنطقية&lt;/em>
+مستكشف العناصر المنطقية هو تطبيق يسمح لك بمحاكاة البوابات المنطقية، والقلابات، وفك التشفير، والتشفير، ومضاعفات الإرسال، ومزيلات تعدد الإرسال، ومقارنة إشارتين. يوفر واجهة سهلة الاستخدام لاستكشاف وفهم مختلف العناصر المنطقية.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="مستكشف العناصر المنطقية 1" srcset="
+/en/projects/logicgatesimulator/image_hu10347925103359825535.webp 400w,
+/en/projects/logicgatesimulator/image_hu17203420846792006732.webp 760w,
+/en/projects/logicgatesimulator/image_hu18135350607250378953.webp 1200w"
+src="http://localhost:1313/en/projects/logicgatesimulator/image_hu10347925103359825535.webp"
+width="760"
+height="445"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="مستكشف العناصر المنطقية 2" srcset="
+/en/projects/logicgatesimulator/image-1_hu16909894441958625090.webp 400w,
+/en/projects/logicgatesimulator/image-1_hu9308780591602763539.webp 760w,
+/en/projects/logicgatesimulator/image-1_hu13395990785698846863.webp 1200w"
+src="http://localhost:1313/en/projects/logicgatesimulator/image-1_hu16909894441958625090.webp"
+width="760"
+height="445"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>نظام MK Energy لإدارة الطاقة</title><link>http://localhost:1313/ar/hero/mk_energy/</link><pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/mk_energy/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>MK Energy هو برنامج إدارة شامل تم تطويره للتعامل مع تعقيدات التشغيل في شركات توزيع الكهرباء. تم تصميمه بلغة C# ويعمل بقواعد بيانات MS SQL Server فائقة السرعة والسعة، مما يوفر حلاً قوياًلإدارة المشتركين والموظفين.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>إدارة المشتركين&lt;/strong>: يدعم النظام نوعي المشتركين، &lt;strong>سابق الدفع&lt;/strong> و&lt;strong>لاحق الدفع&lt;/strong>، مما يوفر مرونة في الفوترة وخدمة العملاء.&lt;/li>
+&lt;li>&lt;strong>قاعدة بيانات عالية الأداء&lt;/strong>: يستخدم MS SQL Server لضمان إدارة بيانات سريعة وموثوقة وقابلة للتوسعة لعدد كبير من المشتركين.&lt;/li>
+&lt;li>&lt;strong>إدارة الموظفين&lt;/strong>: يتضمن وحدات لإدارة سجلات الموظفين وأدوارهم وصلاحياتهم داخل النظام.&lt;/li>
+&lt;li>&lt;strong>الفوترة&lt;/strong>: يبسط عملية إصدار الفواتير وتتبع المدفوعات لجميع أنواع المشتركين.&lt;/li>
+&lt;li>&lt;strong>التقارير&lt;/strong>: يوفر تقارير مفصلة عن الاستهلاك والمدفوعات ونشاط المشتركين لدعم اتخاذ القرارات.&lt;/li>
+&lt;/ul>
+&lt;img src="MK_Energy.png" alt="عرض للبرنامج" style="width:100%;"></description></item><item><title>توصيل شاشة LCD مع الأردوينو</title><link>http://localhost:1313/ar/education/arduino/lcd/</link><pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/education/arduino/lcd/</guid><description>&lt;p>تعتبر شاشات الكريستال السائل (LCD) من أكثر المكونات الإلكترونية شيوعًا في مشاريع الأردوينو لعرض المعلومات والنصوص. في هذا المقال، سنستعرض كيفية توصيل شاشة LCD بحجم 16x2 مع لوحة الأردوينو وبرمجتها لعرض رسالة ترحيبية.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="عرض"
+src="http://localhost:1313/en/education/arduino/lcd/lcd.gif"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="المكونات-المطلوبة">المكونات المطلوبة&lt;/h3>
+&lt;ul>
+&lt;li>لوحة أردوينو (Arduino Uno أو أي موديل آخر).&lt;/li>
+&lt;li>شاشة LCD 16x2.&lt;/li>
+&lt;li>أسلاك توصيل (Jumper wires).&lt;/li>
+&lt;li>لوحة تجارب (Breadboard) لتسهيل التوصيل.&lt;/li>
+&lt;/ul>
+&lt;h3 id="مخطط-التوصيل">مخطط التوصيل&lt;/h3>
+&lt;h3 id="جدول-التوصيل">جدول التوصيل&lt;/h3>
+&lt;p>إليك جدول يوضح تفاصيل التوصيل بين شاشة LCD ولوحة الأردوينو:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">طرف شاشة LCD&lt;/th>
+&lt;th style="text-align: left">التوصيل بالأردوينو&lt;/th>
+&lt;th style="text-align: left">الوصف&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">VSS&lt;/td>
+&lt;td style="text-align: left">GND&lt;/td>
+&lt;td style="text-align: left">أرضي&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">VDD&lt;/td>
+&lt;td style="text-align: left">5V&lt;/td>
+&lt;td style="text-align: left">مصدر الطاقة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">VEE&lt;/td>
+&lt;td style="text-align: left">GND (أو مقاومة متغيرة)&lt;/td>
+&lt;td style="text-align: left">التحكم في التباين&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">RS&lt;/td>
+&lt;td style="text-align: left">Pin 7&lt;/td>
+&lt;td style="text-align: left">اختيار السجل&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">RW&lt;/td>
+&lt;td style="text-align: left">GND&lt;/td>
+&lt;td style="text-align: left">قراءة/كتابة (أرضي للكتابة)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">E&lt;/td>
+&lt;td style="text-align: left">Pin 6&lt;/td>
+&lt;td style="text-align: left">تمكين&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">D4&lt;/td>
+&lt;td style="text-align: left">Pin 5&lt;/td>
+&lt;td style="text-align: left">طرف بيانات 4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">D5&lt;/td>
+&lt;td style="text-align: left">Pin 4&lt;/td>
+&lt;td style="text-align: left">طرف بيانات 5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">D6&lt;/td>
+&lt;td style="text-align: left">Pin 3&lt;/td>
+&lt;td style="text-align: left">طرف بيانات 6&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">D7&lt;/td>
+&lt;td style="text-align: left">Pin 2&lt;/td>
+&lt;td style="text-align: left">طرف بيانات 7&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">A (Anode)&lt;/td>
+&lt;td style="text-align: left">5V (مع مقاومة)&lt;/td>
+&lt;td style="text-align: left">إضاءة خلفية (موجب)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">K (Kathode)&lt;/td>
+&lt;td style="text-align: left">GND&lt;/td>
+&lt;td style="text-align: left">إضاءة خلفية (سالب)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="الكود-البرمجي">الكود البرمجي&lt;/h3>
+&lt;p>الكود التالي يقوم بتهيئة الشاشة وعرض رسالة ترحيبية عليها. يمكنك تحميل الكود مباشرة من الملف المرفق.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// تضمين المكتبة الخاصة للشاشة
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;LiquidCrystal.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// تعريف الأطراف المتصلة بـ
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// RS, EN, D4, D5, D6, D7
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">const&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">rs&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">7&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">en&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">6&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d4&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d5&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">4&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d6&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d7&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">LiquidCrystal&lt;/span> &lt;span class="nf">lcd&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">rs&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">en&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d4&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d5&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d6&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d7&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">setup&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// إعداد الطرفية للتواصل مع الحاسوب
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">begin&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">9600&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">println&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;setup ...&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// تحديد أبعاد الشاشة (16 عمود و 2 صف)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">lcd&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">begin&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">16&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// كتابة رسالة على الشاشة
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">lcd&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;wellcome, I&amp;#39;m&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// استدعاء دالة لطباعة الاسم
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">Print&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">loop&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;.&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// إيقاف عرض الشاشة مؤقتًا
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">lcd&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">noDisplay&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">500&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// إعادة تشغيل عرض الشاشة
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">lcd&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">display&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">250&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// دالة لطباعة الاسم حرفًا بعد حرف
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="kt">char&lt;/span> &lt;span class="n">myName&lt;/span>&lt;span class="p">[]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">&amp;#34;Khalid Hamidi :)&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">Print&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;printing &amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">myName&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">println&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">delayTime&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">150&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">len&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">sizeof&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">myName&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">len&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// تحديد موقع المؤشر (العمود i، الصف الثاني)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">lcd&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">setCursor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">lcd&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">myName&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">delayTime&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delayTime&lt;/span> &lt;span class="o">*=&lt;/span> &lt;span class="mf">0.88&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// تقليل مدة التأخير تدريجيًا
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">100&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
+&lt;/p>
+&lt;h3 id="شرح-الكود">شرح الكود&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>&lt;code>#include &amp;lt;LiquidCrystal.h&amp;gt;&lt;/code>&lt;/strong>: يتم تضمين المكتبة اللازمة للتحكم في شاشة LCD.&lt;/li>
+&lt;li>&lt;strong>&lt;code>LiquidCrystal lcd(...)&lt;/code>&lt;/strong>: يتم إنشاء كائن من المكتبة مع تحديد أرقام المنافذ التي تم توصيلها.&lt;/li>
+&lt;li>&lt;strong>&lt;code>lcd.begin(16, 2)&lt;/code>&lt;/strong>: في دالة &lt;code>setup()&lt;/code>, نهيئ الشاشة بتحديد أبعادها (16 عمودًا وصفين).&lt;/li>
+&lt;li>&lt;strong>&lt;code>lcd.print(...)&lt;/code>&lt;/strong>: تستخدم هذه الدالة لكتابة نص على الشاشة.&lt;/li>
+&lt;li>&lt;strong>&lt;code>lcd.setCursor(col, row)&lt;/code>&lt;/strong>: تقوم بتحديد موقع المؤشر قبل الكتابة.&lt;/li>
+&lt;li>&lt;strong>&lt;code>lcd.noDisplay()&lt;/code> و &lt;code>lcd.display()&lt;/code>&lt;/strong>: تستخدم لإخفاء وإظهار النص على الشاشة، مما يعطي تأثير الوميض في دالة &lt;code>loop()&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;h3 id="فيديو-توضيحي">فيديو توضيحي&lt;/h3>
+&lt;p>هنا فيديو يوضح نتيجة عمل الكود والتوصيل بشكل عملي:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/placeholder_video_id?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;em>ملاحظة: الرجاء استبدال &lt;code>placeholder_video_id&lt;/code> بمعرف الفيديو الفعلي من يوتيوب.&lt;/em>&lt;/p>
+&lt;p>بهذا نكون قد انتهينا من شرح كيفية توصيل وبرمجة شاشة LCD مع الأردوينو. يمكنك الآن تعديل الكود لعرض البيانات التي تريدها في مشاريعك الخاصة.&lt;/p></description></item><item><title>Pharmacy Plus | تطبيق إدارة الصيدليات المثالي</title><link>http://localhost:1313/ar/projects/pharmacy/</link><pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/pharmacy/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>Pharmacy Plus هو حل متكامل لإدارة عمليات الصيدلية اليومية.&lt;br>
 تم تطويره بواجهة استخدام سهلة وميزات قوية تمكّن أصحاب الصيدليات من التحكم في المخزون، والمبيعات، والعملاء بكل كفاءة وسرعة.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
@@ -782,7 +1648,20 @@ max-width: 120px;
 &lt;h2 id="ابدأ-الآن">ابدأ الآن&lt;/h2>
 &lt;p>قم بتحميل Pharmacy Plus اليوم، وابدأ في إدارة صيدليتك بكفاءة.&lt;br>
 📎
-&lt;/p></description></item><item><title>Super Intelligence | نظام ذكي للتحكم بالأجهزة المضمّنة عبر الإنترنت</title><link>http://localhost:1313/ar/projects/superintelligence/</link><pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/superintelligence/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/p></description></item><item><title>نظام للتحكم بالأجهزة المضمّنة عبر الإنترنت</title><link>http://localhost:1313/ar/projects/superintelligence/</link><pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/superintelligence/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة مصغرة" srcset="
+/en/projects/superintelligence/featured_hu13940293683322815235.webp 400w,
+/en/projects/superintelligence/featured_hu1720599181237929729.webp 760w,
+/en/projects/superintelligence/featured_hu7423620925735999979.webp 1200w"
+src="http://localhost:1313/en/projects/superintelligence/featured_hu13940293683322815235.webp"
+width="760"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>Super Intelligence هو نظام تحكّم ذكي يربط بين لوحات التطوير مثل Arduino وESP8266 بلوحة تحكم على الإنترنت، مما يتيح للمستخدمين التحكم في أجهزتهم من أي مكان في العالم.&lt;/p>
 &lt;p>تم تطوير هذا المشروع باستخدام تقنيات PHP وHTML وMySQL لتوفير واجهة ويب تفاعلية وسهلة الاستخدام، بالإضافة إلى برمجة خاصة بالأجهزة المضمّنة لضمان الاتصال والاستجابة السريعة.&lt;/p>
 &lt;h2 id="المميزات">المميزات&lt;/h2>
@@ -801,7 +1680,35 @@ max-width: 120px;
 &lt;/ul>
 &lt;h2 id="لماذا-super-intelligence">لماذا Super Intelligence؟&lt;/h2>
 &lt;p>يوفّر النظام حلًا متكاملًا لإدارة مشاريع إنترنت الأشياء بسهولة، دون الحاجة إلى سيرفرات مكلفة أو أنظمة معقّدة.&lt;br>
-يُمكن للمستخدم النهائي بناء بيئة ذكية خاصّة به بأقل التكاليف وبأعلى مرونة.&lt;/p></description></item><item><title>Qistas AC | نظام المحاسبة وإدارة المحلات</title><link>http://localhost:1313/ar/projects/qistasac/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistasac/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+يُمكن للمستخدم النهائي بناء بيئة ذكية خاصّة به بأقل التكاليف وبأعلى مرونة.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Q7Gy3U4y4xc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة 2" srcset="
+/en/projects/superintelligence/2_hu8168558367455256543.webp 400w,
+/en/projects/superintelligence/2_hu15466173603334380368.webp 760w,
+/en/projects/superintelligence/2_hu6642584141451961165.webp 1200w"
+src="http://localhost:1313/en/projects/superintelligence/2_hu8168558367455256543.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة 3" srcset="
+/en/projects/superintelligence/3_hu16920859817563194741.webp 400w,
+/en/projects/superintelligence/3_hu3518157786066069939.webp 760w,
+/en/projects/superintelligence/3_hu9931453824351290931.webp 1200w"
+src="http://localhost:1313/en/projects/superintelligence/3_hu16920859817563194741.webp"
+width="598"
+height="266"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Qistas AC | نظام المحاسبة وإدارة المحلات</title><link>http://localhost:1313/ar/projects/qistasac/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistasac/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>Qistas AC هو برنامج شامل لإدارة المحلات التجارية مصمّم للعمل على أنظمة تشغيل سطح المكتب.&lt;br>
 يقدّم واجهة استخدام مرنة وسلسة تتيح لأصحاب المشاريع إدارة عملياتهم اليومية بكفاءة وسهولة.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
@@ -822,7 +1729,7 @@ max-width: 120px;
 &lt;/ol></description></item><item><title>مشروع قراءة وتسجيل درجة الحرارة والرطوبة</title><link>http://localhost:1313/ar/projects/tah/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/tah/</guid><description>&lt;p>هذا المشروع تم إنجازه كجزء من مادة المتحكّمات الدقيقة خلال الدراسة الجامعية.&lt;/p>
 &lt;ul>
 &lt;li>يتكوّن من حساس SH10 لدرجة الحرارة والرطوبة، متصل بلوحة Arduino Uno.&lt;/li>
-&lt;li>تم تطوير تطبيق مكتبي بلغة C# لعرض البيانات.&lt;/li>
+&lt;li>تم تطوير تطبيقات بلغة C# لعرض البيانات.&lt;/li>
 &lt;li>يتم تسجيل القيم في قاعدة بيانات بصيغة XML.&lt;/li>
 &lt;li>يمكن عرض رسم بياني لتغيّر القيم بمرور الوقت.&lt;/li>
 &lt;/ul>
@@ -838,50 +1745,60 @@ max-width: 120px;
 &lt;li>عرض PowerPoint (بالعربية)&lt;/li>
 &lt;/ol>
 &lt;p>📎
-&lt;/p></description></item><item><title>برنامج لمشاركة الإنترنت من الحاسوب إلى الهواتف – حل لمشكلة عامة</title><link>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
-&lt;p>في خضمّ الحرب الدائرة في بلده، كانت خدمات الإنترنت شبه معدومة، الأمر الذي دفع &lt;strong>المهندس خالد حميدي&lt;/strong> إلى ابتكار برنامج بسيط يحوّل الحاسوب إلى نقطة اتصال لاسلكي (Hotspot) توزّع الإنترنت على الهواتف القريبة.&lt;/p>
-&lt;h2 id="من-الفكرة-إلى-التطبيق">من الفكرة إلى التطبيق&lt;/h2>
-&lt;ul>
-&lt;li>انطلقت الفكرة بسبب انقطاع الشبكة وصعوبة الوصول إلى أجهزة الراوتر.&lt;/li>
-&lt;li>بدأ خالد بتعلّم أساسيات الشبكات وواجهات برمجة Windows.&lt;/li>
-&lt;li>استخدم لغة ‎C#‎ وواجهة WMI لإنشاء واجهة رسومية تتحكم بالشبكة.&lt;/li>
-&lt;li>الإصدار الأول دعم تحويل أي نوع اتصال إلى شبكة Wi-Fi بنقرة واحدة.&lt;/li>
-&lt;/ul>
+&lt;/p></description></item><item><title>ZOOM WIFI Hotspot: حل اتصال مجتمعي</title><link>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>استجابة للانقطاعات الواسعة في خدمات الإنترنت خلال النزاع السوري، قمت بتطوير ZOOM WIFI Hotspot، وهو تطبيقات خفيف الوزن يحول الكمبيوتر إلى نقطة وصول لاسلكية. تم تصميم هذه الأداة لتوفير حل مستقر ومنخفض الموارد لمشاركة الاتصال بالإنترنت مع الأجهزة المحمولة القريبة، مما يلبي حاجة ملحة للتواصل في المناطق المحرومة من الخدمات.&lt;/p>
+&lt;h2 id="من-الفكرة-إلى-التأثير">من الفكرة إلى التأثير&lt;/h2>
+&lt;p>نشأ المشروع من حاجة مباشرة للتغلب على قيود خدمات الإنترنت المتقطعة والتي يصعب الوصول إليها. تضمنت عملية التطوير تعمقا في بروتوكولات الشبكة ووظائف واجهة برمجة تطبيقات Windows، باستخدام C# وواجهة WMI لإنشاء واجهة مستخدم رسومية سهلة الاستخدام. أتاح الإصدار الأولي للمستخدمين بث أي اتصال إنترنت متاح كشبكة Wi-Fi بنقرة واحدة.&lt;/p>
 &lt;blockquote>
-&lt;p>&amp;ldquo;كان التحدي الأكبر هو ضمان الثبات مع أقل استهلاك للموارد.&amp;rdquo; — خالد&lt;/p>
+&lt;p>&amp;ldquo;كان التحدي الأساسي هو ضمان استقرار قوي مع تقليل استهلاك الموارد، مما يجعله متاحا حتى على الأجهزة ذات المواصفات المنخفضة.&amp;rdquo;&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="الانتشار-والتأثير">الانتشار والتأثير&lt;/h2>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
 &lt;ul>
-&lt;li>خلال السنة الأولى، وصل عدد التنزيلات إلى 3000+.&lt;/li>
-&lt;li>التطبيق أصبح شائعًا في المناطق المحاصرة لتوفير اتصال جماعي بتكلفة منخفضة.&lt;/li>
-&lt;li>دعم أنظمة Windows: XP, 7, 8, 8.1, 10&lt;/li>
-&lt;li>توفّر باللغتين: العربية والإنجليزية&lt;/li>
+&lt;li>&lt;strong>توافق عالمي:&lt;/strong> دعم جميع إصدارات Windows الرئيسية، بما في ذلك XP و 7 و 8 و 8.1 و 10.&lt;/li>
+&lt;li>&lt;strong>وصول مجاني:&lt;/strong> تم توزيع التطبيق كبرنامج مجاني لضمان إتاحته للجميع.&lt;/li>
+&lt;li>&lt;strong>تصميم فعال:&lt;/strong> تم تصميمه بأقل تأثير على الأداء، مما يسمح له بالعمل بسلاسة على الأجهزة القديمة.&lt;/li>
+&lt;li>&lt;strong>واجهة ثنائية اللغة:&lt;/strong> متوفر باللغتين العربية والإنجليزية لخدمة قاعدة مستخدمين أوسع.&lt;/li>
 &lt;/ul>
-&lt;h2 id="من-مشروع-شخصي-إلى-ميزة-رسمية">من مشروع شخصي إلى ميزة رسمية&lt;/h2>
-&lt;p>بعد نجاح التطبيق، اقترح خالد فكرته على منتدى مطوري Microsoft، وتم دمج ميزة Mobile Hotspot في Windows 10 الإصدار 1703.&lt;/p>
-&lt;h2 id="معرض-الصور">معرض الصور&lt;/h2>
+&lt;h2 id="التبني-المجتمعي-والتأثير">التبني المجتمعي والتأثير&lt;/h2>
+&lt;p>خلال عامه الأول، تجاوز عدد تنزيلات ZOOM WIFI Hotspot 3000 تنزيل، ليصبح أداة حيوية في المناطق المحاصرة حيث أتاح الوصول المشترك والمنخفض التكلفة إلى الإنترنت. دفع نجاح التطبيق إلى تقديم اقتراح إلى مجتمع مطوري Microsoft، مما ساهم في دمج ميزة &amp;ldquo;Mobile Hotspot&amp;rdquo; في Windows 10، الإصدار 1703.&lt;/p>
+&lt;h2 id="المعرض">المعرض&lt;/h2>
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/gallery/blob/main/zwh/2.jpg?raw=true" alt="صورة للبرنامج" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
+/en/projects/zoom-wifi-hotspot/1_hu14324268039650112826.webp 400w,
+/en/projects/zoom-wifi-hotspot/1_hu10704405108496003165.webp 760w,
+/en/projects/zoom-wifi-hotspot/1_hu12818087166653137295.webp 1200w"
+src="http://localhost:1313/en/projects/zoom-wifi-hotspot/1_hu14324268039650112826.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
+/en/projects/zoom-wifi-hotspot/2_hu2011803004500579837.webp 400w,
+/en/projects/zoom-wifi-hotspot/2_hu4260108314524103968.webp 760w,
+/en/projects/zoom-wifi-hotspot/2_hu13014923282333279974.webp 1200w"
+src="http://localhost:1313/en/projects/zoom-wifi-hotspot/2_hu2011803004500579837.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
+/en/projects/zoom-wifi-hotspot/3_hu16585257913955025294.webp 400w,
+/en/projects/zoom-wifi-hotspot/3_hu8492286067631096157.webp 760w,
+/en/projects/zoom-wifi-hotspot/3_hu14840508966537604155.webp 1200w"
+src="http://localhost:1313/en/projects/zoom-wifi-hotspot/3_hu16585257913955025294.webp"
+width="760"
+height="427"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
-&lt;ul>
-&lt;li>متوافق مع جميع إصدارات Windows&lt;/li>
-&lt;li>مجاني بالكامل&lt;/li>
-&lt;li>تصميم خفيف يدعم الأجهزة الضعيفة&lt;/li>
-&lt;/ul>
-&lt;h2 id="دروس-مستفادة">دروس مستفادة&lt;/h2>
-&lt;ol>
-&lt;li>الابتكار يولد من الحاجة&lt;/li>
-&lt;li>التعلم الذاتي يفتح الآفاق&lt;/li>
-&lt;li>مشاركة المعرفة تطور المشاريع&lt;/li>
-&lt;li>فكر عالميًا ولو بدأت محليًا&lt;/li>
-&lt;/ol>
-&lt;h2 id="حمل-التطبيق">حمّل التطبيق&lt;/h2>
-&lt;p>📎
-&lt;/p></description></item><item><title>CS-ZOOM | نسخة مطوّرة من Counter Strike 1.6</title><link>http://localhost:1313/ar/projects/cszoom/</link><pubDate>Wed, 01 Feb 2006 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/cszoom/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;h2 id="الإرث-والدروس-المستفادة">الإرث والدروس المستفادة&lt;/h2>
+&lt;p>أكد تطوير ZOOM WIFI Hotspot على مبدأ أساسي: &lt;strong>الابتكار غالبا ما يولد من رحم الحاجة.&lt;/strong> لم يقدم هذا المشروع حلا عمليا لمشكلة ملحة فحسب، بل أظهر أيضا قوة تطوير البرمجيات القائمة على المجتمع.&lt;/p></description></item><item><title>CS-ZOOM | نسخة مطوّرة من Counter Strike 1.6</title><link>http://localhost:1313/ar/projects/cszoom/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/cszoom/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>يقدّم مشروع &lt;strong>CS-ZOOM&lt;/strong> نسخة مطوّرة من لعبة &lt;strong>Counter Strike 1.6&lt;/strong>، تهدف إلى تحسين تجربة اللعب الكلاسيكية من خلال إضافات خاصة تجعلها أكثر سلاسة وتفاعلية.&lt;br>
 يعتمد المشروع على &lt;strong>AMX Mod X&lt;/strong> ولغة البرمجة &lt;strong>C&lt;/strong> لتوفير تجربة غنية ومناسبة لمختلف المستخدمين.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
@@ -900,6 +1817,19 @@ max-width: 120px;
 &lt;h3 id="-7-مجتمع-ألعاب-محلي">🌍 7. مجتمع ألعاب محلي&lt;/h3>
 &lt;p>انضم إلى أول سيرفر ألعاب في سوريا وكن جزءًا من مجتمع متنامٍ من اللاعبين.&lt;br>
 لا يقتصر CS-ZOOM على كونه مجرد لعبة، بل هو منصة تفاعلية تعزّز التواصل وروح الفريق بين اللاعبين.&lt;/p>
+&lt;h2 id="فيديوهات">فيديوهات&lt;/h2>
+&lt;p>هذا الفيديو يعرض الكود المكتوب بلغة AMX Mod X C لهذا الوضع.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Bg9t9qv6Eyc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>هذا الفيديو يعرض نافذة بدء اللعبة أو الصورة الأولى.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1YcwAC9gBBM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/p>
 &lt;h2 id="الخلاصة">الخلاصة&lt;/h2>
 &lt;p>إن &lt;strong>CS-ZOOM&lt;/strong> أكثر من مجرد تعديل للعبة Counter-Strike؛ بل هو إعادة ابتكار شاملة تعزز إمكانية الوصول والتخصيص والانخراط المجتمعي.&lt;br>
 مع ميزاته الفريدة، يضع هذا المشروع حجر الأساس لعصر جديد من الألعاب يجمع بين الكلاسيكية والحداثة.&lt;/p>

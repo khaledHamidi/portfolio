@@ -4,7 +4,11 @@
 {{ with $block.content.filters.folders }}
 {{ $query = where $query "Section" "in" . }}
 {{ end }}
-{{ $query = first 3 $query }}
+{{ with $block.content.filters.tags }}
+{{ $query = where $query "Params.tags" "intersect" . }}
+{{ end }}
+{{ $count := default 3 $block.content.count }}
+{{ $query = first $count $query }}
 
 {{ with $block.content.title }}
 <div class="text-center mb-8">

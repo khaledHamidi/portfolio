@@ -1,0 +1,93 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{ $query := site.RegularPages }}
+{{ with $block.content.filters.folders }}
+  {{ $query = where $query "Section" "in" . }}
+{{ end }}
+{{ with $block.content.filters.tags }}
+  {{ $query = where $query "Params.tags" "intersect" . }}
+{{ end }}
+{{ $count := default 5 $block.content.count }}
+{{ $query = first $count $query }}
+
+<style>
+  .hero-slider-shell { position: relative; width: 100%; height: 100%; border-radius: 24px; overflow: hidden; box-shadow: 0 35px 80px rgba(7,10,18,0.45); }
+  .dark .hero-slider-shell { box-shadow: 0 45px 90px rgba(0,0,0,0.65); }
+  .hero-slider-window { width: 100%; height: 100%; overflow: hidden; }
+  .hero-slider-track { display: flex; height: 100%; transition: transform 0.6s cubic-bezier(0.42,0.05,0.2,1); }
+  .hero-slider-slide { min-width: 100%; height: 100%; position: relative; }
+  .hero-slider-image { width: 100%; height: 100%; background-size: cover; background-position: center; position: relative; }
+  .hero-slider-image::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.18), transparent 50%), linear-gradient(180deg, rgba(4,5,10,0.05) 0%, rgba(4,5,10,0.85) 100%); }
+  .hero-slider-text { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; padding: 1.85rem; color: #fff; z-index: 1; }
+  .hero-slider-text h4 { margin: 0; font-size: 1.5rem; letter-spacing: 0.03em; }
+  .hero-slider-text p { margin: 0.35rem 0 0; font-size: 1rem; color: rgba(255,255,255,0.88); }
+  .hero-slider-btn { position: absolute; top: 1.6rem; right: 1.2rem; width: 46px; height: 46px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.35); background: rgba(6,8,12,0.78); color: #fff; cursor: pointer; font-size: 1.35rem; z-index: 2; transition: background 0.2s ease, transform 0.2s ease; }
+  .hero-slider-btn--prev { right: 4.6rem; }
+  .hero-slider-btn:hover { background: rgba(255,255,255,0.25); transform: translateY(-2px); }
+  @media (max-width: 960px) {
+    .hero-slider-shell { min-height: 360px; }
+  }
+</style>
+<div class="hero-slider-shell" id="hero-featured-slider">
+  <button class="hero-slider-btn hero-slider-btn--prev" data-hero-slider-prev aria-label="Previous project">&#10094;</button>
+  <button class="hero-slider-btn" data-hero-slider-next aria-label="Next project">&#10095;</button>
+  <div class="hero-slider-window">
+    <div class="hero-slider-track" data-hero-slider-track>
+      {{ range $item := $query }}
+        {{ $image := $item.Params.image }}
+        {{ $image_url := "" }}
+        {{ if $image }}
+          {{ if reflect.IsMap $image }}
+            {{ with $image.filename }}
+              {{ $image_url = (printf "%s%s" $item.RelPermalink . ) }}
+            {{ end }}
+          {{ else }}
+            {{ $image_url = (printf "%s%s" $item.RelPermalink $image ) }}
+          {{ end }}
+        {{ else }}
+          {{ $images := $item.Resources.ByType "image" }}
+          {{ $featured := $images.GetMatch "*featured*" }}
+          {{ if $featured }}
+            {{ $image_url = $featured.RelPermalink }}
+          {{ else }}
+            {{ with $images.GetMatch "{*cover*,*thumbnail*}" }}
+              {{ $image_url = .RelPermalink }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        <a class="hero-slider-slide" data-hero-slide href="{{$item.RelPermalink}}">
+          <div class="hero-slider-image" style="background-image: url('{{ $image_url }}');">
+            <div class="hero-slider-text">
+              <h4>{{$item.Title}}</h4>
+              <p>{{$item.Summary}}</p>
+            </div>
+          </div>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+<script>
+  (function() {
+    const shell = document.getElementById('hero-featured-slider');
+    if (!shell) return;
+    const track = shell.querySelector('[data-hero-slider-track]');
+    const slides = shell.querySelectorAll('[data-hero-slide]');
+    const prev = document.querySelector('[data-hero-slider-prev]');
+    const next = document.querySelector('[data-hero-slider-next]');
+    if (!track || slides.length === 0 || !prev || !next) return;
+    let index = 0;
+    const update = () => {
+      track.style.transform = `translateX(-${index * 100}%)`;
+    };
+    const go = (delta) => {
+      index = (index + delta + slides.length) % slides.length;
+      update();
+    };
+    prev.addEventListener('click', () => go(-1));
+    next.addEventListener('click', () => go(1));
+    setInterval(() => go(1), 7000);
+  })();
+</script>

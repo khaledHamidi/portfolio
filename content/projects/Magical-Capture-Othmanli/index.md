@@ -5,9 +5,11 @@ date: 2021-01-01
 draft: false
 authors:
   - admin
+categories:
+  - "Software Development"
 tags:
-  - desktop
-  - education
+  - "Desktop App"
+  - Education
 ---
  
  

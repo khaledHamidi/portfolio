@@ -5,11 +5,11 @@ date: 2025-06-22
 draft: false
 authors:
   - admin
+categories:
+  - "Academic & Research"
 tags:
-  - achievement
-  - biosensor
-  - technology
-  - community
+  - Healthcare
+  - Event
 ---
 
 <div dir="ltr" style="text-align: justify;">

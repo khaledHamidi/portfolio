@@ -1,15 +1,18 @@
 ---
 title: "ورشة محاكاة وبرمجة أردوينو"
-summary: "أقيمت ورشة ناجحة في محاكاة أردوينو وبرمجته، حضرها 100 متدرب وركزت على تعريف أردوينو واستخدام برنامج بروتيوس لمحاكاة الدوائر وبرمجتها."
+summary: "قيادة ورشة عمل لمحاكاة الأردوينو وبرمجته باستخدام Proteus لـ 100 متدرب، مع التركيز على محاكاة الدوائر والبرمجة."
 date: 2023-06-12T12:00:00+03:00
 draft: false
 show_related: true
 reading_time: true
+show_date_updated: false
 authors:
   - admin
+categories:
+  - "مجتمع وتعلُّم"
 tags:
-  - education
-  - technology
+  - تعليم
+  - فعاليات
 ---
 
 <div dir="rtl" style="text-align: justify;">

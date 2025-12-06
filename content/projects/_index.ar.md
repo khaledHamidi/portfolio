@@ -6,104 +6,13 @@ type: landing
 sections:
   - block: collection
     content:
-      title: 'المشاريع المميزة ⭐'
-      text: أهم وأبرز المشاريع
-      filters:
-        folders:
-          - projects
-        tags:
-          - featured
-      count: 3
-    design:
-      view: card
-      columns: '2'
-
-  - block: collection
-    content:
-      title: 'مشاريع العملاء 💼'
-      text: مشاريع احترافية تم تسليمها للعملاء
-      filters:
-        folders:
-          - projects
-        tags:
-          - client-work
-    design:
-      view: card
-      columns: '2'
-
-  - block: collection
-    content:
-      title: 'المشاريع مفتوحة المصدر 🌐'
-      text: مساهمات مجتمعية ومشاريع مفتوحة
-      filters:
-        folders:
-          - projects
-        tags:
-          - open-source
-    design:
-      view: card
-      columns: '2'
-
-  - block: collection
-    content:
-      title: 'المشاريع البحثية 🎓'
-      text: مشاريع أكاديمية وبحثية
-      filters:
-        folders:
-          - projects
-        tags:
-          - research
-    design:
-      view: card
-      columns: '2'
-
-  - block: collection
-    content:
-      title: 'مشاريع IoT & Hardware 🔧'
-      text: أنظمة ذكية وإنترنت الأشياء
-      filters:
-        folders:
-          - projects
-        tags:
-          - iot
-          - hardware
-    design:
-      view: card
-      columns: '2'
-
-  - block: collection
-    content:
-      title: 'تطبيقات سطح المكتب 💻'
-      filters:
-        folders:
-          - projects
-        tags:
-          - desktop
-    design:
-      view: card
-      columns: '2'
-
-  - block: collection
-    content:
-      title: 'تطبيقات الويب والموبايل 📱'
-      filters:
-        folders:
-          - projects
-        tags:
-          - web
-          - mobile
-    design:
-      view: card
-      columns: '2'
-
-  - block: collection
-    content:
-      title: 'جميع المشاريع 📂'
+      title: 'جميع المشاريع'
       text: عرض كامل لجميع المشاريع
       filters:
+        
         folders:
           - projects
+      count : 100
     design:
-      view: compact
-      columns: '2'
+      view: card
 ---

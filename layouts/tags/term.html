@@ -1,0 +1,151 @@
+{{ define "main" }}
+<div class="tag-term-page" style="width: 100%; max-width: 1200px; margin: 0 auto; padding: 1.5rem 1rem;">
+  <style>
+    .tag-term-page h1 { 
+      font-size: 2rem; 
+      margin-bottom: 0.5rem; 
+      color: #121531; 
+      font-weight: 700; 
+    }
+    .tag-term-page .tag-meta { 
+      font-size: 0.9rem; 
+      color: #6b7280; 
+      margin-bottom: 2rem; 
+    }
+    .dark .tag-term-page h1 { color: #f5f6ff; }
+    .dark .tag-term-page .tag-meta { color: #9ca3af; }
+    
+    .tag-term-page .items-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    .tag-term-page .item-card {
+      position: relative;
+      border-radius: 12px;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: #fff;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+    
+    .tag-term-page .item-card .card-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+    
+    .tag-term-page .item-card .card-content {
+      padding: 1.5rem;
+    }
+    
+    .dark .tag-term-page .item-card {
+      border-color: rgba(255,255,255,0.1);
+      background: rgba(3,4,10,0.95);
+    }
+    
+    .tag-term-page .item-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    }
+    
+    .dark .tag-term-page .item-card:hover {
+      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+    }
+    
+    .tag-term-page .item-card h3 {
+      font-size: 1.15rem;
+      margin: 0 0 0.5rem 0;
+      font-weight: 600;
+    }
+    
+    .tag-term-page .item-card h3 a {
+      color: #1a1e36;
+      text-decoration: none;
+    }
+    
+    .dark .tag-term-page .item-card h3 a {
+      color: #f7f8ff;
+    }
+    
+    .tag-term-page .item-card h3 a:hover {
+      color: #6c63ff;
+    }
+    
+    .tag-term-page .item-card .summary {
+      font-size: 0.9rem;
+      color: #6b7280;
+      line-height: 1.5;
+      margin-bottom: 0.75rem;
+    }
+    
+    .dark .tag-term-page .item-card .summary {
+      color: #9ca3af;
+    }
+    
+    .tag-term-page .item-card .meta {
+      font-size: 0.8rem;
+      color: #888;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .dark .tag-term-page .item-card .meta {
+      color: #999;
+    }
+    
+    .tag-term-page .back-link {
+      display: inline-block;
+      margin-bottom: 1.5rem;
+      color: #6c63ff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    
+    .tag-term-page .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <a href="{{ if eq .Site.Language.Lang "ar" }}/ar/tags/{{ else }}/en/tags/{{ end }}" class="back-link">
+    ← {{ if eq .Site.Language.Lang "ar" }}العودة إلى جميع الوسوم{{ else }}Back to all tags{{ end }}
+  </a>
+
+  <h1>{{ .Title }}</h1>
+  <p class="tag-meta">
+    {{ if eq .Site.Language.Lang "ar" }}
+      {{ len .Pages }} {{ if eq (len .Pages) 1 }}مشروع{{ else }}مشاريع{{ end }}
+    {{ else }}
+      {{ len .Pages }} {{ if eq (len .Pages) 1 }}project{{ else }}projects{{ end }}
+    {{ end }}
+  </p>
+
+  <div class="items-grid">
+    {{ range .Pages }}
+      <div class="item-card">
+        {{ $featured := (.Resources.ByType "image").GetMatch "featured*" }}
+        {{ if $featured }}
+          <a href="{{ .Permalink }}">
+            <img src="{{ $featured.RelPermalink }}" alt="{{ .Title }}" class="card-image">
+          </a>
+        {{ end }}
+        <div class="card-content">
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          {{ if .Summary }}
+            <p class="summary">{{ .Summary | truncate 150 }}</p>
+          {{ end }}
+          {{ if .Date }}
+            <div class="meta">
+              <span>{{ .Date.Format "January 2, 2006" }}</span>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

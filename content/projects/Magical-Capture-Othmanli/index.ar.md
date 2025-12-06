@@ -5,8 +5,10 @@ date: 2021-01-01
 draft: false
 authors:
   - admin
+categories:
+  - "تطوير برمجيات"
 tags:
-  - برمجيات
+  - "تطبيقات"
   - تعليم
 ---
 

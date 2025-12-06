@@ -1,14 +1,15 @@
 ---
 title: COUNTER-STRIKE ZOOM
 summary: Custom version of Counter Strike 1.6
-date: 2016-02-01
+date: 2016-03-01
 draft: false
 authors:
   - admin
+categories:
+  - "Software Development"
 tags:
-  - desktop
-  - entertainment
-  - networking
+  - Desktop App
+  - Networking
 ---
  The CS-ZOOM project aims to enhance the classic Counter-Strike experience by introducing a modified version of the game, specifically tailored to improve gameplay and accessibility. Leveraging AMX Mod X and the C programming language, this project enables players to enjoy a richer and more immersive gaming environment.
 
@@ -38,6 +39,14 @@ Players can customize their experience further by changing logos within the game
 
 7. **Community Engagement**:
 Join the first gaming server in Syria and become part of a growing community of gamers. CS-ZOOM is designed not just as a game but as a platform for players to connect, share experiences, and enjoy multiplayer gaming in a localized environment. This initiative fosters a sense of camaraderie and teamwork among players, enhancing the overall gaming experience.
+
+## Videos
+
+This video shows the code written in AMX Mod X C language for this mode.
+{{< youtube Bg9t9qv6Eyc >}}
+
+This video shows the game's start window or first image.
+{{< youtube 1YcwAC9gBBM >}}
 
 ## Conclusion:
 CS-ZOOM is more than just a modification of Counter-Strike; it's a comprehensive reimagining of the game that enhances accessibility, gameplay, and community engagement. With its innovative features and customizability, CS-ZOOM sets the stage for a new era of gaming where players can enjoy a classic experience with modern enhancements. Join us in this exciting adventure and redefine your gaming journey!

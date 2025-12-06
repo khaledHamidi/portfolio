@@ -1,15 +1,17 @@
 ---
 title: "تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم"
+summary: "روبوتات المتنقلة ذاتية التحكم  ..."
 date: 2023-06-12T12:00:00+03:00
 draft: false
 show_related: true
 reading_time: true
 authors:
   - admin
+categories:
+  - "أكاديمي وبحثي"
 tags:
-  - إنجازات
   - بحث علمي
-  - روبوتات
+  - ميكاترونكس
 ---
 
 <div dir="rtl" style="text-align: justify;">

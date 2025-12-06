@@ -1,90 +1,109 @@
-رفع برنامج العثمانلي إلى الأنترنت وتح
-يث الرابط في الصفحة
+# Article Creation Guide
 
-
-
-cszoom
-world-lens
-
-academic
-achievements
-projects
-Blog
-
-make the section like  :
-----------------------------
-[achievements 1 achievements 2 achievements 3]
-
-lest my posts: | academic published paper
-[Blog 1]       | [paper 1 image title and summary]
-
-projects
-[project 1]
-[project 2]
-[project 3]
-[project ...]
-
-
-
-
-
-
-contect > 
-    ... academic
-    ... achievements
-    ... projects
-    ... blog
-
-
-    ... freelance-work
-
-
-
-
-
-
-
-
-
-
+A simple guide to create articles.
 
 ---
-title: 'Home'
-date: 2023-10-24
-type: landing
-sections:
-  - block: resume-biography
-    content:
-      # The user's folder name in content/authors/
-      username: admin
-    design:
-      spacing:
-        padding: [0, 0, 0, 0]
-      biography:
-        style: 'text-align: justify; font-size: 0.8em;'
-  - block: collection
-    content:
-      filters:
-        folders:
-          - blog
-    design:
-      spacing:
-        padding: ['3rem', 0, '6rem', 0]
+
+## How to Create an Article
+
+1.  **Choose a Section:** Select a section for your content.
+2.  **Create a Folder:** Add a new folder within the chosen section (e.g., `content/posts/your-article-name`).
+3.  **Create an Article File:** In the new folder, create an `index.md` (English) or `index.ar.md` (Arabic) file.
+4.  **Add Content:** Use the template below to add your content.
+
 ---
-this my old homepage
-I need to make it more better.
 
+## Content Template
 
-look 
-make the section like  :
-----------------------------
-[achievements 1 achievements 2 achievements 3]
+```markdown
+---
+title: "Your Title Here"
+summary: "A brief summary of your article."
+date: 2023-10-26
+authors:
+  - admin
+tags:
+  - "Tag 1"
+  - "Tag 2"
+categories:
+  - "Category"
+---
 
-lest my posts: | academic published paper
-[Blog 1]       | [paper 1 image title and summary]
+Add your content here. You can use Markdown and the shortcodes below.
+```
 
-projects
-[project 1]
-[project 2]
-[project 3]
-[project ...]
+---
+
+## Content Sections
+
+Place your article folders in one of these directories inside `content/`:
+
+-   `achievements/`
+-   `articles/`
+-   `education/`
+-   `posts/`
+-   `projects/`
+
+---
+
+## Existing Tags & Categories
+
+You can use existing tags and categories or create new ones.
+
+**Tags:** `أتمتة`, `شبكات`, `بحث علمي`, `أعمال حرة`, `مميز`, `Automation`, `Networking`, `Research`, `Freelance`, `Featured`
+
+**Categories:** `هندسة وروبوتات`, `Engineering and Robotics`, `Desktop apps`
+
+---
+
+## Useful Formatting Blocks (Shortcodes)
+
+Use shortcodes to create special content blocks.
+
+### Callout Block
+
+Highlights important information.
+
+**Example:**
+```markdown
+{{% callout note %}}
+This is a note.
+{{% /callout %}}
+```
+
+### YouTube Video Embed
+
+Embeds a YouTube video using its ID.
+
+**Example:**
+```markdown
+{{< youtube w7q2_l_y9-E >}}
+```
+
+---
+
+## Managing Article Files
+
+Keep all related files (images, PDFs) in the same folder as your article file for better organization.
+
+### Folder Structure Example
+
+You can also use subfolders for more complex topics.
+
+```
+content/posts/your-article-name/
+├── index.md         // or index.ar.md
+├── image.jpg
+└── your-article-name.pdf
+```
+
+-   **Article File**: `index.md` or `index.ar.md`.
+-   **Images**: Store images in the folder and link them directly (e.g., `![My Image](image.jpg)`).
+-   **PDFs**: Best practice is to name the PDF the same as the folder (e.g., `your-article-name.pdf`).
+
+- note: in araibc when try add links for files (expect the images) its cant handle so must clear arabic version of file 
+example :
+file.zip
+in index.md  `![download](file.zip)`
+in index.ar.md `![download](file.ar.zip)` but you have make copy of  `file.zip to file.ar.zip`
+

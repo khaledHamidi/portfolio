@@ -3,11 +3,14 @@ title: "تكريم خالد في حفل تخرج كلية التكنولوجيا
 summary: "ملخص لحضور خالد حفل تخرّج كلية التكنولوجيا وتكريمه كأوّل على الكلية في دفعة 2025."
 date: 2025-05-17
 draft: false
+show_date_updated: false
 authors:
   - admin
+categories:
+  - "مجتمع وتعلُّم"
 tags:
-  - إنجازات
   - فعاليات
+  - تعليم
 show_related: true
 reading_time: 2
 ---

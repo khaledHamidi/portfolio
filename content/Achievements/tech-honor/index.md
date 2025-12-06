@@ -3,11 +3,14 @@ title: Khaled Honored at Karabuk University Technology Faculty Graduation
 summary: Third-person recap of Khaled’s return to the commencement stage and his first-place honor.
 date: 2025-05-17
 draft: false
+show_date_updated: false
 authors:
   - admin
+categories:
+  - "Community & Education"
 tags:
-  - achievement
-  - event
+  - Event
+  - Education
 show_related: true
 reading_time: 2
 ---

@@ -1,24 +1,22 @@
 ---
-title: QistasLinks
-summary: The perfect solution for projects that depend on serial communications.
+title: QistasLinks library
+summary: C# serial port library, Make serial interface(RS232) communication easy...
 date: 2022-04-02
 authors:
   - admin
+categories:
+  - "Software Development"
 tags:
-  - open-source
-  - embedded
-  - iot
+  - IoT
+  - Networking
 image:
   caption: 'Image credit: [**Unsplash**](https://github.com/khaledHamidi/Logic-Element-Explorer/blob/main/image.jpg)'
 ---
- 
-# QistasLinks
-**The perfect solution for projects that depend on serial communications**
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8248290.svg)](https://doi.org/10.5281/zenodo.8248290) ,
-[![Author: Khaled HAMIDI](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0004-2962-0833) [Khaled HAMIDI](https://orcid.org/0009-0004-2962-0833)
-
-
+<p style="margin-bottom: 1rem;">
+<a href="https://doi.org/10.5281/zenodo.8248290" target="_blank" rel="noopener">
+<img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8248290.svg" alt="DOI"/>
+</a> 
+</p>
 
 QistasLinks: C# serial port library, Make serial interface(RS232) communication easy and efficient for any project utilizing a serial connection. With its user-friendly methods and robust features, QistasLinks simplifies the process of establishing communication with microcontrollers and facilitates seamless data exchange, By integrating QistasLinks into your application, you can benefit from enhanced performance and extended capabilities, making it the ideal choice for any project relying on serial connections in .NET .
 

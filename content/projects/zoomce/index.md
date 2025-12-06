@@ -5,9 +5,12 @@ date: 2019-02-01
 draft: false
 authors:
   - admin
+categories:
+  - "Software Development"
 tags:
-  - desktop
-  - networking
+  - "Desktop App"
+  - Networking
+  - Automation
 ---
 
 # Ground Scale Management System

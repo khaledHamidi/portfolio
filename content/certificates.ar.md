@@ -5,10 +5,6 @@ date: 2025-06-22
 draft: false
 authors:
   - admin
-tags:
-  - إنجازات
-  - شهادات
-  - تعليم
 show_related: true
 reading_time: 5
 ---
@@ -55,6 +51,10 @@ reading_time: 5
 ## 🏛️ مشاركات أكاديمية وصناعية
 <table class="cert-table" dir="rtl"><tbody>
 <tr>
+<td><a href="/certificates/Nephrocare.jpg"><img src="/certificates/Nephrocare.jpg" alt="Nephrocare"></a></td>
+<td><strong>مؤتمر الإبداع والابتكار – إسطنبول 2025</strong><br>المركز الخامس عن مشروع POC Nephrocare، مقدّم من جمعية الصداقة والتعاون اليمنية – تركيا.</td>
+</tr>
+<tr>
 <td><a href="/certificates/cer_17.jpg"><img src="/certificates/cer_17.jpg" alt="ICENSOS"></a></td>
 <td><strong>ICENSOS 2024 – تركيا</strong><br>مشاركة بحثية وتقديم شفهي بمؤتمر علمي – 16-17/05/2024.</td>
 </tr>
@@ -89,7 +89,7 @@ reading_time: 5
 </tbody>
 </table>
 
-### 🚗 الذكاء الاصطناعي والمركبات الذاتية
+###  والمركبات الذاتية
 <table class="cert-table" dir="rtl"><tbody>
 <tr>
 <td><a href="/certificates/cer_3.jpg"><img src="/certificates/cer_3.jpg" alt="Self-Driving Cars"></a></td>
@@ -97,7 +97,7 @@ reading_time: 5
 </tr>
 </tbody></table>
 
-### ☀️ الطاقة والأنظمة الكهروضوئية
+### ☀️ الطاقة
 <table class="cert-table" dir="rtl"><tbody>
 <tr>
 <td><a href="/certificates/cer_5.jpg"><img src="/certificates/cer_5.jpg" alt="PV Systems"></a></td>

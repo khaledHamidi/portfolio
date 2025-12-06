@@ -1,15 +1,18 @@
 ---
 title: Arduino Simulation and Programming Workshop
-summary: A successful workshop on Arduino simulation and programming was conducted, attended by 100 trainees. The workshop focused on introducing Arduino and using the Proteus software for circuit simulation and programming.
+summary: "Led an Arduino and Proteus simulation workshop for 100 trainees, focusing on circuit simulation and programming."
 date: 2023-06-12T12:00:00+03:00
 draft: false
 show_related: true
 reading_time: true
+show_date_updated: false
 authors:
   - admin
+categories:
+  - "Community & Education"
 tags:
-  - education
-  - technology
+  - Education
+  - Event
 ---
 ## Overview
 

@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أتمتة | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%A7%D8%AA%D9%85%D8%AA%D8%A9/</link><atom:link href="http://localhost:1313/ar/tags/%D8%A7%D8%AA%D9%85%D8%AA%D8%A9/index.xml" rel="self" type="application/rss+xml"/><description>أتمتة</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>أتمتة</title><link>http://localhost:1313/ar/tags/%D8%A7%D8%AA%D9%85%D8%AA%D8%A9/</link></image><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="فيديو">فيديو&lt;/h2>
+&lt;p>هذا الفيديو يشرح كيفية عمل الآلة.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Nckfvm2GynY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/p>
 &lt;h2 id="تصميم-وتصنيع-آلة-تعبئة-كهربائية-هوائية-مفتوحة-المصدر-للمواد-الحبيبية-بكميات-ثابتة">تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة&lt;/h2>
 &lt;p>تُقدّم هذه الدراسة نموذجًا مبتكرًا لآلة تعبئة ذكية لا تعتمد على الحساسات لضبط الكمية، بل تستند إلى آلية ميكانيكية دقيقة تقوم برفع الحاوية وملئها بكميات محددة تصل حتى 250 مل، مما يجعلها مثالية للمواد الخشنة أو الحبيبية.&lt;br>
 تم تطوير النظام باستخدام مكوّنات كهربائية-هوائية، حيث تُدار حركة الأسطوانة من خلال صمام كهرومغناطيسي (Solenoid Valve)، ويتحكم بها متحكم أردوينو مع حساس IR وسير ناقل (Conveyor Belt) يعمل بمحرك تيار مستمر (DC Motor).&lt;/p>
 &lt;p>تتميّز الآلة بسهولة الإنتاج باستخدام طابعة ثلاثية الأبعاد بمساحة 200x200 مم، مع إمكانية تخصيص التصميم ليناسب متطلبات متنوعة.&lt;br>
 تُعدّ الطبيعة المفتوحة للمشروع دعوةً للمجتمع التقني للمساهمة في تحسينه وتطويره، بما يدعم بيئة ابتكار مستمرة في أنظمة التعبئة الآلية.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
+&lt;p>توضح هذه الصورة النظام الكهربائي والهوائي.&lt;/p>
+&lt;figure>&lt;img src="http://localhost:1313/media/images/filling-machine-electro-pneumatic-system.jpg">&lt;figcaption>
+&lt;h4>النظام الكهربائي والهوائي&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
 &lt;/div>
 &lt;hr>
 &lt;div dir="rtl" style="text-align: justify;">
@@ -18,10 +34,116 @@
 &lt;/div>
 &lt;hr>
 &lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="روابط">روابط&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;/li>
+&lt;li>
+&lt;/li>
+&lt;li>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="اقتباس">اقتباس&lt;/h2>
+&lt;p>APA
+HAMIDI, K., ABDULSELAM, A., &amp;amp; BUĞDAY, D. Ö. G. M. (2024). DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE FOR FIXED GRANULATE QUANTITIES. International Journal of Advanced Natural Sciences and Engineering Researches, 8(4), 122–128.&lt;/p>
+&lt;/div></description></item><item><title>التحكم الطولي في المركبات المستقلة</title><link>http://localhost:1313/ar/hero/av/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/av/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;p>يركز هذا البحث على تصميم وتحسين أنظمة التحكم الطولي للمركبات ذاتية القيادة (AVs). يتمحور جوهر الدراسة حول تطبيق &lt;strong>وحدات التحكم بالمنطق الضبابي (FLC)&lt;/strong> ودمجها مع &lt;strong>وحدات التحكم PID&lt;/strong> التقليدية لإنشاء أنظمة تحكم هجينة ومتقدمة.&lt;/p>
+&lt;p>الهدف الأساسي هو تعزيز سلامة وموثوقية وكفاءة المركبات المستقلة. من خلال تطوير وحدات تحكم قادرة على إدارة الطبيعة الديناميكية والمعقدة لبيئات القيادة في العالم الحقيقي، يهدف هذا المشروع إلى تحسين زمن استجابة السيارة واستقرارها.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="autonomous vehicle" srcset="
+/en/hero/av/av_hu1992617688241104894.webp 400w,
+/en/hero/av/av_hu15473852881787687693.webp 760w,
+/en/hero/av/av_hu1039182901271111275.webp 1200w"
+src="http://localhost:1313/en/hero/av/av_hu1992617688241104894.webp"
+width="760"
+height="653"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="الأهداف-والأساليب-الرئيسية">الأهداف والأساليب الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>التحكم بالمنطق الضبابي&lt;/strong>: يستكشف استخدام المنطق الضبابي للتعامل مع الغموض والشكوك الكامنة في التحكم الطولي للمركبة (على سبيل المثال، التسارع، والكبح، والحفاظ على مسافات آمنة).&lt;/li>
+&lt;li>&lt;strong>نظام FLC-PID الهجين&lt;/strong>: يتضمن جزء كبير من البحث تصميم واختبار نظام هجين يجمع بين نقاط القوة التكيفية للمنطق الضبابي واستقرار التحكم PID.&lt;/li>
+&lt;li>&lt;strong>تطوير نموذج أولي&lt;/strong>: يشمل المشروع تصميم نموذج أولي لمركبة مستقلة لتكون بمثابة منصة اختبار لخوارزميات التحكم المطورة.&lt;/li>
+&lt;li>&lt;strong>تحليل الأداء&lt;/strong>: أظهر تنفيذ واختبار أنظمة التحكم تحسينات كبيرة في استجابة النظام واستقراره، مما يؤكد إمكانية التطبيق في العالم الحقيقي.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="robot" srcset="
+/en/hero/av/2_hu2949458785717201155.webp 400w,
+/en/hero/av/2_hu6641939472858165950.webp 760w,
+/en/hero/av/2_hu6001617812959739385.webp 1200w"
+src="http://localhost:1313/en/hero/av/2_hu2949458785717201155.webp"
+width="760"
+height="386"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="robot" srcset="
+/en/hero/av/3_hu2261569377939652540.webp 400w,
+/en/hero/av/3_hu9341678575793859296.webp 760w,
+/en/hero/av/3_hu7782481396795671165.webp 1200w"
+src="http://localhost:1313/en/hero/av/3_hu2261569377939652540.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="robot" srcset="
+/en/hero/av/4_hu15191957136124545335.webp 400w,
+/en/hero/av/4_hu13836004331211398489.webp 760w,
+/en/hero/av/4_hu2624328732635266318.webp 1200w"
+src="http://localhost:1313/en/hero/av/4_hu15191957136124545335.webp"
+width="760"
+height="342"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="robot" srcset="
+/en/hero/av/5_hu7744538201150100094.webp 400w,
+/en/hero/av/5_hu3424715750421058474.webp 760w,
+/en/hero/av/5_hu2739134883705974662.webp 1200w"
+src="http://localhost:1313/en/hero/av/5_hu7744538201150100094.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1313/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/4dof-robotic-arm/</guid><description>&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
+ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.&lt;/p>
+&lt;p>تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.&lt;/p>
+&lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>الجهة الناشرة:&lt;/strong> مركز الشام للدراسات والأبحاث&lt;/li>
+&lt;li>&lt;strong>تاريخ النشر:&lt;/strong> 26 تموز 2023&lt;/li>
+&lt;/ul>
 &lt;h2 id="رابط-البحث">رابط البحث&lt;/h2>
 &lt;p>
 &lt;/p>
-&lt;/div></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/window-control-system/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;h2 id="تحميل">تحميل&lt;/h2>
+&lt;p>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة" srcset="
+/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp 400w,
+/en/projects/4dof-robotic-arm/image_hu9755964502696729891.webp 760w,
+/en/projects/4dof-robotic-arm/image_hu5096042048220078544.webp 1200w"
+src="http://localhost:1313/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp"
+width="760"
+height="440"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/sws/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/sws/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
 &lt;p>يتناول هذا المشروع تصميم وتنفيذ نظام تحكم بالنوافذ لحماية المنازل من الغبار والرمال أثناء العواصف الرملية، وهي ظاهرة شائعة في السعودية.&lt;br>
 يعمل النظام على إغلاق النوافذ تلقائيًا عند اكتشاف العاصفة الرملية، مما يمنع دخول الغبار إلى المنزل.&lt;/p>
 &lt;p>يتكوّن النظام من حساسات لاكتشاف العواصف، وآلية ميكانيكية تعمل بمحرك لفتح وإغلاق النوافذ، إلى جانب ميزة إرسال إشعارات قصيرة إلى هاتف مالك المنزل عند تشغيل النظام.&lt;/p>
@@ -36,6 +158,19 @@
 &lt;p>تم تنفيذ المشروع بنجاح، وأعرب العميل في السعودية عن رضاه التام عن النتيجة.&lt;br>
 نال النظام تقييمًا عاليًا لفعاليته في حماية المنازل وسهولة استخدامه.&lt;/p>
 &lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="التقيم" srcset="
+/en/projects/sws/badge_hu10665682049558335899.webp 400w,
+/en/projects/sws/badge_hu2110014805596361415.webp 760w,
+/en/projects/sws/badge_hu8747777280006912142.webp 1200w"
+src="http://localhost:1313/en/projects/sws/badge_hu10665682049558335899.webp"
+width="760"
+height="399"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -78,5 +213,244 @@
 تقييم ممتاز لمشروع نظام التحكم بالنوافذ
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
+&lt;p>📎
+&lt;/p></description></item><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:1313/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
+&lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
+تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
+&lt;p>يرتكز النظام على الاتصال بخادم إشارات عبر واجهة برمجة تطبيقات (API) لتلقّي بيانات لحظية حول موقع الروبوت والبيئة المحيطة به، ما يمكّن من اتخاذ قرارات ذكية حول التنقل والمسار.&lt;/p>
+&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
+&lt;ul>
+&lt;li>🔍 &lt;strong>تخطيط المسار بالذكاء الاصطناعي&lt;/strong>: تحليل البيئة المحيطة لتحديد أفضل طريق ممكن وتفادي العوائق وتقليل الوقت المستغرق.&lt;/li>
+&lt;li>🛰️ &lt;strong>تكامل مع خادم إشارات&lt;/strong>: استقبال بيانات الموقع والمجسّات بشكل مباشر ولحظي.&lt;/li>
+&lt;li>🔄 &lt;strong>اتصال API فعّال&lt;/strong>: تبادل بيانات لحظي مع خادم الإشارات لتحديث موقع الروبوت واستجابته.&lt;/li>
+&lt;li>🚧 &lt;strong>تفادي العوائق&lt;/strong>: اعتماد خوارزميات ذكية لتجنّب التصادم مع العقبات المتغيرة.&lt;/li>
+&lt;li>🔁 &lt;strong>قابلية التوسعة والتكيّف&lt;/strong>: تصميم مرن يناسب تطبيقات مختلفة من التنقل الداخلي وحتى الاستكشاف الخارجي.&lt;/li>
+&lt;/ul>
+&lt;h2 id="نتائج-المشروع">نتائج المشروع&lt;/h2>
+&lt;p>برهن مشروع Local Guide على فعالية دمج الذكاء الاصطناعي مع Python في تطوير حلول ملاحة مستقلة.&lt;br>
+وتميّز النظام بدقته وسرعة استجابته، مما يجعله مناسبًا لمجالات متعدّدة تشمل الأتمتة الصناعية والخدمات اللوجستية.&lt;/p>
+&lt;p>تصميمه المعياري يتيح تطويره مستقبلًا وتخصيصه لسيناريوهات مختلفة، مما يجعله مثالًا على تكامل التكنولوجيا الحديثة لحل تحديات واقعية في عالم الروبوتات.&lt;/p>
+&lt;h2 id="تقييم">تقييم&lt;/h2>
+&lt;p>حصل المشروع على تقييم ممتاز من العميل، بـ 5 نجوم في جميع الجوانب:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="التقيم" srcset="
+/en/projects/lg/badge_hu3034371145428125111.webp 400w,
+/en/projects/lg/badge_hu12181493154512379697.webp 760w,
+/en/projects/lg/badge_hu18213919312010536174.webp 1200w"
+src="http://localhost:1313/en/projects/lg/badge_hu3034371145428125111.webp"
+width="760"
+height="399"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>المعيار&lt;/th>
+&lt;th>التقييم&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>الاحترافية في التعامل&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>التواصل والمتابعة&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>جودة العمل المنجَز&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الخبرة في مجال المشروع&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الالتزام بموعد التسليم&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الرغبة بالتعامل مستقبلًا&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>
+&lt;figure id="figure-تقييم-ممتاز-لمشروع-نظام-التحكم-في-النوافذ">
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://mostaql.hsoubcdn.com/reviews/598503/review-684980-6026465-og.png?v=9be959de2d6f14767801cc04ba33f4c8" alt="تقييم المشروع" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+تقييم ممتاز لمشروع نظام التحكم في النوافذ
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>📎
+&lt;/p>
+&lt;/div></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/hero/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>نظام أوامر ديناميكي&lt;/strong>: يمكنك بسهولة تعريف وتسجيل أوامر مخصصة باستخدام صيغة بسيطة قائمة على الماكرو (&lt;code>DEF&lt;/code> و &lt;code>REG&lt;/code>).&lt;/li>
+&lt;li>&lt;strong>دعم معلمات متعددة الأنواع&lt;/strong>: تحليل الأعداد الصحيحة، والأعداد العشرية، والسلاسل النصية، والأعداد الطويلة من الأوامر التسلسلية الواردة.&lt;/li>
+&lt;li>&lt;strong>استجابات مبسطة&lt;/strong>: إرسال سلاسل نصية منسقة مرة أخرى إلى الجهاز المضيف من خلال استدعاء واحد &lt;code>link.response()&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>خفيفة وفعالة&lt;/strong>: مصممة للمتحكمات الدقيقة، تتميز Qlink ببصمة ذاكرة صغيرة وتعالج الأوامر في الوقت الفعلي.&lt;/li>
+&lt;li>&lt;strong>تحكم عبر منصات متعددة&lt;/strong>: تمكين التحكم السلس في الأردوينو من جهاز كمبيوتر (Windows/Linux)، أو Mac، أو Raspberry Pi.&lt;/li>
+&lt;/ul>
+&lt;h2 id="حالات-استخدام-شائعة">حالات استخدام شائعة&lt;/h2>
+&lt;ul>
+&lt;li>التحكم في الروبوتات أو آلات CNC من تطبيق سطح مكتب.&lt;/li>
+&lt;li>إرسال بيانات الاستشعار من الأردوينو إلى برنامج Python لتسجيلها أو تحليلها.&lt;/li>
+&lt;li>إنشاء نماذج أولية تفاعلية تستجيب للأوامر من طرفية تسلسلية.&lt;/li>
+&lt;li>تكوين إعدادات الجهاز (مثل سطوع LED، سرعة المحرك) بشكل فوري دون إعادة برمجة.&lt;/li>
+&lt;/ul>
+&lt;h2 id="مثال-على-الكود-التحكم-في-وميض-بسيط">مثال على الكود: التحكم في وميض بسيط&lt;/h2>
+&lt;p>يوضح المثال التالي كيفية التحكم في الـ LED المدمج على لوحة الأردوينو باستخدام أمر &lt;code>DELAY&lt;/code> يتم إرساله عبر الاتصال التسلسلي.&lt;/p>
+&lt;div dir="ltr">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;Qlink.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1000&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// الفاصل الزمني الافتراضي للوميض
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">Qlink&lt;/span> &lt;span class="nf">link&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Serial&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تهيئة Qlink على منفذ الاتصال التسلسلي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// تعريف الأمر &amp;#34;DELAY&amp;#34; الذي يقبل معاملًا صحيحًا واحدًا
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">DEF&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">DELAY&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">INT&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Convert&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Args&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="kt">int&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">response&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Blink interval updated to %d ms&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">setup&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">begin&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">9600&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">pinMode&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">OUTPUT&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">REG&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">link&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">DELAY&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تسجيل الأمر DELAY
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">loop&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">loop&lt;/span>&lt;span class="p">();&lt;/span> &lt;span class="c1">// الاستماع باستمرار للأوامر الواردة
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// وميض الـ LED بالفاصل الزمني الحالي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">HIGH&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LOW&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل `DELAY 500` من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.
+&lt;p>
+&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/projects/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>نظام أوامر ديناميكي&lt;/strong>: يمكنك بسهولة تعريف وتسجيل أوامر مخصصة باستخدام صيغة بسيطة قائمة على الماكرو (&lt;code>DEF&lt;/code> و &lt;code>REG&lt;/code>).&lt;/li>
+&lt;li>&lt;strong>دعم معلمات متعددة الأنواع&lt;/strong>: تحليل الأعداد الصحيحة، والأعداد العشرية، والسلاسل النصية، والأعداد الطويلة من الأوامر التسلسلية الواردة.&lt;/li>
+&lt;li>&lt;strong>استجابات مبسطة&lt;/strong>: إرسال سلاسل نصية منسقة مرة أخرى إلى الجهاز المضيف من خلال استدعاء واحد &lt;code>link.response()&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>خفيفة وفعالة&lt;/strong>: مصممة للمتحكمات الدقيقة، تتميز Qlink ببصمة ذاكرة صغيرة وتعالج الأوامر في الوقت الفعلي.&lt;/li>
+&lt;li>&lt;strong>تحكم عبر منصات متعددة&lt;/strong>: تمكين التحكم السلس في الأردوينو من جهاز كمبيوتر (Windows/Linux)، أو Mac، أو Raspberry Pi.&lt;/li>
+&lt;/ul>
+&lt;h2 id="حالات-استخدام-شائعة">حالات استخدام شائعة&lt;/h2>
+&lt;ul>
+&lt;li>التحكم في الروبوتات أو آلات CNC من تطبيق سطح مكتب.&lt;/li>
+&lt;li>إرسال بيانات الاستشعار من الأردوينو إلى برنامج Python لتسجيلها أو تحليلها.&lt;/li>
+&lt;li>إنشاء نماذج أولية تفاعلية تستجيب للأوامر من طرفية تسلسلية.&lt;/li>
+&lt;li>تكوين إعدادات الجهاز (مثل سطوع LED، سرعة المحرك) بشكل فوري دون إعادة برمجة.&lt;/li>
+&lt;/ul>
+&lt;h2 id="طريقة-التثبيت">طريقة التثبيت&lt;/h2>
+&lt;p>أسهل طريقة للتثبيت هي مباشرة عبر Arduino IDE:&lt;/p>
+&lt;ol>
+&lt;li>افتح برنامج Arduino IDE.&lt;/li>
+&lt;li>اذهب إلى &lt;strong>Sketch&lt;/strong> &amp;gt; &lt;strong>Include Library&lt;/strong> &amp;gt; &lt;strong>Manage Libraries&amp;hellip;&lt;/strong>.&lt;/li>
+&lt;li>ابحث عن &amp;ldquo;&lt;strong>Qlink&lt;/strong>&amp;rdquo;.&lt;/li>
+&lt;li>انقر على &lt;strong>Install&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>بدلاً من ذلك، يمكنك تثبيت المكتبة يدويًا من الملف أدناه.&lt;/p>
+&lt;h2 id="مثال-على-الكود-التحكم-في-وميض-بسيط">مثال على الكود: التحكم في وميض بسيط&lt;/h2>
+&lt;p>يوضح المثال التالي كيفية التحكم في الـ LED المدمج على لوحة الأردوينو باستخدام أمر &lt;code>DELAY&lt;/code> يتم إرساله عبر الاتصال التسلسلي.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;Qlink.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1000&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// الفاصل الزمني الافتراضي للوميض
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">Qlink&lt;/span> &lt;span class="nf">link&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Serial&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تهيئة Qlink على منفذ الاتصال التسلسلي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// تعريف الأمر &amp;#34;DELAY&amp;#34; الذي يقبل معاملًا صحيحًا واحدًا
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">DEF&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">DELAY&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">INT&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Convert&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Args&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="kt">int&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">response&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Blink interval updated to %d ms&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">setup&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">begin&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">9600&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">pinMode&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">OUTPUT&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">REG&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">link&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">DELAY&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تسجيل الأمر DELAY
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">loop&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">loop&lt;/span>&lt;span class="p">();&lt;/span> &lt;span class="c1">// الاستماع باستمرار للأوامر الواردة
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// وميض الـ LED بالفاصل الزمني الحالي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">HIGH&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LOW&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل &lt;code>DELAY 500&lt;/code> من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.&lt;/p>
+&lt;p>
+&lt;/p></description></item><item><title>نظام إدارة ميزان أرضي رقمي</title><link>http://localhost:1313/ar/projects/zoomce/</link><pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoomce/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
+&lt;p>طوّر المهندس &lt;strong>خالد حميدي&lt;/strong> نظامًا رقميًا مخصصًا لصالح إحدى شركات إعادة التدوير بهدف تحسين دقة وكفاءة قياس أوزان الشاحنات والمركبات عبر ميزان أرضي صناعي.&lt;/p>
+&lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>ميزان أرضي رقمي&lt;/strong> متصل بالحاسوب عبر منفذ تسلسلي (Serial Port).&lt;/li>
+&lt;li>&lt;strong>تطبيقات بلغة C#&lt;/strong> يقرأ البيانات فورًا من الميزان ويعالجها.&lt;/li>
+&lt;li>&lt;strong>واجهة استخدام رسومية&lt;/strong> لعرض الوزن والتعامل مع العمليات اليومية.&lt;/li>
+&lt;li>&lt;strong>طباعة فواتير&lt;/strong> وإيصالات دخول وخروج المركبات.&lt;/li>
+&lt;li>&lt;strong>أرشفة يومية/شهرية&lt;/strong> للأوزان والمعاملات على شكل ملف Excel.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ميزات-رئيسية">ميزات رئيسية&lt;/h2>
+&lt;ul>
+&lt;li>🧾 قراءة الوزن أوتوماتيكيًا من الميزان&lt;/li>
+&lt;li>🔄 تحديث مباشر للبيانات من الأجهزة الموصولة&lt;/li>
+&lt;li>💾 حفظ البيانات بأمان مع إمكانية التصدير&lt;/li>
+&lt;li>🖨️ طباعة الفواتير بتنسيق احترافي&lt;/li>
+&lt;li>📊 تقارير شاملة بإحصائيات يومية وشهرية وسنوية&lt;/li>
+&lt;/ul>
+&lt;h2 id="الأثر">الأثر&lt;/h2>
+&lt;p>ساهم النظام في:&lt;/p>
+&lt;ul>
+&lt;li>تسريع عملية الوزن&lt;/li>
+&lt;li>تقليل التلاعب البشري&lt;/li>
+&lt;li>ضمان الدقة المحاسبية&lt;/li>
+&lt;li>تحسين أرشفة وأمان البيانات&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&amp;ldquo;كل غرام محسوب، وكل شاحنة موثّقة.. النظام سهّل كل شيء.&amp;rdquo; — أحد مستخدمي النظام&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="صور-من-النظام">صور من النظام&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/gallery/blob/main/ground-scale/g2.png?raw=true" alt="واجهة البرنامج" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>📎
+&lt;/p></description></item><item><title>نظام إدارة مغسلة السيارات الأوروبية</title><link>http://localhost:1313/ar/projects/vechiles-wach-system/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/vechiles-wach-system/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;p>تم تطوير هذا النظام بطلب من مغسلة &amp;ldquo;السيارات الأوروبية&amp;rdquo; في مدينة الباب، ويهدف إلى تنظيم عمليات المغسلة من استلام المركبات حتى التسليم والفوترة.&lt;/p>
+&lt;h2 id="ميزات-النظام">ميزات النظام&lt;/h2>
+&lt;ul>
+&lt;li>🧾 &lt;strong>نموذج دخول وتسجيل تلقائي للعميل&lt;/strong>&lt;/li>
+&lt;li>🚗 &lt;strong>إدخال بيانات السيارة ونوع الغسيل المطلوب&lt;/strong>&lt;/li>
+&lt;li>⏱️ &lt;strong>تسجيل وقت الدخول والخروج تلقائيًا&lt;/strong>&lt;/li>
+&lt;li>📊 &lt;strong>توليد تقارير يومية وشهرية&lt;/strong>&lt;/li>
+&lt;li>🧮 &lt;strong>متابعة الدخل والمصاريف&lt;/strong>&lt;/li>
+&lt;li>👥 &lt;strong>إدارة المستخدمين والصلاحيات&lt;/strong>&lt;/li>
+&lt;li>💰 &lt;strong>حساب الأرباح والخسائر ومراقبة الأداء المالي&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="التقنيات-المستخدمة">التقنيات المستخدمة&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>لغة البرمجة:&lt;/strong> C#&lt;/li>
+&lt;li>&lt;strong>قاعدة البيانات:&lt;/strong> SQL Server&lt;/li>
+&lt;li>&lt;strong>الواجهة:&lt;/strong> Windows Forms GUI&lt;/li>
+&lt;/ul>
+&lt;h2 id="النتيجة">النتيجة&lt;/h2>
+&lt;p>أدى استخدام النظام إلى تحسين كفاءة المغسلة بشكل كبير، من خلال أتمتة العمليات وتقليل التكاليف التشغيلية.&lt;/p>
 &lt;p>📎
 &lt;/p></description></item></channel></rss>

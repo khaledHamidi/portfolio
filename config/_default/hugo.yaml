@@ -15,12 +15,12 @@ baseURL: 'https://khaledhamidi.netlify.app/' # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /blog/**
+      path: /articles/**
       kind: page
     pager: true
     editable: false
     hide_date: false
-    show_date_updated: true
+    show_date_updated: false
     reading_time: true
     commentable: false
     show_related: true
@@ -31,19 +31,7 @@ cascade:
       navbar:
         enable: true
 
-############################
-## LANGUAGE
-############################
 
-defaultContentLanguage: en
-languages:
-  en:
-    weight: 1
-  ar:
-    weight: 2
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
-removePathAccents: true
 
 ############################
 ## ADVANCED
@@ -92,3 +80,6 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: true
+removePathAccents: true

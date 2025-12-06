@@ -1,13 +1,14 @@
 ---
 title: Geometric Drow and Collision Detection
-summary: GeoSketch is a C# program that combines the joy of sketching with the power of collision detection for geometric shapes. With GeoSketch, you can unleash your creativity by drawing various geometric shapes and explore their interactions in real-time.
+summary: A C# program that combines sketching with real-time collision detection for geometric shapes, allowing you to explore their interactions.
 date: 2023-02-07
 authors:
   - admin
+categories:
+  - "Software Development"
 tags:
-  - open-source
-  - desktop
-  - education
+  - Desktop App
+  - Education
 ---
 # GeoSketch - Geometric Drow and Collision Detection
 

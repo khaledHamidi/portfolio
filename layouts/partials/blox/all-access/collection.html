@@ -7,7 +7,7 @@
 {{ end }}
 
 {{ with $block.content.filters.tags }}
-  {{ $query = where $query ".Params.tags" "intersect" . }}
+  {{ $query = where $query "Params.tags" "intersect" . }}
 {{ end }}
 
 {{ $count := default 5 $block.content.count }}

@@ -1,15 +1,18 @@
 ---
-title: Rector’s Commendation for Khaled’s TÜBİTAK 2209A Research Excellence | تكريم خالد من رئيس جامعة كارابوك عن مشروع TÜBİTAK 2209A
-summary: On 30 May 2024, Karabuk University Rector Prof. Dr. Fatih KIRIŞIK presented Khaled with a certificate of appreciation for his TÜBİTAK 2209A project, acknowledging his outstanding research performance and the project’s innovative potential within the university’s 2023 second-term 2209 A-B program. في 30 مايو 2024، منح رئيس جامعة كارابوك الأستاذ الدكتور فاتح قرشق خالد شهادة تقدير لتميّزه البحثي وقبول مشروعه ضمن برنامج TÜBİTAK 2209A، مؤكّدًا ريادته العلمية وقيمة الابتكار الذي يقدّمه المشروع في إطار برنامج 2209 A-B للفترة الثانية لعام 2023.
+title: Rector’s Commendation for TÜBİTAK 2209A Research Excellence
+summary: Karabuk University Rector Prof. Dr. Fatih KIRIŞIK presented Khaled with a certificate of ...
 date: 2023-05-30T12:00:00+03:00
 draft: false
 show_related: true
+show_date_updated: false
 reading_time: true
 authors:
   - admin
+categories:
+  - "Academic & Research"
 tags:
-  - achievement
-  - research
+  - Research
+  - Education
 ---
 # Honored by Karabuk University Rector
 

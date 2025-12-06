@@ -4,11 +4,13 @@ summary: "فاز خالد بالمركز الأول في هاكاثون تقني
 date: 2023-05-01T12:00:00+03:00
 draft: false
 show_related: true
+show_date_updated: false
 reading_time: true
 authors:
   - admin
+categories:
+  - "مجتمع وتعلُّم"
 tags:
-  - إنجازات
   - فعاليات
 ---
 

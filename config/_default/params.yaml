@@ -55,3 +55,9 @@ features:
 i_am_a_sponsor: true
 power_ups:
   hide_published_with: true
+
+plugins:
+  css:
+    - link: assets/css/custom.css
+  js:
+    - link: assets/js/custom-search.js

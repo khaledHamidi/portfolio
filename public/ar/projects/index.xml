@@ -1,9 +1,168 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>جميع المشاريع | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/projects/</link><atom:link href="http://localhost:1313/ar/projects/index.xml" rel="self" type="application/rss+xml"/><description>جميع المشاريع</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>جميع المشاريع</title><link>http://localhost:1313/ar/projects/</link></image><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>جميع المشاريع | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/projects/</link><atom:link href="http://localhost:1313/ar/projects/index.xml" rel="self" type="application/rss+xml"/><description>جميع المشاريع</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>جميع المشاريع</title><link>http://localhost:1313/ar/projects/</link></image><item><title>تحليل ومحاكاة الكينماتيكا الأمامية والعكسية لروبوت صناعي 6R في MATLAB</title><link>http://localhost:1313/ar/projects/kinematics-analysis-6r-robot/</link><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/kinematics-analysis-6r-robot/</guid><description>&lt;h2 id="مقدمة">مقدمة&lt;/h2>
+&lt;p>تركز هذه الدراسة على Elfin E15، وهو روبوت صناعي 6-DOF من Han&amp;rsquo;s Robot، يتكون من ستة مفاصل دورانية. يستخدم التحليل معلمات Denavit-Hartenberg (D-H) لنمذجة حركية الروبوت.&lt;/p>
+&lt;h3 id="معلمات-d-h">معلمات D-H&lt;/h3>
+&lt;p>يعد جدول معلمات D-H أمرًا بالغ الأهمية لتحديد بنية الروبوت، بما في ذلك أطوال الوصلات واتجاهات المفاصل.&lt;/p>
+&lt;p>&lt;strong>الجدول 1: معلمات إحداثيات وصلة ذراع الروبوت Elfin E15&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>الرابط&lt;/th>
+&lt;th>α_(i-1)&lt;/th>
+&lt;th>a_(i-1)&lt;/th>
+&lt;th>d_i&lt;/th>
+&lt;th>θ_i&lt;/th>
+&lt;th>متغير المفصل&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>h_1&lt;/td>
+&lt;td>θ_1&lt;/td>
+&lt;td>θ_1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>90&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>θ_2&lt;/td>
+&lt;td>θ_2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>a_2&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>θ_3&lt;/td>
+&lt;td>θ_3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>-90&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>d_4&lt;/td>
+&lt;td>θ_4&lt;/td>
+&lt;td>θ_4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>+90&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>θ_5&lt;/td>
+&lt;td>θ_5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>-90&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>d_6&lt;/td>
+&lt;td>θ_6&lt;/td>
+&lt;td>θ_6&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>الجدول 2: أطوال الوصلات (مم)&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>الرابط&lt;/th>
+&lt;th>الطول&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>h_1&lt;/td>
+&lt;td>262&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>a_2&lt;/td>
+&lt;td>580&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>d_4&lt;/td>
+&lt;td>520&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>d_6&lt;/td>
+&lt;td>173&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="تحليل-الكينماتيكا-الأمامية">تحليل الكينماتيكا الأمامية&lt;/h2>
+&lt;p>تحدد الكينماتيكا الأمامية موضع واتجاه المستجيب النهائي من زوايا مفاصل معينة. يتم تحقيق ذلك عن طريق حساب مصفوفات التحويل بين إطارات المفاصل المجاورة.&lt;/p>
+&lt;h3 id="محاكاة-matlab">محاكاة MATLAB&lt;/h3>
+&lt;p>تم تطوير تطبيق MATLAB App Designer لمحاكاة حركة الروبوت. تحسب الدالة &lt;code>robot_fkine&lt;/code> مصفوفات التحويل التراكمية وتصور الروبوت في مخطط ثلاثي الأبعاد.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="محاكاة الكينماتيكا الأمامية" srcset="
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu5029732473421680724.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu1381607180089422800.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu18007931118044576637.webp 1200w"
+src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu5029732473421680724.webp"
+width="718"
+height="632"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="تحليل-الكينماتيكا-العكسية">تحليل الكينماتيكا العكسية&lt;/h2>
+&lt;p>تحسب الكينماتيكا العكسية زوايا المفاصل المطلوبة لتحقيق موضع واتجاه المستجيب النهائي المطلوب. هذه مشكلة أكثر تعقيدًا، وغالبًا ما يكون لها حلول متعددة.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="محاكاة الكينماتيكا العكسية" srcset="
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu84899364215454693.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu4442455092246897181.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu5511955697912877658.webp 1200w"
+src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu84899364215454693.webp"
+width="760"
+height="349"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="محاكاة-الحركة">محاكاة الحركة&lt;/h2>
+&lt;p>يتم تخطيط مسار الروبوت عن طريق الاستيفاء بين تكوينات المفاصل الأولية والنهائية. تستخدم الكينماتيكا الأمامية لحساب مسار المستجيب النهائي، والذي يتم تحريكه بعد ذلك.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="محاكاة حركة الروبوت" srcset="
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu16832595402498787554.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu17908008611996152299.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu1986716169494807438.webp 1200w"
+src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/robot-movement_hu16832595402498787554.webp"
+width="760"
+height="213"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="تحميل">تحميل&lt;/h2>
+&lt;p>
+&lt;/p></description></item><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="فيديو">فيديو&lt;/h2>
+&lt;p>هذا الفيديو يشرح كيفية عمل الآلة.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Nckfvm2GynY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/p>
 &lt;h2 id="تصميم-وتصنيع-آلة-تعبئة-كهربائية-هوائية-مفتوحة-المصدر-للمواد-الحبيبية-بكميات-ثابتة">تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة&lt;/h2>
 &lt;p>تُقدّم هذه الدراسة نموذجًا مبتكرًا لآلة تعبئة ذكية لا تعتمد على الحساسات لضبط الكمية، بل تستند إلى آلية ميكانيكية دقيقة تقوم برفع الحاوية وملئها بكميات محددة تصل حتى 250 مل، مما يجعلها مثالية للمواد الخشنة أو الحبيبية.&lt;br>
 تم تطوير النظام باستخدام مكوّنات كهربائية-هوائية، حيث تُدار حركة الأسطوانة من خلال صمام كهرومغناطيسي (Solenoid Valve)، ويتحكم بها متحكم أردوينو مع حساس IR وسير ناقل (Conveyor Belt) يعمل بمحرك تيار مستمر (DC Motor).&lt;/p>
 &lt;p>تتميّز الآلة بسهولة الإنتاج باستخدام طابعة ثلاثية الأبعاد بمساحة 200x200 مم، مع إمكانية تخصيص التصميم ليناسب متطلبات متنوعة.&lt;br>
 تُعدّ الطبيعة المفتوحة للمشروع دعوةً للمجتمع التقني للمساهمة في تحسينه وتطويره، بما يدعم بيئة ابتكار مستمرة في أنظمة التعبئة الآلية.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
+&lt;p>توضح هذه الصورة النظام الكهربائي والهوائي.&lt;/p>
+&lt;figure>&lt;img src="http://localhost:1313/media/images/filling-machine-electro-pneumatic-system.jpg">&lt;figcaption>
+&lt;h4>النظام الكهربائي والهوائي&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
 &lt;/div>
 &lt;hr>
 &lt;div dir="rtl" style="text-align: justify;">
@@ -18,29 +177,119 @@
 &lt;/div>
 &lt;hr>
 &lt;div dir="rtl" style="text-align: justify;">
-&lt;h2 id="رابط-البحث">رابط البحث&lt;/h2>
-&lt;p>
-&lt;/p>
-&lt;/div></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1313/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/4dof-robotic-arm/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
-&lt;h2 id="تصنيف-وفرز-الأشكال-لونيا-باستخدام-ذراع-روبوتية-بأربع-درجات-حرية">تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية&lt;/h2>
-&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
-ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.&lt;/p>
-&lt;p>تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.&lt;/p>
-&lt;/div>
-&lt;hr>
-&lt;div dir="rtl" style="text-align: justify;">
-&lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
+&lt;h2 id="روابط">روابط&lt;/h2>
 &lt;ul>
-&lt;li>&lt;strong>الجهة الناشرة:&lt;/strong> مركز الشام للدراسات والبحوث&lt;/li>
-&lt;li>&lt;strong>تاريخ النشر:&lt;/strong> 26 تموز 2023&lt;/li>
+&lt;li>
+&lt;/li>
+&lt;li>
+&lt;/li>
+&lt;li>
+&lt;/li>
 &lt;/ul>
 &lt;/div>
 &lt;hr>
 &lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="اقتباس">اقتباس&lt;/h2>
+&lt;p>APA
+HAMIDI, K., ABDULSELAM, A., &amp;amp; BUĞDAY, D. Ö. G. M. (2024). DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE FOR FIXED GRANULATE QUANTITIES. International Journal of Advanced Natural Sciences and Engineering Researches, 8(4), 122–128.&lt;/p>
+&lt;/div></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1313/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/4dof-robotic-arm/</guid><description>&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
+ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.&lt;/p>
+&lt;p>تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.&lt;/p>
+&lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>الجهة الناشرة:&lt;/strong> مركز الشام للدراسات والأبحاث&lt;/li>
+&lt;li>&lt;strong>تاريخ النشر:&lt;/strong> 26 تموز 2023&lt;/li>
+&lt;/ul>
 &lt;h2 id="رابط-البحث">رابط البحث&lt;/h2>
 &lt;p>
 &lt;/p>
-&lt;/div></description></item><item><title>Local Guide | نظام ملاحة ذكي للروبوتات الذاتية</title><link>http://localhost:1313/ar/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/window-control-system/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;h2 id="تحميل">تحميل&lt;/h2>
+&lt;p>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة" srcset="
+/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp 400w,
+/en/projects/4dof-robotic-arm/image_hu9755964502696729891.webp 760w,
+/en/projects/4dof-robotic-arm/image_hu5096042048220078544.webp 1200w"
+src="http://localhost:1313/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp"
+width="760"
+height="440"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/sws/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/sws/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;p>يتناول هذا المشروع تصميم وتنفيذ نظام تحكم بالنوافذ لحماية المنازل من الغبار والرمال أثناء العواصف الرملية، وهي ظاهرة شائعة في السعودية.&lt;br>
+يعمل النظام على إغلاق النوافذ تلقائيًا عند اكتشاف العاصفة الرملية، مما يمنع دخول الغبار إلى المنزل.&lt;/p>
+&lt;p>يتكوّن النظام من حساسات لاكتشاف العواصف، وآلية ميكانيكية تعمل بمحرك لفتح وإغلاق النوافذ، إلى جانب ميزة إرسال إشعارات قصيرة إلى هاتف مالك المنزل عند تشغيل النظام.&lt;/p>
+&lt;h2 id="المميزات">المميزات&lt;/h2>
+&lt;ul>
+&lt;li>حساسات اكتشاف العواصف الرملية&lt;/li>
+&lt;li>آلية آلية لفتح وإغلاق النوافذ&lt;/li>
+&lt;li>نظام إشعارات لحظية&lt;/li>
+&lt;li>تصميم موفّر للطاقة وسهل الصيانة&lt;/li>
+&lt;/ul>
+&lt;h2 id="نتيجة-المشروع">نتيجة المشروع&lt;/h2>
+&lt;p>تم تنفيذ المشروع بنجاح، وأعرب العميل في السعودية عن رضاه التام عن النتيجة.&lt;br>
+نال النظام تقييمًا عاليًا لفعاليته في حماية المنازل وسهولة استخدامه.&lt;/p>
+&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="التقيم" srcset="
+/en/projects/sws/badge_hu10665682049558335899.webp 400w,
+/en/projects/sws/badge_hu2110014805596361415.webp 760w,
+/en/projects/sws/badge_hu8747777280006912142.webp 1200w"
+src="http://localhost:1313/en/projects/sws/badge_hu10665682049558335899.webp"
+width="760"
+height="399"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>المعيار&lt;/th>
+&lt;th>التقييم&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>الاحترافية في التعامل&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>التواصل والمتابعة&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>جودة العمل المنجَز&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الخبرة في مجال المشروع&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الالتزام بالوقت&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>التعامل معه مجددًا&lt;/td>
+&lt;td>★★★★★&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>
+&lt;figure id="figure-تقييم-ممتاز-لمشروع-نظام-التحكم-بالنوافذ">
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="window-control-system-rating.jpg" alt="تقييم المشروع" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+تقييم ممتاز لمشروع نظام التحكم بالنوافذ
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>📎
+&lt;/p></description></item><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:1313/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
 &lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
 تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
@@ -57,8 +306,21 @@
 &lt;p>برهن مشروع Local Guide على فعالية دمج الذكاء الاصطناعي مع Python في تطوير حلول ملاحة مستقلة.&lt;br>
 وتميّز النظام بدقته وسرعة استجابته، مما يجعله مناسبًا لمجالات متعدّدة تشمل الأتمتة الصناعية والخدمات اللوجستية.&lt;/p>
 &lt;p>تصميمه المعياري يتيح تطويره مستقبلًا وتخصيصه لسيناريوهات مختلفة، مما يجعله مثالًا على تكامل التكنولوجيا الحديثة لحل تحديات واقعية في عالم الروبوتات.&lt;/p>
-&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
+&lt;h2 id="تقييم">تقييم&lt;/h2>
 &lt;p>حصل المشروع على تقييم ممتاز من العميل، بـ 5 نجوم في جميع الجوانب:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="التقيم" srcset="
+/en/projects/lg/badge_hu3034371145428125111.webp 400w,
+/en/projects/lg/badge_hu12181493154512379697.webp 760w,
+/en/projects/lg/badge_hu18213919312010536174.webp 1200w"
+src="http://localhost:1313/en/projects/lg/badge_hu3034371145428125111.webp"
+width="760"
+height="399"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -103,65 +365,7 @@
 &lt;/p>
 &lt;p>📎
 &lt;/p>
-&lt;/div></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/window-control-system/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
-&lt;p>يتناول هذا المشروع تصميم وتنفيذ نظام تحكم بالنوافذ لحماية المنازل من الغبار والرمال أثناء العواصف الرملية، وهي ظاهرة شائعة في السعودية.&lt;br>
-يعمل النظام على إغلاق النوافذ تلقائيًا عند اكتشاف العاصفة الرملية، مما يمنع دخول الغبار إلى المنزل.&lt;/p>
-&lt;p>يتكوّن النظام من حساسات لاكتشاف العواصف، وآلية ميكانيكية تعمل بمحرك لفتح وإغلاق النوافذ، إلى جانب ميزة إرسال إشعارات قصيرة إلى هاتف مالك المنزل عند تشغيل النظام.&lt;/p>
-&lt;h2 id="المميزات">المميزات&lt;/h2>
-&lt;ul>
-&lt;li>حساسات اكتشاف العواصف الرملية&lt;/li>
-&lt;li>آلية آلية لفتح وإغلاق النوافذ&lt;/li>
-&lt;li>نظام إشعارات لحظية&lt;/li>
-&lt;li>تصميم موفّر للطاقة وسهل الصيانة&lt;/li>
-&lt;/ul>
-&lt;h2 id="نتيجة-المشروع">نتيجة المشروع&lt;/h2>
-&lt;p>تم تنفيذ المشروع بنجاح، وأعرب العميل في السعودية عن رضاه التام عن النتيجة.&lt;br>
-نال النظام تقييمًا عاليًا لفعاليته في حماية المنازل وسهولة استخدامه.&lt;/p>
-&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>المعيار&lt;/th>
-&lt;th>التقييم&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>الاحترافية في التعامل&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>التواصل والمتابعة&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>جودة العمل المنجَز&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>الخبرة في مجال المشروع&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>الالتزام بالوقت&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>التعامل معه مجددًا&lt;/td>
-&lt;td>★★★★★&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>
-&lt;figure id="figure-تقييم-ممتاز-لمشروع-نظام-التحكم-بالنوافذ">
-&lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="window-control-system-rating.jpg" alt="تقييم المشروع" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-تقييم ممتاز لمشروع نظام التحكم بالنوافذ
-&lt;/figcaption>&lt;/figure>
-&lt;/p>
-&lt;p>📎
-&lt;/p></description></item><item><title>GeoSketch | برنامج رسم هندسي مع اكتشاف التصادم</title><link>http://localhost:1313/ar/projects/geosketch/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/geosketch/</guid><description>&lt;h1 id="geosketch--الرسم-الهندسي-واكتشاف-التصادم">GeoSketch | الرسم الهندسي واكتشاف التصادم&lt;/h1>
+&lt;/div></description></item><item><title>GeoSketch | برنامج رسم هندسي مع اكتشاف التصادم</title><link>http://localhost:1313/ar/projects/geosketch/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/geosketch/</guid><description>&lt;h1 id="geosketch--الرسم-الهندسي-واكتشاف-التصادم">GeoSketch | الرسم الهندسي واكتشاف التصادم&lt;/h1>
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
@@ -205,21 +409,78 @@
 &lt;h2 id="الشكر-والتقدير">الشكر والتقدير:&lt;/h2>
 &lt;p>💡 يُهدي فريق التطوير شكره العميق لمجتمع البرمجيات مفتوحة المصدر ولكل من ساهم في تطوير الأدوات والمكتبات المستخدمة في GeoSketch.&lt;/p>
 &lt;p>
-&lt;/p></description></item><item><title>QistasLinks</title><link>http://localhost:1313/ar/projects/qistaslinks/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistaslinks/</guid><description>&lt;h1 id="qistaslinks">QistasLinks&lt;/h1>
-&lt;p>&lt;strong>الحل الأمثل للمشاريع التي تعتمد على الاتصالات التسلسلية (Serial Communication)&lt;/strong>&lt;/p>
+&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/projects/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>نظام أوامر ديناميكي&lt;/strong>: يمكنك بسهولة تعريف وتسجيل أوامر مخصصة باستخدام صيغة بسيطة قائمة على الماكرو (&lt;code>DEF&lt;/code> و &lt;code>REG&lt;/code>).&lt;/li>
+&lt;li>&lt;strong>دعم معلمات متعددة الأنواع&lt;/strong>: تحليل الأعداد الصحيحة، والأعداد العشرية، والسلاسل النصية، والأعداد الطويلة من الأوامر التسلسلية الواردة.&lt;/li>
+&lt;li>&lt;strong>استجابات مبسطة&lt;/strong>: إرسال سلاسل نصية منسقة مرة أخرى إلى الجهاز المضيف من خلال استدعاء واحد &lt;code>link.response()&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>خفيفة وفعالة&lt;/strong>: مصممة للمتحكمات الدقيقة، تتميز Qlink ببصمة ذاكرة صغيرة وتعالج الأوامر في الوقت الفعلي.&lt;/li>
+&lt;li>&lt;strong>تحكم عبر منصات متعددة&lt;/strong>: تمكين التحكم السلس في الأردوينو من جهاز كمبيوتر (Windows/Linux)، أو Mac، أو Raspberry Pi.&lt;/li>
+&lt;/ul>
+&lt;h2 id="حالات-استخدام-شائعة">حالات استخدام شائعة&lt;/h2>
+&lt;ul>
+&lt;li>التحكم في الروبوتات أو آلات CNC من تطبيق سطح مكتب.&lt;/li>
+&lt;li>إرسال بيانات الاستشعار من الأردوينو إلى برنامج Python لتسجيلها أو تحليلها.&lt;/li>
+&lt;li>إنشاء نماذج أولية تفاعلية تستجيب للأوامر من طرفية تسلسلية.&lt;/li>
+&lt;li>تكوين إعدادات الجهاز (مثل سطوع LED، سرعة المحرك) بشكل فوري دون إعادة برمجة.&lt;/li>
+&lt;/ul>
+&lt;h2 id="طريقة-التثبيت">طريقة التثبيت&lt;/h2>
+&lt;p>أسهل طريقة للتثبيت هي مباشرة عبر Arduino IDE:&lt;/p>
+&lt;ol>
+&lt;li>افتح برنامج Arduino IDE.&lt;/li>
+&lt;li>اذهب إلى &lt;strong>Sketch&lt;/strong> &amp;gt; &lt;strong>Include Library&lt;/strong> &amp;gt; &lt;strong>Manage Libraries&amp;hellip;&lt;/strong>.&lt;/li>
+&lt;li>ابحث عن &amp;ldquo;&lt;strong>Qlink&lt;/strong>&amp;rdquo;.&lt;/li>
+&lt;li>انقر على &lt;strong>Install&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>بدلاً من ذلك، يمكنك تثبيت المكتبة يدويًا من الملف أدناه.&lt;/p>
+&lt;h2 id="مثال-على-الكود-التحكم-في-وميض-بسيط">مثال على الكود: التحكم في وميض بسيط&lt;/h2>
+&lt;p>يوضح المثال التالي كيفية التحكم في الـ LED المدمج على لوحة الأردوينو باستخدام أمر &lt;code>DELAY&lt;/code> يتم إرساله عبر الاتصال التسلسلي.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;Qlink.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1000&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// الفاصل الزمني الافتراضي للوميض
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">Qlink&lt;/span> &lt;span class="nf">link&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Serial&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تهيئة Qlink على منفذ الاتصال التسلسلي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// تعريف الأمر &amp;#34;DELAY&amp;#34; الذي يقبل معاملًا صحيحًا واحدًا
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">DEF&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">DELAY&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">INT&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">blinkInterval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Convert&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Args&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="kt">int&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">response&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Blink interval updated to %d ms&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">setup&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Serial&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">begin&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">9600&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">pinMode&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">OUTPUT&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">REG&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">link&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">DELAY&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// تسجيل الأمر DELAY
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">loop&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">loop&lt;/span>&lt;span class="p">();&lt;/span> &lt;span class="c1">// الاستماع باستمرار للأوامر الواردة
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// وميض الـ LED بالفاصل الزمني الحالي
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">HIGH&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">digitalWrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">LED_BUILTIN&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LOW&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">delay&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">blinkInterval&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل &lt;code>DELAY 500&lt;/code> من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.&lt;/p>
 &lt;p>
-&lt;br>
-&lt;/p>
+&lt;/p></description></item><item><title>مكتبة QistasLinks للسي شارب</title><link>http://localhost:1313/ar/projects/qistaslinks/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistaslinks/</guid><description>&lt;p style="margin-bottom: 1rem;">
+&lt;a href="https://doi.org/10.5281/zenodo.8248290" target="_blank" rel="noopener">
+&lt;img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8248290.svg" alt="DOI">
+&lt;/img>
+&lt;/a>
+&lt;p>
 &lt;p>مكتبة QistasLinks بلغة C#، تسهّل التواصل التسلسلي عبر منفذ RS232 لأي مشروع يحتاج اتصالاً بالمتحكمات الدقيقة. توفّر هذه المكتبة وسائل سهلة الاستخدام وخصائص قوية تجعل من عملية التبادل البياني بين الحاسوب والمتحكمات دقيقة وفعالة، مما يجعلها خيارًا مثاليًا لمشاريع .NET التي تعتمد على الاتصال التسلسلي.&lt;/p>
 &lt;h2 id="من-المستفيد-من-qistaslinks">من المستفيد من QistasLinks؟&lt;/h2>
-&lt;p>صُمّمت مكتبة QistasLinks للمطورين والأفراد الذين يعملون على مشاريع تعتمد على الاتصال التسلسلي مع المتحكمات الدقيقة، مثل Arduino وPIC وAVR، أو الأجهزة الإلكترونية التي تحتاج لإرسال واستقبال البيانات.&lt;/p>
+&lt;p>صُمّمت مكتبة QistasLinks للمطورين والأفراد الذين يعملون على مشاريع تعتمد على الاتصال التسلسلي مع المتحكمات مثل Arduino وPIC وAVR، أو الأجهزة الإلكترونية التي تحتاج لإرسال واستقبال البيانات.&lt;/p>
 &lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>الاتصال التسلسلي:&lt;/strong> تمكّن المكتبة من إجراء عمليات القراءة والكتابة بسلاسة عبر منافذ RS232، مما يوفر قناة اتصال موثوقة ومرنة.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>نمط تبادل البيانات:&lt;/strong> توفّر المكتبة نمطًا مرنًا لنقل البيانات يسهل من التفاعل بين الحواسيب والمتحكمات الدقيقة.&lt;/p>
+&lt;p>&lt;strong>نمط تبادل البيانات:&lt;/strong> توفّر المكتبة نمطًا مرنًا لنقل البيانات يسهل من التفاعل بين الحواسيب والمتحكمات .&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>دعم صيغة الأوامر:&lt;/strong> يمكن استخدام صيغة مخصصة للأوامر لتوجيه الأوامر للأجهزة المتصلة بشكل دقيق ومنظّم.&lt;/p>
@@ -273,7 +534,7 @@
 &lt;p>لطرح أي استفسارات أو مشاكل، يرجى فتح بلاغ (Issue) على صفحة GitHub الخاصة بالمشروع.&lt;/p>
 &lt;h2 id="الشكر-والتقدير">الشكر والتقدير&lt;/h2>
 &lt;ul>
-&lt;li>QistasLinks هو جزء من مشروع Qistas الهادف لتوفير أدوات ومكتبات تسهّل التكامل مع المتحكمات الدقيقة.&lt;/li>
+&lt;li>QistasLinks هو جزء من مشروع Qistas الهادف لتوفير أدوات ومكتبات تسهّل التكامل مع المتحكمات .&lt;/li>
 &lt;li>شكر خاص لمجتمع البرمجيات المفتوحة المصدر على دعمه ومساهماته.&lt;/li>
 &lt;/ul>
 &lt;h2 id="للتواصل">للتواصل&lt;/h2>
@@ -284,7 +545,7 @@
 &lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>ميزان أرضي رقمي&lt;/strong> متصل بالحاسوب عبر منفذ تسلسلي (Serial Port).&lt;/li>
-&lt;li>&lt;strong>تطبيق مكتبي بلغة C#&lt;/strong> يقرأ البيانات فورًا من الميزان ويعالجها.&lt;/li>
+&lt;li>&lt;strong>تطبيقات بلغة C#&lt;/strong> يقرأ البيانات فورًا من الميزان ويعالجها.&lt;/li>
 &lt;li>&lt;strong>واجهة استخدام رسومية&lt;/strong> لعرض الوزن والتعامل مع العمليات اليومية.&lt;/li>
 &lt;li>&lt;strong>طباعة فواتير&lt;/strong> وإيصالات دخول وخروج المركبات.&lt;/li>
 &lt;li>&lt;strong>أرشفة يومية/شهرية&lt;/strong> للأوزان والمعاملات على شكل ملف Excel.&lt;/li>
@@ -360,7 +621,33 @@
 &lt;h2 id="الحصول-على-البرنامج">الحصول على البرنامج&lt;/h2>
 &lt;p>البرنامج مجاني، للحصول عليه يرجى
 &lt;br>
-تطوير: &lt;strong>خالد الحميدي&lt;/strong>&lt;/p></description></item><item><title>Pharmacy Plus | تطبيق إدارة الصيدليات المثالي</title><link>http://localhost:1313/ar/projects/pharmacy/</link><pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/pharmacy/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+تطوير: &lt;strong>خالد الحميدي&lt;/strong>&lt;/p></description></item><item><title>محاكي البوابات المنطقية</title><link>http://localhost:1313/ar/projects/logicgatesimulator/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/logicgatesimulator/</guid><description>&lt;h1 id="مستكشف-العناصر-المنطقية">مستكشف العناصر المنطقية&lt;/h1>
+&lt;p>&lt;em>محاكي البوابات المنطقية&lt;/em>
+مستكشف العناصر المنطقية هو تطبيق يسمح لك بمحاكاة البوابات المنطقية، والقلابات، وفك التشفير، والتشفير، ومضاعفات الإرسال، ومزيلات تعدد الإرسال، ومقارنة إشارتين. يوفر واجهة سهلة الاستخدام لاستكشاف وفهم مختلف العناصر المنطقية.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="مستكشف العناصر المنطقية 1" srcset="
+/en/projects/logicgatesimulator/image_hu10347925103359825535.webp 400w,
+/en/projects/logicgatesimulator/image_hu17203420846792006732.webp 760w,
+/en/projects/logicgatesimulator/image_hu18135350607250378953.webp 1200w"
+src="http://localhost:1313/en/projects/logicgatesimulator/image_hu10347925103359825535.webp"
+width="760"
+height="445"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="مستكشف العناصر المنطقية 2" srcset="
+/en/projects/logicgatesimulator/image-1_hu16909894441958625090.webp 400w,
+/en/projects/logicgatesimulator/image-1_hu9308780591602763539.webp 760w,
+/en/projects/logicgatesimulator/image-1_hu13395990785698846863.webp 1200w"
+src="http://localhost:1313/en/projects/logicgatesimulator/image-1_hu16909894441958625090.webp"
+width="760"
+height="445"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Pharmacy Plus | تطبيق إدارة الصيدليات المثالي</title><link>http://localhost:1313/ar/projects/pharmacy/</link><pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/pharmacy/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>Pharmacy Plus هو حل متكامل لإدارة عمليات الصيدلية اليومية.&lt;br>
 تم تطويره بواجهة استخدام سهلة وميزات قوية تمكّن أصحاب الصيدليات من التحكم في المخزون، والمبيعات، والعملاء بكل كفاءة وسرعة.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
@@ -384,7 +671,20 @@
 &lt;h2 id="ابدأ-الآن">ابدأ الآن&lt;/h2>
 &lt;p>قم بتحميل Pharmacy Plus اليوم، وابدأ في إدارة صيدليتك بكفاءة.&lt;br>
 📎
-&lt;/p></description></item><item><title>Super Intelligence | نظام ذكي للتحكم بالأجهزة المضمّنة عبر الإنترنت</title><link>http://localhost:1313/ar/projects/superintelligence/</link><pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/superintelligence/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/p></description></item><item><title>نظام للتحكم بالأجهزة المضمّنة عبر الإنترنت</title><link>http://localhost:1313/ar/projects/superintelligence/</link><pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/superintelligence/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة مصغرة" srcset="
+/en/projects/superintelligence/featured_hu13940293683322815235.webp 400w,
+/en/projects/superintelligence/featured_hu1720599181237929729.webp 760w,
+/en/projects/superintelligence/featured_hu7423620925735999979.webp 1200w"
+src="http://localhost:1313/en/projects/superintelligence/featured_hu13940293683322815235.webp"
+width="760"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>Super Intelligence هو نظام تحكّم ذكي يربط بين لوحات التطوير مثل Arduino وESP8266 بلوحة تحكم على الإنترنت، مما يتيح للمستخدمين التحكم في أجهزتهم من أي مكان في العالم.&lt;/p>
 &lt;p>تم تطوير هذا المشروع باستخدام تقنيات PHP وHTML وMySQL لتوفير واجهة ويب تفاعلية وسهلة الاستخدام، بالإضافة إلى برمجة خاصة بالأجهزة المضمّنة لضمان الاتصال والاستجابة السريعة.&lt;/p>
 &lt;h2 id="المميزات">المميزات&lt;/h2>
@@ -403,7 +703,35 @@
 &lt;/ul>
 &lt;h2 id="لماذا-super-intelligence">لماذا Super Intelligence؟&lt;/h2>
 &lt;p>يوفّر النظام حلًا متكاملًا لإدارة مشاريع إنترنت الأشياء بسهولة، دون الحاجة إلى سيرفرات مكلفة أو أنظمة معقّدة.&lt;br>
-يُمكن للمستخدم النهائي بناء بيئة ذكية خاصّة به بأقل التكاليف وبأعلى مرونة.&lt;/p></description></item><item><title>Qistas AC | نظام المحاسبة وإدارة المحلات</title><link>http://localhost:1313/ar/projects/qistasac/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistasac/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+يُمكن للمستخدم النهائي بناء بيئة ذكية خاصّة به بأقل التكاليف وبأعلى مرونة.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Q7Gy3U4y4xc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة 2" srcset="
+/en/projects/superintelligence/2_hu8168558367455256543.webp 400w,
+/en/projects/superintelligence/2_hu15466173603334380368.webp 760w,
+/en/projects/superintelligence/2_hu6642584141451961165.webp 1200w"
+src="http://localhost:1313/en/projects/superintelligence/2_hu8168558367455256543.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة 3" srcset="
+/en/projects/superintelligence/3_hu16920859817563194741.webp 400w,
+/en/projects/superintelligence/3_hu3518157786066069939.webp 760w,
+/en/projects/superintelligence/3_hu9931453824351290931.webp 1200w"
+src="http://localhost:1313/en/projects/superintelligence/3_hu16920859817563194741.webp"
+width="598"
+height="266"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Qistas AC | نظام المحاسبة وإدارة المحلات</title><link>http://localhost:1313/ar/projects/qistasac/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistasac/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>Qistas AC هو برنامج شامل لإدارة المحلات التجارية مصمّم للعمل على أنظمة تشغيل سطح المكتب.&lt;br>
 يقدّم واجهة استخدام مرنة وسلسة تتيح لأصحاب المشاريع إدارة عملياتهم اليومية بكفاءة وسهولة.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
@@ -424,7 +752,7 @@
 &lt;/ol></description></item><item><title>مشروع قراءة وتسجيل درجة الحرارة والرطوبة</title><link>http://localhost:1313/ar/projects/tah/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/tah/</guid><description>&lt;p>هذا المشروع تم إنجازه كجزء من مادة المتحكّمات الدقيقة خلال الدراسة الجامعية.&lt;/p>
 &lt;ul>
 &lt;li>يتكوّن من حساس SH10 لدرجة الحرارة والرطوبة، متصل بلوحة Arduino Uno.&lt;/li>
-&lt;li>تم تطوير تطبيق مكتبي بلغة C# لعرض البيانات.&lt;/li>
+&lt;li>تم تطوير تطبيقات بلغة C# لعرض البيانات.&lt;/li>
 &lt;li>يتم تسجيل القيم في قاعدة بيانات بصيغة XML.&lt;/li>
 &lt;li>يمكن عرض رسم بياني لتغيّر القيم بمرور الوقت.&lt;/li>
 &lt;/ul>
@@ -440,50 +768,60 @@
 &lt;li>عرض PowerPoint (بالعربية)&lt;/li>
 &lt;/ol>
 &lt;p>📎
-&lt;/p></description></item><item><title>برنامج لمشاركة الإنترنت من الحاسوب إلى الهواتف – حل لمشكلة عامة</title><link>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
-&lt;p>في خضمّ الحرب الدائرة في بلده، كانت خدمات الإنترنت شبه معدومة، الأمر الذي دفع &lt;strong>المهندس خالد حميدي&lt;/strong> إلى ابتكار برنامج بسيط يحوّل الحاسوب إلى نقطة اتصال لاسلكي (Hotspot) توزّع الإنترنت على الهواتف القريبة.&lt;/p>
-&lt;h2 id="من-الفكرة-إلى-التطبيق">من الفكرة إلى التطبيق&lt;/h2>
-&lt;ul>
-&lt;li>انطلقت الفكرة بسبب انقطاع الشبكة وصعوبة الوصول إلى أجهزة الراوتر.&lt;/li>
-&lt;li>بدأ خالد بتعلّم أساسيات الشبكات وواجهات برمجة Windows.&lt;/li>
-&lt;li>استخدم لغة ‎C#‎ وواجهة WMI لإنشاء واجهة رسومية تتحكم بالشبكة.&lt;/li>
-&lt;li>الإصدار الأول دعم تحويل أي نوع اتصال إلى شبكة Wi-Fi بنقرة واحدة.&lt;/li>
-&lt;/ul>
+&lt;/p></description></item><item><title>ZOOM WIFI Hotspot: حل اتصال مجتمعي</title><link>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>استجابة للانقطاعات الواسعة في خدمات الإنترنت خلال النزاع السوري، قمت بتطوير ZOOM WIFI Hotspot، وهو تطبيقات خفيف الوزن يحول الكمبيوتر إلى نقطة وصول لاسلكية. تم تصميم هذه الأداة لتوفير حل مستقر ومنخفض الموارد لمشاركة الاتصال بالإنترنت مع الأجهزة المحمولة القريبة، مما يلبي حاجة ملحة للتواصل في المناطق المحرومة من الخدمات.&lt;/p>
+&lt;h2 id="من-الفكرة-إلى-التأثير">من الفكرة إلى التأثير&lt;/h2>
+&lt;p>نشأ المشروع من حاجة مباشرة للتغلب على قيود خدمات الإنترنت المتقطعة والتي يصعب الوصول إليها. تضمنت عملية التطوير تعمقا في بروتوكولات الشبكة ووظائف واجهة برمجة تطبيقات Windows، باستخدام C# وواجهة WMI لإنشاء واجهة مستخدم رسومية سهلة الاستخدام. أتاح الإصدار الأولي للمستخدمين بث أي اتصال إنترنت متاح كشبكة Wi-Fi بنقرة واحدة.&lt;/p>
 &lt;blockquote>
-&lt;p>&amp;ldquo;كان التحدي الأكبر هو ضمان الثبات مع أقل استهلاك للموارد.&amp;rdquo; — خالد&lt;/p>
+&lt;p>&amp;ldquo;كان التحدي الأساسي هو ضمان استقرار قوي مع تقليل استهلاك الموارد، مما يجعله متاحا حتى على الأجهزة ذات المواصفات المنخفضة.&amp;rdquo;&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="الانتشار-والتأثير">الانتشار والتأثير&lt;/h2>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
 &lt;ul>
-&lt;li>خلال السنة الأولى، وصل عدد التنزيلات إلى 3000+.&lt;/li>
-&lt;li>التطبيق أصبح شائعًا في المناطق المحاصرة لتوفير اتصال جماعي بتكلفة منخفضة.&lt;/li>
-&lt;li>دعم أنظمة Windows: XP, 7, 8, 8.1, 10&lt;/li>
-&lt;li>توفّر باللغتين: العربية والإنجليزية&lt;/li>
+&lt;li>&lt;strong>توافق عالمي:&lt;/strong> دعم جميع إصدارات Windows الرئيسية، بما في ذلك XP و 7 و 8 و 8.1 و 10.&lt;/li>
+&lt;li>&lt;strong>وصول مجاني:&lt;/strong> تم توزيع التطبيق كبرنامج مجاني لضمان إتاحته للجميع.&lt;/li>
+&lt;li>&lt;strong>تصميم فعال:&lt;/strong> تم تصميمه بأقل تأثير على الأداء، مما يسمح له بالعمل بسلاسة على الأجهزة القديمة.&lt;/li>
+&lt;li>&lt;strong>واجهة ثنائية اللغة:&lt;/strong> متوفر باللغتين العربية والإنجليزية لخدمة قاعدة مستخدمين أوسع.&lt;/li>
 &lt;/ul>
-&lt;h2 id="من-مشروع-شخصي-إلى-ميزة-رسمية">من مشروع شخصي إلى ميزة رسمية&lt;/h2>
-&lt;p>بعد نجاح التطبيق، اقترح خالد فكرته على منتدى مطوري Microsoft، وتم دمج ميزة Mobile Hotspot في Windows 10 الإصدار 1703.&lt;/p>
-&lt;h2 id="معرض-الصور">معرض الصور&lt;/h2>
+&lt;h2 id="التبني-المجتمعي-والتأثير">التبني المجتمعي والتأثير&lt;/h2>
+&lt;p>خلال عامه الأول، تجاوز عدد تنزيلات ZOOM WIFI Hotspot 3000 تنزيل، ليصبح أداة حيوية في المناطق المحاصرة حيث أتاح الوصول المشترك والمنخفض التكلفة إلى الإنترنت. دفع نجاح التطبيق إلى تقديم اقتراح إلى مجتمع مطوري Microsoft، مما ساهم في دمج ميزة &amp;ldquo;Mobile Hotspot&amp;rdquo; في Windows 10، الإصدار 1703.&lt;/p>
+&lt;h2 id="المعرض">المعرض&lt;/h2>
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/gallery/blob/main/zwh/2.jpg?raw=true" alt="صورة للبرنامج" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
+/en/projects/zoom-wifi-hotspot/1_hu14324268039650112826.webp 400w,
+/en/projects/zoom-wifi-hotspot/1_hu10704405108496003165.webp 760w,
+/en/projects/zoom-wifi-hotspot/1_hu12818087166653137295.webp 1200w"
+src="http://localhost:1313/en/projects/zoom-wifi-hotspot/1_hu14324268039650112826.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
+/en/projects/zoom-wifi-hotspot/2_hu2011803004500579837.webp 400w,
+/en/projects/zoom-wifi-hotspot/2_hu4260108314524103968.webp 760w,
+/en/projects/zoom-wifi-hotspot/2_hu13014923282333279974.webp 1200w"
+src="http://localhost:1313/en/projects/zoom-wifi-hotspot/2_hu2011803004500579837.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
+/en/projects/zoom-wifi-hotspot/3_hu16585257913955025294.webp 400w,
+/en/projects/zoom-wifi-hotspot/3_hu8492286067631096157.webp 760w,
+/en/projects/zoom-wifi-hotspot/3_hu14840508966537604155.webp 1200w"
+src="http://localhost:1313/en/projects/zoom-wifi-hotspot/3_hu16585257913955025294.webp"
+width="760"
+height="427"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
-&lt;ul>
-&lt;li>متوافق مع جميع إصدارات Windows&lt;/li>
-&lt;li>مجاني بالكامل&lt;/li>
-&lt;li>تصميم خفيف يدعم الأجهزة الضعيفة&lt;/li>
-&lt;/ul>
-&lt;h2 id="دروس-مستفادة">دروس مستفادة&lt;/h2>
-&lt;ol>
-&lt;li>الابتكار يولد من الحاجة&lt;/li>
-&lt;li>التعلم الذاتي يفتح الآفاق&lt;/li>
-&lt;li>مشاركة المعرفة تطور المشاريع&lt;/li>
-&lt;li>فكر عالميًا ولو بدأت محليًا&lt;/li>
-&lt;/ol>
-&lt;h2 id="حمل-التطبيق">حمّل التطبيق&lt;/h2>
-&lt;p>📎
-&lt;/p></description></item><item><title>CS-ZOOM | نسخة مطوّرة من Counter Strike 1.6</title><link>http://localhost:1313/ar/projects/cszoom/</link><pubDate>Wed, 01 Feb 2006 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/cszoom/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;h2 id="الإرث-والدروس-المستفادة">الإرث والدروس المستفادة&lt;/h2>
+&lt;p>أكد تطوير ZOOM WIFI Hotspot على مبدأ أساسي: &lt;strong>الابتكار غالبا ما يولد من رحم الحاجة.&lt;/strong> لم يقدم هذا المشروع حلا عمليا لمشكلة ملحة فحسب، بل أظهر أيضا قوة تطوير البرمجيات القائمة على المجتمع.&lt;/p></description></item><item><title>CS-ZOOM | نسخة مطوّرة من Counter Strike 1.6</title><link>http://localhost:1313/ar/projects/cszoom/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/cszoom/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>يقدّم مشروع &lt;strong>CS-ZOOM&lt;/strong> نسخة مطوّرة من لعبة &lt;strong>Counter Strike 1.6&lt;/strong>، تهدف إلى تحسين تجربة اللعب الكلاسيكية من خلال إضافات خاصة تجعلها أكثر سلاسة وتفاعلية.&lt;br>
 يعتمد المشروع على &lt;strong>AMX Mod X&lt;/strong> ولغة البرمجة &lt;strong>C&lt;/strong> لتوفير تجربة غنية ومناسبة لمختلف المستخدمين.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
@@ -502,10 +840,23 @@
 &lt;h3 id="-7-مجتمع-ألعاب-محلي">🌍 7. مجتمع ألعاب محلي&lt;/h3>
 &lt;p>انضم إلى أول سيرفر ألعاب في سوريا وكن جزءًا من مجتمع متنامٍ من اللاعبين.&lt;br>
 لا يقتصر CS-ZOOM على كونه مجرد لعبة، بل هو منصة تفاعلية تعزّز التواصل وروح الفريق بين اللاعبين.&lt;/p>
+&lt;h2 id="فيديوهات">فيديوهات&lt;/h2>
+&lt;p>هذا الفيديو يعرض الكود المكتوب بلغة AMX Mod X C لهذا الوضع.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Bg9t9qv6Eyc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>هذا الفيديو يعرض نافذة بدء اللعبة أو الصورة الأولى.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1YcwAC9gBBM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/p>
 &lt;h2 id="الخلاصة">الخلاصة&lt;/h2>
 &lt;p>إن &lt;strong>CS-ZOOM&lt;/strong> أكثر من مجرد تعديل للعبة Counter-Strike؛ بل هو إعادة ابتكار شاملة تعزز إمكانية الوصول والتخصيص والانخراط المجتمعي.&lt;br>
 مع ميزاته الفريدة، يضع هذا المشروع حجر الأساس لعصر جديد من الألعاب يجمع بين الكلاسيكية والحداثة.&lt;/p>
 &lt;p>🔗
 &lt;br>
 👨‍💻 تنفيذ: خالد حميدي –
-&lt;/p></description></item><item><title/><link>http://localhost:1313/ar/projects/logicgatesimulator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/logicgatesimulator/</guid><description/></item><item><title/><link>http://localhost:1313/ar/projects/world-lens/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/world-lens/</guid><description/></item></channel></rss>
+&lt;/p></description></item></channel></rss>

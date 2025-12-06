@@ -1,13 +1,14 @@
 ---
 title: Qistas AC Accounting System
-summary: Qistas AC is a comprehensive store management application that runs on desktop operating systems. It offers an intuitive and user-friendly interface, making it easy for businesses to manage their operations efficiently.
+summary: "Qistas AC: A comprehensive, user-friendly desktop application for efficient store and inventory management."
 date: 2019-02-01
 draft: false
 authors:
   - admin
+categories:
+  - "Software Development"
 tags:
-  - desktop
-  - business
+  - Desktop App
 ---
 
 

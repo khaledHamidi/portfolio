@@ -6,48 +6,38 @@ main:
     url: /
     weight: 10
 
-  - name: Achievements
-    url: achievements/
+  - name: Articles
+    identifier: articles
+    url: /blog/
     weight: 20
 
-  - name: Certificates
-    url: certificates/
+  - name: Topics
+    url: /tags/
     weight: 30
 
-  - name: Blog
-    url: blog/
-    weight: 35
-
-  - name: Works
-    url: tags/
+  - name: Projects
+    url: /projects/
     weight: 40
 
-  - name: Projects
-    identifier: projects
-    url: /projects/
+  - name: Achievements
+    url: /achievements/
+    weight: 50
+
+  - name: Certificates
+    url: /certificates/
     weight: 60
 
-  - name: All Projects
-    parent: projects
-    url: /projects/
-    weight: 61
+  - name: Articles
+    parent: articles
+    url: /articles/
+    weight: 21
 
-  - name: Featured Projects
-    parent: projects
-    url: /projects-featured/
-    weight: 62
+  - name: Education
+    parent: articles
+    url: /education/
+    weight: 22
 
-  - name: Client Work
-    parent: projects
-    url: /projects-clients/
-    weight: 63
-
-  - name: Open Source
-    parent: projects
-    url: /projects-opensource/
-    weight: 64
-
-  - name: Research
-    parent: projects
-    url: /projects-research/
-    weight: 65
+  - name: Posts
+    parent: articles
+    url: /posts/
+    weight: 23

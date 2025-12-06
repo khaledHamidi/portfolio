@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>شبكات | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link><atom:link href="http://localhost:1313/ar/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><description>شبكات</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Mon, 12 Jun 2023 12:00:00 +0300</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>شبكات</title><link>http://localhost:1313/ar/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link></image><item><title>Local Guide | نظام ملاحة ذكي للروبوتات الذاتية</title><link>http://localhost:1313/ar/projects/window-control-system/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/window-control-system/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>شبكات | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link><atom:link href="http://localhost:1313/ar/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><description>شبكات</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Mon, 12 Jun 2023 12:00:00 +0300</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>شبكات</title><link>http://localhost:1313/ar/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link></image><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:1313/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
 &lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
 تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
@@ -15,8 +15,21 @@
 &lt;p>برهن مشروع Local Guide على فعالية دمج الذكاء الاصطناعي مع Python في تطوير حلول ملاحة مستقلة.&lt;br>
 وتميّز النظام بدقته وسرعة استجابته، مما يجعله مناسبًا لمجالات متعدّدة تشمل الأتمتة الصناعية والخدمات اللوجستية.&lt;/p>
 &lt;p>تصميمه المعياري يتيح تطويره مستقبلًا وتخصيصه لسيناريوهات مختلفة، مما يجعله مثالًا على تكامل التكنولوجيا الحديثة لحل تحديات واقعية في عالم الروبوتات.&lt;/p>
-&lt;h2 id="تقييم-العميل">تقييم العميل&lt;/h2>
+&lt;h2 id="تقييم">تقييم&lt;/h2>
 &lt;p>حصل المشروع على تقييم ممتاز من العميل، بـ 5 نجوم في جميع الجوانب:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="التقيم" srcset="
+/en/projects/lg/badge_hu3034371145428125111.webp 400w,
+/en/projects/lg/badge_hu12181493154512379697.webp 760w,
+/en/projects/lg/badge_hu18213919312010536174.webp 1200w"
+src="http://localhost:1313/en/projects/lg/badge_hu3034371145428125111.webp"
+width="760"
+height="399"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -61,47 +74,267 @@
 &lt;/p>
 &lt;p>📎
 &lt;/p>
-&lt;/div></description></item><item><title>برنامج لمشاركة الإنترنت من الحاسوب إلى الهواتف – حل لمشكلة عامة</title><link>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
-&lt;p>في خضمّ الحرب الدائرة في بلده، كانت خدمات الإنترنت شبه معدومة، الأمر الذي دفع &lt;strong>المهندس خالد حميدي&lt;/strong> إلى ابتكار برنامج بسيط يحوّل الحاسوب إلى نقطة اتصال لاسلكي (Hotspot) توزّع الإنترنت على الهواتف القريبة.&lt;/p>
-&lt;h2 id="من-الفكرة-إلى-التطبيق">من الفكرة إلى التطبيق&lt;/h2>
+&lt;/div></description></item><item><title>مكتبة QistasLinks للسي شارب</title><link>http://localhost:1313/ar/projects/qistaslinks/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistaslinks/</guid><description>&lt;p style="margin-bottom: 1rem;">
+&lt;a href="https://doi.org/10.5281/zenodo.8248290" target="_blank" rel="noopener">
+&lt;img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8248290.svg" alt="DOI">
+&lt;/img>
+&lt;/a>
+&lt;p>
+&lt;p>مكتبة QistasLinks بلغة C#، تسهّل التواصل التسلسلي عبر منفذ RS232 لأي مشروع يحتاج اتصالاً بالمتحكمات الدقيقة. توفّر هذه المكتبة وسائل سهلة الاستخدام وخصائص قوية تجعل من عملية التبادل البياني بين الحاسوب والمتحكمات دقيقة وفعالة، مما يجعلها خيارًا مثاليًا لمشاريع .NET التي تعتمد على الاتصال التسلسلي.&lt;/p>
+&lt;h2 id="من-المستفيد-من-qistaslinks">من المستفيد من QistasLinks؟&lt;/h2>
+&lt;p>صُمّمت مكتبة QistasLinks للمطورين والأفراد الذين يعملون على مشاريع تعتمد على الاتصال التسلسلي مع المتحكمات مثل Arduino وPIC وAVR، أو الأجهزة الإلكترونية التي تحتاج لإرسال واستقبال البيانات.&lt;/p>
+&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
 &lt;ul>
-&lt;li>انطلقت الفكرة بسبب انقطاع الشبكة وصعوبة الوصول إلى أجهزة الراوتر.&lt;/li>
-&lt;li>بدأ خالد بتعلّم أساسيات الشبكات وواجهات برمجة Windows.&lt;/li>
-&lt;li>استخدم لغة ‎C#‎ وواجهة WMI لإنشاء واجهة رسومية تتحكم بالشبكة.&lt;/li>
-&lt;li>الإصدار الأول دعم تحويل أي نوع اتصال إلى شبكة Wi-Fi بنقرة واحدة.&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>الاتصال التسلسلي:&lt;/strong> تمكّن المكتبة من إجراء عمليات القراءة والكتابة بسلاسة عبر منافذ RS232، مما يوفر قناة اتصال موثوقة ومرنة.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>نمط تبادل البيانات:&lt;/strong> توفّر المكتبة نمطًا مرنًا لنقل البيانات يسهل من التفاعل بين الحواسيب والمتحكمات .&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>دعم صيغة الأوامر:&lt;/strong> يمكن استخدام صيغة مخصصة للأوامر لتوجيه الأوامر للأجهزة المتصلة بشكل دقيق ومنظّم.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="دعم-أنماط-بيانات-مخصصة">دعم أنماط بيانات مخصصة&lt;/h3>
+&lt;p>توفر QistasLinks القدرة على تحديد نمط مخصص لتبادل البيانات مثل: &lt;code>&amp;lt;data...&amp;gt;&lt;/code> أو &lt;code>{data...}&lt;/code> أو &lt;code>data...
+&lt;/code>. هذه الأنماط يمكن تخصيصها حسب حاجة المشروع.&lt;/p>
+&lt;h3 id="تسلسل-وفك-تسلسل-الأوامر">تسلسل وفك تسلسل الأوامر&lt;/h3>
+&lt;p>توفر المكتبة نظامًا لتحليل الأوامر بشكل يسمح بفهم الأمر ومكوناته مثل:
+&lt;code>&amp;quot;#opration# #key#:#value#&amp;quot;&lt;/code>&lt;br>
+عند استقبال البيانات بهذا الشكل، يتم تحويلها إلى كائن ديناميكي يمكن التعامل معه برمجيًا.&lt;/p>
+&lt;p>مثلاً:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">SET speed:120
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>يترجم إلى:&lt;br>
+&lt;code>obj.operation = &amp;quot;SET&amp;quot;&lt;/code>&lt;br>
+&lt;code>obj.key = &amp;quot;speed&amp;quot;&lt;/code>&lt;br>
+&lt;code>obj.value = 120&lt;/code>&lt;/p>
+&lt;h2 id="التثبيت">التثبيت&lt;/h2>
+&lt;h3 id="تثبيت-يدوي">تثبيت يدوي:&lt;/h3>
+&lt;ol>
+&lt;li>حمّل ملف &lt;code>QistasLinks.Dll&lt;/code> من مجلد التنزيلات.&lt;/li>
+&lt;li>أضف المكتبة إلى مشروعك في C#.&lt;/li>
+&lt;li>تأكد أن المشروع يستخدم إصدار .NET المناسب.&lt;/li>
+&lt;li>أعد بناء المشروع لتأكيد إضافة المكتبة بنجاح.&lt;/li>
+&lt;/ol>
+&lt;h3 id="تثبيت-عبر-nuget">تثبيت عبر NuGet:&lt;/h3>
+&lt;ul>
+&lt;li>باستخدام CLI:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">dotnet add package Qistas.QistasLinks --version 1.0.0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>عبر Visual Studio:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="n">NuGet&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="nb">Install-Package&lt;/span> &lt;span class="n">Qistas&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">QistasLinks&lt;/span> &lt;span class="n">-Version&lt;/span> &lt;span class="mf">1.0&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
+&lt;br>
+أو يمكن تحميلها من SourceForge.&lt;/p>
+&lt;h2 id="أمثلة-على-الاستخدام">أمثلة على الاستخدام&lt;/h2>
+&lt;p>يمكنك الاطلاع على أمثلة عملية من خلال مجلد
+&lt;br>
+أو عبر هذا المثال:&lt;br>
+&lt;/p>
+&lt;h2 id="ملفات-المصدر-المفتوح">ملفات المصدر المفتوح&lt;/h2>
+&lt;p>المشروع متاح عبر GitHub:&lt;br>
+&lt;/p>
+&lt;h2 id="الترخيص">الترخيص&lt;/h2>
+&lt;p>تم ترخيص QistasLinks بموجب رخصة
+.&lt;/p>
+&lt;h2 id="الدعم">الدعم&lt;/h2>
+&lt;p>لطرح أي استفسارات أو مشاكل، يرجى فتح بلاغ (Issue) على صفحة GitHub الخاصة بالمشروع.&lt;/p>
+&lt;h2 id="الشكر-والتقدير">الشكر والتقدير&lt;/h2>
+&lt;ul>
+&lt;li>QistasLinks هو جزء من مشروع Qistas الهادف لتوفير أدوات ومكتبات تسهّل التكامل مع المتحكمات .&lt;/li>
+&lt;li>شكر خاص لمجتمع البرمجيات المفتوحة المصدر على دعمه ومساهماته.&lt;/li>
+&lt;/ul>
+&lt;h2 id="للتواصل">للتواصل&lt;/h2>
+&lt;p>للاستفسارات والمعلومات الإضافية:&lt;br>
+&lt;/p>
+&lt;p>شكرًا لاستخدامكم QistasLinks!&lt;/p></description></item><item><title>نظام إدارة ميزان أرضي رقمي</title><link>http://localhost:1313/ar/projects/zoomce/</link><pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoomce/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
+&lt;p>طوّر المهندس &lt;strong>خالد حميدي&lt;/strong> نظامًا رقميًا مخصصًا لصالح إحدى شركات إعادة التدوير بهدف تحسين دقة وكفاءة قياس أوزان الشاحنات والمركبات عبر ميزان أرضي صناعي.&lt;/p>
+&lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>ميزان أرضي رقمي&lt;/strong> متصل بالحاسوب عبر منفذ تسلسلي (Serial Port).&lt;/li>
+&lt;li>&lt;strong>تطبيقات بلغة C#&lt;/strong> يقرأ البيانات فورًا من الميزان ويعالجها.&lt;/li>
+&lt;li>&lt;strong>واجهة استخدام رسومية&lt;/strong> لعرض الوزن والتعامل مع العمليات اليومية.&lt;/li>
+&lt;li>&lt;strong>طباعة فواتير&lt;/strong> وإيصالات دخول وخروج المركبات.&lt;/li>
+&lt;li>&lt;strong>أرشفة يومية/شهرية&lt;/strong> للأوزان والمعاملات على شكل ملف Excel.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ميزات-رئيسية">ميزات رئيسية&lt;/h2>
+&lt;ul>
+&lt;li>🧾 قراءة الوزن أوتوماتيكيًا من الميزان&lt;/li>
+&lt;li>🔄 تحديث مباشر للبيانات من الأجهزة الموصولة&lt;/li>
+&lt;li>💾 حفظ البيانات بأمان مع إمكانية التصدير&lt;/li>
+&lt;li>🖨️ طباعة الفواتير بتنسيق احترافي&lt;/li>
+&lt;li>📊 تقارير شاملة بإحصائيات يومية وشهرية وسنوية&lt;/li>
+&lt;/ul>
+&lt;h2 id="الأثر">الأثر&lt;/h2>
+&lt;p>ساهم النظام في:&lt;/p>
+&lt;ul>
+&lt;li>تسريع عملية الوزن&lt;/li>
+&lt;li>تقليل التلاعب البشري&lt;/li>
+&lt;li>ضمان الدقة المحاسبية&lt;/li>
+&lt;li>تحسين أرشفة وأمان البيانات&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>&amp;ldquo;كان التحدي الأكبر هو ضمان الثبات مع أقل استهلاك للموارد.&amp;rdquo; — خالد&lt;/p>
+&lt;p>&amp;ldquo;كل غرام محسوب، وكل شاحنة موثّقة.. النظام سهّل كل شيء.&amp;rdquo; — أحد مستخدمي النظام&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="الانتشار-والتأثير">الانتشار والتأثير&lt;/h2>
-&lt;ul>
-&lt;li>خلال السنة الأولى، وصل عدد التنزيلات إلى 3000+.&lt;/li>
-&lt;li>التطبيق أصبح شائعًا في المناطق المحاصرة لتوفير اتصال جماعي بتكلفة منخفضة.&lt;/li>
-&lt;li>دعم أنظمة Windows: XP, 7, 8, 8.1, 10&lt;/li>
-&lt;li>توفّر باللغتين: العربية والإنجليزية&lt;/li>
-&lt;/ul>
-&lt;h2 id="من-مشروع-شخصي-إلى-ميزة-رسمية">من مشروع شخصي إلى ميزة رسمية&lt;/h2>
-&lt;p>بعد نجاح التطبيق، اقترح خالد فكرته على منتدى مطوري Microsoft، وتم دمج ميزة Mobile Hotspot في Windows 10 الإصدار 1703.&lt;/p>
-&lt;h2 id="معرض-الصور">معرض الصور&lt;/h2>
+&lt;h2 id="صور-من-النظام">صور من النظام&lt;/h2>
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/gallery/blob/main/zwh/2.jpg?raw=true" alt="صورة للبرنامج" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://github.com/khaledHamidi/gallery/blob/main/ground-scale/g2.png?raw=true" alt="واجهة البرنامج" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;h2 id="أبرز-الميزات">أبرز الميزات&lt;/h2>
-&lt;ul>
-&lt;li>متوافق مع جميع إصدارات Windows&lt;/li>
-&lt;li>مجاني بالكامل&lt;/li>
-&lt;li>تصميم خفيف يدعم الأجهزة الضعيفة&lt;/li>
-&lt;/ul>
-&lt;h2 id="دروس-مستفادة">دروس مستفادة&lt;/h2>
-&lt;ol>
-&lt;li>الابتكار يولد من الحاجة&lt;/li>
-&lt;li>التعلم الذاتي يفتح الآفاق&lt;/li>
-&lt;li>مشاركة المعرفة تطور المشاريع&lt;/li>
-&lt;li>فكر عالميًا ولو بدأت محليًا&lt;/li>
-&lt;/ol>
-&lt;h2 id="حمل-التطبيق">حمّل التطبيق&lt;/h2>
 &lt;p>📎
+&lt;/p></description></item><item><title>نظام للتحكم بالأجهزة المضمّنة عبر الإنترنت</title><link>http://localhost:1313/ar/projects/superintelligence/</link><pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/superintelligence/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة مصغرة" srcset="
+/en/projects/superintelligence/featured_hu13940293683322815235.webp 400w,
+/en/projects/superintelligence/featured_hu1720599181237929729.webp 760w,
+/en/projects/superintelligence/featured_hu7423620925735999979.webp 1200w"
+src="http://localhost:1313/en/projects/superintelligence/featured_hu13940293683322815235.webp"
+width="760"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>Super Intelligence هو نظام تحكّم ذكي يربط بين لوحات التطوير مثل Arduino وESP8266 بلوحة تحكم على الإنترنت، مما يتيح للمستخدمين التحكم في أجهزتهم من أي مكان في العالم.&lt;/p>
+&lt;p>تم تطوير هذا المشروع باستخدام تقنيات PHP وHTML وMySQL لتوفير واجهة ويب تفاعلية وسهلة الاستخدام، بالإضافة إلى برمجة خاصة بالأجهزة المضمّنة لضمان الاتصال والاستجابة السريعة.&lt;/p>
+&lt;h2 id="المميزات">المميزات&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>لوحة تحكم على الويب&lt;/strong>: يمكن الدخول إليها من أي متصفح لإدارة وتشغيل الأجهزة المرتبطة.&lt;/li>
+&lt;li>&lt;strong>تسجيل الدخول الآمن&lt;/strong>: لكل مستخدم حساب خاص لحماية أجهزته من التحكم غير المصرّح به.&lt;/li>
+&lt;li>&lt;strong>قاعدة بيانات MySQL&lt;/strong>: لحفظ معلومات المستخدمين، حالات الأجهزة، والتاريخ الزمني للأوامر.&lt;/li>
+&lt;li>&lt;strong>اتصال مباشر مع الأجهزة&lt;/strong>: إرسال واستقبال أوامر من الأجهزة المضمّنة باستخدام بروتوكولات بسيطة وفعالة.&lt;/li>
+&lt;li>&lt;strong>إمكانية التوسعة&lt;/strong>: يمكن ربط النظام مع عدد غير محدود من الأجهزة أو المشاريع.&lt;/li>
+&lt;/ul>
+&lt;h2 id="التطبيقات-العملية">التطبيقات العملية&lt;/h2>
+&lt;ul>
+&lt;li>التحكم في أنظمة الإضاءة المنزلية عن بُعد.&lt;/li>
+&lt;li>مراقبة أجهزة استشعار بيئية مثل الحرارة والرطوبة.&lt;/li>
+&lt;li>إدارة مشاريع ذكية ضمن المكاتب أو المصانع.&lt;/li>
+&lt;/ul>
+&lt;h2 id="لماذا-super-intelligence">لماذا Super Intelligence؟&lt;/h2>
+&lt;p>يوفّر النظام حلًا متكاملًا لإدارة مشاريع إنترنت الأشياء بسهولة، دون الحاجة إلى سيرفرات مكلفة أو أنظمة معقّدة.&lt;br>
+يُمكن للمستخدم النهائي بناء بيئة ذكية خاصّة به بأقل التكاليف وبأعلى مرونة.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Q7Gy3U4y4xc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة 2" srcset="
+/en/projects/superintelligence/2_hu8168558367455256543.webp 400w,
+/en/projects/superintelligence/2_hu15466173603334380368.webp 760w,
+/en/projects/superintelligence/2_hu6642584141451961165.webp 1200w"
+src="http://localhost:1313/en/projects/superintelligence/2_hu8168558367455256543.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="صورة 3" srcset="
+/en/projects/superintelligence/3_hu16920859817563194741.webp 400w,
+/en/projects/superintelligence/3_hu3518157786066069939.webp 760w,
+/en/projects/superintelligence/3_hu9931453824351290931.webp 1200w"
+src="http://localhost:1313/en/projects/superintelligence/3_hu16920859817563194741.webp"
+width="598"
+height="266"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>ZOOM WIFI Hotspot: حل اتصال مجتمعي</title><link>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>استجابة للانقطاعات الواسعة في خدمات الإنترنت خلال النزاع السوري، قمت بتطوير ZOOM WIFI Hotspot، وهو تطبيقات خفيف الوزن يحول الكمبيوتر إلى نقطة وصول لاسلكية. تم تصميم هذه الأداة لتوفير حل مستقر ومنخفض الموارد لمشاركة الاتصال بالإنترنت مع الأجهزة المحمولة القريبة، مما يلبي حاجة ملحة للتواصل في المناطق المحرومة من الخدمات.&lt;/p>
+&lt;h2 id="من-الفكرة-إلى-التأثير">من الفكرة إلى التأثير&lt;/h2>
+&lt;p>نشأ المشروع من حاجة مباشرة للتغلب على قيود خدمات الإنترنت المتقطعة والتي يصعب الوصول إليها. تضمنت عملية التطوير تعمقا في بروتوكولات الشبكة ووظائف واجهة برمجة تطبيقات Windows، باستخدام C# وواجهة WMI لإنشاء واجهة مستخدم رسومية سهلة الاستخدام. أتاح الإصدار الأولي للمستخدمين بث أي اتصال إنترنت متاح كشبكة Wi-Fi بنقرة واحدة.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;كان التحدي الأساسي هو ضمان استقرار قوي مع تقليل استهلاك الموارد، مما يجعله متاحا حتى على الأجهزة ذات المواصفات المنخفضة.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>توافق عالمي:&lt;/strong> دعم جميع إصدارات Windows الرئيسية، بما في ذلك XP و 7 و 8 و 8.1 و 10.&lt;/li>
+&lt;li>&lt;strong>وصول مجاني:&lt;/strong> تم توزيع التطبيق كبرنامج مجاني لضمان إتاحته للجميع.&lt;/li>
+&lt;li>&lt;strong>تصميم فعال:&lt;/strong> تم تصميمه بأقل تأثير على الأداء، مما يسمح له بالعمل بسلاسة على الأجهزة القديمة.&lt;/li>
+&lt;li>&lt;strong>واجهة ثنائية اللغة:&lt;/strong> متوفر باللغتين العربية والإنجليزية لخدمة قاعدة مستخدمين أوسع.&lt;/li>
+&lt;/ul>
+&lt;h2 id="التبني-المجتمعي-والتأثير">التبني المجتمعي والتأثير&lt;/h2>
+&lt;p>خلال عامه الأول، تجاوز عدد تنزيلات ZOOM WIFI Hotspot 3000 تنزيل، ليصبح أداة حيوية في المناطق المحاصرة حيث أتاح الوصول المشترك والمنخفض التكلفة إلى الإنترنت. دفع نجاح التطبيق إلى تقديم اقتراح إلى مجتمع مطوري Microsoft، مما ساهم في دمج ميزة &amp;ldquo;Mobile Hotspot&amp;rdquo; في Windows 10، الإصدار 1703.&lt;/p>
+&lt;h2 id="المعرض">المعرض&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
+/en/projects/zoom-wifi-hotspot/1_hu14324268039650112826.webp 400w,
+/en/projects/zoom-wifi-hotspot/1_hu10704405108496003165.webp 760w,
+/en/projects/zoom-wifi-hotspot/1_hu12818087166653137295.webp 1200w"
+src="http://localhost:1313/en/projects/zoom-wifi-hotspot/1_hu14324268039650112826.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
+/en/projects/zoom-wifi-hotspot/2_hu2011803004500579837.webp 400w,
+/en/projects/zoom-wifi-hotspot/2_hu4260108314524103968.webp 760w,
+/en/projects/zoom-wifi-hotspot/2_hu13014923282333279974.webp 1200w"
+src="http://localhost:1313/en/projects/zoom-wifi-hotspot/2_hu2011803004500579837.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
+/en/projects/zoom-wifi-hotspot/3_hu16585257913955025294.webp 400w,
+/en/projects/zoom-wifi-hotspot/3_hu8492286067631096157.webp 760w,
+/en/projects/zoom-wifi-hotspot/3_hu14840508966537604155.webp 1200w"
+src="http://localhost:1313/en/projects/zoom-wifi-hotspot/3_hu16585257913955025294.webp"
+width="760"
+height="427"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="الإرث-والدروس-المستفادة">الإرث والدروس المستفادة&lt;/h2>
+&lt;p>أكد تطوير ZOOM WIFI Hotspot على مبدأ أساسي: &lt;strong>الابتكار غالبا ما يولد من رحم الحاجة.&lt;/strong> لم يقدم هذا المشروع حلا عمليا لمشكلة ملحة فحسب، بل أظهر أيضا قوة تطوير البرمجيات القائمة على المجتمع.&lt;/p></description></item><item><title>CS-ZOOM | نسخة مطوّرة من Counter Strike 1.6</title><link>http://localhost:1313/ar/projects/cszoom/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/cszoom/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;p>يقدّم مشروع &lt;strong>CS-ZOOM&lt;/strong> نسخة مطوّرة من لعبة &lt;strong>Counter Strike 1.6&lt;/strong>، تهدف إلى تحسين تجربة اللعب الكلاسيكية من خلال إضافات خاصة تجعلها أكثر سلاسة وتفاعلية.&lt;br>
+يعتمد المشروع على &lt;strong>AMX Mod X&lt;/strong> ولغة البرمجة &lt;strong>C&lt;/strong> لتوفير تجربة غنية ومناسبة لمختلف المستخدمين.&lt;/p>
+&lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
+&lt;h3 id="-1-طريقة-لعب-قابلة-للتخصيص">🎮 1. طريقة لعب قابلة للتخصيص&lt;/h3>
+&lt;p>يتيح النظام للاعبين التحكّم بالإعدادات مثل الجاذبية وسلوك الخصوم، مما يمنح حرية تصميم تجربة تناسب كل لاعب — سواء أراد تحديًا فرديًا أو أسلوبًا أكثر استرخاء.&lt;/p>
+&lt;h3 id="-2-وضع-الرسوميات-عالية-الجودة-hd">💻 2. وضع الرسوميات عالية الجودة (HD)&lt;/h3>
+&lt;p>يُحسّن هذا الوضع من الأداء والمظهر البصري للعبة، مما يساعد على تتبّع الخصوم بشكل أفضل والتنقّل داخل بيئة اللعب بسهولة أكبر.&lt;/p>
+&lt;h3 id="-3-اللعب-ضد-الروبوتات">🤖 3. اللعب ضد الروبوتات&lt;/h3>
+&lt;p>يمكن للاعبين التدريب وصقل مهاراتهم باللعب ضد خصوم آليين، دون الحاجة إلى اتصال بالإنترنت أو التنافس مع لاعبين بشريين.&lt;/p>
+&lt;h3 id="-4-موارد-غير-محدودة">💰 4. موارد غير محدودة&lt;/h3>
+&lt;p>تتوفّر جميع الأسلحة مع رصيد غير محدود، عبر أداة ZConfig التي تتيح تجهيز الأسلحة بسرعة باستخدام الأزرار (X / C / V).&lt;/p>
+&lt;h3 id="-5-أوضاع-لعب-متعددة">🕹️ 5. أوضاع لعب متعددة&lt;/h3>
+&lt;p>يتضمن CS-ZOOM ستة أوضاع مختلفة ضمن لعبة واحدة، مما يوفّر مرونة كبيرة للاعبين سواء في الوضع الفردي أو عبر السيرفرات.&lt;/p>
+&lt;h3 id="-6-شعارات-مخصصة">🎨 6. شعارات مخصصة&lt;/h3>
+&lt;p>يمكن تغيير الشعار داخل اللعبة بالضغط على الزر T، مع أكثر من 100 شعار مختلف للاختيار، مما يمنح طابعًا شخصيًا لتجربة اللعب.&lt;/p>
+&lt;h3 id="-7-مجتمع-ألعاب-محلي">🌍 7. مجتمع ألعاب محلي&lt;/h3>
+&lt;p>انضم إلى أول سيرفر ألعاب في سوريا وكن جزءًا من مجتمع متنامٍ من اللاعبين.&lt;br>
+لا يقتصر CS-ZOOM على كونه مجرد لعبة، بل هو منصة تفاعلية تعزّز التواصل وروح الفريق بين اللاعبين.&lt;/p>
+&lt;h2 id="فيديوهات">فيديوهات&lt;/h2>
+&lt;p>هذا الفيديو يعرض الكود المكتوب بلغة AMX Mod X C لهذا الوضع.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Bg9t9qv6Eyc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>هذا الفيديو يعرض نافذة بدء اللعبة أو الصورة الأولى.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1YcwAC9gBBM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="الخلاصة">الخلاصة&lt;/h2>
+&lt;p>إن &lt;strong>CS-ZOOM&lt;/strong> أكثر من مجرد تعديل للعبة Counter-Strike؛ بل هو إعادة ابتكار شاملة تعزز إمكانية الوصول والتخصيص والانخراط المجتمعي.&lt;br>
+مع ميزاته الفريدة، يضع هذا المشروع حجر الأساس لعصر جديد من الألعاب يجمع بين الكلاسيكية والحداثة.&lt;/p>
+&lt;p>🔗
+&lt;br>
+👨‍💻 تنفيذ: خالد حميدي –
 &lt;/p></description></item></channel></rss>

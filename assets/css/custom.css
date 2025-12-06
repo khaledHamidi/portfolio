@@ -1,0 +1,90 @@
+.page-header h1 {
+  font-size: 1.9rem !important; /* Further reduced font size */
+}
+
+/* Override theme's default padding for the hero section wrapper */
+#section-hero.hbb-section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Adjust content heading sizes for better readability */
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  font-weight: 600; /* Bolder, but not overly so */
+}
+.prose h1 {
+  font-size: 1.75rem !important;
+}
+.prose h2 {
+  font-size: 1.4rem !important;
+}
+.prose h3 {
+  font-size: 1.2rem !important;
+}
+
+/* Reduce spacing around the featured image */
+.featured-image-wrapper {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Hide the right sidebar (Table of Contents, etc.) */
+.hb-sidebar-container {
+  width: 80px !important;
+}
+
+/* Justify paragraph text and center captions in content */
+.prose p {
+  text-align: justify;
+}
+.prose figure figcaption,
+.caption-center {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--text-color-secondary);
+  margin-top: 0.5rem;
+}
+
+/* Improve link and bold text styling in content */
+.prose a {
+  color: var(--text-color, inherit); /* Match the surrounding text color */
+  text-decoration: none;
+  font-weight: 600; /* Keep links bold to distinguish them */
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
+
+.prose strong, .prose b {
+  color: var(--text-color, inherit); /* Inherit color from parent text */
+}
+
+/* Apply the same link styling to Arabic content */
+[lang="ar"] .prose a {
+  color: var(--text-color, inherit);
+}
+
+/* Make card images square (1:1 aspect ratio) */
+.tag-term-page .item-card .card-image,
+.card-image img,
+.card img,
+.hb-card-image img {
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Force 1:1 aspect ratio for homepage Featured and Achievement sections */
+.grid > a > div:first-of-type,
+.grid > a > div:first-of-type img,
+section[class*="accomplishments"] .card-image,
+section[class*="accomplishments"] .card-image img,
+section[class*="accomplishments"] img {
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  width: 100% !important;
+  height: auto !important;
+}

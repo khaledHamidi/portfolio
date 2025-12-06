@@ -1,87 +1,44 @@
 ---
-title: "برنامج لمشاركة الإنترنت من الحاسوب إلى الهواتف – حل لمشكلة عامة"
-summary: "كيف قادته الحاجة أثناء الحرب إلى ابتكار أول تطبيق لمشاركة الإنترنت، ليتحول لاحقًا إلى ميزة افتراضية في Windows 10."
+title: "ZOOM WIFI Hotspot: A Community-Driven Connectivity Solution"
+summary: "ZOOM WIFI Hotspot."
 date: 2017-02-01
 draft: false
 authors:
   - admin
+categories:
+  - "Software Development"
 tags:
-  - desktop
-  - networking
-  - featured
-rtl: true
+  - Networking
+  - "Desktop App"
 ---
 
-<div dir="rtl" style="text-align: justify;">
+## Overview
 
-### مقدّمة
+In response to widespread internet disruptions during the Syrian conflict, I developed ZOOM WIFI Hotspot, a lightweight desktop application that transforms a computer into a wireless access point. This utility was engineered to provide a stable, low-resource solution for sharing internet connectivity with nearby mobile devices, addressing a critical need for communication in underserved areas.
 
-في خضمّ الحرب الدائرة في بلده، كانت خدمات الإنترنت شبه معدومة، الأمر الذي دفع **المهندس خالد حميدي** إلى البحث عن حلّ يُمكّن أسرته وجيرانه من الاتصال بالشبكة. هكذا بدأت أولى خطواته في عالم البرمجة: **ابتكار برنامج بسيط يحوّل الحاسوب إلى نقطة اتصال لاسلكي (Hotspot)** يوزّع الإنترنت على الهواتف القريبة.
+## From Concept to Impact
 
----
+The project originated from a direct need to overcome the limitations of intermittent and inaccessible internet services. The development process involved a deep dive into network protocols and Windows API functionalities, utilizing C# and the WMI interface to create an intuitive graphical user interface. The initial release enabled users to broadcast any available internet connection as a Wi-Fi network with a single click.
 
-### من الفكرة إلى التطبيق
+> "The primary challenge was ensuring robust stability while minimizing resource consumption, making it accessible even on low-spec hardware."
 
-- **الحاجة المُلِحّة:** انقطاع متكرّر للشبكة وصعوبة الوصول إلى أجهزة الراوتر التجارية.  
-- **التعلّم الذاتي:** بدأ خالد بدراسة أساسيات الشبكات (TCP/IP) وواجهات برمجة نظام التشغيل Windows.  
-- **مرحلة التطوير:** اعتمد على لغة ‎C#‎ وواجهة ‎WMI‎ للتحكّم ببطاقة الشبكة اللاسلكية، مع واجهة رسومية بسيطة للمستخدم.  
-- **الإصدار الأوّل:** أتاح البرنامج مشاركة أي اتصال (Ethernet، ‎3G/4G‎، Bluetooth) عبر نقطة Wi-Fi بنقرة واحدة.
+## Key Features
 
-> «كان التحدّي الأكبر هو ضمان الثبات مع استهلاك منخفض للموارد، لأنّ الحواسيب المتوفّرة حينها كانت قديمة.» – خالد
+- **Universal Compatibility:** Supported all major Windows versions, including XP, 7, 8, 8.1, and 10.
+- **Cost-Free Access:** The application was distributed as freeware to ensure accessibility for all.
+- **Efficient Design:** Engineered for minimal performance impact, allowing it to run seamlessly on older hardware.
+- **Bilingual Interface:** Offered in both Arabic and English to serve a broader user base.
 
----
+## Community Adoption and Influence
 
-### الانتشار والتأثير
+Within its first year, ZOOM WIFprojects/zoom-wifi-hotspot/I Hotspot surpassed 3,000 downloads, becoming a vital tool in besieged regions where it enabled shared, low-cost internet access. The success of the application prompted a proposal to the Microsoft developer community, which contributed to the integration of the "Mobile Hotspot" feature in Windows 10, version 1703.
 
-انتشر التطبيق سريعًا في الأحياء المحاصَرة، فأتاح للعائلات مشاركة اتصال واحد بتكلفة شبه معدومة. ومع الوقت تلقّى خالد رسائل شكر من مستخدمين في دول مجاورة يواجهون مشكلات مشابهة.
+## Gallery
 
-| الإحصائية | خلال السنة الأولى |
-|-----------|------------------|
-| عدد التنزيلات | 3000+ ألف |
-| أنظمة Windows المدعومة | XP, 7, 8, 8.1, 10 |
-| اللغات المتوفّرة | العربية، الإنكليزية |
+![Screenshots](1.png)
+![Screenshots](2.jpg)
+![Screenshots](3.png)
 
----
+## Legacy and Lessons Learned
 
-### من مشروع شخصي إلى ميزة رسمية
-
-عقب نجاح التطبيق، اقترَح خالد على منتدى مطوّري Microsoft دمج الفكرة في النظام. ومع تحديث ‎Windows 10 1703‎ أُضيفت ميزة **Mobile Hotspot** المدمجة، لتغدو رؤيته واقعًا عالميًّا.
-
-> «رؤية الفكرة تصبح جزءًا من نظام تشغيل يستخدمه الملايين كان أكبر حافز لمواصلة طريق البرمجة.» – خالد
-
----
-
-### معرض الصور
-
-![إصدار لاحق للبرنامج](https://github.com/khaledHamidi/gallery/blob/main/zwh/2.jpg?raw=true "واجهة برنامج ZOOM WIFI Hotspot")
-
----
-
-### مميّزات ZOOM WIFI Hotspot
-
-- **جاهز للتنزيل:** متوافق مع جميع إصدارات Windows (XP – 10).  
-- **وفّر المال:** حلّ مجاني 100٪ دون أجهزة إضافية.  
-- **صُنع بحب:** وضع Stealth لتقليل استهلاك الموارد ودعم الأجهزة الضعيفة.
-
-<div style="direction:ltr; text-align: left; margin-top:0.5em;">
-<strong>Enjoy Free Wi-Fi With ZOOM WIFI PPO &amp; SMART</strong><br>
-ZOOM WIFI HOTSPOT is a super-easy solution to turn your laptop into a portable Wi-Fi router, sharing any internet connection at the click of a button—no extra hardware required.
-</div>
-
----
-
-### دروس مستفادة
-
-1. **الابتكار يولد من الحاجة** – ظروف صعبة قد تكون الشرارة لمشاريع كبرى.  
-2. **التعلّم الذاتي ممكن** – الموارد المجانية مكّنت خالد من اكتساب مهارات برمجية متقدّمة.  
-3. **شارك معرفتك** – نشر التطبيق مجانًا أسهم في تحسينه عبر ملاحظات المستخدمين.  
-4. **فكّر على نطاق أوسع** – اقتراح الفكرة على Microsoft أثبت أنّ المشروع المحلي قد يصبح معيارًا عالميًّا.
-
----
-
-### حمّل التطبيق
-
-> آخر نسخة مستقرة (Windows Installer) متاحة عبر [هذا الرابط](https://khaledhamidi.github.io/Zoom-WiFi-HOTSPOT).  
-> للإبلاغ عن الأعطال أو اقتراح ميزات جديدة، يُرجى فتح تذكرة على GitHub.
-
-</div>
+The development of ZOOM WIFI Hotspot underscored a core principle: **innovation is often born from necessity.** This project not inly provided a practical solution to a pressing problem but also demonstrated the power of community-driven software development.
