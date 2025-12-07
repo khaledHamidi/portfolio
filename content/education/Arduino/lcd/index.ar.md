@@ -6,9 +6,6 @@ authors:
   - admin
 tags:
   - "أردوينو"
-  - "شاشة LCD"
-  - "مشاريع"
-  - "برمجة"
 categories:
   - "تعليم"
 ---

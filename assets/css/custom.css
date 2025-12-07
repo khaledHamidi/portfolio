@@ -8,6 +8,19 @@
   padding-bottom: 0 !important;
 }
 
+/* --- UNIFORM CARD SIZING FIX (300px) --- */
+
+/* 1. Remove the restrictive max-height from the theme's CSS for project/achievement cards */
+.blox-accomplishments .grid > a[href*="/projects/"],
+.blox-accomplishments .grid > a[href*="/achievements/"] {
+  max-height: none !important;
+}
+
+/* 2. Set a consistent height for the image container on ALL cards in the grid. */
+.blox-accomplishments .grid > a > div:first-of-type {
+  height: 300px !important;
+}
+
 /* Adjust content heading sizes for better readability */
 .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
   font-weight: 600; /* Bolder, but not overly so */

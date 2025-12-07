@@ -12,7 +12,11 @@ tags:
   - Automation
   - Mechatronics
   - Research
-  - مميز
+type: hero
+layout: av
+resources:
+  - src: "av.mp4"
+    name: "av-video"
 ---
 
 ## Project Overview

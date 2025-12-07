@@ -69,11 +69,11 @@
         .hero-slider-track { display: flex; height: 100%; transition: transform 0.6s cubic-bezier(0.42,0.05,0.2,1); }
         .hero-slider-slide { min-width: 100%; height: 100%; position: relative; }
         .hero-slider-image { width: 100%; height: 100%; background-size: cover; background-position: center; position: relative; }
-        .hero-slider-image::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.18), transparent 50%), linear-gradient(180deg, rgba(4,5,10,0.05) 0%, rgba(4,5,10,0.85) 100%); }
-        .hero-slider-text { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; padding: 1.85rem; color: #fff; z-index: 1; }
+        .hero-slider-image::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.18), transparent 50%), linear-gradient(180deg, rgba(4,5,10,0.05) 0%, rgba(4,5,10,0.85) 100%); z-index: 1; }
+        .hero-slider-text { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; padding: 1.85rem; color: #fff; z-index: 2; }
         .hero-slider-text h4 { margin: 0; font-size: 1.5rem; letter-spacing: 0.03em; }
         .hero-slider-text p { margin: 0.35rem 0 0; font-size: 1rem; color: rgba(255,255,255,0.88); }
-        .hero-slider-btn { position: absolute; top: 1.6rem; right: 1.2rem; width: 46px; height: 46px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.35); background: rgba(6,8,12,0.78); color: #fff; cursor: pointer; font-size: 1.35rem; z-index: 2; transition: background 0.2s ease, transform 0.2s ease; }
+        .hero-slider-btn { position: absolute; top: 1.6rem; right: 1.2rem; width: 46px; height: 46px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.35); background: rgba(6,8,12,0.78); color: #fff; cursor: pointer; font-size: 1.35rem; z-index: 10; transition: background 0.2s ease, transform 0.2s ease; }
         .hero-slider-btn--prev { right: 4.6rem; }
         .hero-slider-btn:hover { background: rgba(255,255,255,0.25); transform: translateY(-2px); }
         [dir='rtl'] .hero-slider-btn { right: auto; left: 1.2rem; }
@@ -81,6 +81,182 @@
         @media (max-width: 960px) {
           .hero-slider-shell { min-height: 360px; }
         }
+
+        /* Premium Slide Effects */
+        .hero-slide-premium { position: relative; }
+        
+        /* Premium Image Effects - Slow Breathing Scale + Overlay Shimmer */
+        .hero-slide-premium .hero-slider-image {
+          animation: premiumBreathing 8s ease-in-out infinite;
+        }
+        
+        @keyframes premiumBreathing {
+          0%, 100% { transform: scale(1); }
+          50% { transform: scale(1.03); }
+        }
+        
+        /* Cinematic Overlay Sweep */
+        .hero-slide-premium .hero-slider-image::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            115deg,
+            transparent 0%,
+            transparent 35%,
+            rgba(0, 229, 255, 0.4) 45%,
+            rgba(0, 188, 212, 0.55) 50%,
+            rgba(0, 229, 255, 0.35) 55%,
+            transparent 65%,
+            transparent 100%
+          );
+          background-size: 250% 100%;
+          animation: overlaySweep 6s ease-in-out infinite;
+          z-index: 0;
+          pointer-events: none;
+          filter: brightness(1.1);
+        }
+        
+        @keyframes overlaySweep {
+          0% { background-position: 150% 0; }
+          100% { background-position: -50% 0; }
+        }
+        
+        /* Animated Border Glow - Cool Colors, Slower */
+        .hero-slide-premium::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          padding: 3px;
+          background: linear-gradient(90deg, 
+            transparent 0%, 
+            #00d4ff 12%, 
+            #00ffcc 24%, 
+            #a3f7ff 36%, 
+            #ffffff 44%, 
+            #00ffcc 54%, 
+            #00d4ff 64%,
+            transparent 72%,
+            transparent 100%
+          );
+          background-size: 450% 100%;
+          animation: borderGlow 10s linear infinite;
+          -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+          mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+          -webkit-mask-composite: xor;
+          mask-composite: exclude;
+          z-index: 8;
+          pointer-events: none;
+        }
+        
+        @keyframes borderGlow {
+          0% { background-position: 200% 0; }
+          100% { background-position: -150% 0; }
+        }
+
+        /* Sparkle Container */
+        .hero-sparkles {
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          z-index: 6;
+          overflow: hidden;
+        }
+        
+        .hero-sparkle {
+          position: absolute;
+          bottom: -20px;
+          width: 8px;
+          height: 8px;
+          animation: sparkleRise 5s ease-out infinite;
+          opacity: 0;
+        }
+        
+        .hero-sparkle::before {
+          content: "✦";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 14px;
+          color: #00e5ff;
+          text-shadow: 0 0 8px #00e5ff, 0 0 16px #00bcd4, 0 0 24px #00e5ff;
+        }
+        
+        @keyframes sparkleRise {
+          0% {
+            transform: translateY(0) rotate(0deg) scale(0);
+            opacity: 0;
+          }
+          10% {
+            opacity: 1;
+            transform: translateY(-30px) rotate(45deg) scale(1);
+          }
+          85% {
+            opacity: 0.9;
+          }
+          100% {
+            transform: translateY(-380px) rotate(180deg) scale(0.4);
+            opacity: 0;
+          }
+        }
+        
+        /* Stagger sparkle animations */
+        .hero-sparkle:nth-child(1) { left: 8%; animation-delay: 0s; animation-duration: 4.2s; }
+        .hero-sparkle:nth-child(2) { left: 18%; animation-delay: 0.6s; animation-duration: 4.8s; }
+        .hero-sparkle:nth-child(3) { left: 28%; animation-delay: 1.3s; animation-duration: 4.5s; }
+        .hero-sparkle:nth-child(4) { left: 38%; animation-delay: 0.3s; animation-duration: 5s; }
+        .hero-sparkle:nth-child(5) { left: 48%; animation-delay: 1.8s; animation-duration: 4.3s; }
+        .hero-sparkle:nth-child(6) { left: 58%; animation-delay: 0.5s; animation-duration: 4.9s; }
+        .hero-sparkle:nth-child(7) { left: 68%; animation-delay: 1.1s; animation-duration: 4.6s; }
+        .hero-sparkle:nth-child(8) { left: 78%; animation-delay: 2s; animation-duration: 4.4s; }
+        .hero-sparkle:nth-child(9) { left: 88%; animation-delay: 0.8s; animation-duration: 5.1s; }
+        .hero-sparkle:nth-child(10) { left: 95%; animation-delay: 1.5s; animation-duration: 4.1s; }
+
+        /* Premium Badge - Cool Colors */
+        .hero-premium-badge {
+          position: absolute;
+          top: 1.5rem;
+          left: 1.5rem;
+          background: linear-gradient(135deg, #00e5ff 0%, #00bcd4 50%, #00e5ff 100%);
+          background-size: 200% 200%;
+          animation: badgeShimmer 3s ease infinite;
+          color: #0a1929;
+          font-size: 0.7rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          padding: 0.4rem 0.8rem;
+          border-radius: 20px;
+          z-index: 15;
+          box-shadow: 0 4px 20px rgba(0, 229, 255, 0.4), 0 0 40px rgba(0, 188, 212, 0.25);
+          display: flex;
+          align-items: center;
+          gap: 0.35rem;
+        }
+        
+        .hero-premium-badge::before {
+          content: "★";
+          font-size: 0.9rem;
+          animation: starPulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes starPulse {
+          0%, 100% { transform: scale(1); }
+          50% { transform: scale(1.25); }
+        }
+        
+        @keyframes badgeShimmer {
+          0%, 100% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+        }
+
+        /* Enhanced Title Glow for Premium - Cool */
+        .hero-slide-premium .hero-slider-text h4 {
+          text-shadow: 0 0 30px rgba(0, 229, 255, 0.5), 0 2px 15px rgba(0,0,0,0.9);
+        }
+        
+        [dir='rtl'] .hero-premium-badge { left: auto; right: 1.5rem; }
       </style>
       <div class="hero-slider-shell" id="hero-featured-slider">
         <button class="hero-slider-btn hero-slider-btn--prev" data-hero-slider-prev aria-label="Previous project">&#10094;</button>
@@ -88,8 +264,25 @@
         <div class="hero-slider-window">
           <div class="hero-slider-track" data-hero-slider-track>
             {{ $pages := where site.RegularPages "Section" "hero" }}
+            {{ $index := 0 }}
             {{ range $pages }}
-                <a class="hero-slider-slide" data-hero-slide href="{{ .RelPermalink }}">
+                {{ $isPremium := lt $index 2 }}
+                <a class="hero-slider-slide{{ if $isPremium }} hero-slide-premium{{ end }}" data-hero-slide href="{{ .RelPermalink }}">
+                  {{ if $isPremium }}
+                  <div class="hero-sparkles">
+                    <div class="hero-sparkle"></div>
+                    <div class="hero-sparkle"></div>
+                    <div class="hero-sparkle"></div>
+                    <div class="hero-sparkle"></div>
+                    <div class="hero-sparkle"></div>
+                    <div class="hero-sparkle"></div>
+                    <div class="hero-sparkle"></div>
+                    <div class="hero-sparkle"></div>
+                    <div class="hero-sparkle"></div>
+                    <div class="hero-sparkle"></div>
+                  </div>
+                  <div class="hero-premium-badge">Featured · مميز</div>
+                  {{ end }}
                   <div class="hero-slider-image" {{ with .Resources.GetMatch "featured.jpg" }}style="background-image: url('{{ .RelPermalink }}');"{{ end }}>
                     <div class="hero-slider-text">
                       <h4>{{ .Title }}</h4>
@@ -97,6 +290,7 @@
                     </div>
                   </div>
                 </a>
+                {{ $index = add $index 1 }}
             {{ end }}
           </div>
         </div>

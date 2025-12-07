@@ -1,6 +1,6 @@
 ---
-title: COUNTER-STRIKE ZOOM
-summary: Custom version of Counter Strike 1.6
+title: "CS-ZOOM: A Custom Counter-Strike 1.6 Mod"
+summary: "An enhanced version of Counter-Strike 1.6, CS-ZOOM is a custom mod developed with C and AMX Mod X. It features customizable gameplay settings like gravity and enemy behavior, HD graphics, and a dedicated server for a unique multiplayer experience."
 date: 2016-03-01
 draft: false
 authors:

@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} | منصة ذاتية القيادة</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%);
+            color: #ffffff;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        body.video-active {
+            cursor: none;
+        }
+
+        .custom-cursor {
+            position: fixed;
+            width: 80px;
+            height: 80px;
+            pointer-events: none;
+            z-index: 10000;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        body.video-active .custom-cursor {
+            display: block;
+            opacity: 1;
+        }
+
+        .cursor-circle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            border: 3px solid #ff6b00;
+            border-radius: 50%;
+            animation: cursorPulse 2s infinite;
+        }
+
+        @keyframes cursorPulse {
+            0%, 100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.2);
+                opacity: 0.6;
+            }
+        }
+
+        .cursor-hand {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 32px;
+            animation: handClick 1s infinite;
+        }
+
+        @keyframes handClick {
+            0%, 100% {
+                transform: translate(-50%, -50%) scale(1);
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(0.9);
+            }
+        }
+
+        .click-hint {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.2rem;
+            color: #ff6b00;
+            text-shadow: 0 0 10px rgba(255, 107, 0, 0.8);
+            white-space: nowrap;
+            animation: hintFade 2s infinite;
+        }
+
+        @keyframes hintFade {
+            0%, 100% {
+                opacity: 0.6;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        /* Video Container */
+        #video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #000;
+            z-index: 9999;
+            transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        #video-container::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            height: 120%;
+            background: radial-gradient(ellipse, rgba(255, 107, 0, 0.3) 0%, transparent 70%);
+            filter: blur(80px);
+            animation: videoGlow 3s infinite alternate;
+            pointer-events: none;
+        }
+
+        @keyframes videoGlow {
+            0% {
+                opacity: 0.5;
+                transform: translate(-50%, -50%) scale(1);
+            }
+            100% {
+                opacity: 1;
+                transform: translate(-50%, -50%) scale(1.1);
+            }
+        }
+
+        #video-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                linear-gradient(90deg, transparent 0%, rgba(255, 107, 0, 0.1) 50%, transparent 100%),
+                linear-gradient(0deg, transparent 0%, rgba(255, 107, 0, 0.1) 50%, transparent 100%);
+            animation: scanlines 8s linear infinite;
+            pointer-events: none;
+        }
+
+        @keyframes scanlines {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(100%);
+            }
+        }
+
+        .video-frame {
+            position: absolute;
+            width: 52%;
+            height: calc(52% * 16/9);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+        }
+
+        .video-frame::before,
+        .video-frame::after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 3px solid #ff6b00;
+            animation: cornerPulse 2s infinite;
+        }
+
+        .video-frame::before {
+            top: -20px;
+            left: -20px;
+            border-right: none;
+            border-bottom: none;
+        }
+
+        .video-frame::after {
+            top: -20px;
+            right: -20px;
+            border-left: none;
+            border-bottom: none;
+        }
+
+        .video-frame-bottom {
+            position: absolute;
+            width: 52%;
+            height: calc(52% * 16/9);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+        }
+
+        .video-frame-bottom::before,
+        .video-frame-bottom::after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 3px solid #ff6b00;
+            animation: cornerPulse 2s infinite 1s;
+        }
+
+        .video-frame-bottom::before {
+            bottom: -20px;
+            left: -20px;
+            border-right: none;
+            border-top: none;
+        }
+
+        .video-frame-bottom::after {
+            bottom: -20px;
+            right: -20px;
+            border-left: none;
+            border-top: none;
+        }
+
+        @keyframes cornerPulse {
+            0%, 100% {
+                opacity: 0.3;
+                box-shadow: 0 0 0 rgba(255, 107, 0, 0);
+            }
+            50% {
+                opacity: 1;
+                box-shadow: 0 0 30px rgba(255, 107, 0, 0.8);
+            }
+        }
+
+        .video-particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .video-particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #ff6b00;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #ff6b00;
+            animation: videoParticleFloat 4s infinite;
+        }
+
+        @keyframes videoParticleFloat {
+            0% {
+                transform: translateY(100vh) translateX(0) scale(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100px) translateX(var(--tx)) scale(1);
+                opacity: 0;
+            }
+        }
+
+        .video-text {
+            position: absolute;
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #ffffff;
+            text-shadow: 
+                0 0 10px rgba(255, 107, 0, 1),
+                0 0 20px rgba(255, 107, 0, 0.8),
+                0 0 40px rgba(255, 107, 0, 0.6),
+                0 0 80px rgba(255, 107, 0, 0.4);
+            letter-spacing: 8px;
+            animation: textGlowPulse 3s infinite;
+            pointer-events: none;
+            white-space: nowrap;
+            background: linear-gradient(90deg, #ffffff 0%, #ff6b00 50%, #ffffff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% auto;
+            filter: drop-shadow(0 0 30px rgba(255, 107, 0, 0.8));
+            transition: all 0.3s ease;
+        }
+
+        .video-text.countdown {
+            font-size: 4rem;
+            letter-spacing: 15px;
+            animation: countdownPulse 1s infinite;
+        }
+
+        @keyframes countdownPulse {
+            0%, 100% {
+                transform: translateX(-50%) scale(1);
+                filter: drop-shadow(0 0 30px rgba(255, 107, 0, 0.8)) brightness(1);
+            }
+            50% {
+                transform: translateX(-50%) scale(1.1);
+                filter: drop-shadow(0 0 50px rgba(255, 107, 0, 1)) brightness(1.5);
+            }
+        }
+
+        .skip-hint {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.6);
+            text-shadow: 0 0 10px rgba(255, 107, 0, 0.5);
+            animation: hintFade 2s infinite;
+            pointer-events: none;
+        }
+
+        @keyframes textGlowPulse {
+            0%, 100% {
+                opacity: 0.8;
+                transform: translateX(-50%) scale(1);
+                background-position: 0% center;
+                filter: drop-shadow(0 0 20px rgba(255, 107, 0, 0.6)) brightness(1);
+            }
+            50% {
+                opacity: 1;
+                transform: translateX(-50%) scale(1.05);
+                background-position: 100% center;
+                filter: drop-shadow(0 0 40px rgba(255, 107, 0, 1)) brightness(1.3);
+            }
+        }
+
+        #video-container.minimize {
+            width: 320px;
+            height: 570px;
+            top: 20px;
+            left: 20px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(255, 107, 0, 0.3);
+            z-index: 100;
+        }
+
+        #intro-video {
+            width: 50%;
+            height: auto;
+            max-height: 100vh;
+            border-radius: 0;
+            transition: all 1.5s ease;
+        }
+
+        #video-container.minimize #intro-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Main Content */
+        #main-content {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 2s ease, visibility 0s 2s;
+            padding-top: 0;
+        }
+
+        #main-content.show {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 2s ease, visibility 0s 0s;
+        }
+
+        /* Hero Header */
+        .hero-header {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(26,26,46,0.6) 100%);
+            z-index: 1;
+        }
+
+        .hero-header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: zoomInOut 20s infinite alternate;
+        }
+
+        @keyframes zoomInOut {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+
+        .hero-text {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            animation: fadeInUp 2s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-text h1 {
+            font-size: 5rem;
+            font-weight: 900;
+            letter-spacing: 10px;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #ffffff 0%, #ff6b00 50%, #ffffff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(255, 107, 0, 0.5);
+            animation: glowPulse 3s infinite;
+        }
+
+        @keyframes glowPulse {
+            0%, 100% { filter: brightness(1); }
+            50% { filter: brightness(1.3); }
+        }
+
+        .hero-text p {
+            font-size: 1.8rem;
+            letter-spacing: 5px;
+            color: #cccccc;
+            text-transform: uppercase;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 100px 50px;
+        }
+
+        /* Section Styles */
+        .section {
+            margin-bottom: 150px;
+            position: relative;
+        }
+
+        /* Scroll Animations */
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(80px);
+            transition: all 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .scroll-animate.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .tech-card.scroll-animate {
+            transform: translateY(60px) scale(0.95);
+        }
+
+        .tech-card.animate-in {
+            transform: translateY(0) scale(1);
+        }
+
+        .cinematic-card.scroll-animate {
+            opacity: 0;
+            transform: translateY(100px) scale(0.9);
+        }
+
+        .cinematic-card.animate-in {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+
+        .final-showcase.scroll-animate {
+            opacity: 0;
+            transform: translateY(80px);
+        }
+
+        .final-showcase.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section-title {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 80px;
+            position: relative;
+            padding-bottom: 20px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #ff6b00, transparent);
+        }
+
+        /* Cinematic Section */
+        .cinematic-card {
+            position: relative;
+            width: 100%;
+            height: 80vh;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 30px 90px rgba(0, 0, 0, 0.8);
+            animation: fadeInScale 1.5s ease;
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .cinematic-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.9) 100%);
+            z-index: 1;
+        }
+
+        .cinematic-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .cinematic-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .cinematic-text {
+            position: absolute;
+            bottom: 50px;
+            right: 50px;
+            z-index: 2;
+            max-width: 600px;
+        }
+
+        .cinematic-text h3 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ff6b00;
+            text-shadow: 0 0 20px rgba(255, 107, 0, 0.5);
+        }
+
+        .cinematic-text p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #cccccc;
+        }
+
+        /* Tech Specs Grid */
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .tech-card {
+            background: linear-gradient(135deg, rgba(26,26,46,0.9) 0%, rgba(10,10,10,0.9) 100%);
+            border-radius: 20px;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.5s ease;
+            border: 1px solid rgba(255, 107, 0, 0.2);
+        }
+
+        .tech-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 107, 0, 0.1) 0%, transparent 70%);
+            transition: all 0.8s ease;
+        }
+
+        .tech-card:hover::before {
+            top: -100%;
+            right: -100%;
+        }
+
+        .tech-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(255, 107, 0, 0.3);
+            border-color: rgba(255, 107, 0, 0.6);
+        }
+
+        .tech-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            transition: all 0.5s ease;
+        }
+
+        .tech-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .tech-card h4 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #ff6b00;
+        }
+
+        .tech-card p {
+            color: #b0b0b0;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        /* Final Showcase */
+        .final-showcase {
+            position: relative;
+            width: 100%;
+            height: 120vh;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 40px 100px rgba(255, 107, 0, 0.4);
+        }
+
+        .final-showcase::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(255, 107, 0, 0.3) 0%, transparent 100%);
+            z-index: 1;
+        }
+
+        .final-showcase img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .order-now-section {
+            text-align: center;
+            margin-top: 60px;
+            padding: 40px 0;
+        }
+
+        .order-btn {
+            display: inline-block;
+            padding: 20px 60px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            background: linear-gradient(135deg, #ff6b00 0%, #ff3d00 100%);
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            box-shadow: 0 10px 40px rgba(255, 107, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .order-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .order-btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .order-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 60px rgba(255, 107, 0, 0.6);
+        }
+
+        .order-btn span {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 100px;
+            border-top: 1px solid rgba(255, 107, 0, 0.2);
+        }
+
+        .footer p {
+            font-size: 0.9rem;
+            color: #888888;
+            line-height: 1.6;
+        }
+
+        .footer a {
+            color: #ff6b00;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #ff3d00;
+        }
+
+        /* Particles Background */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .particle {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: #ff6b00;
+            border-radius: 50%;
+            animation: float 15s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) translateX(0);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0a0a0a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #ff6b00, #ff3d00);
+            border-radius: 10px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-text h1 {
+                font-size: 3rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .tech-grid {
+                grid-template-columns: 1fr;
+            }
+
+            #video-container.minimize {
+                width: 200px;
+                height: 355px;
+            }
+
+            .order-btn {
+                padding: 15px 40px;
+                font-size: 1.2rem;
+            }
+
+            .final-showcase {
+                height: 80vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    {{/* Assets are always published under /en/ path */}}
+    {{ $basePath := "/en/hero/kenobot/" }}
+    {{ $videoPath := printf "%s%s" $basePath "kenobot.mp4" }}
+    {{ $headerPath := printf "%s%s" $basePath "Kenobot.jpg" }}
+    {{ $cinematicPath := printf "%s%s" $basePath "kenobot3.jpg" }}
+    {{ $platformPath := printf "%s%s" $basePath "kenobot2.jpg" }}
+    {{ $controlPath := printf "%s%s" $basePath "kenobot5.jpg" }}
+    {{ $finalPath := printf "%s%s" $basePath "kenobot4.jpg" }}
+    
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="custom-cursor">
+        <div class="cursor-circle"></div>
+        <div class="cursor-hand">👆</div>
+        <div class="click-hint">انقر للتشغيل</div>
+    </div>
+
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Video Container -->
+    <div id="video-container">
+        <div class="video-particles" id="video-particles"></div>
+        <div class="video-frame"></div>
+        <div class="video-frame-bottom"></div>
+        <video id="intro-video" muted playsinline>
+            <source src="{{ $videoPath }}" type="video/mp4">
+        </video>
+        <div class="skip-hint">انقر مرتين للتخطي</div>
+        <div class="video-text" id="video-text">كــنــو الآلــي</div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content">
+        <!-- Hero Header -->
+        <section class="hero-header">
+            <img src="{{ $headerPath }}" alt="Kenobot Header">
+            <div class="hero-text">
+                <h1>KENOBOT</h1>
+                <p>منصة ذاتية القيادة</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- Cinematic Section -->
+            <section class="section">
+                <h2 class="section-title">قوة التكنولوجيا في الظلام</h2>
+                <div class="cinematic-card">
+                    <img src="{{ $cinematicPath }}" alt="Kenobot Cinematic">
+                    <div class="cinematic-text">
+                        <h3>ذكاء اصطناعي متقدم</h3>
+                        <p>منصة روبوتية مستقلة مصممة للتطبيقات التجارية والبحثية. نظام متكامل يجمع بين الأداء العالي والموثوقية، مع قدرات ملاحة ذاتية في البيئات المعقدة.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tech Specs Section -->
+            <section class="section">
+                <h2 class="section-title">المواصفات التقنية</h2>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <img src="{{ $platformPath }}" alt="Kenobot Platform">
+                        <h4>منصة متطورة</h4>
+                        <p>وحدة ملاحة تعمل عبر مستشعرات متقدمة موضوعة بدون حاجة لنظام GPS، مع بنية تحكم مزدوجة لأداء استثنائي.</p>
+                    </div>
+                    <div class="tech-card">
+                        <img src="{{ $controlPath }}" alt="Control System">
+                        <h4>نظام التحكم</h4>
+                        <p>نظام تحكم مشفر كلا الاتجاهين للتحكم والمراقبة، يعمل على مدى يصل إلى 1000 متر بكفاءة واستقرار عالي.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Final Showcase -->
+            <section class="section">
+                <h2 class="section-title">الفخر بالإنجاز</h2>
+                <div class="final-showcase">
+                    <img src="{{ $finalPath }}" alt="Kenobot Final">
+                </div>
+                
+                <div class="order-now-section">
+                    <a href="#contact" class="order-btn">
+                        <span>تفاصيل & طلب</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>جميع الحقوق محفوظة &copy; 2025 | خالد حميدي</p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        // Create Particles
+        const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.classList.add('particle');
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.top = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 15 + 's';
+            particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+            particlesContainer.appendChild(particle);
+        }
+
+        // Create Video Particles
+        const videoParticlesContainer = document.getElementById('video-particles');
+        for (let i = 0; i < 30; i++) {
+            const particle = document.createElement('div');
+            particle.classList.add('video-particle');
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.setProperty('--tx', (Math.random() - 0.5) * 200 + 'px');
+            particle.style.animationDelay = Math.random() * 4 + 's';
+            particle.style.animationDuration = (Math.random() * 2 + 3) + 's';
+            videoParticlesContainer.appendChild(particle);
+        }
+
+        // Video Logic
+        const video = document.getElementById('intro-video');
+        const videoContainer = document.getElementById('video-container');
+        const mainContent = document.getElementById('main-content');
+        const videoText = document.getElementById('video-text');
+        let videoClicked = false;
+        let countdownInterval = null;
+        let lastClickTime = 0;
+
+        // Enable custom cursor for video section
+        document.body.classList.add('video-active');
+
+        // Function to minimize video and show content
+        const minimizeVideo = () => {
+            // Scroll to top smoothly
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+            
+            // Mute video when minimizing
+            video.muted = true;
+            // Loop the video
+            video.currentTime = 0;
+            video.play();
+            // Minimize container
+            videoContainer.classList.add('minimize');
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 500);
+            
+            // Clear countdown
+            if (countdownInterval) {
+                clearInterval(countdownInterval);
+            }
+        };
+
+        // Handle video click (single for unmute, double for skip)
+        videoContainer.addEventListener('click', function() {
+            const currentTime = new Date().getTime();
+            const timeDiff = currentTime - lastClickTime;
+
+            if (timeDiff < 300 && videoClicked) {
+                // Double click - skip video
+                minimizeVideo();
+            } else if (!videoClicked) {
+                // First click - unmute and play
+                video.muted = false;
+                video.play();
+                videoClicked = true;
+                document.body.classList.remove('video-active');
+            }
+
+            lastClickTime = currentTime;
+        });
+
+        // Track custom cursor
+        const customCursor = document.getElementById('custom-cursor');
+        document.addEventListener('mousemove', (e) => {
+            if (document.body.classList.contains('video-active')) {
+                customCursor.style.left = e.clientX + 'px';
+                customCursor.style.top = e.clientY + 'px';
+            }
+        });
+
+        // Update countdown timer
+        video.addEventListener('timeupdate', () => {
+            if (videoClicked && !video.paused) {
+                const remaining = Math.ceil(video.duration - video.currentTime);
+                
+                // Show countdown in last 10 seconds
+                if (remaining <= 10 && remaining > 0) {
+                    videoText.textContent = remaining;
+                    videoText.classList.add('countdown');
+                } else if (remaining > 10) {
+                    videoText.textContent = 'كــنــو الآلــي';
+                    videoText.classList.remove('countdown');
+                }
+            }
+        });
+
+        video.addEventListener('ended', () => {
+            setTimeout(() => {
+                minimizeVideo();
+            }, 500);
+        });
+
+        // Intersection Observer for Animations
+        
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Parallax Effect on Hero
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const heroHeader = document.querySelector('.hero-header img');
+            if (heroHeader) {
+                heroHeader.style.transform = `translateY(${scrolled * 0.5}px) scale(1.1)`;
+            }
+        });
+
+        // Enhanced scroll animations
+        const scrollAnimationObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, {
+            threshold: 0.15,
+            rootMargin: '-50px'
+        });
+
+        // Observe all animated elements
+        document.querySelectorAll('.section, .tech-card, .cinematic-card, .final-showcase, .order-now-section').forEach(el => {
+            el.classList.add('scroll-animate');
+            scrollAnimationObserver.observe(el);
+        });
+    </script>
+</body>
+</html>

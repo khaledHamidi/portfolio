@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أتمتة | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%A7%D8%AA%D9%85%D8%AA%D8%A9/</link><atom:link href="http://localhost:1313/ar/tags/%D8%A7%D8%AA%D9%85%D8%AA%D8%A9/index.xml" rel="self" type="application/rss+xml"/><description>أتمتة</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>أتمتة</title><link>http://localhost:1313/ar/tags/%D8%A7%D8%AA%D9%85%D8%AA%D8%A9/</link></image><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أتمتة | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1314/ar/tags/%D8%A7%D8%AA%D9%85%D8%AA%D8%A9/</link><atom:link href="http://localhost:1314/ar/tags/%D8%A7%D8%AA%D9%85%D8%AA%D8%A9/index.xml" rel="self" type="application/rss+xml"/><description>أتمتة</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1314/media/icon_hu7729264130191091259.png</url><title>أتمتة</title><link>http://localhost:1314/ar/tags/%D8%A7%D8%AA%D9%85%D8%AA%D8%A9/</link></image><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1314/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1314/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="فيديو">فيديو&lt;/h2>
 &lt;p>هذا الفيديو يشرح كيفية عمل الآلة.
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -16,7 +16,7 @@
 &lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
 &lt;p>توضح هذه الصورة النظام الكهربائي والهوائي.&lt;/p>
-&lt;figure>&lt;img src="http://localhost:1313/media/images/filling-machine-electro-pneumatic-system.jpg">&lt;figcaption>
+&lt;figure>&lt;img src="media/images/filling-machine-electro-pneumatic-system.jpg">&lt;figcaption>
 &lt;h4>النظام الكهربائي والهوائي&lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
@@ -49,20 +49,13 @@
 &lt;h2 id="اقتباس">اقتباس&lt;/h2>
 &lt;p>APA
 HAMIDI, K., ABDULSELAM, A., &amp;amp; BUĞDAY, D. Ö. G. M. (2024). DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE FOR FIXED GRANULATE QUANTITIES. International Journal of Advanced Natural Sciences and Engineering Researches, 8(4), 122–128.&lt;/p>
-&lt;/div></description></item><item><title>التحكم الطولي في المركبات المستقلة</title><link>http://localhost:1313/ar/hero/av/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/av/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;/div></description></item><item><title>التحكم الطولي في المركبات المستقلة</title><link>http://localhost:1314/ar/hero/av/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>http://localhost:1314/ar/hero/av/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
 &lt;p>يركز هذا البحث على تصميم وتحسين أنظمة التحكم الطولي للمركبات ذاتية القيادة (AVs). يتمحور جوهر الدراسة حول تطبيق &lt;strong>وحدات التحكم بالمنطق الضبابي (FLC)&lt;/strong> ودمجها مع &lt;strong>وحدات التحكم PID&lt;/strong> التقليدية لإنشاء أنظمة تحكم هجينة ومتقدمة.&lt;/p>
 &lt;p>الهدف الأساسي هو تعزيز سلامة وموثوقية وكفاءة المركبات المستقلة. من خلال تطوير وحدات تحكم قادرة على إدارة الطبيعة الديناميكية والمعقدة لبيئات القيادة في العالم الحقيقي، يهدف هذا المشروع إلى تحسين زمن استجابة السيارة واستقرارها.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img alt="autonomous vehicle" srcset="
-/en/hero/av/av_hu1992617688241104894.webp 400w,
-/en/hero/av/av_hu15473852881787687693.webp 760w,
-/en/hero/av/av_hu1039182901271111275.webp 1200w"
-src="http://localhost:1313/en/hero/av/av_hu1992617688241104894.webp"
-width="760"
-height="653"
-loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="av.png" alt="autonomous vehicle" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h2 id="الأهداف-والأساليب-الرئيسية">الأهداف والأساليب الرئيسية&lt;/h2>
@@ -76,32 +69,25 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="robot" srcset="
-/en/hero/av/2_hu2949458785717201155.webp 400w,
-/en/hero/av/2_hu6641939472858165950.webp 760w,
+/en/hero/av/2_hu17888281977775185438.webp 400w,
+/en/hero/av/2_hu9980159457909094945.webp 760w,
 /en/hero/av/2_hu6001617812959739385.webp 1200w"
-src="http://localhost:1313/en/hero/av/2_hu2949458785717201155.webp"
+src="http://localhost:1314/en/hero/av/2_hu17888281977775185438.webp"
 width="760"
 height="386"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img alt="robot" srcset="
-/en/hero/av/3_hu2261569377939652540.webp 400w,
-/en/hero/av/3_hu9341678575793859296.webp 760w,
-/en/hero/av/3_hu7782481396795671165.webp 1200w"
-src="http://localhost:1313/en/hero/av/3_hu2261569377939652540.webp"
-width="760"
-height="428"
-loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="3.png" alt="robot" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="robot" srcset="
-/en/hero/av/4_hu15191957136124545335.webp 400w,
-/en/hero/av/4_hu13836004331211398489.webp 760w,
+/en/hero/av/4_hu17957675470785094418.webp 400w,
+/en/hero/av/4_hu4736018197381960835.webp 760w,
 /en/hero/av/4_hu2624328732635266318.webp 1200w"
-src="http://localhost:1313/en/hero/av/4_hu15191957136124545335.webp"
+src="http://localhost:1314/en/hero/av/4_hu17957675470785094418.webp"
 width="760"
 height="342"
 loading="lazy" data-zoomable />&lt;/div>
@@ -109,15 +95,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="robot" srcset="
-/en/hero/av/5_hu7744538201150100094.webp 400w,
-/en/hero/av/5_hu3424715750421058474.webp 760w,
+/en/hero/av/5_hu15985399915338231601.webp 400w,
+/en/hero/av/5_hu16971815764119515699.webp 760w,
 /en/hero/av/5_hu2739134883705974662.webp 1200w"
-src="http://localhost:1313/en/hero/av/5_hu7744538201150100094.webp"
+src="http://localhost:1314/en/hero/av/5_hu15985399915338231601.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1313/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/4dof-robotic-arm/</guid><description>&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
+&lt;/p></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1314/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1314/ar/projects/4dof-robotic-arm/</guid><description>&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
 ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.&lt;/p>
 &lt;p>تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.&lt;/p>
 &lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
@@ -135,15 +121,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="صورة" srcset="
-/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp 400w,
-/en/projects/4dof-robotic-arm/image_hu9755964502696729891.webp 760w,
+/en/projects/4dof-robotic-arm/image_hu828537805347133321.webp 400w,
+/en/projects/4dof-robotic-arm/image_hu10591741388667084852.webp 760w,
 /en/projects/4dof-robotic-arm/image_hu5096042048220078544.webp 1200w"
-src="http://localhost:1313/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp"
+src="http://localhost:1314/en/projects/4dof-robotic-arm/image_hu828537805347133321.webp"
 width="760"
 height="440"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/sws/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/sws/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;/p></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1314/ar/projects/sws/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1314/ar/projects/sws/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
 &lt;p>يتناول هذا المشروع تصميم وتنفيذ نظام تحكم بالنوافذ لحماية المنازل من الغبار والرمال أثناء العواصف الرملية، وهي ظاهرة شائعة في السعودية.&lt;br>
 يعمل النظام على إغلاق النوافذ تلقائيًا عند اكتشاف العاصفة الرملية، مما يمنع دخول الغبار إلى المنزل.&lt;/p>
 &lt;p>يتكوّن النظام من حساسات لاكتشاف العواصف، وآلية ميكانيكية تعمل بمحرك لفتح وإغلاق النوافذ، إلى جانب ميزة إرسال إشعارات قصيرة إلى هاتف مالك المنزل عند تشغيل النظام.&lt;/p>
@@ -162,10 +148,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="التقيم" srcset="
-/en/projects/sws/badge_hu10665682049558335899.webp 400w,
-/en/projects/sws/badge_hu2110014805596361415.webp 760w,
+/en/projects/sws/badge_hu3956090184417999862.webp 400w,
+/en/projects/sws/badge_hu11487753091314465417.webp 760w,
 /en/projects/sws/badge_hu8747777280006912142.webp 1200w"
-src="http://localhost:1313/en/projects/sws/badge_hu10665682049558335899.webp"
+src="http://localhost:1314/en/projects/sws/badge_hu3956090184417999862.webp"
 width="760"
 height="399"
 loading="lazy" data-zoomable />&lt;/div>
@@ -214,7 +200,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>📎
-&lt;/p></description></item><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:1313/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/p></description></item><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:1314/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1314/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
 &lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
 تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
@@ -237,10 +223,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="التقيم" srcset="
-/en/projects/lg/badge_hu3034371145428125111.webp 400w,
-/en/projects/lg/badge_hu12181493154512379697.webp 760w,
+/en/projects/lg/badge_hu1300195789329157182.webp 400w,
+/en/projects/lg/badge_hu7006632922434401181.webp 760w,
 /en/projects/lg/badge_hu18213919312010536174.webp 1200w"
-src="http://localhost:1313/en/projects/lg/badge_hu3034371145428125111.webp"
+src="http://localhost:1314/en/projects/lg/badge_hu1300195789329157182.webp"
 width="760"
 height="399"
 loading="lazy" data-zoomable />&lt;/div>
@@ -290,7 +276,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>📎
 &lt;/p>
-&lt;/div></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/hero/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/div></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1314/ar/hero/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1314/ar/hero/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
 &lt;ul>
@@ -339,7 +325,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل `DELAY 500` من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.
 &lt;p>
-&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/projects/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1314/ar/projects/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1314/ar/projects/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
 &lt;ul>
@@ -395,7 +381,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل &lt;code>DELAY 500&lt;/code> من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.&lt;/p>
 &lt;p>
-&lt;/p></description></item><item><title>نظام إدارة ميزان أرضي رقمي</title><link>http://localhost:1313/ar/projects/zoomce/</link><pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoomce/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
+&lt;/p></description></item><item><title>نظام إدارة ميزان أرضي رقمي</title><link>http://localhost:1314/ar/projects/zoomce/</link><pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><guid>http://localhost:1314/ar/projects/zoomce/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
 &lt;p>طوّر المهندس &lt;strong>خالد حميدي&lt;/strong> نظامًا رقميًا مخصصًا لصالح إحدى شركات إعادة التدوير بهدف تحسين دقة وكفاءة قياس أوزان الشاحنات والمركبات عبر ميزان أرضي صناعي.&lt;/p>
 &lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
 &lt;ul>
@@ -432,7 +418,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>📎
-&lt;/p></description></item><item><title>نظام إدارة مغسلة السيارات الأوروبية</title><link>http://localhost:1313/ar/projects/vechiles-wach-system/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/vechiles-wach-system/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;/p></description></item><item><title>نظام إدارة مغسلة السيارات الأوروبية</title><link>http://localhost:1314/ar/projects/vechiles-wach-system/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>http://localhost:1314/ar/projects/vechiles-wach-system/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>تم تطوير هذا النظام بطلب من مغسلة &amp;ldquo;السيارات الأوروبية&amp;rdquo; في مدينة الباب، ويهدف إلى تنظيم عمليات المغسلة من استلام المركبات حتى التسليم والفوترة.&lt;/p>
 &lt;h2 id="ميزات-النظام">ميزات النظام&lt;/h2>
 &lt;ul>

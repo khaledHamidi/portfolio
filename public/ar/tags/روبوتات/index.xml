@@ -1,16 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>روبوتات | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA/</link><atom:link href="http://localhost:1313/ar/tags/%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><description>روبوتات</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/icon_hu7729264130191091259.png</url><title>روبوتات</title><link>http://localhost:1313/ar/tags/%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA/</link></image><item><title>Kenobot: منصة روبوتية ذاتية القيادة</title><link>http://localhost:1313/ar/hero/kenobot/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/kenobot/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>روبوتات | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1314/ar/tags/%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA/</link><atom:link href="http://localhost:1314/ar/tags/%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><description>روبوتات</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1314/media/icon_hu7729264130191091259.png</url><title>روبوتات</title><link>http://localhost:1314/ar/tags/%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA/</link></image><item><title>Kenobot: المقال التفصيلي</title><link>http://localhost:1314/ar/articles/kenobot/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>http://localhost:1314/ar/articles/kenobot/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>Kenobot منصة روبوتية متكاملة ومصممة كحل تجاري للملاحة الذاتية وتطوير الروبوتات. تصميم المنصة مرن وقابل للتطوير، مما يجعلها مناسبة لمجموعة واسعة من التطبيقات، من الخدمات اللوجستية الداخلية إلى الأبحاث المتقدمة.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img alt="Kenobot" srcset="
-/en/hero/kenobot/Kenobot_hu13690977621405041432.webp 400w,
-/en/hero/kenobot/Kenobot_hu12904453175978178220.webp 760w,
-/en/hero/kenobot/Kenobot_hu772046578941458115.webp 1200w"
-src="http://localhost:1313/en/hero/kenobot/Kenobot_hu13690977621405041432.webp"
-width="760"
-height="428"
-loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="Kenobot.png" alt="Kenobot" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h3 id="بنية-التحكم-المزدوجة">بنية التحكم المزدوجة&lt;/h3>
@@ -23,14 +16,46 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>من أبرز ميزات Kenobot قدرتها على الملاحة بدقة في البيئات المغلقة التي لا تتوفر فيها إشارة GPS. تعتمد المنصة على خوارزميات متقدمة مثل SLAM (التموضع ورسم الخرائط في ان واحد) باستخدام بيانات من حساسات مثل LIDAR والكاميرات لتحديد موقعها ورسم خريطة للبيئة المحيطة بشكل مستقل.
 &lt;figure >
 &lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img alt="kenobot2" srcset="
-/en/hero/kenobot/kenobot2_hu2036028500574705620.webp 400w,
-/en/hero/kenobot/kenobot2_hu18418366311908760989.webp 760w,
-/en/hero/kenobot/kenobot2_hu6408071147380027251.webp 1200w"
-src="http://localhost:1313/en/hero/kenobot/kenobot2_hu2036028500574705620.webp"
-width="664"
-height="403"
-loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="kenobot2.png" alt="kenobot2" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="نظام-الاتصالات">نظام الاتصالات&lt;/h3>
+&lt;p>تدعم المنصة نظام اتصالات لاسلكي ثنائي الاتجاه لتبادل البيانات والأوامر بين الروبوت ومحطة التحكم. يتم توصيل جهاز الاستقبال بالحاسوب عبر منفذ USB للمراقبة والتحكم.
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="kenobot5.jpg" alt="kenobot5" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="ميزات-التطوير-الافتراضية">ميزات التطوير الافتراضية&lt;/h3>
+&lt;p>لتمكين المطورين من اختبار وتجربة الخوارزميات والتطبيقات بامان، تم تزويد كل منصة بميزات افتراضية وهمية. هذه البيئة الافتراضية تحاكي مهام وحمولات مختلفة دون الحاجة لوجودها الفعلي، مما يسرع دورة التطوير ويقلل المخاطر.&lt;/p>
+&lt;h3 id="تطبيقات-محتملة">تطبيقات محتملة&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>الامن والمراقبة:&lt;/strong> القيام بدوريات ذاتية في المناطق المحددة.&lt;/li>
+&lt;li>&lt;strong>الأبحاث والتطوير:&lt;/strong> منصة اختبار قوية لخوارزميات الذكاء الاصطناعي والروبوتات.
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="kenobot3.jpg" alt="kenobot3" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;/ul></description></item><item><title>Kenobot: منصة روبوتية ذاتية القيادة</title><link>http://localhost:1314/ar/hero/kenobot/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>http://localhost:1314/ar/hero/kenobot/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;p>Kenobot منصة روبوتية متكاملة ومصممة كحل تجاري للملاحة الذاتية وتطوير الروبوتات. تصميم المنصة مرن وقابل للتطوير، مما يجعلها مناسبة لمجموعة واسعة من التطبيقات، من الخدمات اللوجستية الداخلية إلى الأبحاث المتقدمة.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="Kenobot.png" alt="Kenobot" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="بنية-التحكم-المزدوجة">بنية التحكم المزدوجة&lt;/h3>
+&lt;p>تعتمد Kenobot على بنية تحكم من طبقتين لتحقيق الأداء العالي والموثوقية:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>الطبقة العليا (High-Level Control):&lt;/strong> تستخدم حاسوب &lt;strong>Raspberry Pi 5&lt;/strong> لمعالجة بيانات الحساسات المعقدة، وتطبيق خوارزميات الملاحة الذاتية، وإدارة النظام.&lt;/li>
+&lt;li>&lt;strong>الطبقة المنخفضة (Low-Level Control):&lt;/strong> تعتمد على لوحة &lt;strong>Arduino Mega&lt;/strong> للتحكم الدقيق في المحركات والمشغلات، وقراءة البيانات الأولية من المستشعرات منخفضة المستوى، مما يضمن استجابة سريعة ومستقرة.&lt;/li>
+&lt;/ol>
+&lt;h3 id="الملاحة-الذاتية-بدون-gps">الملاحة الذاتية بدون GPS&lt;/h3>
+&lt;p>من أبرز ميزات Kenobot قدرتها على الملاحة بدقة في البيئات المغلقة التي لا تتوفر فيها إشارة GPS. تعتمد المنصة على خوارزميات متقدمة مثل SLAM (التموضع ورسم الخرائط في ان واحد) باستخدام بيانات من حساسات مثل LIDAR والكاميرات لتحديد موقعها ورسم خريطة للبيئة المحيطة بشكل مستقل.
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="kenobot2.png" alt="kenobot2" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h3 id="نظام-الاتصالات">نظام الاتصالات&lt;/h3>
@@ -38,12 +63,12 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="kenobot5" srcset="
-/en/hero/kenobot/kenobot5_hu585457607378248751.webp 400w,
-/en/hero/kenobot/kenobot5_hu16788491153956685347.webp 760w,
-/en/hero/kenobot/kenobot5_hu8247943638241275706.webp 1200w"
-src="http://localhost:1313/en/hero/kenobot/kenobot5_hu585457607378248751.webp"
+/en/hero/kenobot/kenobot5_hu7929630504500875422.webp 400w,
+/en/hero/kenobot/kenobot5_hu7554105092580969463.webp 760w,
+/en/hero/kenobot/kenobot5_hu9482010698637217892.webp 1200w"
+src="http://localhost:1314/en/hero/kenobot/kenobot5_hu7929630504500875422.webp"
 width="760"
-height="570"
+height="760"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
@@ -56,10 +81,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="kenobot3" srcset="
-/en/hero/kenobot/kenobot3_hu12724093064960011798.webp 400w,
-/en/hero/kenobot/kenobot3_hu11674876008488447451.webp 760w,
+/en/hero/kenobot/kenobot3_hu10316536196971326919.webp 400w,
+/en/hero/kenobot/kenobot3_hu17430416406629077033.webp 760w,
 /en/hero/kenobot/kenobot3_hu537732736007319942.webp 1200w"
-src="http://localhost:1313/en/hero/kenobot/kenobot3_hu12724093064960011798.webp"
+src="http://localhost:1314/en/hero/kenobot/kenobot3_hu10316536196971326919.webp"
 width="760"
 height="570"
 loading="lazy" data-zoomable />&lt;/div>

@@ -6,9 +6,6 @@ authors:
   - admin
 tags:
   - "Arduino"
-  - "LCD"
-  - "Projects"
-  - "Programming"
 categories:
   - "Education"
 ---

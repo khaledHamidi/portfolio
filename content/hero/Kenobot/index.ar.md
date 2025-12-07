@@ -10,6 +10,8 @@ tags:
   - "Raspberry Pi"
 categories:
   - "هندسة وروبوتات"
+type: hero
+layout: kenobot
 ---
 
 ## نظرة عامة

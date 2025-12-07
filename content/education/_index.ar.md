@@ -10,6 +10,7 @@ sections:
       filters:
         folders:
           - education
+      count: 1000
     design:
       view: card
       columns: '2'

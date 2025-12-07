@@ -1,0 +1,208 @@
+{{- $is_person := eq .Site.Params.marketing.seo.site_type "Person" -}}
+{{- $is_project := and .IsPage (eq .Type "projects") -}}
+{{- $is_article := and .IsPage (eq .Type "articles") -}}
+{{- $is_home := .IsHome -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ .Site.BaseURL }}#person",
+      "name": "Khaled HAMIDI KENO",
+      "alternateName": ["خالد حميدي", "خالد كنو", "خالد حميدي كنو", "Khaled Hamidi", "KENO", "Eng. Khaled HAMIDI"],
+      "url": "{{ .Site.BaseURL }}",
+      "image": "{{ .Site.BaseURL }}media/images/profile.jpg",
+      "homeLocation": {
+        "@type": "City",
+        "name": "Azaz, Syria",
+        "alternateName": "إعزاز"
+      },
+      "sameAs": [
+        "{{ .Site.Params.social.linkedin }}",
+        "{{ .Site.Params.social.twitter }}",
+        "{{ .Site.Params.social.github }}",
+        "{{ .Site.Params.social.facebook }}",
+        "{{ .Site.Params.social.instagram }}",
+        "{{ .Site.Params.social.youtube }}",
+        "{{ .Site.Params.social.researchgate }}",
+        "{{ .Site.Params.social.orcid }}",
+        "{{ .Site.Params.social.google_scholar }}"
+      ],
+      "jobTitle": ["Mechatronics Engineer", "Aerospace Engineer", "Intelligent Systems Developer", "Robotics Engineer"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Robotech Team"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Karabuk University",
+        "sameAs": "https://www.karabuk.edu.tr/"
+      },
+      "knowsAbout": [
+        "Mechatronics Engineering",
+        "Aerospace Engineering", 
+        "Intelligent Systems",
+        "Robotics",
+        "Artificial Intelligence",
+        "Control Systems",
+        "Embedded Systems",
+        "Fuzzy Logic Control",
+        "PID Controllers",
+        "Autonomous Vehicles",
+        "Machine Learning",
+        "Python Programming",
+        "MATLAB",
+        "Raspberry Pi",
+        "Arduino"
+      ],
+      "knowsLanguage": ["Arabic", "English", "Turkish"],
+      "nationality": "Syrian"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ .Site.BaseURL }}#website",
+      "url": "{{ .Site.BaseURL }}",
+      "name": "Khaled HAMIDI KENO - Mechatronics & Aerospace Engineer",
+      "description": "Official website of Khaled HAMIDI KENO – Mechatronics and Aerospace Engineer, Intelligent Systems Architect, and Robotech Team Founder. Discover smart technologies, robotics innovation, and cutting-edge AI systems engineering.",
+      "publisher": {
+        "@id": "{{ .Site.BaseURL }}#person"
+      },
+      "author": {
+        "@id": "{{ .Site.BaseURL }}#person"
+      },
+      "hasPart": [
+        {
+          "@type": "NavigationElement",
+          "name": "Articles",
+          "url": "{{ .Site.BaseURL }}articles/"
+        },
+        {
+          "@type": "NavigationElement",
+          "name": "Projects",
+          "url": "{{ .Site.BaseURL }}projects/"
+        },
+        {
+          "@type": "NavigationElement",
+          "name": "Achievements",
+          "url": "{{ .Site.BaseURL }}achievements/"
+        },
+        {
+          "@type": "NavigationElement",
+          "name": "Certificates",
+          "url": "{{ .Site.BaseURL }}certificates/"
+        }
+      ],
+      "inLanguage": ["en", "ar"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ .Site.BaseURL }}search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "{{ .Site.BaseURL }}articles/#blog",
+      "name": "Khaled HAMIDI Technical Blog",
+      "description": "Technical articles and tutorials on mechatronics, robotics, AI, and engineering",
+      "url": "{{ .Site.BaseURL }}articles/",
+      "author": {
+        "@id": "{{ .Site.BaseURL }}#person"
+      },
+      "publisher": {
+        "@id": "{{ .Site.BaseURL }}#person"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ .Site.BaseURL }}projects/#collection",
+      "name": "Engineering Projects Portfolio",
+      "description": "A collection of mechatronics, robotics, and intelligent systems projects by Khaled HAMIDI KENO",
+      "url": "{{ .Site.BaseURL }}projects/",
+      "author": {
+        "@id": "{{ .Site.BaseURL }}#person"
+      }
+    }
+    {{ if $is_project }}
+    ,{
+      "@type": "CreativeWork",
+      "@id": "{{ .Permalink }}#project",
+      "name": "{{ .Title }}",
+      "author": {
+        "@id": "{{ .Site.BaseURL }}#person"
+      },
+      "creator": {
+        "@id": "{{ .Site.BaseURL }}#person"
+      },
+      "description": "{{ .Summary }}",
+      "url": "{{ .Permalink }}",
+      "datePublished": "{{ .Date.Format "2006-01-02" }}",
+      {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
+      "keywords": [{{ range $i, $tag := .Params.tags }}{{ if $i }}, {{ end }}"{{ $tag }}"{{ end }}],
+      "isPartOf": {
+        "@id": "{{ .Site.BaseURL }}projects/#collection"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}"
+      }
+    }
+    {{ end }}
+    {{ if $is_article }}
+    ,{
+      "@type": "Article",
+      "@id": "{{ .Permalink }}#article",
+      "headline": "{{ .Title }}",
+      "author": {
+        "@id": "{{ .Site.BaseURL }}#person"
+      },
+      "publisher": {
+        "@id": "{{ .Site.BaseURL }}#person"
+      },
+      "datePublished": "{{ .Date.Format "2006-01-02" }}",
+      {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
+      "description": "{{ .Summary }}",
+      "articleSection": [{{ range $i, $cat := .Params.categories }}{{ if $i }}, {{ end }}"{{ $cat }}"{{ end }}],
+      "keywords": [{{ range $i, $tag := .Params.tags }}{{ if $i }}, {{ end }}"{{ $tag }}"{{ end }}],
+      "inLanguage": "{{ .Lang }}",
+      "isPartOf": {
+        "@id": "{{ .Site.BaseURL }}articles/#blog"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}"
+      }
+    }
+    {{ end }}
+    ,{
+      "@type": "BreadcrumbList",
+      "@id": "{{ .Permalink }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "{{ .Site.BaseURL }}"
+        }
+        {{ if not .IsHome }}
+        ,{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ .Section | title }}",
+          "item": "{{ .Site.BaseURL }}{{ .Section }}/"
+        }
+        {{ if .IsPage }}
+        ,{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{ .Title }}",
+          "item": "{{ .Permalink }}"
+        }
+        {{ end }}
+        {{ end }}
+      ]
+    }
+  ]
+}
+</script>

@@ -19,19 +19,16 @@ sections:
             .md\:grid-cols-2 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
             .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
           }
-          /* Compact card sizing */
-          .grid > a[href*="/projects/"],
-          .grid > a[href*="/achievements/"] {
-            min-height: 100px !important;
-            max-height: 280px !important;
+          /* Compact card sizing - applies to ALL cards in grid */
+          .grid > a {
+            min-height: 200px !important;
+            max-height: 380px !important;
           }
-          .grid > a[href*="/projects/"] > div:first-of-type,
-          .grid > a[href*="/achievements/"] > div:first-of-type {
-            height: 150px !important;
-            max-height: 150px !important;
+          .grid > a > div:first-of-type {
+            height: 300px !important;
+            max-height: 300px !important;
           }
-          .grid > a[href*="/projects/"] > div:last-of-type,
-          .grid > a[href*="/achievements/"] > div:last-of-type {
+          .grid > a > div:last-of-type {
             padding: 0.65rem !important;
           }
           /* Single-line titles with ellipsis */
@@ -53,54 +50,48 @@ sections:
         </style>
     design:
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: ['1.5rem', 0, '1.5rem', 0]
 
   - block: markdown
     content:
       title: ''
       text: |
-        <section class="hero-stats-link-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; padding: 2rem 4%; box-sizing: border-box;">
+        <div class="not-prose">
+        <section>
           <style>
-            .hero-stats-link-section { background: #f8f9ff; }
-            .dark .hero-stats-link-section { background: #050712; }
+            .prose, .max-w-prose, .lg\:prose-xl {
+              max-width: none !important;
+            }
             .hero-stats-link-shell {
-              max-width: 1400px;
+              max-width:1200px !important;
+              width: 100% !important;
               margin: 0 auto;
               display: flex;
               flex-direction: column;
-              gap: 0.4rem;
-              height: 300px;
-              max-height: 300px;
-              overflow: hidden;
+              gap: 1.25rem;
+              padding-inline: clamp(1rem, 3vw, 2.5rem);
             }
             .hero-stats-link-row {
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              gap: 0.7rem;
-              flex-wrap: nowrap;
-              padding: 0.4rem 0.7rem;
-              border-radius: 12px;
-              border: 1px solid rgba(15,23,42,0.08);
-              background: rgba(255,255,255,0.85);
-              box-shadow: 0 8px 20px rgba(15,23,42,0.08);
-              height: calc((300px - 0.8rem) / 3);
-              max-height: calc((300px - 0.8rem) / 3);
-              flex-shrink: 0;
+              display: grid;
+              grid-template-columns: minmax(120px, 0.5fr) repeat(2, minmax(0, 1fr));
+              gap: 1.25rem;
+              align-items: stretch;
+              width: 100%;
             }
             .dark .hero-stats-link-row {
-              border-color: rgba(255,255,255,0.08);
-              background: rgba(9,11,18,0.78);
-              box-shadow: 0 12px 30px rgba(0,0,0,0.55);
             }
-            .hero-stats--single { flex: 0 0 180px; justify-content: flex-start; }
-            .hero-stats--single .hero-stat-strip { justify-content: flex-start; gap: 0.5rem; }
+            .hero-stats--single {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            }
+            .hero-stats--single .hero-stat-strip { justify-content: center; gap: 0.5rem; }
             .hero-stats--single .hero-stat-card {
               min-width: 160px;
               padding: 0.5rem 0.5rem;
               box-shadow: 0 6px 12px rgba(15,23,42,0.12);
             }
-            .hero-stat-card { 
+            .hero-stat-card {
               flex: 1;
               min-width: 90px;
               padding: 1rem 0.7rem;
@@ -114,24 +105,18 @@ sections:
             .hero-stat-card.purple { background: linear-gradient(135deg, #6c63ff 0%, #7f6bda 100%); }
             .hero-stat-card.pink { background: linear-gradient(135deg, #ff80b5 0%, #ff6b6b 100%); }
             .hero-stat-card.cyan { background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%); }
-            .hero-stat-strip { display: flex; gap: 0.6rem; width: 100%; justify-content: center; flex-wrap: nowrap; min-width: 240px; }
-            .hero-links-double {
-              flex: 1 1 620px;
-              display: grid;
-              grid-template-columns: repeat(2, minmax(180px, 1fr));
+            .hero-stat-strip {
+              display: flex;
               gap: 0.6rem;
               width: 100%;
-            }
-            @media (max-width: 960px) {
-              .hero-stats-link-shell { height: auto; }
-              .hero-links-double { grid-template-columns: 1fr; }
+              justify-content: center;
+              flex-wrap: nowrap;
             }
             .hero-link-card {
               display: flex;
-              height: 80px !important;
-              align-items: center;
-              gap: 0.6rem;
-              padding: 0.4rem 0.65rem;
+              align-items: flex-start;
+              gap: 0.85rem;
+              padding: 0.75rem 0.9rem;
               border-radius: 10px;
               text-decoration: none;
               border: 1px solid rgba(15,23,42,0.06);
@@ -148,13 +133,36 @@ sections:
               object-fit: cover;
               border: 1px solid rgba(255,255,255,0.2);
             }
-            .hero-link-text { display: flex; flex-direction: column; gap: 0.1rem; }
-            .hero-link-text strong { font-size: 0.85rem; letter-spacing: 0.01em; line-height: 1.2; }
-            .hero-link-text span { font-size: 0.68rem; color: #4b5164; line-height: 1.2; }
+            .hero-link-text { display: flex; flex-direction: column; gap: 0.2rem; }
+            .hero-link-text strong { font-size: 0.92rem; letter-spacing: 0.01em; line-height: 1.3; }
+            .hero-link-text span { font-size: 0.78rem; color: #4b5164; line-height: 1.4; }
             .dark .hero-link-text span { color: #b9c2e4; }
+            .hero-stats-link-row > .hero-link-card {
+              height: 100%;
+            }
+            @media (max-width: 960px) {
+              .hero-stats-link-row { grid-template-columns: 1fr; }
+            }
             @media (max-width: 720px) {
-              .hero-stats-link-row { flex-direction: column; align-items: stretch; }
               .hero-stats--single { width: 100%; }
+            }
+            /* Center hero-stat-card for Arabic only */
+            .hero-stats-link-row {
+              justify-content: center !important;
+            }
+            .hero-stats--single {
+              margin-left: auto !important;
+              margin-right: auto !important;
+              float: none !important;
+            }
+            /* Center text inside hero-stat-card for Arabic only */
+            .hero-stat-card h4,
+            .hero-stat-card p {
+              text-align: center !important;
+              margin-left: auto !important;
+              margin-right: auto !important;
+              float: none !important;
+              display: block !important;
             }
           </style>
           <div class="hero-stats-link-shell">
@@ -167,22 +175,20 @@ sections:
                   </div>
                 </div>
               </div>
-              <div class="hero-links-double">
-                <a class="hero-link-card" href="https://bit.ly/hamidi-portfolio" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/filetype-pdf/6c63ff" alt="أيقونة المحفظة">
+              <a class="hero-link-card" href="https://bit.ly/hamidi-portfolio" target="_blank" rel="noopener">
+                  <img src="https://cdn.simpleicons.org/googlechrome/6c63ff" alt="أيقونة إضافات كروم">
                   <div class="hero-link-text">
-                    <strong>محفظة الأعمال</strong>
-                    <span>ملخص الشرائح والإنجازات</span>
+                    <strong>إضافات كروم +3</strong>
+                    <span>مانع الإعلانات، تنظيم نتائج البحث غير المتعلقة، صفحة بداية مخصصة، وأدوات يوتيوب شورت.</span>
                   </div>
                 </a>
-                <a class="hero-link-card" href="https://www.youtube.com/@EngHamidi" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/youtube/ff4d4d" alt="أيقونة يوتيوب">
-                  <div class="hero-link-text">
-                    <strong>قناة الميكاترونكس</strong>
-                    <span>دورات في الفضاء والروبوتات</span>
-                  </div>
-                </a>
-              </div>
+              <a class="hero-link-card" href="https://www.youtube.com/@EngHamidi" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/youtube/ff4d4d" alt="أيقونة يوتيوب">
+                <div class="hero-link-text">
+                  <strong>قناتي على يوتيوب</strong>
+                  <span>دروس في هندسة الفضاء والروبوتات (أكثر من 30 فيديو).</span>
+                </div>
+              </a>
             </div>
             <div class="hero-stats-link-row">
               <div class="hero-stats hero-stats--single">
@@ -193,22 +199,20 @@ sections:
                   </div>
                 </div>
               </div>
-              <div class="hero-links-double">
-                <a class="hero-link-card" href="https://calendly.com/khaledhamidi" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="أيقونة الاجتماع">
-                  <div class="hero-link-text">
-                    <strong>احجز مكالمة تعريفية</strong>
-                    <span>محادثة استكشافية 15 دقيقة</span>
-                  </div>
-                </a>
-                <a class="hero-link-card" href="https://play.google.com/store/apps/dev?id=KhaledHamidiLabs" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/googleplay/ff80b5" alt="أيقونة جوجل بلاي">
-                  <div class="hero-link-text">
-                    <strong>متجر جوجل بلاي</strong>
-                    <span>تطبيقات أتمتة وإنترنت الأشياء</span>
-                  </div>
-                </a>
-              </div>
+              <a class="hero-link-card" href="https://calendly.com/khaledhamidi" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="أيقونة الاجتماع">
+                <div class="hero-link-text">
+                  <strong>احجز مكالمة تعريفية</strong>
+                  <span>محادثة استكشافية 15 دقيقة</span>
+                </div>
+              </a>
+              <a class="hero-link-card" href="https://play.google.com/store/apps/dev?id=KhaledHamidiLabs" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/googleplay/ff80b5" alt="أيقونة جوجل بلاي">
+                <div class="hero-link-text">
+                  <strong>متجر جوجل بلاي</strong>
+                  <span>تطبيقات أتمتة وإنترنت الأشياء</span>
+                </div>
+              </a>
             </div>
             <div class="hero-stats-link-row">
               <div class="hero-stats hero-stats--single">
@@ -219,25 +223,32 @@ sections:
                   </div>
                 </div>
               </div>
-              <div class="hero-links-double">
-                <a class="hero-link-card" href="http://facebook.com/ar.robotech/" target="_blank" rel="noopener">
-                  <img src="/uploads/robotech.jpg" alt="فريق روبوتك">
-                  <div class="hero-link-text">
-                    <strong>فريق روبوتك</strong>
-                    <span>التعليم والمجتمع في الروبوتات</span>
-                  </div>
-                </a>
-                <a class="hero-link-card" href="#" target="_blank" rel="noopener">
-                  <img src="/uploads/تميز.png" alt="شريك تميز">
-                  <div class="hero-link-text">
-                    <strong>شراكة تميز</strong>
-                    <span>شريك استراتيجي في الدراسات والبحث الأكاديمي</span>
-                  </div>
-                </a>
-              </div>
+              <a class="hero-link-card" href="http://facebook.com/ar.robotech/" target="_blank" rel="noopener">
+                <img src="/media/images/robotech.jpg" alt="فريق روبوتك">
+                <div class="hero-link-text">
+                  <strong>فريق روبوتك</strong>
+                  <span>التعليم والمجتمع في الروبوتات</span>
+                </div>
+              </a>
+              <a class="hero-link-card" href="#" target="_blank" rel="noopener">
+                <img src="/media/images/تميز.png" alt="شريك تميز">
+                <div class="hero-link-text">
+                  <strong>شراكة تميز</strong>
+                  <span>شريك استراتيجي في الدراسات والبحث الأكاديمي</span>
+                </div>
+              </a>
             </div>
           </div>
         </section>
+        </div>
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+
+  - block: markdown
+    content:
+      title: ''
+      text: '<div style="height:2rem"></div>'
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -256,41 +267,59 @@ sections:
           - مميز
       count: 3
     design:
-      spacing:
-        padding: [20px, 0, 0, 0]
       view: showcase
       columns: '1'
+
+  - block: markdown
+    content:
+      title: ''
+      text: '<div style="height:2rem"></div>'
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
 
   - block: accomplishments
     content:
       title: 'أحدث الإنجازات'
-      summary: التكريمات والمعالم الأخيرة
       filters:
         folders:
           - achievements
       count: 3
     design:
-      spacing:
-        padding: ['2rem', 0, '2rem', 0]
       view: card
       columns: '3'
 
-  - block: collection
+  - block: markdown
     content:
-      title: 'أحدث تدوينات المدونة'
-      filters:
-        folders:
-          - blog
-      count: 3
+      title: ''
+      text: '<div style="height:2rem"></div>'
     design:
       spacing:
-        padding: ['2rem', 0, '2rem', 0]
+        padding: [0, 0, 0, 0]
+
+
+  - block: collection
+    content:
+      title: 'أحدث التدوينات'
+      filters:
+        folders:
+          - articles
+      count: 3
+    design:
       view: card
+
+  - block: markdown
+    content:
+      title: ''
+      text: '<div style="height:2rem"></div>'
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
 
   - block: collection
     content:
       title: 'كل المشاريع'
-      text: 'استكشف محفظتي الكاملة'
+      text: 'آخر المشاريع المنشورة'
       filters:
         folders:
           - projects

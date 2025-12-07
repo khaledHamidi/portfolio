@@ -19,19 +19,16 @@ sections:
             .md\:grid-cols-2 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
             .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
           }
-          /* Compact card sizing */
-          .grid > a[href*="/projects/"],
-          .grid > a[href*="/achievements/"] {
-            min-height: 100px !important;
-            max-height: 280px !important;
+          /* Compact card sizing - applies to ALL cards in grid */
+          .grid > a {
+            min-height: 200px !important;
+            max-height: 380px !important;
           }
-          .grid > a[href*="/projects/"] > div:first-of-type,
-          .grid > a[href*="/achievements/"] > div:first-of-type {
-            height: 150px !important;
-            max-height: 150px !important;
+          .grid > a > div:first-of-type {
+            height: 300px !important;
+            max-height: 300px !important;
           }
-          .grid > a[href*="/projects/"] > div:last-of-type,
-          .grid > a[href*="/achievements/"] > div:last-of-type {
+          .grid > a > div:last-of-type {
             padding: 0.65rem !important;
           }
           /* Single-line titles with ellipsis */
@@ -72,42 +69,38 @@ sections:
     content:
       title: ''
       text: |
-        <section class="hero-stats-link-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; padding: 2rem 4%; box-sizing: border-box;">
+        <div class="not-prose">
+        <section>
           <style>
-            .hero-stats-link-section { background: #f8f9ff; }
-            .dark .hero-stats-link-section { background: #050712; }
+            /* .hero-stats-link-section { background: #f8f9ff; } */
+            /* .dark .hero-stats-link-section { background: #050712; } */
+            .prose, .max-w-prose, .lg\:prose-xl {
+              max-width: none !important;
+            }
             .hero-stats-link-shell {
-              max-width: 1400px;
+              max-width: 900px !important;
+              width: 100% !important;
               margin: 0 auto;
               display: flex;
               flex-direction: column;
-              gap: 0.4rem;
-              height: 300px;
-              max-height: 300px;
-              overflow: hidden;
+              gap: 1.25rem;
+              padding-inline: clamp(1rem, 3vw, 2.5rem);
             }
             .hero-stats-link-row {
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              gap: 0.7rem;
-              flex-wrap: nowrap;
-              padding: 0.4rem 0.7rem;
-              border-radius: 12px;
-              border: 1px solid rgba(15,23,42,0.08);
-              background: rgba(255,255,255,0.85);
-              box-shadow: 0 8px 20px rgba(15,23,42,0.08);
-              height: calc((300px - 0.8rem) / 3);
-              max-height: calc((300px - 0.8rem) / 3);
-              flex-shrink: 0;
+              display: grid;
+              grid-template-columns: minmax(140px, 0.5fr) repeat(2, minmax(0, 1.2fr));
+              gap: 1.25rem;
+              align-items: stretch;
+              width: 100%;
             }
             .dark .hero-stats-link-row {
-              border-color: rgba(255,255,255,0.08);
-              background: rgba(9,11,18,0.78);
-              box-shadow: 0 12px 30px rgba(0,0,0,0.55);
             }
-            .hero-stats--single { flex: 0 0 180px; justify-content: flex-start; }
-            .hero-stats--single .hero-stat-strip { justify-content: flex-start; gap: 0.5rem; }
+            .hero-stats--single {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            }
+            .hero-stats--single .hero-stat-strip { justify-content: center; gap: 0.5rem; }
             .hero-stats--single .hero-stat-card {
               min-width: 160px;
               padding: 0.5rem 0.5rem;
@@ -127,30 +120,26 @@ sections:
             .hero-stat-card.purple { background: linear-gradient(135deg, #6c63ff 0%, #7f6bda 100%); }
             .hero-stat-card.pink { background: linear-gradient(135deg, #ff80b5 0%, #ff6b6b 100%); }
             .hero-stat-card.cyan { background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%); }
-            .hero-stat-strip { display: flex; gap: 0.6rem; width: 100%; justify-content: center; flex-wrap: nowrap; min-width: 240px; }
-            .hero-links-double {
-              flex: 1 1 620px;
-              display: grid;
-              grid-template-columns: repeat(2, minmax(180px, 1fr));
+            .hero-stat-strip {
+              display: flex;
               gap: 0.6rem;
               width: 100%;
-            }
-            @media (max-width: 960px) {
-              .hero-stats-link-shell { height: auto; }
-              .hero-links-double { grid-template-columns: 1fr; }
+              justify-content: center;
+              flex-wrap: nowrap;
             }
             .hero-link-card {
               display: flex;
-              height: 80px !important;
-              align-items: center;
-              gap: 0.6rem;
-              padding: 0.4rem 0.65rem;
+              align-items: flex-start;
+              gap: 0.85rem;
+              padding: 0.75rem 0.9rem;
               border-radius: 10px;
               text-decoration: none;
               border: 1px solid rgba(15,23,42,0.06);
               background: #fff;
               color: #101427;
               transition: transform 0.2s ease, box-shadow 0.2s ease;
+              flex: 1 1 0;
+              min-width: 0;
             }
             .hero-link-card:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(96,125,244,0.2); }
             .dark .hero-link-card { border-color: rgba(255,255,255,0.08); background: rgba(13,17,30,0.92); color: #f5f6ff; }
@@ -161,13 +150,27 @@ sections:
               object-fit: cover;
               border: 1px solid rgba(255,255,255,0.2);
             }
-            .hero-link-text { display: flex; flex-direction: column; gap: 0.1rem; }
-            .hero-link-text strong { font-size: 0.85rem; letter-spacing: 0.01em; line-height: 1.2; }
-            .hero-link-text span { font-size: 0.68rem; color: #4b5164; line-height: 1.2; }
+            .hero-link-text { display: flex; flex-direction: column; gap: 0.2rem; }
+            .hero-link-text strong { font-size: 0.92rem; letter-spacing: 0.01em; line-height: 1.3; }
+            .hero-link-text span { font-size: 0.78rem; color: #4b5164; line-height: 1.4; }
             .dark .hero-link-text span { color: #b9c2e4; }
+            .hero-stats-link-row > .hero-link-card {
+              height: 100%;
+            }
+            @media (max-width: 960px) {
+              .hero-stats-link-row { grid-template-columns: 1fr; }
+            }
             @media (max-width: 720px) {
-              .hero-stats-link-row { flex-direction: column; align-items: stretch; }
               .hero-stats--single { width: 100%; }
+            }
+            /* Center text inside hero-stat-card for English only */
+            .hero-stat-card h4,
+            .hero-stat-card p {
+              text-align: center !important;
+              margin-left: auto !important;
+              margin-right: auto !important;
+              float: none !important;
+              display: block !important;
             }
           </style>
           <div class="hero-stats-link-shell">
@@ -180,22 +183,20 @@ sections:
                   </div>
                 </div>
               </div>
-              <div class="hero-links-double">
-                  <a class="hero-link-card" href="https://bit.ly/hamidi-portfolio" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/googlechrome/6c63ff" alt="Chrome extensions icon">
-                  <div class="hero-link-text">
-                    <strong>Chrome extensions +3</strong>
-                    <span>Ad blocker, youtube short + unrelated search resault redular. starter page ...</span>
-                  </div>
-                </a>
-                <a class="hero-link-card" href="https://www.youtube.com/@EngHamidi" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/youtube/ff4d4d" alt="YouTube icon">
-                  <div class="hero-link-text">
-                    <strong>my youtube channel</strong>
-                    <span>Aerospace & robotics course drops (+30 videos.)</span>
-                  </div>
-                </a>
-              </div>
+              <a class="hero-link-card" href="https://bit.ly/hamidi-portfolio" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/googlechrome/6c63ff" alt="Chrome extensions icon">
+                <div class="hero-link-text">
+                  <strong>Chrome extensions +3</strong>
+                  <span>Ad blocker, youtube short + unrelated search resault redular. starter page ...</span>
+                </div>
+              </a>
+              <a class="hero-link-card" href="https://www.youtube.com/@EngHamidi" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/youtube/ff4d4d" alt="YouTube icon">
+                <div class="hero-link-text">
+                  <strong>my youtube channel</strong>
+                  <span>Aerospace & robotics course drops (+30 videos.)</span>
+                </div>
+              </a>
             </div>
             <div class="hero-stats-link-row">
               <div class="hero-stats hero-stats--single">
@@ -206,22 +207,20 @@ sections:
                   </div>
                 </div>
               </div>
-              <div class="hero-links-double">
-                <a class="hero-link-card" href="https://calendly.com/khaledhamidi" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="Meet icon">
-                  <div class="hero-link-text">
-                    <strong>Book Intro Call</strong>
-                    <span>15 min discovery chat</span>
-                  </div>
-                </a>
-                <a class="hero-link-card" href="https://play.google.com/store/apps/dev?id=KhaledHamidiLabs" target="_blank" rel="noopener">
-                  <img src="https://cdn.simpleicons.org/googleplay/ff80b5" alt="Google Play icon">
-                  <div class="hero-link-text">
-                    <strong>Google Play store page</strong>
-                    <span>my published usful apps. +3 apps</span>
-                  </div>
-                </a>
-              </div>
+              <a class="hero-link-card" href="https://calendly.com/khaledhamidi" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="Meet icon">
+                <div class="hero-link-text">
+                  <strong>Book Intro Call</strong>
+                  <span>15 min discovery chat</span>
+                </div>
+              </a>
+              <a class="hero-link-card" href="https://play.google.com/store/apps/dev?id=KhaledHamidiLabs" target="_blank" rel="noopener">
+                <img src="https://cdn.simpleicons.org/googleplay/ff80b5" alt="Google Play icon">
+                <div class="hero-link-text">
+                  <strong>Google Play store page</strong>
+                  <span>my published usful apps. +3 apps</span>
+                </div>
+              </a>
             </div>
             <div class="hero-stats-link-row">
               <div class="hero-stats hero-stats--single">
@@ -232,25 +231,24 @@ sections:
                   </div>
                 </div>
               </div>
-              <div class="hero-links-double">
-                <a class="hero-link-card" href="http://facebook.com/ar.robotech/" target="_blank" rel="noopener">
-                  <img src="/images/robotech.jpg" alt="Robotech team">
-                  <div class="hero-link-text">
-                    <strong>مؤسس فريق روبوتك" 2021"</strong>
-                    <span>Robotics education & community</span>
-                  </div>
-                </a>
-                <a class="hero-link-card" href="#" target="_blank" rel="noopener">
-                  <img src="/images/تميز.png" alt="Tamayuz partner">
-                  <div class="hero-link-text">
-                    <strong>مدير أكادمية تميز</strong>
-                    <span>Strategic partner in academic studies & research</span>
-                  </div>
-                </a>
-              </div>
+              <a class="hero-link-card" href="http://facebook.com/ar.robotech/" target="_blank" rel="noopener">
+                <img src="/media/images/robotech.jpg" alt="Robotech team">
+                <div class="hero-link-text">
+                  <strong>Founder of Robotech Team</strong>
+                  <span>Robotics education & community</span>
+                </div>
+              </a>
+              <a class="hero-link-card" href="#" target="_blank" rel="noopener">
+                <img src="/media/images/تميز.png" alt="Tamayuz partner">
+                <div class="hero-link-text">
+                  <strong>Tamayoz Academy Director</strong>
+                  <span>Strategic partner in academic studies & research</span>
+                </div>
+              </a>
             </div>
           </div>
         </section>
+        </div>
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -268,7 +266,7 @@ sections:
   - block: markdown
     content:
       title: ''
-      text: "."
+      text: '<div style="height:2.5rem"></div>'
     design:
       spacing:
         padding: [0, 0, 0, 0]

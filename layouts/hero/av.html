@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} | التحكم الطولي في المركبات المستقلة</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #0d1b2a 50%, #0a0a0a 100%);
+            color: #ffffff;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        body.video-active {
+            cursor: none;
+        }
+
+        .custom-cursor {
+            position: fixed;
+            width: 80px;
+            height: 80px;
+            pointer-events: none;
+            z-index: 10000;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        body.video-active .custom-cursor {
+            display: block;
+            opacity: 1;
+        }
+
+        .cursor-circle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            border: 3px solid #00b4d8;
+            border-radius: 50%;
+            animation: cursorPulse 2s infinite;
+        }
+
+        @keyframes cursorPulse {
+            0%, 100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.2);
+                opacity: 0.6;
+            }
+        }
+
+        .cursor-hand {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 32px;
+            animation: handClick 1s infinite;
+        }
+
+        @keyframes handClick {
+            0%, 100% {
+                transform: translate(-50%, -50%) scale(1);
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(0.9);
+            }
+        }
+
+        .click-hint {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.2rem;
+            color: #00b4d8;
+            text-shadow: 0 0 10px rgba(0, 180, 216, 0.8);
+            white-space: nowrap;
+            animation: hintFade 2s infinite;
+        }
+
+        @keyframes hintFade {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 1; }
+        }
+
+        /* Particles Background */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #00b4d8;
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: floatParticle 20s infinite linear;
+        }
+
+        @keyframes floatParticle {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% { opacity: 0.3; }
+            90% { opacity: 0.3; }
+            100% {
+                transform: translateY(-100vh) rotate(720deg);
+                opacity: 0;
+            }
+        }
+
+        /* Video Container */
+        #video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 100;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 1s ease;
+        }
+
+        #video-container.minimized {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            left: auto;
+            width: 280px;
+            height: 158px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 180, 216, 0.4);
+            z-index: 1000;
+        }
+
+        .video-frame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #00b4d8, #0077b6, transparent);
+            animation: frameScan 3s infinite;
+        }
+
+        .video-frame-bottom {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #0077b6, #00b4d8, transparent);
+            animation: frameScan 3s infinite reverse;
+        }
+
+        @keyframes frameScan {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+
+        #intro-video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background: #000;
+        }
+
+        #video-container.minimized #intro-video {
+            object-fit: cover;
+        }
+
+        .skip-hint {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.5);
+            animation: fadeInOut 2s infinite;
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.7; }
+        }
+
+        .video-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 5rem;
+            font-weight: bold;
+            color: #00b4d8;
+            text-shadow: 0 0 50px rgba(0, 180, 216, 0.8),
+                         0 0 100px rgba(0, 180, 216, 0.5);
+            opacity: 0;
+            pointer-events: none;
+            z-index: 101;
+            letter-spacing: 0.5rem;
+        }
+
+        .video-countdown {
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 8rem;
+            font-weight: bold;
+            color: #00b4d8;
+            text-shadow: 0 0 50px rgba(0, 180, 216, 0.8);
+            opacity: 0;
+            pointer-events: none;
+            z-index: 101;
+            transition: all 0.3s ease;
+        }
+
+        .video-countdown.show {
+            opacity: 1;
+            animation: countdownPulse 1s ease;
+        }
+
+        @keyframes countdownPulse {
+            0% { transform: translateX(-50%) scale(1.5); opacity: 0; }
+            50% { transform: translateX(-50%) scale(1); opacity: 1; }
+            100% { transform: translateX(-50%) scale(1); opacity: 1; }
+        }
+
+        #video-container.minimized .video-frame,
+        #video-container.minimized .video-frame-bottom,
+        #video-container.minimized .skip-hint,
+        #video-container.minimized .video-text,
+        #video-container.minimized .video-countdown,
+        #video-container.minimized .video-particles {
+            display: none;
+        }
+
+        /* Main Content */
+        #main-content {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 2s ease, visibility 0s 2s;
+            padding-top: 0;
+        }
+
+        #main-content.show {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 2s ease, visibility 0s 0s;
+        }
+
+        /* Hero Header with GIF Background */
+        .hero-header {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .hero-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 13, 26, 0.85) 0%, rgba(0, 119, 182, 0.3) 100%);
+            z-index: 2;
+        }
+
+        .hero-header-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .hero-text {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .hero-text h1 {
+            font-size: 5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00b4d8 0%, #0077b6 50%, #90e0ef 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: none;
+            margin-bottom: 20px;
+            letter-spacing: 0.3rem;
+        }
+
+        .hero-text p {
+            font-size: 1.8rem;
+            color: #90e0ef;
+            text-shadow: 0 0 30px rgba(0, 180, 216, 0.5);
+        }
+
+        .hero-text .hero-subtitle {
+            font-size: 1.2rem;
+            color: rgba(144, 224, 239, 0.7);
+            margin-top: 15px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            text-shadow: none;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 100px 50px;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 150px;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 60px;
+            background: linear-gradient(135deg, #00b4d8 0%, #90e0ef 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #00b4d8, transparent);
+        }
+
+        /* Blueprint Section */
+        .blueprint-section {
+            position: relative;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 30px 80px rgba(0, 180, 216, 0.3);
+        }
+
+        .blueprint-section img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .blueprint-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 40px;
+            background: linear-gradient(to top, rgba(0, 13, 26, 0.95) 0%, transparent 100%);
+        }
+
+        .blueprint-overlay h3 {
+            font-size: 2rem;
+            color: #00b4d8;
+            margin-bottom: 15px;
+        }
+
+        .blueprint-overlay p {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.8;
+        }
+
+        /* Components Grid */
+        .components-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .component-image {
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 180, 216, 0.3);
+            border: 2px solid rgba(0, 180, 216, 0.2);
+        }
+
+        .component-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .component-image:hover img {
+            transform: scale(1.05);
+        }
+
+        .component-text {
+            padding: 20px;
+        }
+
+        .component-text h3 {
+            font-size: 2.5rem;
+            color: #00b4d8;
+            margin-bottom: 25px;
+        }
+
+        .component-text p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 2;
+            margin-bottom: 20px;
+        }
+
+        .component-text ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .component-text li {
+            padding: 10px 0;
+            padding-right: 30px;
+            position: relative;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.1rem;
+        }
+
+        .component-text li::before {
+            content: '▹';
+            position: absolute;
+            right: 0;
+            color: #00b4d8;
+            font-size: 1.2rem;
+        }
+
+        /* Internal View Section */
+        .internal-view {
+            background: linear-gradient(135deg, rgba(0, 180, 216, 0.1) 0%, rgba(0, 119, 182, 0.1) 100%);
+            border-radius: 30px;
+            padding: 60px;
+            border: 1px solid rgba(0, 180, 216, 0.2);
+        }
+
+        .internal-view img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .internal-view-text {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .internal-view-text h3 {
+            font-size: 2rem;
+            color: #00b4d8;
+            margin-bottom: 20px;
+        }
+
+        .internal-view-text p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.7);
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Development Section - Vertical Image */
+        .development-section {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .development-image {
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 30px 80px rgba(0, 180, 216, 0.3);
+            border: 2px solid rgba(0, 180, 216, 0.2);
+        }
+
+        .development-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .development-text h3 {
+            font-size: 2.5rem;
+            color: #00b4d8;
+            margin-bottom: 30px;
+        }
+
+        .development-text p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 2;
+            margin-bottom: 25px;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .tech-tag {
+            background: linear-gradient(135deg, rgba(0, 180, 216, 0.2) 0%, rgba(0, 119, 182, 0.2) 100%);
+            border: 1px solid rgba(0, 180, 216, 0.3);
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-size: 1rem;
+            color: #90e0ef;
+            transition: all 0.3s ease;
+        }
+
+        .tech-tag:hover {
+            background: linear-gradient(135deg, rgba(0, 180, 216, 0.4) 0%, rgba(0, 119, 182, 0.4) 100%);
+            transform: translateY(-3px);
+        }
+
+        /* Final Showcase */
+        .final-showcase {
+            position: relative;
+            width: 100%;
+            height: 70vh;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 40px 100px rgba(0, 180, 216, 0.4);
+        }
+
+        .final-showcase img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .final-showcase-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 60px;
+            background: linear-gradient(to top, rgba(0, 13, 26, 0.95) 0%, transparent 100%);
+            text-align: center;
+        }
+
+        .final-showcase-overlay h3 {
+            font-size: 2.5rem;
+            color: #00b4d8;
+            margin-bottom: 15px;
+        }
+
+        .final-showcase-overlay p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Order Button */
+        .order-now-section {
+            text-align: center;
+            margin-top: 80px;
+            padding: 60px 0;
+        }
+
+        .order-btn {
+            display: inline-block;
+            padding: 25px 80px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            box-shadow: 0 15px 40px rgba(0, 180, 216, 0.4);
+        }
+
+        .order-btn:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 25px 60px rgba(0, 180, 216, 0.6);
+        }
+
+        .order-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .order-btn:hover::before {
+            left: 100%;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid rgba(0, 180, 216, 0.2);
+            margin-top: 100px;
+        }
+
+        .footer p {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 1rem;
+        }
+
+        /* Scroll Animations */
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(80px);
+            transition: all 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .scroll-animate.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .components-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .development-section {
+                grid-template-columns: 1fr;
+            }
+
+            .development-image {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-text h1 {
+                font-size: 3rem;
+            }
+
+            .hero-text p {
+                font-size: 1.3rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .container {
+                padding: 60px 20px;
+            }
+
+            .internal-view {
+                padding: 30px;
+            }
+
+            .video-text {
+                font-size: 2.5rem;
+            }
+
+            .video-countdown {
+                font-size: 5rem;
+            }
+
+            #video-container.minimized {
+                width: 200px;
+                height: 113px;
+                top: 10px;
+                right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    {{/* Assets path */}}
+    {{ $videoResource := .Page.Resources.Get "av.mp4" }}
+    {{ $videoPath := $videoResource.RelPermalink }}
+    {{ $headerBgPath := printf "%s%s" "/en/hero/av/" "av.gif" }}
+    {{ $structurePath := printf "%s%s" "/en/hero/av/" "av_structure.jpg" }}
+    {{ $componentsPath := printf "%s%s" "/en/hero/av/" "av_cmponenets.png" }}
+    {{ $insidePath := printf "%s%s" "/en/hero/av/" "av_inside_upview.png" }}
+    {{ $developPath := printf "%s%s" "/en/hero/av/" "av_develop2.jpg" }}
+    {{ $finalPath := printf "%s%s" "/en/hero/av/" "2.jpg" }}
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="custom-cursor">
+        <div class="cursor-circle"></div>
+        <div class="cursor-hand">👆</div>
+        <div class="click-hint">انقر للتشغيل</div>
+    </div>
+
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Video Container -->
+    <div id="video-container">
+        <div class="video-frame"></div>
+        <div class="video-frame-bottom"></div>
+        <video id="intro-video" playsinline>
+            <source src="{{ $videoPath }}" type="video/mp4">
+        </video>
+        <div class="skip-hint">انقر مرتين للتخطي</div>
+        <div class="video-text" id="video-text">Autonomous Vehicles</div>
+        <div class="video-countdown" id="video-countdown"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content">
+        <!-- Hero Header with Background -->
+        <section class="hero-header">
+            <img src="{{ $headerBgPath }}" alt="AV" class="hero-header-bg">
+            <div class="hero-text">
+                <h1>Autonomous Vehicles</h1>
+                <p>مركبة ذاتية القيادة</p>
+                <p class="hero-subtitle">إعادة تعريف دقة التحكم في المركبات المستقلة عبر دمج المنطق الضبابي والتحكم التكيفي.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- Blueprint Section -->
+            <section class="section">
+                <h2 class="section-title">التصميم الهندسي</h2>
+                <div class="blueprint-section scroll-animate">
+                    <img src="{{ $structurePath }}" alt="AV Structure Blueprint">
+                    <div class="blueprint-overlay">
+                        <h3>أساسيات التحكم الدقيق</h3>
+                        <p>كل نظام ذكي يبدأ من بنية هندسية قوية. تم تصميم هيكل المركبة ليكون المنصة المثالية لتطبيق خوارزميات التحكم المتقدمة، محققاً استجابة فورية وموثوقية عالية.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Components Section -->
+            <section class="section">
+                <h2 class="section-title">المكونات الرئيسية</h2>
+                <div class="components-grid">
+                    <div class="component-image scroll-animate">
+                        <img src="{{ $componentsPath }}" alt="AV Components">
+                    </div>
+                    <div class="component-text scroll-animate">
+                        <h3>تكامل العتاد والبرمجيات</h3>
+                        <p>يعمل النظام العصبي للمركبة بتناغم تام، حيث تترجم المستشعرات الدقيقة البيانات البيئية إلى قرارات لحظية تنفذها وحدات التحكم بكفاءة لا تضاهى.</p>
+                        <ul>
+                            <li>وحدة معالجة مركزية للقرارات الذكية</li>
+                            <li>شبكة مستشعرات متقدمة للإدراك المحيطي</li>
+                            <li>نظام دفع وتحكم عالي الاستجابة</li>
+                            <li>بنية برمجية مرنة وقابلة للتطوير</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Internal View Section -->
+            <section class="section">
+                <h2 class="section-title">البنية الداخلية</h2>
+                <div class="internal-view scroll-animate">
+                    <img src="{{ $insidePath }}" alt="AV Internal Top View">
+                    <div class="internal-view-text">
+                        <h3>عقل المركبة</h3>
+                        <p>في قلب النظام، تعمل خوارزميات المنطق الضبابي و PID المدمجة على تحليل آلاف المتغيرات في الثانية، مما يضمن استقراراً وسلاسة في الحركة تحت أقسى الظروف.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Development Section -->
+            <section class="section">
+                <h2 class="section-title">رحلة التطوير</h2>
+                <div class="development-section">
+                    <div class="development-image scroll-animate">
+                        <img src="{{ $developPath }}" alt="AV Development">
+                    </div>
+                    <div class="development-text scroll-animate">
+                        <h3>أطروحة بحثية: من النظرية إلى الواقع</h3>
+                        <p>هذا العمل هو في جوهره أطروحة تخرج أكاديمية تركز على "تصميم وتحسين أنظمة التحكم الطولي في المركبات ذاتية القيادة باستخدام المنطق الضبابي ووحدات التحكم الهجينة FLC-PID".</p>
+                        <p>حيث تم تحويل المفاهيم النظرية المعقدة إلى واقع ملموس عبر سلسلة من الاختبارات والمحاكاة.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Fuzzy Logic</span>
+                            <span class="tech-tag">PID Control</span>
+                            <span class="tech-tag">MATLAB</span>
+                            <span class="tech-tag">Simulink</span>
+                            <span class="tech-tag">Raspberry Pi</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Final Showcase -->
+            <section class="section">
+                <h2 class="section-title">النتيجة النهائية</h2>
+                <div class="final-showcase scroll-animate">
+                    <img src="{{ $finalPath }}" alt="Final AV">
+                    <div class="final-showcase-overlay">
+                        <h3>نحو مستقبل أكثر ذكاءً</h3>
+                        <p>يمثل هذا العمل خطوة متقدمة في مجال التحكم بالمركبات.</p>
+                    </div>
+                </div>
+
+                <div class="order-now-section">
+                    <a href="#contact" class="order-btn">
+                        <span>تفاصيل البحث</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>جميع الحقوق محفوظة © 2025 | خالد حميدي</p>
+        </footer>
+    </div>
+
+    <script>
+        // Create particles
+        const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 20 + 's';
+            particle.style.animationDuration = (15 + Math.random() * 10) + 's';
+            particlesContainer.appendChild(particle);
+        }
+
+        // Video and cursor handling
+        const video = document.getElementById('intro-video');
+        const videoContainer = document.getElementById('video-container');
+        const mainContent = document.getElementById('main-content');
+        const customCursor = document.getElementById('custom-cursor');
+        const videoText = document.getElementById('video-text');
+        const videoCountdown = document.getElementById('video-countdown');
+        let lastClickTime = 0;
+        let hasPlayed = false;
+        let isMinimized = false;
+
+        // Update custom cursor position
+        document.addEventListener('mousemove', (e) => {
+            customCursor.style.left = e.clientX + 'px';
+            customCursor.style.top = e.clientY + 'px';
+        });
+
+        // Show countdown timer
+        video.addEventListener('timeupdate', () => {
+            if (video.duration && !isMinimized) {
+                const currentTime = video.currentTime;
+                const duration = video.duration;
+                const countdownStartPoint = duration - 16;
+                const countdownEndPoint = duration - 6;
+
+                if (currentTime >= countdownStartPoint) {
+                    let timerValue;
+                    if (currentTime >= countdownEndPoint) {
+                        timerValue = 0;
+                    } else {
+                        timerValue = Math.ceil(10 - (currentTime - countdownStartPoint));
+                    }
+                    videoCountdown.textContent = timerValue;
+                    videoCountdown.classList.add('show');
+                } else {
+                    videoCountdown.classList.remove('show');
+                }
+            }
+        });
+
+        // Click to play video
+        videoContainer.addEventListener('click', () => {
+            const currentTime = new Date().getTime();
+            const timeDiff = currentTime - lastClickTime;
+
+            if (timeDiff < 300 && !isMinimized) {
+                minimizeVideo();
+            } else if (!hasPlayed && !isMinimized) {
+                video.play();
+                hasPlayed = true;
+                document.body.classList.remove('video-active');
+                customCursor.style.display = 'none';
+            }
+
+            lastClickTime = currentTime;
+        });
+
+        // Video ended
+        video.addEventListener('ended', () => {
+            if (!isMinimized) {
+                minimizeVideo();
+            }
+        });
+
+        function minimizeVideo() {
+            isMinimized = true;
+            videoContainer.classList.add('minimized');
+            mainContent.classList.add('show');
+            document.body.classList.remove('video-active');
+            video.currentTime = 0;
+            video.muted = true;
+            video.loop = true;
+            video.play();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Initial state
+        document.body.classList.add('video-active');
+
+        // Scroll animations
+        const scrollAnimationObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, {
+            threshold: 0.15,
+            rootMargin: '-50px'
+        });
+
+        document.querySelectorAll('.scroll-animate').forEach(el => {
+            scrollAnimationObserver.observe(el);
+        });
+    </script>
+</body>
+</html>

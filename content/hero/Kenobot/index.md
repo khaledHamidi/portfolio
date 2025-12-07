@@ -10,6 +10,8 @@ tags:
   - "Raspberry Pi"
 categories:
   - "Engineering and Robotics"
+type: hero
+layout: kenobot
 ---
 
 ## Overview
@@ -42,3 +44,5 @@ To enable developers to test algorithms and applications safely, each platform i
 *   **Security and Surveillance:** Conducting autonomous patrols in designated areas.
 *   **Research and Development:** A robust testbed for AI and robotics algorithms.
 ![kenobot3](kenobot3.jpg)
+
+{{< video src="kenobot.mp4" controls="yes" >}}

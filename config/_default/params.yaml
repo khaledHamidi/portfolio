@@ -37,6 +37,18 @@ footer:
       share_alike: false
       allow_commercial: false
 
+# Social media links
+social:
+  linkedin: 'https://www.linkedin.com/in/enghamidi/'
+  twitter: 'https://twitter.com/engkhamidi'
+  github: 'https://github.com/khaledHamidi'
+  facebook: 'https://www.facebook.com/eng.khaled.hamidi'
+  instagram: 'https://www.instagram.com/engkhamidi/'
+  youtube: 'https://www.youtube.com/@enghamidi'
+  researchgate: 'https://www.researchgate.net/profile/Khaled-Hamidi-2'
+  orcid: 'https://orcid.org/0009-0004-2962-0833'
+  google_scholar: 'https://scholar.google.com/citations?user=tto5XMQAAAAJ'
+
 # Localization
 locale:
   date_format: 'Jan 2, 2006'

@@ -12,6 +12,11 @@ tags:
   - "أتمتة"
   - "ميكاترونكس"
   - "بحث علمي"
+type: hero
+layout: av
+resources:
+  - src: "av.mp4"
+    name: "av-video"
 ---
 
 ## نظرة عامة على المشروع
