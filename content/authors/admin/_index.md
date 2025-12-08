@@ -50,8 +50,8 @@ profiles:
     url: uploads/resume.pdf
     label: resume.pdf
 highlight_name: true
-website: "https://khaledhamidi.netlify.app"
+website: "https://khaledhamidi.com"
 ---
 A Mechatronics and Aerospace visionary, distilling complexity into living code, forging sentient machines that blur the line between dream and reality — letting tomorrow’s heartbeat echo through today  +6.
-<a href="https://khaledhamidi.netlify.app/ar/">اضغط هنا لتحويل الموقع إلى اللغة العربية</a>
+<a href="https://khaledhamidi.com/ar/">اضغط هنا لتحويل الموقع إلى اللغة العربية</a>
 

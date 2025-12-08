@@ -50,7 +50,7 @@ profiles:
     label: resume.pdf
 
 highlight_name: true
-website: "https://khaledhamidi.netlify.app"
+website: "https://khaledhamidi.com"
 ---
 
 <div dir="rtl" style="text-align: justify;">

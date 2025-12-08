@@ -1,6 +1,6 @@
 ---
-title: "Kenobot: Article Details"
-summary: "The Kenobot platform is an advanced robotics system designed for commercial and research applications, featuring sophisticated autonomous navigation and a robust control architecture."
+title: "Kenobot"
+summary: "Kenobot, platform is an advanced robotics system designed for commercial and research applications, featuring sophisticated autonomous navigation and a robust control architecture."
 date: 2025-01-06
 authors:
   - admin

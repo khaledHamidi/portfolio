@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أعمال حرة | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%A7%D8%B9%D9%85%D8%A7%D9%84-%D8%AD%D8%B1%D8%A9/</link><atom:link href="http://localhost:1313/ar/tags/%D8%A7%D8%B9%D9%85%D8%A7%D9%84-%D8%AD%D8%B1%D8%A9/index.xml" rel="self" type="application/rss+xml"/><description>أعمال حرة</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Mon, 12 Jun 2023 12:00:00 +0300</lastBuildDate><image><url>http://localhost:1313/media/sharing.jpg</url><title>أعمال حرة</title><link>http://localhost:1313/ar/tags/%D8%A7%D8%B9%D9%85%D8%A7%D9%84-%D8%AD%D8%B1%D8%A9/</link></image><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/sws/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/sws/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أعمال حرة | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>https://khaledhamidi.com/ar/tags/%D8%A7%D8%B9%D9%85%D8%A7%D9%84-%D8%AD%D8%B1%D8%A9/</link><atom:link href="https://khaledhamidi.com/ar/tags/%D8%A7%D8%B9%D9%85%D8%A7%D9%84-%D8%AD%D8%B1%D8%A9/index.xml" rel="self" type="application/rss+xml"/><description>أعمال حرة</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Mon, 12 Jun 2023 12:00:00 +0300</lastBuildDate><image><url>https://khaledhamidi.com/media/sharing.jpg</url><title>أعمال حرة</title><link>https://khaledhamidi.com/ar/tags/%D8%A7%D8%B9%D9%85%D8%A7%D9%84-%D8%AD%D8%B1%D8%A9/</link></image><item><title>نظام التحكم بالنوافذ</title><link>https://khaledhamidi.com/ar/projects/sws/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>https://khaledhamidi.com/ar/projects/sws/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
 &lt;p>يتناول هذا المشروع تصميم وتنفيذ نظام تحكم بالنوافذ لحماية المنازل من الغبار والرمال أثناء العواصف الرملية، وهي ظاهرة شائعة في السعودية.&lt;br>
 يعمل النظام على إغلاق النوافذ تلقائيًا عند اكتشاف العاصفة الرملية، مما يمنع دخول الغبار إلى المنزل.&lt;/p>
 &lt;p>يتكوّن النظام من حساسات لاكتشاف العواصف، وآلية ميكانيكية تعمل بمحرك لفتح وإغلاق النوافذ، إلى جانب ميزة إرسال إشعارات قصيرة إلى هاتف مالك المنزل عند تشغيل النظام.&lt;/p>
@@ -17,10 +17,10 @@
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="التقيم" srcset="
-/en/projects/sws/badge_hu10665682049558335899.webp 400w,
-/en/projects/sws/badge_hu2110014805596361415.webp 760w,
+/en/projects/sws/badge_hu12632053209065013351.webp 400w,
+/en/projects/sws/badge_hu11487753091314465417.webp 760w,
 /en/projects/sws/badge_hu8747777280006912142.webp 1200w"
-src="http://localhost:1313/en/projects/sws/badge_hu10665682049558335899.webp"
+src="https://khaledhamidi.com/en/projects/sws/badge_hu12632053209065013351.webp"
 width="760"
 height="399"
 loading="lazy" data-zoomable />&lt;/div>
@@ -69,7 +69,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>📎
-&lt;/p></description></item><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:1313/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/p></description></item><item><title>نظام ملاحة للروبوتات</title><link>https://khaledhamidi.com/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>https://khaledhamidi.com/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
 &lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
 تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
@@ -92,10 +92,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="التقيم" srcset="
-/en/projects/lg/badge_hu3034371145428125111.webp 400w,
-/en/projects/lg/badge_hu12181493154512379697.webp 760w,
+/en/projects/lg/badge_hu3543980163959232212.webp 400w,
+/en/projects/lg/badge_hu7006632922434401181.webp 760w,
 /en/projects/lg/badge_hu18213919312010536174.webp 1200w"
-src="http://localhost:1313/en/projects/lg/badge_hu3034371145428125111.webp"
+src="https://khaledhamidi.com/en/projects/lg/badge_hu3543980163959232212.webp"
 width="760"
 height="399"
 loading="lazy" data-zoomable />&lt;/div>
@@ -145,7 +145,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>📎
 &lt;/p>
-&lt;/div></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/hero/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/div></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>https://khaledhamidi.com/ar/hero/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/hero/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
 &lt;ul>
@@ -194,7 +194,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل `DELAY 500` من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.
 &lt;p>
-&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/projects/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>https://khaledhamidi.com/ar/projects/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
 &lt;ul>
@@ -250,7 +250,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل &lt;code>DELAY 500&lt;/code> من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.&lt;/p>
 &lt;p>
-&lt;/p></description></item><item><title>نظام إدارة مغسلة السيارات الأوروبية</title><link>http://localhost:1313/ar/projects/vechiles-wach-system/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/vechiles-wach-system/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;/p></description></item><item><title>نظام إدارة مغسلة السيارات الأوروبية</title><link>https://khaledhamidi.com/ar/projects/vechiles-wach-system/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/vechiles-wach-system/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>تم تطوير هذا النظام بطلب من مغسلة &amp;ldquo;السيارات الأوروبية&amp;rdquo; في مدينة الباب، ويهدف إلى تنظيم عمليات المغسلة من استلام المركبات حتى التسليم والفوترة.&lt;/p>
 &lt;h2 id="ميزات-النظام">ميزات النظام&lt;/h2>
 &lt;ul>
@@ -271,7 +271,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="النتيجة">النتيجة&lt;/h2>
 &lt;p>أدى استخدام النظام إلى تحسين كفاءة المغسلة بشكل كبير، من خلال أتمتة العمليات وتقليل التكاليف التشغيلية.&lt;/p>
 &lt;p>📎
-&lt;/p></description></item><item><title>نظام MK Energy لإدارة الطاقة</title><link>http://localhost:1313/ar/hero/mk_energy/</link><pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/mk_energy/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/p></description></item><item><title>نظام MK Energy لإدارة الطاقة</title><link>https://khaledhamidi.com/ar/hero/mk_energy/</link><pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/hero/mk_energy/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>MK Energy هو برنامج إدارة شامل تم تطويره للتعامل مع تعقيدات التشغيل في شركات توزيع الكهرباء. تم تصميمه بلغة C# ويعمل بقواعد بيانات MS SQL Server فائقة السرعة والسعة، مما يوفر حلاً قوياًلإدارة المشتركين والموظفين.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
 &lt;ul>

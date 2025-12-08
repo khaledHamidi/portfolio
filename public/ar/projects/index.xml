@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>جميع المشاريع | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/projects/</link><atom:link href="http://localhost:1313/ar/projects/index.xml" rel="self" type="application/rss+xml"/><description>جميع المشاريع</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/sharing.jpg</url><title>جميع المشاريع</title><link>http://localhost:1313/ar/projects/</link></image><item><title>تحليل ومحاكاة الكينماتيكا الأمامية والعكسية لروبوت صناعي 6R في MATLAB</title><link>http://localhost:1313/ar/projects/kinematics-analysis-6r-robot/</link><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/kinematics-analysis-6r-robot/</guid><description>&lt;h2 id="مقدمة">مقدمة&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>جميع المشاريع | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>https://khaledhamidi.com/ar/projects/</link><atom:link href="https://khaledhamidi.com/ar/projects/index.xml" rel="self" type="application/rss+xml"/><description>جميع المشاريع</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate><image><url>https://khaledhamidi.com/media/sharing.jpg</url><title>جميع المشاريع</title><link>https://khaledhamidi.com/ar/projects/</link></image><item><title>تحليل ومحاكاة الكينماتيكا الأمامية والعكسية لروبوت صناعي 6R في MATLAB</title><link>https://khaledhamidi.com/ar/projects/kinematics-analysis-6r-robot/</link><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/kinematics-analysis-6r-robot/</guid><description>&lt;h2 id="مقدمة">مقدمة&lt;/h2>
 &lt;p>تركز هذه الدراسة على Elfin E15، وهو روبوت صناعي 6-DOF من Han&amp;rsquo;s Robot، يتكون من ستة مفاصل دورانية. يستخدم التحليل معلمات Denavit-Hartenberg (D-H) لنمذجة حركية الروبوت.&lt;/p>
 &lt;h3 id="معلمات-d-h">معلمات D-H&lt;/h3>
 &lt;p>يعد جدول معلمات D-H أمرًا بالغ الأهمية لتحديد بنية الروبوت، بما في ذلك أطوال الوصلات واتجاهات المفاصل.&lt;/p>
@@ -100,10 +100,10 @@
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="محاكاة الكينماتيكا الأمامية" srcset="
-/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu5029732473421680724.webp 400w,
-/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu1381607180089422800.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu14896657725348334513.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu3269711059128643448.webp 760w,
 /en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu18007931118044576637.webp 1200w"
-src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu5029732473421680724.webp"
+src="https://khaledhamidi.com/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu14896657725348334513.webp"
 width="718"
 height="632"
 loading="lazy" data-zoomable />&lt;/div>
@@ -115,10 +115,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="محاكاة الكينماتيكا العكسية" srcset="
-/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu84899364215454693.webp 400w,
-/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu4442455092246897181.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu6808306002072350750.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu15489938607572753849.webp 760w,
 /en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu5511955697912877658.webp 1200w"
-src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu84899364215454693.webp"
+src="https://khaledhamidi.com/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu6808306002072350750.webp"
 width="760"
 height="349"
 loading="lazy" data-zoomable />&lt;/div>
@@ -130,10 +130,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="محاكاة حركة الروبوت" srcset="
-/en/projects/kinematics-analysis-6r-robot/robot-movement_hu16832595402498787554.webp 400w,
-/en/projects/kinematics-analysis-6r-robot/robot-movement_hu17908008611996152299.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu698054864870687712.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu3557703401272803569.webp 760w,
 /en/projects/kinematics-analysis-6r-robot/robot-movement_hu1986716169494807438.webp 1200w"
-src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/robot-movement_hu16832595402498787554.webp"
+src="https://khaledhamidi.com/en/projects/kinematics-analysis-6r-robot/robot-movement_hu698054864870687712.webp"
 width="760"
 height="213"
 loading="lazy" data-zoomable />&lt;/div>
@@ -141,7 +141,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;h2 id="تحميل">تحميل&lt;/h2>
 &lt;p>
-&lt;/p></description></item><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/p></description></item><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>https://khaledhamidi.com/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="فيديو">فيديو&lt;/h2>
 &lt;p>هذا الفيديو يشرح كيفية عمل الآلة.
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -192,7 +192,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="اقتباس">اقتباس&lt;/h2>
 &lt;p>APA
 HAMIDI, K., ABDULSELAM, A., &amp;amp; BUĞDAY, D. Ö. G. M. (2024). DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE FOR FIXED GRANULATE QUANTITIES. International Journal of Advanced Natural Sciences and Engineering Researches, 8(4), 122–128.&lt;/p>
-&lt;/div></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1313/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/4dof-robotic-arm/</guid><description>&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
+&lt;/div></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>https://khaledhamidi.com/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/4dof-robotic-arm/</guid><description>&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
 ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.&lt;/p>
 &lt;p>تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.&lt;/p>
 &lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
@@ -210,15 +210,15 @@ HAMIDI, K., ABDULSELAM, A., &amp;amp; BUĞDAY, D. Ö. G. M. (2024). DESIGN AND M
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="صورة" srcset="
-/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp 400w,
-/en/projects/4dof-robotic-arm/image_hu9755964502696729891.webp 760w,
+/en/projects/4dof-robotic-arm/image_hu7062434459127530410.webp 400w,
+/en/projects/4dof-robotic-arm/image_hu10591741388667084852.webp 760w,
 /en/projects/4dof-robotic-arm/image_hu5096042048220078544.webp 1200w"
-src="http://localhost:1313/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp"
+src="https://khaledhamidi.com/en/projects/4dof-robotic-arm/image_hu7062434459127530410.webp"
 width="760"
 height="440"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>نظام التحكم بالنوافذ</title><link>http://localhost:1313/ar/projects/sws/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/sws/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;/p></description></item><item><title>نظام التحكم بالنوافذ</title><link>https://khaledhamidi.com/ar/projects/sws/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>https://khaledhamidi.com/ar/projects/sws/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
 &lt;p>يتناول هذا المشروع تصميم وتنفيذ نظام تحكم بالنوافذ لحماية المنازل من الغبار والرمال أثناء العواصف الرملية، وهي ظاهرة شائعة في السعودية.&lt;br>
 يعمل النظام على إغلاق النوافذ تلقائيًا عند اكتشاف العاصفة الرملية، مما يمنع دخول الغبار إلى المنزل.&lt;/p>
 &lt;p>يتكوّن النظام من حساسات لاكتشاف العواصف، وآلية ميكانيكية تعمل بمحرك لفتح وإغلاق النوافذ، إلى جانب ميزة إرسال إشعارات قصيرة إلى هاتف مالك المنزل عند تشغيل النظام.&lt;/p>
@@ -237,10 +237,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="التقيم" srcset="
-/en/projects/sws/badge_hu10665682049558335899.webp 400w,
-/en/projects/sws/badge_hu2110014805596361415.webp 760w,
+/en/projects/sws/badge_hu12632053209065013351.webp 400w,
+/en/projects/sws/badge_hu11487753091314465417.webp 760w,
 /en/projects/sws/badge_hu8747777280006912142.webp 1200w"
-src="http://localhost:1313/en/projects/sws/badge_hu10665682049558335899.webp"
+src="https://khaledhamidi.com/en/projects/sws/badge_hu12632053209065013351.webp"
 width="760"
 height="399"
 loading="lazy" data-zoomable />&lt;/div>
@@ -289,7 +289,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>📎
-&lt;/p></description></item><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:1313/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/p></description></item><item><title>نظام ملاحة للروبوتات</title><link>https://khaledhamidi.com/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>https://khaledhamidi.com/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
 &lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
 تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
@@ -312,10 +312,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="التقيم" srcset="
-/en/projects/lg/badge_hu3034371145428125111.webp 400w,
-/en/projects/lg/badge_hu12181493154512379697.webp 760w,
+/en/projects/lg/badge_hu3543980163959232212.webp 400w,
+/en/projects/lg/badge_hu7006632922434401181.webp 760w,
 /en/projects/lg/badge_hu18213919312010536174.webp 1200w"
-src="http://localhost:1313/en/projects/lg/badge_hu3034371145428125111.webp"
+src="https://khaledhamidi.com/en/projects/lg/badge_hu3543980163959232212.webp"
 width="760"
 height="399"
 loading="lazy" data-zoomable />&lt;/div>
@@ -365,7 +365,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>📎
 &lt;/p>
-&lt;/div></description></item><item><title>GeoSketch | برنامج رسم هندسي مع اكتشاف التصادم</title><link>http://localhost:1313/ar/projects/geosketch/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/geosketch/</guid><description>&lt;h1 id="geosketch--الرسم-الهندسي-واكتشاف-التصادم">GeoSketch | الرسم الهندسي واكتشاف التصادم&lt;/h1>
+&lt;/div></description></item><item><title>GeoSketch | برنامج رسم هندسي مع اكتشاف التصادم</title><link>https://khaledhamidi.com/ar/projects/geosketch/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/geosketch/</guid><description>&lt;h1 id="geosketch--الرسم-الهندسي-واكتشاف-التصادم">GeoSketch | الرسم الهندسي واكتشاف التصادم&lt;/h1>
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
@@ -409,7 +409,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="الشكر-والتقدير">الشكر والتقدير:&lt;/h2>
 &lt;p>💡 يُهدي فريق التطوير شكره العميق لمجتمع البرمجيات مفتوحة المصدر ولكل من ساهم في تطوير الأدوات والمكتبات المستخدمة في GeoSketch.&lt;/p>
 &lt;p>
-&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>http://localhost:1313/ar/projects/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/p></description></item><item><title>Qlink: واجهة أوامر تسلسلية للأردوينو</title><link>https://khaledhamidi.com/ar/projects/qlink/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/qlink/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>&lt;strong>Qlink&lt;/strong> هي واجهة برمجة تطبيقات (API) للأوامر التسلسلية، قوية وخفيفة الوزن، مصممة للأردوينو، Raspberry Pi، الكمبيوتر، والأنظمة المدمجة الأخرى. إنها تبسط الاتصال بين الأجهزة من خلال توفير إطار عمل بسيط لتسجيل ومعالجة الأوامر المرسلة عبر اتصال تسلسلي. مع دعمها لأنواع متعددة من المعلمات (INT, FLOAT, STRING, LONG)، تعتبر Qlink الحل المثالي للتحكم في مشاريع الأردوينو الخاصة بك من تطبيقات خارجية مكتوبة بلغة Python أو C#، أو من خلال مراقب تسلسلي بسيط.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
 &lt;ul>
@@ -465,7 +465,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>لاستخدام هذا، يمكنك ببساطة إرسال أمر مثل &lt;code>DELAY 500&lt;/code> من مراقبك التسلسلي أو تطبيقك، وسيتحدث معدل وميض الـ LED على الفور.&lt;/p>
 &lt;p>
-&lt;/p></description></item><item><title>مكتبة QistasLinks للسي شارب</title><link>http://localhost:1313/ar/projects/qistaslinks/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistaslinks/</guid><description>&lt;p style="margin-bottom: 1rem;">
+&lt;/p></description></item><item><title>مكتبة QistasLinks للسي شارب</title><link>https://khaledhamidi.com/ar/projects/qistaslinks/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/qistaslinks/</guid><description>&lt;p style="margin-bottom: 1rem;">
 &lt;a href="https://doi.org/10.5281/zenodo.8248290" target="_blank" rel="noopener">
 &lt;img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8248290.svg" alt="DOI">
 &lt;/img>
@@ -540,7 +540,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="للتواصل">للتواصل&lt;/h2>
 &lt;p>للاستفسارات والمعلومات الإضافية:&lt;br>
 &lt;/p>
-&lt;p>شكرًا لاستخدامكم QistasLinks!&lt;/p></description></item><item><title>نظام إدارة ميزان أرضي رقمي</title><link>http://localhost:1313/ar/projects/zoomce/</link><pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoomce/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
+&lt;p>شكرًا لاستخدامكم QistasLinks!&lt;/p></description></item><item><title>نظام إدارة ميزان أرضي رقمي</title><link>https://khaledhamidi.com/ar/projects/zoomce/</link><pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/zoomce/</guid><description>&lt;h2 id="مقدمة">مقدّمة&lt;/h2>
 &lt;p>طوّر المهندس &lt;strong>خالد حميدي&lt;/strong> نظامًا رقميًا مخصصًا لصالح إحدى شركات إعادة التدوير بهدف تحسين دقة وكفاءة قياس أوزان الشاحنات والمركبات عبر ميزان أرضي صناعي.&lt;/p>
 &lt;h2 id="مكونات-النظام">مكونات النظام&lt;/h2>
 &lt;ul>
@@ -577,7 +577,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>📎
-&lt;/p></description></item><item><title>نظام إدارة مغسلة السيارات الأوروبية</title><link>http://localhost:1313/ar/projects/vechiles-wach-system/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/vechiles-wach-system/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;/p></description></item><item><title>نظام إدارة مغسلة السيارات الأوروبية</title><link>https://khaledhamidi.com/ar/projects/vechiles-wach-system/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/vechiles-wach-system/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>تم تطوير هذا النظام بطلب من مغسلة &amp;ldquo;السيارات الأوروبية&amp;rdquo; في مدينة الباب، ويهدف إلى تنظيم عمليات المغسلة من استلام المركبات حتى التسليم والفوترة.&lt;/p>
 &lt;h2 id="ميزات-النظام">ميزات النظام&lt;/h2>
 &lt;ul>
@@ -598,7 +598,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="النتيجة">النتيجة&lt;/h2>
 &lt;p>أدى استخدام النظام إلى تحسين كفاءة المغسلة بشكل كبير، من خلال أتمتة العمليات وتقليل التكاليف التشغيلية.&lt;/p>
 &lt;p>📎
-&lt;/p></description></item><item><title>برنامج الشاشات الذكية التعليمية</title><link>http://localhost:1313/ar/projects/magical-capture-othmanli/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/magical-capture-othmanli/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;/p></description></item><item><title>برنامج الشاشات الذكية التعليمية</title><link>https://khaledhamidi.com/ar/projects/magical-capture-othmanli/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/magical-capture-othmanli/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>تم تطوير هذا البرنامج لمساعدة معلمي منهج اليوس (YÖS) في مركز التعليم العثماني.&lt;br>
 يهدف التطبيق إلى تعزيز تدريس مادة الرياضيات من خلال استخدام شاشات ذكية وأقلام رقمية ومشروع العرض بدلًا من اللوحة البيضاء التقليدية.&lt;/p>
 &lt;h2 id="المزايا">المزايا&lt;/h2>
@@ -621,17 +621,17 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="الحصول-على-البرنامج">الحصول على البرنامج&lt;/h2>
 &lt;p>البرنامج مجاني، للحصول عليه يرجى
 &lt;br>
-تطوير: &lt;strong>خالد الحميدي&lt;/strong>&lt;/p></description></item><item><title>محاكي البوابات المنطقية</title><link>http://localhost:1313/ar/projects/logicgatesimulator/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/logicgatesimulator/</guid><description>&lt;h1 id="مستكشف-العناصر-المنطقية">مستكشف العناصر المنطقية&lt;/h1>
+تطوير: &lt;strong>خالد الحميدي&lt;/strong>&lt;/p></description></item><item><title>محاكي البوابات المنطقية</title><link>https://khaledhamidi.com/ar/projects/logicgatesimulator/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/logicgatesimulator/</guid><description>&lt;h1 id="مستكشف-العناصر-المنطقية">مستكشف العناصر المنطقية&lt;/h1>
 &lt;p>&lt;em>محاكي البوابات المنطقية&lt;/em>
 مستكشف العناصر المنطقية هو تطبيق يسمح لك بمحاكاة البوابات المنطقية، والقلابات، وفك التشفير، والتشفير، ومضاعفات الإرسال، ومزيلات تعدد الإرسال، ومقارنة إشارتين. يوفر واجهة سهلة الاستخدام لاستكشاف وفهم مختلف العناصر المنطقية.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="مستكشف العناصر المنطقية 1" srcset="
-/en/projects/logicgatesimulator/image_hu10347925103359825535.webp 400w,
-/en/projects/logicgatesimulator/image_hu17203420846792006732.webp 760w,
+/en/projects/logicgatesimulator/image_hu7467448045654994497.webp 400w,
+/en/projects/logicgatesimulator/image_hu3856177559907631608.webp 760w,
 /en/projects/logicgatesimulator/image_hu18135350607250378953.webp 1200w"
-src="http://localhost:1313/en/projects/logicgatesimulator/image_hu10347925103359825535.webp"
+src="https://khaledhamidi.com/en/projects/logicgatesimulator/image_hu7467448045654994497.webp"
 width="760"
 height="445"
 loading="lazy" data-zoomable />&lt;/div>
@@ -639,15 +639,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="مستكشف العناصر المنطقية 2" srcset="
-/en/projects/logicgatesimulator/image-1_hu16909894441958625090.webp 400w,
-/en/projects/logicgatesimulator/image-1_hu9308780591602763539.webp 760w,
+/en/projects/logicgatesimulator/image-1_hu10908408365583761938.webp 400w,
+/en/projects/logicgatesimulator/image-1_hu17073453949704715661.webp 760w,
 /en/projects/logicgatesimulator/image-1_hu13395990785698846863.webp 1200w"
-src="http://localhost:1313/en/projects/logicgatesimulator/image-1_hu16909894441958625090.webp"
+src="https://khaledhamidi.com/en/projects/logicgatesimulator/image-1_hu10908408365583761938.webp"
 width="760"
 height="445"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>Pharmacy Plus | تطبيق إدارة الصيدليات المثالي</title><link>http://localhost:1313/ar/projects/pharmacy/</link><pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/pharmacy/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;/p></description></item><item><title>Pharmacy Plus | تطبيق إدارة الصيدليات المثالي</title><link>https://khaledhamidi.com/ar/projects/pharmacy/</link><pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/pharmacy/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>Pharmacy Plus هو حل متكامل لإدارة عمليات الصيدلية اليومية.&lt;br>
 تم تطويره بواجهة استخدام سهلة وميزات قوية تمكّن أصحاب الصيدليات من التحكم في المخزون، والمبيعات، والعملاء بكل كفاءة وسرعة.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
@@ -671,14 +671,14 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="ابدأ-الآن">ابدأ الآن&lt;/h2>
 &lt;p>قم بتحميل Pharmacy Plus اليوم، وابدأ في إدارة صيدليتك بكفاءة.&lt;br>
 📎
-&lt;/p></description></item><item><title>نظام للتحكم بالأجهزة المضمّنة عبر الإنترنت</title><link>http://localhost:1313/ar/projects/superintelligence/</link><pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/superintelligence/</guid><description>&lt;p>
+&lt;/p></description></item><item><title>نظام للتحكم بالأجهزة المضمّنة عبر الإنترنت</title><link>https://khaledhamidi.com/ar/projects/superintelligence/</link><pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/superintelligence/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="صورة مصغرة" srcset="
-/en/projects/superintelligence/featured_hu13940293683322815235.webp 400w,
-/en/projects/superintelligence/featured_hu1720599181237929729.webp 760w,
+/en/projects/superintelligence/featured_hu6789113509158249930.webp 400w,
+/en/projects/superintelligence/featured_hu2662105604320238220.webp 760w,
 /en/projects/superintelligence/featured_hu7423620925735999979.webp 1200w"
-src="http://localhost:1313/en/projects/superintelligence/featured_hu13940293683322815235.webp"
+src="https://khaledhamidi.com/en/projects/superintelligence/featured_hu6789113509158249930.webp"
 width="760"
 height="760"
 loading="lazy" data-zoomable />&lt;/div>
@@ -712,10 +712,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="صورة 2" srcset="
-/en/projects/superintelligence/2_hu8168558367455256543.webp 400w,
-/en/projects/superintelligence/2_hu15466173603334380368.webp 760w,
+/en/projects/superintelligence/2_hu2922084459457192153.webp 400w,
+/en/projects/superintelligence/2_hu1842943970297398762.webp 760w,
 /en/projects/superintelligence/2_hu6642584141451961165.webp 1200w"
-src="http://localhost:1313/en/projects/superintelligence/2_hu8168558367455256543.webp"
+src="https://khaledhamidi.com/en/projects/superintelligence/2_hu2922084459457192153.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -723,15 +723,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="صورة 3" srcset="
-/en/projects/superintelligence/3_hu16920859817563194741.webp 400w,
-/en/projects/superintelligence/3_hu3518157786066069939.webp 760w,
+/en/projects/superintelligence/3_hu2374594556956302114.webp 400w,
+/en/projects/superintelligence/3_hu471866921617534442.webp 760w,
 /en/projects/superintelligence/3_hu9931453824351290931.webp 1200w"
-src="http://localhost:1313/en/projects/superintelligence/3_hu16920859817563194741.webp"
+src="https://khaledhamidi.com/en/projects/superintelligence/3_hu2374594556956302114.webp"
 width="598"
 height="266"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>Qistas AC | نظام المحاسبة وإدارة المحلات</title><link>http://localhost:1313/ar/projects/qistasac/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/qistasac/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/p></description></item><item><title>Qistas AC | نظام المحاسبة وإدارة المحلات</title><link>https://khaledhamidi.com/ar/projects/qistasac/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/qistasac/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>Qistas AC هو برنامج شامل لإدارة المحلات التجارية مصمّم للعمل على أنظمة تشغيل سطح المكتب.&lt;br>
 يقدّم واجهة استخدام مرنة وسلسة تتيح لأصحاب المشاريع إدارة عملياتهم اليومية بكفاءة وسهولة.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
@@ -749,7 +749,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;li>&lt;strong>سهولة الاستخدام&lt;/strong>: لا حاجة لتدريب طويل، البرنامج مصمّم ليكون بديهيًا.&lt;/li>
 &lt;li>&lt;strong>قابل للتوسعة&lt;/strong>: يناسب المشاريع الصغيرة والكبيرة مع تطوّر أعمالها.&lt;/li>
 &lt;li>&lt;strong>موثوق وآمن&lt;/strong>: يحتوي على حماية قوية وتحديثات دورية للحفاظ على استقرار البيانات.&lt;/li>
-&lt;/ol></description></item><item><title>مشروع قراءة وتسجيل درجة الحرارة والرطوبة</title><link>http://localhost:1313/ar/projects/tah/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/tah/</guid><description>&lt;p>هذا المشروع تم إنجازه كجزء من مادة المتحكّمات الدقيقة خلال الدراسة الجامعية.&lt;/p>
+&lt;/ol></description></item><item><title>مشروع قراءة وتسجيل درجة الحرارة والرطوبة</title><link>https://khaledhamidi.com/ar/projects/tah/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/tah/</guid><description>&lt;p>هذا المشروع تم إنجازه كجزء من مادة المتحكّمات الدقيقة خلال الدراسة الجامعية.&lt;/p>
 &lt;ul>
 &lt;li>يتكوّن من حساس SH10 لدرجة الحرارة والرطوبة، متصل بلوحة Arduino Uno.&lt;/li>
 &lt;li>تم تطوير تطبيقات بلغة C# لعرض البيانات.&lt;/li>
@@ -768,7 +768,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;li>عرض PowerPoint (بالعربية)&lt;/li>
 &lt;/ol>
 &lt;p>📎
-&lt;/p></description></item><item><title>ZOOM WIFI Hotspot: حل اتصال مجتمعي</title><link>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
+&lt;/p></description></item><item><title>ZOOM WIFI Hotspot: حل اتصال مجتمعي</title><link>https://khaledhamidi.com/ar/projects/zoom-wifi-hotspot/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/zoom-wifi-hotspot/</guid><description>&lt;h2 id="نظرة-عامة">نظرة عامة&lt;/h2>
 &lt;p>استجابة للانقطاعات الواسعة في خدمات الإنترنت خلال النزاع السوري، قمت بتطوير ZOOM WIFI Hotspot، وهو تطبيقات خفيف الوزن يحول الكمبيوتر إلى نقطة وصول لاسلكية. تم تصميم هذه الأداة لتوفير حل مستقر ومنخفض الموارد لمشاركة الاتصال بالإنترنت مع الأجهزة المحمولة القريبة، مما يلبي حاجة ملحة للتواصل في المناطق المحرومة من الخدمات.&lt;/p>
 &lt;h2 id="من-الفكرة-إلى-التأثير">من الفكرة إلى التأثير&lt;/h2>
 &lt;p>نشأ المشروع من حاجة مباشرة للتغلب على قيود خدمات الإنترنت المتقطعة والتي يصعب الوصول إليها. تضمنت عملية التطوير تعمقا في بروتوكولات الشبكة ووظائف واجهة برمجة تطبيقات Windows، باستخدام C# وواجهة WMI لإنشاء واجهة مستخدم رسومية سهلة الاستخدام. أتاح الإصدار الأولي للمستخدمين بث أي اتصال إنترنت متاح كشبكة Wi-Fi بنقرة واحدة.&lt;/p>
@@ -789,10 +789,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
-/en/projects/zoom-wifi-hotspot/1_hu14324268039650112826.webp 400w,
-/en/projects/zoom-wifi-hotspot/1_hu10704405108496003165.webp 760w,
+/en/projects/zoom-wifi-hotspot/1_hu17033807162616065320.webp 400w,
+/en/projects/zoom-wifi-hotspot/1_hu338398063889982821.webp 760w,
 /en/projects/zoom-wifi-hotspot/1_hu12818087166653137295.webp 1200w"
-src="http://localhost:1313/en/projects/zoom-wifi-hotspot/1_hu14324268039650112826.webp"
+src="https://khaledhamidi.com/en/projects/zoom-wifi-hotspot/1_hu17033807162616065320.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -800,10 +800,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
-/en/projects/zoom-wifi-hotspot/2_hu2011803004500579837.webp 400w,
-/en/projects/zoom-wifi-hotspot/2_hu4260108314524103968.webp 760w,
+/en/projects/zoom-wifi-hotspot/2_hu4056748116894681881.webp 400w,
+/en/projects/zoom-wifi-hotspot/2_hu10466539816038280276.webp 760w,
 /en/projects/zoom-wifi-hotspot/2_hu13014923282333279974.webp 1200w"
-src="http://localhost:1313/en/projects/zoom-wifi-hotspot/2_hu2011803004500579837.webp"
+src="https://khaledhamidi.com/en/projects/zoom-wifi-hotspot/2_hu4056748116894681881.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -811,17 +811,17 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="لقطات شاشة لواجهة تطبيق ZOOM WIFI Hotspot." srcset="
-/en/projects/zoom-wifi-hotspot/3_hu16585257913955025294.webp 400w,
-/en/projects/zoom-wifi-hotspot/3_hu8492286067631096157.webp 760w,
+/en/projects/zoom-wifi-hotspot/3_hu15533917960635064587.webp 400w,
+/en/projects/zoom-wifi-hotspot/3_hu15967425077375057303.webp 760w,
 /en/projects/zoom-wifi-hotspot/3_hu14840508966537604155.webp 1200w"
-src="http://localhost:1313/en/projects/zoom-wifi-hotspot/3_hu16585257913955025294.webp"
+src="https://khaledhamidi.com/en/projects/zoom-wifi-hotspot/3_hu15533917960635064587.webp"
 width="760"
 height="427"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h2 id="الإرث-والدروس-المستفادة">الإرث والدروس المستفادة&lt;/h2>
-&lt;p>أكد تطوير ZOOM WIFI Hotspot على مبدأ أساسي: &lt;strong>الابتكار غالبا ما يولد من رحم الحاجة.&lt;/strong> لم يقدم هذا المشروع حلا عمليا لمشكلة ملحة فحسب، بل أظهر أيضا قوة تطوير البرمجيات القائمة على المجتمع.&lt;/p></description></item><item><title>CS-ZOOM | نسخة مطوّرة من Counter Strike 1.6</title><link>http://localhost:1313/ar/projects/cszoom/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/cszoom/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
+&lt;p>أكد تطوير ZOOM WIFI Hotspot على مبدأ أساسي: &lt;strong>الابتكار غالبا ما يولد من رحم الحاجة.&lt;/strong> لم يقدم هذا المشروع حلا عمليا لمشكلة ملحة فحسب، بل أظهر أيضا قوة تطوير البرمجيات القائمة على المجتمع.&lt;/p></description></item><item><title>CS-ZOOM | نسخة مطوّرة من Counter Strike 1.6</title><link>https://khaledhamidi.com/ar/projects/cszoom/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>https://khaledhamidi.com/ar/projects/cszoom/</guid><description>&lt;h2 id="لمحة-عامة">لمحة عامة&lt;/h2>
 &lt;p>يقدّم مشروع &lt;strong>CS-ZOOM&lt;/strong> نسخة مطوّرة من لعبة &lt;strong>Counter Strike 1.6&lt;/strong>، تهدف إلى تحسين تجربة اللعب الكلاسيكية من خلال إضافات خاصة تجعلها أكثر سلاسة وتفاعلية.&lt;br>
 يعتمد المشروع على &lt;strong>AMX Mod X&lt;/strong> ولغة البرمجة &lt;strong>C&lt;/strong> لتوفير تجربة غنية ومناسبة لمختلف المستخدمين.&lt;/p>
 &lt;h2 id="الميزات-الرئيسية">الميزات الرئيسية&lt;/h2>
