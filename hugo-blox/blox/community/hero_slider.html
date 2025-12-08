@@ -1,4 +1,4 @@
-<div class="hero-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; padding: 2.2rem 4%; box-sizing: border-box;">
+<div class="hero-section" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; padding: 0 4%; box-sizing: border-box;">
   <style>
     .hbb-section { padding-top: 0 !important; padding-bottom: 0 !important; }
     .hero-section { color: #111528; background: linear-gradient(to bottom, #f7f8fc 0%, #ffffff 100%); }
@@ -83,8 +83,45 @@
         }
 
         /* Premium Slide Effects */
-        .hero-slide-premium { position: relative; }
-        
+        .hero-slide-premium {
+          position: relative;
+          --hero-overlay1: rgba(0, 229, 255, 0.4);
+          --hero-overlay2: rgba(0, 188, 212, 0.55);
+          --hero-overlay3: rgba(0, 229, 255, 0.35);
+          --hero-border-color1: #00d4ff;
+          --hero-border-color2: #00ffcc;
+          --hero-border-color3: #a3f7ff;
+          --hero-border-color4: #ffffff;
+          --hero-sparkle-color: #00e5ff;
+          --hero-sparkle-glow: #00bcd4;
+          --hero-badge-start: #00e5ff;
+          --hero-badge-mid: #00bcd4;
+          --hero-badge-end: #00e5ff;
+          --hero-badge-text: #0a1929;
+          --hero-badge-shadow1: rgba(0, 229, 255, 0.4);
+          --hero-badge-shadow2: rgba(0, 188, 212, 0.25);
+          --hero-title-glow: rgba(0, 229, 255, 0.5);
+        }
+
+        .hero-slide-premium--warm {
+          --hero-overlay1: rgba(255, 191, 0, 0.45);
+          --hero-overlay2: rgba(255, 140, 0, 0.55);
+          --hero-overlay3: rgba(255, 215, 0, 0.35);
+          --hero-border-color1: #ffb347;
+          --hero-border-color2: #ffcc33;
+          --hero-border-color3: #ffe29f;
+          --hero-border-color4: #ffffff;
+          --hero-sparkle-color: #ffd700;
+          --hero-sparkle-glow: #ff8c00;
+          --hero-badge-start: #ffd700;
+          --hero-badge-mid: #ff8c00;
+          --hero-badge-end: #ffd700;
+          --hero-badge-text: #3a2100;
+          --hero-badge-shadow1: rgba(255, 215, 0, 0.5);
+          --hero-badge-shadow2: rgba(255, 140, 0, 0.3);
+          --hero-title-glow: rgba(255, 215, 0, 0.55);
+        }
+
         /* Premium Image Effects - Slow Breathing Scale + Overlay Shimmer */
         .hero-slide-premium .hero-slider-image {
           animation: premiumBreathing 8s ease-in-out infinite;
@@ -104,9 +141,9 @@
             115deg,
             transparent 0%,
             transparent 35%,
-            rgba(0, 229, 255, 0.4) 45%,
-            rgba(0, 188, 212, 0.55) 50%,
-            rgba(0, 229, 255, 0.35) 55%,
+            var(--hero-overlay1) 45%,
+            var(--hero-overlay2) 50%,
+            var(--hero-overlay3) 55%,
             transparent 65%,
             transparent 100%
           );
@@ -122,7 +159,7 @@
           100% { background-position: -50% 0; }
         }
         
-        /* Animated Border Glow - Cool Colors, Slower */
+        /* Animated Border Glow - Palette driven */
         .hero-slide-premium::before {
           content: "";
           position: absolute;
@@ -130,12 +167,12 @@
           padding: 3px;
           background: linear-gradient(90deg, 
             transparent 0%, 
-            #00d4ff 12%, 
-            #00ffcc 24%, 
-            #a3f7ff 36%, 
-            #ffffff 44%, 
-            #00ffcc 54%, 
-            #00d4ff 64%,
+            var(--hero-border-color1) 12%, 
+            var(--hero-border-color2) 24%, 
+            var(--hero-border-color3) 36%, 
+            var(--hero-border-color4) 44%, 
+            var(--hero-border-color2) 54%, 
+            var(--hero-border-color1) 64%,
             transparent 72%,
             transparent 100%
           );
@@ -168,6 +205,7 @@
           bottom: -20px;
           width: 8px;
           height: 8px;
+          background: radial-gradient(circle, var(--hero-sparkle-color) 0%, transparent 70%);
           animation: sparkleRise 5s ease-out infinite;
           opacity: 0;
         }
@@ -179,8 +217,8 @@
           left: 50%;
           transform: translate(-50%, -50%);
           font-size: 14px;
-          color: #00e5ff;
-          text-shadow: 0 0 8px #00e5ff, 0 0 16px #00bcd4, 0 0 24px #00e5ff;
+          color: var(--hero-sparkle-color);
+          text-shadow: 0 0 8px var(--hero-sparkle-color), 0 0 16px var(--hero-sparkle-glow), 0 0 24px var(--hero-sparkle-color);
         }
         
         @keyframes sparkleRise {
@@ -213,15 +251,15 @@
         .hero-sparkle:nth-child(9) { left: 88%; animation-delay: 0.8s; animation-duration: 5.1s; }
         .hero-sparkle:nth-child(10) { left: 95%; animation-delay: 1.5s; animation-duration: 4.1s; }
 
-        /* Premium Badge - Cool Colors */
+        /* Premium Badge */
         .hero-premium-badge {
           position: absolute;
           top: 1.5rem;
           left: 1.5rem;
-          background: linear-gradient(135deg, #00e5ff 0%, #00bcd4 50%, #00e5ff 100%);
+          background: linear-gradient(135deg, var(--hero-badge-start) 0%, var(--hero-badge-mid) 50%, var(--hero-badge-end) 100%);
           background-size: 200% 200%;
           animation: badgeShimmer 3s ease infinite;
-          color: #0a1929;
+          color: var(--hero-badge-text);
           font-size: 0.7rem;
           font-weight: 700;
           text-transform: uppercase;
@@ -229,7 +267,7 @@
           padding: 0.4rem 0.8rem;
           border-radius: 20px;
           z-index: 15;
-          box-shadow: 0 4px 20px rgba(0, 229, 255, 0.4), 0 0 40px rgba(0, 188, 212, 0.25);
+          box-shadow: 0 4px 20px var(--hero-badge-shadow1), 0 0 40px var(--hero-badge-shadow2);
           display: flex;
           align-items: center;
           gap: 0.35rem;
@@ -239,6 +277,8 @@
           content: "★";
           font-size: 0.9rem;
           animation: starPulse 2s ease-in-out infinite;
+          color: var(--hero-sparkle-color);
+          text-shadow: 0 0 12px var(--hero-sparkle-color), 0 0 20px var(--hero-sparkle-glow);
         }
         
         @keyframes starPulse {
@@ -251,9 +291,9 @@
           50% { background-position: 100% 50%; }
         }
 
-        /* Enhanced Title Glow for Premium - Cool */
+        /* Enhanced Title Glow for Premium - Palette aware */
         .hero-slide-premium .hero-slider-text h4 {
-          text-shadow: 0 0 30px rgba(0, 229, 255, 0.5), 0 2px 15px rgba(0,0,0,0.9);
+          text-shadow: 0 0 30px var(--hero-title-glow), 0 2px 15px rgba(0,0,0,0.9);
         }
         
         [dir='rtl'] .hero-premium-badge { left: auto; right: 1.5rem; }
@@ -266,8 +306,15 @@
             {{ $pages := where site.RegularPages "Section" "hero" }}
             {{ $index := 0 }}
             {{ range $pages }}
+                {{ $classes := slice "hero-slider-slide" }}
                 {{ $isPremium := lt $index 2 }}
-                <a class="hero-slider-slide{{ if $isPremium }} hero-slide-premium{{ end }}" data-hero-slide href="{{ .RelPermalink }}">
+                {{ if $isPremium }}
+                  {{ $classes = $classes | append "hero-slide-premium" }}
+                  {{ if eq $index 0 }}
+                    {{ $classes = $classes | append "hero-slide-premium--warm" }}
+                  {{ end }}
+                {{ end }}
+                <a class="{{ delimit $classes " " }}" data-hero-slide href="{{ .RelPermalink }}">
                   {{ if $isPremium }}
                   <div class="hero-sparkles">
                     <div class="hero-sparkle"></div>

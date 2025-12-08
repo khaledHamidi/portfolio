@@ -78,7 +78,8 @@ sections:
               max-width: none !important;
             }
             .hero-stats-link-shell {
-              max-width: 900px !important;
+              max-width: 1300px !important;
+              min-width: 1000px !important
               width: 100% !important;
               margin: 0 auto;
               display: flex;
@@ -139,7 +140,7 @@ sections:
               color: #101427;
               transition: transform 0.2s ease, box-shadow 0.2s ease;
               flex: 1 1 0;
-              min-width: 0;
+              min-width: 0.8rem;
             }
             .hero-link-card:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(96,125,244,0.2); }
             .dark .hero-link-card { border-color: rgba(255,255,255,0.08); background: rgba(13,17,30,0.92); color: #f5f6ff; }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>بحث علمي | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:54387/ar/tags/%D8%A8%D8%AD%D8%AB-%D8%B9%D9%84%D9%85%D9%8A/</link><atom:link href="http://localhost:54387/ar/tags/%D8%A8%D8%AD%D8%AB-%D8%B9%D9%84%D9%85%D9%8A/index.xml" rel="self" type="application/rss+xml"/><description>بحث علمي</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate><image><url>http://localhost:54387/media/icon_hu7729264130191091259.png</url><title>بحث علمي</title><link>http://localhost:54387/ar/tags/%D8%A8%D8%AD%D8%AB-%D8%B9%D9%84%D9%85%D9%8A/</link></image><item><title>تدريب على كتابة حلقات البحث والتوثيق العلمي</title><link>http://localhost:54387/ar/education/writing/</link><pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:54387/ar/education/writing/</guid><description>&lt;p>يسر مكتب الطلبة في الجامعة الدولية للعلوم والنهضة بالتعاون مع منصة تميز أن يعلن لكم عن انطلاق تدريب مميز بعنوان: &lt;strong>&amp;ldquo;كتابة حلقات البحث والتوثيق العلمي&amp;rdquo;&lt;/strong>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>بحث علمي | Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace &amp; Intelligent Systems</title><link>http://localhost:1313/ar/tags/%D8%A8%D8%AD%D8%AB-%D8%B9%D9%84%D9%85%D9%8A/</link><atom:link href="http://localhost:1313/ar/tags/%D8%A8%D8%AD%D8%AB-%D8%B9%D9%84%D9%85%D9%8A/index.xml" rel="self" type="application/rss+xml"/><description>بحث علمي</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar</language><lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/media/sharing.jpg</url><title>بحث علمي</title><link>http://localhost:1313/ar/tags/%D8%A8%D8%AD%D8%AB-%D8%B9%D9%84%D9%85%D9%8A/</link></image><item><title>تدريب على كتابة حلقات البحث والتوثيق العلمي</title><link>http://localhost:1313/ar/education/writing/</link><pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/education/writing/</guid><description>&lt;p>يسر مكتب الطلبة في الجامعة الدولية للعلوم والنهضة بالتعاون مع منصة تميز أن يعلن لكم عن انطلاق تدريب مميز بعنوان: &lt;strong>&amp;ldquo;كتابة حلقات البحث والتوثيق العلمي&amp;rdquo;&lt;/strong>.&lt;/p>
 &lt;p>هذا التدريب التطبيقي موجه لطلاب وخريجي المراحل الجامعية والدراسات العليا، ويجمع بين المهارة العلمية والإعداد المنهجي لتعزيز قدراتكم البحثية.&lt;/p>
 &lt;p>&lt;strong>تفاصيل التدريب:&lt;/strong>&lt;/p>
 &lt;ul>
@@ -6,7 +6,7 @@
 &lt;li>&lt;strong>الوقت:&lt;/strong> 8:30 مساءً بتوقيت سوريا&lt;/li>
 &lt;li>&lt;strong>المنصة:&lt;/strong> Microsoft Teams&lt;/li>
 &lt;/ul>
-&lt;p>شهادة حضور إلكترونية ستُمنح لجميع المشاركين. ندعوكم إلى اغتنام هذه الفرصة النوعية لتعزيز مهاراتكم البحثية، والانضمام إلى نخبة من الطامحين في التميّز الأكاديمي.&lt;/p></description></item><item><title>تحليل ومحاكاة الكينماتيكا الأمامية والعكسية لروبوت صناعي 6R في MATLAB</title><link>http://localhost:54387/ar/projects/kinematics-analysis-6r-robot/</link><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate><guid>http://localhost:54387/ar/projects/kinematics-analysis-6r-robot/</guid><description>&lt;h2 id="مقدمة">مقدمة&lt;/h2>
+&lt;p>شهادة حضور إلكترونية ستُمنح لجميع المشاركين. ندعوكم إلى اغتنام هذه الفرصة النوعية لتعزيز مهاراتكم البحثية، والانضمام إلى نخبة من الطامحين في التميّز الأكاديمي.&lt;/p></description></item><item><title>تحليل ومحاكاة الكينماتيكا الأمامية والعكسية لروبوت صناعي 6R في MATLAB</title><link>http://localhost:1313/ar/projects/kinematics-analysis-6r-robot/</link><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/kinematics-analysis-6r-robot/</guid><description>&lt;h2 id="مقدمة">مقدمة&lt;/h2>
 &lt;p>تركز هذه الدراسة على Elfin E15، وهو روبوت صناعي 6-DOF من Han&amp;rsquo;s Robot، يتكون من ستة مفاصل دورانية. يستخدم التحليل معلمات Denavit-Hartenberg (D-H) لنمذجة حركية الروبوت.&lt;/p>
 &lt;h3 id="معلمات-d-h">معلمات D-H&lt;/h3>
 &lt;p>يعد جدول معلمات D-H أمرًا بالغ الأهمية لتحديد بنية الروبوت، بما في ذلك أطوال الوصلات واتجاهات المفاصل.&lt;/p>
@@ -108,10 +108,10 @@
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="محاكاة الكينماتيكا الأمامية" srcset="
-/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu7532214317427262605.webp 400w,
-/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu3269711059128643448.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu5029732473421680724.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu1381607180089422800.webp 760w,
 /en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu18007931118044576637.webp 1200w"
-src="http://localhost:54387/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu7532214317427262605.webp"
+src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/forward-kinematics_hu5029732473421680724.webp"
 width="718"
 height="632"
 loading="lazy" data-zoomable />&lt;/div>
@@ -123,10 +123,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="محاكاة الكينماتيكا العكسية" srcset="
-/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu6193895836394738164.webp 400w,
-/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu15489938607572753849.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu84899364215454693.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu4442455092246897181.webp 760w,
 /en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu5511955697912877658.webp 1200w"
-src="http://localhost:54387/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu6193895836394738164.webp"
+src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/inverse-kinematics_hu84899364215454693.webp"
 width="760"
 height="349"
 loading="lazy" data-zoomable />&lt;/div>
@@ -138,10 +138,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="محاكاة حركة الروبوت" srcset="
-/en/projects/kinematics-analysis-6r-robot/robot-movement_hu4986726425347712057.webp 400w,
-/en/projects/kinematics-analysis-6r-robot/robot-movement_hu3557703401272803569.webp 760w,
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu16832595402498787554.webp 400w,
+/en/projects/kinematics-analysis-6r-robot/robot-movement_hu17908008611996152299.webp 760w,
 /en/projects/kinematics-analysis-6r-robot/robot-movement_hu1986716169494807438.webp 1200w"
-src="http://localhost:54387/en/projects/kinematics-analysis-6r-robot/robot-movement_hu4986726425347712057.webp"
+src="http://localhost:1313/en/projects/kinematics-analysis-6r-robot/robot-movement_hu16832595402498787554.webp"
 width="760"
 height="213"
 loading="lazy" data-zoomable />&lt;/div>
@@ -149,7 +149,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;h2 id="تحميل">تحميل&lt;/h2>
 &lt;p>
-&lt;/p></description></item><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:54387/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:54387/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/p></description></item><item><title>تصميم وتصنيع آلة تعبئة كهربائية-هوائية مفتوحة المصدر للمواد الحبيبية بكميات ثابتة</title><link>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/filling-machine-fixed-granulate/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="فيديو">فيديو&lt;/h2>
 &lt;p>هذا الفيديو يشرح كيفية عمل الآلة.
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -200,7 +200,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="اقتباس">اقتباس&lt;/h2>
 &lt;p>APA
 HAMIDI, K., ABDULSELAM, A., &amp;amp; BUĞDAY, D. Ö. G. M. (2024). DESIGN AND MANUFACTURING OPEN SOURCE FILLING MACHINE FOR FIXED GRANULATE QUANTITIES. International Journal of Advanced Natural Sciences and Engineering Researches, 8(4), 122–128.&lt;/p>
-&lt;/div></description></item><item><title>التحكم الطولي في المركبات المستقلة</title><link>http://localhost:54387/ar/hero/av/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>http://localhost:54387/ar/hero/av/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
+&lt;/div></description></item><item><title>التحكم الطولي في المركبات المستقلة</title><link>http://localhost:1313/ar/hero/av/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/hero/av/</guid><description>&lt;h2 id="نظرة-عامة-على-المشروع">نظرة عامة على المشروع&lt;/h2>
 &lt;p>يركز هذا البحث على تصميم وتحسين أنظمة التحكم الطولي للمركبات ذاتية القيادة (AVs). يتمحور جوهر الدراسة حول تطبيق &lt;strong>وحدات التحكم بالمنطق الضبابي (FLC)&lt;/strong> ودمجها مع &lt;strong>وحدات التحكم PID&lt;/strong> التقليدية لإنشاء أنظمة تحكم هجينة ومتقدمة.&lt;/p>
 &lt;p>الهدف الأساسي هو تعزيز سلامة وموثوقية وكفاءة المركبات المستقلة. من خلال تطوير وحدات تحكم قادرة على إدارة الطبيعة الديناميكية والمعقدة لبيئات القيادة في العالم الحقيقي، يهدف هذا المشروع إلى تحسين زمن استجابة السيارة واستقرارها.&lt;/p>
 &lt;p>
@@ -220,10 +220,10 @@ HAMIDI, K., ABDULSELAM, A., &amp;amp; BUĞDAY, D. Ö. G. M. (2024). DESIGN AND M
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="robot" srcset="
-/en/hero/av/2_hu10873829800134288134.webp 400w,
-/en/hero/av/2_hu508033220377543940.webp 760w,
+/en/hero/av/2_hu13444948069776081314.webp 400w,
+/en/hero/av/2_hu12576061654093053026.webp 760w,
 /en/hero/av/2_hu14340396286361960293.webp 1200w"
-src="http://localhost:54387/en/hero/av/2_hu10873829800134288134.webp"
+src="http://localhost:1313/en/hero/av/2_hu13444948069776081314.webp"
 width="760"
 height="386"
 loading="lazy" data-zoomable />&lt;/div>
@@ -235,10 +235,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="robot" srcset="
-/en/hero/av/4_hu3872732084603683717.webp 400w,
-/en/hero/av/4_hu6254853563262177649.webp 760w,
+/en/hero/av/4_hu1128081205919720993.webp 400w,
+/en/hero/av/4_hu20197878498434054.webp 760w,
 /en/hero/av/4_hu7970767564820671216.webp 1200w"
-src="http://localhost:54387/en/hero/av/4_hu3872732084603683717.webp"
+src="http://localhost:1313/en/hero/av/4_hu1128081205919720993.webp"
 width="760"
 height="342"
 loading="lazy" data-zoomable />&lt;/div>
@@ -246,15 +246,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="robot" srcset="
-/en/hero/av/5_hu15985399915338231601.webp 400w,
-/en/hero/av/5_hu16971815764119515699.webp 760w,
+/en/hero/av/5_hu7744538201150100094.webp 400w,
+/en/hero/av/5_hu3424715750421058474.webp 760w,
 /en/hero/av/5_hu2739134883705974662.webp 1200w"
-src="http://localhost:54387/en/hero/av/5_hu15985399915338231601.webp"
+src="http://localhost:1313/en/hero/av/5_hu7744538201150100094.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:54387/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:54387/ar/projects/4dof-robotic-arm/</guid><description>&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
+&lt;/p></description></item><item><title>تصنيف وفرز الأشكال لونيًا باستخدام ذراع روبوتية بأربع درجات حرية</title><link>http://localhost:1313/ar/projects/4dof-robotic-arm/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/4dof-robotic-arm/</guid><description>&lt;p>تُشكّل عمليات فرز وتصنيف المنتجات تحدّيًا كبيرًا، خصوصًا في البيئات غير الصحية، حيث يكون الاعتماد على العنصر البشري عرضة للأخطاء.&lt;br>
 ومن هذا المنطلق، يعرض هذا البحث حلًا ذكيًا يعتمد على ذراع روبوتية ذات أربع درجات حرية، للتحكم في عملية فرز الأشكال بناءً على ألوانها، باستخدام تقنيات المعالجة الصورية.&lt;/p>
 &lt;p>تم استخدام وحدة Raspberry Pi للتحكم بالذراع، حيث تقوم خوارزميات الرؤية الحاسوبية بتحليل لون الجسم المراد تصنيفه، ومن ثم إصدار الأوامر اللازمة للذراع لالتقاط الجسم ووضعه في المكان المخصّص وفقًا للونه.&lt;/p>
 &lt;h2 id="بيانات-النشر">بيانات النشر&lt;/h2>
@@ -272,15 +272,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="صورة" srcset="
-/en/projects/4dof-robotic-arm/image_hu828537805347133321.webp 400w,
-/en/projects/4dof-robotic-arm/image_hu10591741388667084852.webp 760w,
+/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp 400w,
+/en/projects/4dof-robotic-arm/image_hu9755964502696729891.webp 760w,
 /en/projects/4dof-robotic-arm/image_hu5096042048220078544.webp 1200w"
-src="http://localhost:54387/en/projects/4dof-robotic-arm/image_hu828537805347133321.webp"
+src="http://localhost:1313/en/projects/4dof-robotic-arm/image_hu300149116849424073.webp"
 width="760"
 height="440"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم</title><link>http://localhost:54387/ar/achievements/tubitak/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:54387/ar/achievements/tubitak/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/p></description></item><item><title>تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم</title><link>http://localhost:1313/ar/achievements/tubitak/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/tubitak/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="تمويل-tübitak-لمشروع-روبوت-متنقل-ذاتي-التحكم">تمويل TÜBİTAK لمشروع روبوت متنقل ذاتي التحكم&lt;/h2>
 &lt;p>حصل مشروع خالد بعنوان&lt;br>
 &lt;strong>&amp;ldquo;تطوير روبوت متنقل ذاتي متعدد المهام لأغراض التعليم والبحث العلمي&amp;rdquo;&lt;/strong>&lt;br>
@@ -288,7 +288,7 @@ loading="lazy" data-zoomable />&lt;/div>
 ضمن برنامج دعم مشاريع أبحاث الطلبة الجامعيين (2209-A).&lt;/p>
 &lt;p>يهدف المشروع إلى تصميم وتطوير منصة روبوتية قادرة على أداء مهام متنوعة بشكل ذاتي، مع إمكانية التكامل مع أنظمة خارجية.&lt;br>
 ويُعد هذا الدعم من TÜBİTAK دفعة قوية نحو تحويل الفكرة إلى إنجاز فعلي يُسهم في تطوير المعرفة العلمية وتعزيز الابتكار في مجال التكنولوجيا.&lt;/p>
-&lt;/div></description></item><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:54387/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:54387/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/div></description></item><item><title>نظام ملاحة للروبوتات</title><link>http://localhost:1313/ar/projects/lg/</link><pubDate>Mon, 12 Jun 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/projects/lg/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="لمحة-عن-المشروع">لمحة عن المشروع&lt;/h2>
 &lt;p>يهدف مشروع &lt;strong>Local Guide&lt;/strong> إلى تطوير نظام ملاحة ذكي للروبوتات الذاتية باستخدام تقنيات الذكاء الاصطناعي وخادم إشارات (Beacon Server).&lt;br>
 تم بناء النظام بلغة Python، ويعتمد على خوارزمية مرنة لحساب المسار الأمثل الذي يجب على الروبوت اتباعه للوصول إلى وجهته (في هذه الحالة: موقف سيارات).&lt;/p>
@@ -311,10 +311,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img alt="التقيم" srcset="
-/en/projects/lg/badge_hu1300195789329157182.webp 400w,
-/en/projects/lg/badge_hu7006632922434401181.webp 760w,
+/en/projects/lg/badge_hu3034371145428125111.webp 400w,
+/en/projects/lg/badge_hu12181493154512379697.webp 760w,
 /en/projects/lg/badge_hu18213919312010536174.webp 1200w"
-src="http://localhost:54387/en/projects/lg/badge_hu1300195789329157182.webp"
+src="http://localhost:1313/en/projects/lg/badge_hu3034371145428125111.webp"
 width="760"
 height="399"
 loading="lazy" data-zoomable />&lt;/div>
@@ -364,13 +364,13 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>📎
 &lt;/p>
-&lt;/div></description></item><item><title>تكريم من رئيس جامعة كارابوك</title><link>http://localhost:54387/ar/achievements/kbu-rector-tesekkur-belgesi/</link><pubDate>Tue, 30 May 2023 12:00:00 +0300</pubDate><guid>http://localhost:54387/ar/achievements/kbu-rector-tesekkur-belgesi/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
+&lt;/div></description></item><item><title>تكريم من رئيس جامعة كارابوك</title><link>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</link><pubDate>Tue, 30 May 2023 12:00:00 +0300</pubDate><guid>http://localhost:1313/ar/achievements/kbu-rector-tesekkur-belgesi/</guid><description>&lt;div dir="rtl" style="text-align: justify;">
 &lt;h2 id="تكريم-من-رئيس-جامعة-كارابوك">تكريم من رئيس جامعة كارابوك&lt;/h2>
 &lt;p>في قاعة المؤتمرات &amp;ldquo;حميت تشيبني&amp;rdquo; بتاريخ 30 مايو 2024، تلقّى خالد شهادة تقدير من رئيس جامعة كارابوك الأستاذ الدكتور فاتح قرشق، وذلك ضمن فعالية خصّصت لتكريم الطلبة والمشرفين الذين قُبلت مشاريعهم في الدورة الثانية لعام 2023 من برنامج TÜBİTAK 2209 A-B.&lt;/p>
 &lt;p>يمثّل هذا المشروع المتميّز الذي أُدرج تحت إطار برنامج TÜBİTAK 2209A دليلاً على الكفاءة البحثية التي يتمتّع بها خالد، كما يعكس الإمكانات الابتكارية لمشروعه العلمي.&lt;br>
 ويأتي هذا التكريم في سياق جهود الجامعة المتواصلة في دعم التميّز وتشجيع البحث العلمي.&lt;/p>
 &lt;p>عبّر خالد عن شكره لإدارة الجامعة وأساتذته وزملائه على دعمهم المتواصل، مؤكّدًا عزمه على مواصلة الإسهام في ميادين البحث والابتكار العلمي.&lt;/p>
-&lt;/div></description></item><item><title>مشروع قراءة وتسجيل درجة الحرارة والرطوبة</title><link>http://localhost:54387/ar/projects/tah/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:54387/ar/projects/tah/</guid><description>&lt;p>هذا المشروع تم إنجازه كجزء من مادة المتحكّمات الدقيقة خلال الدراسة الجامعية.&lt;/p>
+&lt;/div></description></item><item><title>مشروع قراءة وتسجيل درجة الحرارة والرطوبة</title><link>http://localhost:1313/ar/projects/tah/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/ar/projects/tah/</guid><description>&lt;p>هذا المشروع تم إنجازه كجزء من مادة المتحكّمات الدقيقة خلال الدراسة الجامعية.&lt;/p>
 &lt;ul>
 &lt;li>يتكوّن من حساس SH10 لدرجة الحرارة والرطوبة، متصل بلوحة Arduino Uno.&lt;/li>
 &lt;li>تم تطوير تطبيقات بلغة C# لعرض البيانات.&lt;/li>

@@ -2,3 +2,70 @@
 <link rel="stylesheet" href="/css/future-theme.css">
 <script src="/js/future-effects.js" defer></script>
 <script src="/js/sound-effects.js" defer></script>
+
+{{/* ============================================ */}}
+{{/* Enhanced Open Graph Meta Tags for Social Sharing */}}
+{{/* WhatsApp, LinkedIn, X (Twitter), Facebook, Telegram */}}
+{{/* ============================================ */}}
+
+{{/* Determine the sharing image with proper fallback */}}
+{{- $sharing_image := resources.GetMatch (path.Join "media" "sharing.*") -}}
+{{- $featured_image := (.Resources.ByType "image").GetMatch "*featured*" -}}
+{{- $og_image := "" -}}
+{{- $og_image_width := 1200 -}}
+{{- $og_image_height := 630 -}}
+
+{{- if $featured_image -}}
+  {{- $og_image = $featured_image.Permalink -}}
+  {{- $og_image_width = $featured_image.Width -}}
+  {{- $og_image_height = $featured_image.Height -}}
+{{- else if $sharing_image -}}
+  {{- $og_image = $sharing_image.Permalink -}}
+  {{- $og_image_width = $sharing_image.Width -}}
+  {{- $og_image_height = $sharing_image.Height -}}
+{{- else -}}
+  {{/* Fallback to static og-default image */}}
+  {{- $og_image = absURL "images/og-default.jpg" -}}
+{{- end -}}
+
+{{/* Critical for WhatsApp/LinkedIn preview generation */}}
+<meta property="og:image:secure_url" content="{{ $og_image }}">
+<meta property="og:image:width" content="{{ $og_image_width }}">
+<meta property="og:image:height" content="{{ $og_image_height }}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="{{ .Title | default site.Title }}">
+
+{{/* Fix locale format for proper social sharing (en_US not en-us) */}}
+<meta property="og:locale" content="{{ if eq .Lang "ar" }}ar_SA{{ else }}en_US{{ end }}">
+{{ range .Translations }}
+<meta property="og:locale:alternate" content="{{ if eq .Lang "ar" }}ar_SA{{ else }}en_US{{ end }}">
+{{ end }}
+
+{{/* Enhanced OG type for different content types */}}
+{{ if .IsHome }}
+<meta property="og:type" content="website">
+{{ else if .IsPage }}
+<meta property="og:type" content="article">
+{{ end }}
+
+{{/* Twitter Card enhancements */}}
+<meta name="twitter:image:alt" content="{{ .Title | default site.Title }}">
+
+{{/* WhatsApp / Telegram specific */}}
+<link rel="image_src" href="{{ $og_image }}">
+
+{{/* Article-specific tags for project pages */}}
+{{ if .IsPage }}
+{{ with .Section }}
+<meta property="article:section" content="{{ . | title }}">
+{{ end }}
+{{ range .Params.tags }}
+<meta property="article:tag" content="{{ . }}">
+{{ end }}
+{{ end }}
+
+{{/* Additional SEO signals */}}
+<meta name="theme-color" content="#6366f1">
+
+{{/* Include JSON-LD structured data for rich snippets */}}
+{{ partial "components/seo_schema.html" . }}

@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'الرئيسية'
 type: landing
 sections:
   - block: hero_slider
@@ -186,7 +186,7 @@ sections:
                 <img src="https://cdn.simpleicons.org/youtube/ff4d4d" alt="أيقونة يوتيوب">
                 <div class="hero-link-text">
                   <strong>قناتي على يوتيوب</strong>
-                  <span>دروس في هندسة الفضاء والروبوتات (أكثر من 30 فيديو).</span>
+                  <span>دروس في هندسة الطيران والروبوتات (أكثر من 30 فيديو).</span>
                 </div>
               </a>
             </div>
@@ -202,8 +202,8 @@ sections:
               <a class="hero-link-card" href="https://calendly.com/khaledhamidi" target="_blank" rel="noopener">
                 <img src="https://cdn.simpleicons.org/googlemeet/ff80b5" alt="أيقونة الاجتماع">
                 <div class="hero-link-text">
-                  <strong>احجز مكالمة تعريفية</strong>
-                  <span>محادثة استكشافية 15 دقيقة</span>
+                  <strong>احجز مكالمة</strong>
+                  <span>محادثة 15 دقيقة</span>
                 </div>
               </a>
               <a class="hero-link-card" href="https://play.google.com/store/apps/dev?id=KhaledHamidiLabs" target="_blank" rel="noopener">
@@ -233,8 +233,8 @@ sections:
               <a class="hero-link-card" href="#" target="_blank" rel="noopener">
                 <img src="/media/images/تميز.png" alt="شريك تميز">
                 <div class="hero-link-text">
-                  <strong>شراكة تميز</strong>
-                  <span>شريك استراتيجي في الدراسات والبحث الأكاديمي</span>
+                  <strong>مؤسس في تميز</strong>
+                  <span>تميز: شريك استراتيجي في الدراسات والبحث الأكاديمي</span>
                 </div>
               </a>
             </div>
