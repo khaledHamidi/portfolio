@@ -1,0 +1,499 @@
+/**
+ * Future Theme - Cyberpunk/Neon Visual Identity
+ * Glassmorphism, Glow Effects, Custom Cursor, Animations
+ */
+
+/* ============================================
+   CSS VARIABLES - NEON THEME
+   ============================================ */
+:root {
+  --neon-primary: #6366f1;
+  --neon-secondary: #8b5cf6;
+  --neon-accent: #06b6d4;
+  --neon-pink: #ec4899;
+  --neon-green: #10b981;
+  --glow-primary: 0 0 20px rgba(99, 102, 241, 0.5), 0 0 40px rgba(99, 102, 241, 0.3);
+  --glow-secondary: 0 0 20px rgba(139, 92, 246, 0.5), 0 0 40px rgba(139, 92, 246, 0.3);
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+}
+
+.dark {
+  --glass-bg: rgba(15, 23, 42, 0.7);
+  --glass-border: rgba(99, 102, 241, 0.3);
+}
+
+/* ============================================
+   CUSTOM CURSOR STYLES
+   ============================================ */
+.custom-cursor {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--neon-primary);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s, height 0.2s, border-color 0.2s, background-color 0.2s;
+  mix-blend-mode: difference;
+}
+
+.custom-cursor-dot {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background: var(--neon-primary);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s;
+}
+
+.cursor-trail {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  background: var(--neon-secondary);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99998;
+  transform: translate(-50%, -50%);
+}
+
+.custom-cursor.cursor-hover {
+  width: 60px;
+  height: 60px;
+  border-color: var(--neon-pink);
+  background: rgba(236, 72, 153, 0.1);
+}
+
+.custom-cursor-dot.cursor-hover {
+  transform: translate(-50%, -50%) scale(2);
+  background: var(--neon-pink);
+}
+
+.custom-cursor.cursor-click {
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+/* Hide default cursor when custom cursor is active */
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: none !important;
+  }
+  a, button, input, textarea, select, [role="button"] {
+    cursor: none !important;
+  }
+}
+
+/* ============================================
+   GLASSMORPHISM CARDS
+   ============================================ */
+.hero-profile-card,
+.grid > a,
+.card,
+.hb-card,
+.blox-accomplishments .grid > a {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  border: 1px solid var(--glass-border) !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+.dark .hero-profile-card,
+.dark .grid > a,
+.dark .card,
+.dark .hb-card {
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    inset 0 0 0 1px rgba(99, 102, 241, 0.1) !important;
+}
+
+/* ============================================
+   ANIMATED GRADIENT BORDERS
+   ============================================ */
+.hero-profile-card::before,
+.grid > a::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(
+    45deg,
+    var(--neon-primary),
+    var(--neon-secondary),
+    var(--neon-accent),
+    var(--neon-pink),
+    var(--neon-primary)
+  );
+  background-size: 400% 400%;
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  animation: gradient-rotate 4s ease infinite;
+}
+
+.hero-profile-card:hover::before,
+.grid > a:hover::before {
+  opacity: 1;
+}
+
+@keyframes gradient-rotate {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Ensure cards have relative positioning for pseudo-elements */
+.hero-profile-card,
+.grid > a {
+  position: relative;
+  overflow: visible;
+}
+
+/* ============================================
+   GLITCH TEXT EFFECT
+   ============================================ */
+.glitch-text {
+  position: relative;
+  display: inline-block;
+  animation: glitch-skew 4s infinite linear alternate-reverse;
+}
+
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.glitch-text::before {
+  color: var(--neon-accent);
+  animation: glitch-1 0.3s infinite linear alternate-reverse;
+  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+}
+
+.glitch-text::after {
+  color: var(--neon-pink);
+  animation: glitch-2 0.3s infinite linear alternate-reverse;
+  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+}
+
+@keyframes glitch-1 {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(-3px, 3px); }
+  40% { transform: translate(-3px, -3px); }
+  60% { transform: translate(3px, 3px); }
+  80% { transform: translate(3px, -3px); }
+}
+
+@keyframes glitch-2 {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(3px, -3px); }
+  40% { transform: translate(3px, 3px); }
+  60% { transform: translate(-3px, -3px); }
+  80% { transform: translate(-3px, 3px); }
+}
+
+@keyframes glitch-skew {
+  0%, 100% { transform: skew(0deg); }
+  10% { transform: skew(-1deg); }
+  20% { transform: skew(0deg); }
+  30% { transform: skew(1deg); }
+  40% { transform: skew(0deg); }
+}
+
+/* ============================================
+   NEON GLOW EFFECTS
+   ============================================ */
+.hero-links a:hover,
+.btn:hover,
+button:hover {
+  box-shadow: var(--glow-primary) !important;
+  transform: translateY(-2px);
+}
+
+.dark .hero-profile-card:hover {
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(99, 102, 241, 0.3),
+    inset 0 0 0 1px rgba(99, 102, 241, 0.3) !important;
+}
+
+/* ============================================
+   TILT CARD STYLES
+   ============================================ */
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease !important;
+}
+
+.tilt-card > * {
+  transform: translateZ(30px);
+}
+
+/* ============================================
+   SCROLL ANIMATIONS
+   ============================================ */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-animate.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered animation for grid items */
+.grid > a.scroll-animate:nth-child(1) { transition-delay: 0.1s; }
+.grid > a.scroll-animate:nth-child(2) { transition-delay: 0.2s; }
+.grid > a.scroll-animate:nth-child(3) { transition-delay: 0.3s; }
+.grid > a.scroll-animate:nth-child(4) { transition-delay: 0.4s; }
+.grid > a.scroll-animate:nth-child(5) { transition-delay: 0.5s; }
+.grid > a.scroll-animate:nth-child(6) { transition-delay: 0.6s; }
+
+/* ============================================
+   MAGNETIC BUTTON STYLES
+   ============================================ */
+.magnetic-btn {
+  transition: transform 0.2s ease, box-shadow 0.3s ease !important;
+  will-change: transform;
+}
+
+/* ============================================
+   HOVER GLOW EFFECT FOR CARDS
+   ============================================ */
+.grid > a:hover,
+.card:hover,
+.hb-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.15),
+    0 0 30px rgba(99, 102, 241, 0.2) !important;
+}
+
+.dark .grid > a:hover,
+.dark .card:hover,
+.dark .hb-card:hover {
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 40px rgba(99, 102, 241, 0.3),
+    0 0 80px rgba(139, 92, 246, 0.15) !important;
+}
+
+/* ============================================
+   NAVBAR BLUR ENHANCEMENT
+   ============================================ */
+.hb-navbar,
+header nav,
+.navbar {
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dark .hb-navbar,
+.dark header nav,
+.dark .navbar {
+  background: rgba(15, 23, 42, 0.8) !important;
+  border-bottom: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+/* ============================================
+   LINK HOVER EFFECTS
+   ============================================ */
+.hero-links a {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease !important;
+}
+
+.hero-links a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.hero-links a:hover::before {
+  left: 100%;
+}
+
+/* ============================================
+   PROFILE IMAGE GLOW
+   ============================================ */
+.hero-profile-card img {
+  transition: all 0.4s ease;
+}
+
+.hero-profile-card:hover img {
+  box-shadow: 0 0 30px rgba(99, 102, 241, 0.5);
+}
+
+/* Profile border animation */
+.hero-profile-card > div:first-child > div:first-child {
+  position: relative;
+}
+
+.hero-profile-card > div:first-child > div:first-child::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, var(--neon-primary), var(--neon-secondary), var(--neon-accent));
+  background-size: 200% 200%;
+  z-index: -1;
+  animation: profile-glow 3s ease infinite;
+}
+
+@keyframes profile-glow {
+  0%, 100% { background-position: 0% 50%; opacity: 0.5; }
+  50% { background-position: 100% 50%; opacity: 1; }
+}
+
+/* ============================================
+   SMOOTH SCROLL
+   ============================================ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================
+   SECTION DIVIDERS WITH GRADIENT
+   ============================================ */
+section::after {
+  content: '';
+  display: block;
+  height: 1px;
+  margin: 2rem auto;
+  max-width: 200px;
+  background: linear-gradient(90deg, transparent, var(--neon-primary), transparent);
+  opacity: 0.3;
+}
+
+section:last-of-type::after {
+  display: none;
+}
+
+/* ============================================
+   LOADING ANIMATION FOR IMAGES
+   ============================================ */
+img {
+  opacity: 0;
+  animation: fadeInImage 0.5s ease forwards;
+}
+
+img[src] {
+  opacity: 1;
+}
+
+@keyframes fadeInImage {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Fix for already loaded images */
+img:not([loading]) {
+  opacity: 1;
+  animation: none;
+}
+
+/* ============================================
+   TEXT SELECTION STYLE
+   ============================================ */
+::selection {
+  background: var(--neon-primary);
+  color: white;
+}
+
+::-moz-selection {
+  background: var(--neon-primary);
+  color: white;
+}
+
+/* ============================================
+   SCROLLBAR STYLING
+   ============================================ */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--neon-primary), var(--neon-secondary));
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--neon-secondary), var(--neon-pink));
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--neon-primary) transparent;
+}
+
+/* ============================================
+   FOCUS STATES FOR ACCESSIBILITY
+   ============================================ */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--neon-primary);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+}
+
+/* ============================================
+   REDUCED MOTION SUPPORT
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .scroll-animate {
+    opacity: 1;
+    transform: none;
+  }
+  
+  .glitch-text::before,
+  .glitch-text::after {
+    display: none;
+  }
+}

@@ -61,7 +61,7 @@ sections:
       count: 3
     design:
       spacing:
-        padding: [20px, 0, 200px, 0]
+        padding: [20px, 0,  100px, 0]
       view: showcase
       columns: '1'
 
@@ -263,14 +263,7 @@ sections:
       view: showcase
       columns: '1'
 
-  - block: markdown
-    content:
-      title: ''
-      text: '<div style="height:2.5rem"></div>'
-    design:
-      spacing:
-        padding: [0, 0, 0, 0]
-
+ 
 
   - block: collection
     content:
@@ -281,7 +274,7 @@ sections:
       count: 3
     design:
       spacing:
-        padding: ['2rem', 0, '2rem', 0]
+        padding: [0, 0, 0, 0]
       view: card
 
   - block: collection
@@ -293,7 +286,7 @@ sections:
       count: 6
     design:
       spacing:
-        padding: ['0rem', 0, '0rem', 0]
+        padding: [0, 0, 0, 0]
       view: card
       columns: '2'
 

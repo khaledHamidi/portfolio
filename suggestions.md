@@ -1,31 +1,4 @@
-# Future-Ready Portfolio Enhancements
-
-## 1. Hero Section Revolution
-- Particle system with interactive mouse tracking
-- Glitch text effect on name/title
-- Typing animation with multiple roles
-- Holographic card hover effects
-
-## 2. Visual Identity
-- Neon/cyberpunk color scheme
-- Glassmorphism cards with blur effects
-- Gradient borders with animation
-- Dark mode with accent glow effects
-- Custom cursor with trail effect
-
-## 3. Micro-Interactions
-- Magnetic buttons
-- Smooth scroll with parallax layers
-- Page transitions (fade/slide between pages)
-- Loading screen with custom animation
-- Hover effects: tilt, glow, scale
-
-## 4. Project Showcases
-- 3D project cards that rotate on hover
-- Video previews on hover
-- Interactive tech stack icons
-- Live demo embeds
-- Before/after sliders for designs
+http://localhost:1313/>
 
 ## 5. Technical Displays
 - Animated skill bars with percentages
