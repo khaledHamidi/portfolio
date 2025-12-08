@@ -4,6 +4,58 @@
 <script src="/js/sound-effects.js" defer></script>
 
 {{/* ============================================ */}}
+{{/* Google Analytics 4 (gtag.js) */}}
+{{/* ============================================ */}}
+{{ with site.Params.marketing.analytics.google_analytics }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}', {
+    'anonymize_ip': true,
+    'cookie_flags': 'SameSite=None;Secure',
+    'send_page_view': true
+  });
+  
+  // Track scroll depth
+  let scrolled25 = false, scrolled50 = false, scrolled75 = false, scrolled100 = false;
+  window.addEventListener('scroll', function() {
+    const scrollPercent = (window.scrollY + window.innerHeight) / document.body.scrollHeight * 100;
+    if (scrollPercent >= 25 && !scrolled25) { scrolled25 = true; gtag('event', 'scroll', {'event_category': 'engagement', 'event_label': '25%'}); }
+    if (scrollPercent >= 50 && !scrolled50) { scrolled50 = true; gtag('event', 'scroll', {'event_category': 'engagement', 'event_label': '50%'}); }
+    if (scrollPercent >= 75 && !scrolled75) { scrolled75 = true; gtag('event', 'scroll', {'event_category': 'engagement', 'event_label': '75%'}); }
+    if (scrollPercent >= 100 && !scrolled100) { scrolled100 = true; gtag('event', 'scroll', {'event_category': 'engagement', 'event_label': '100%'}); }
+  });
+  
+  // Track time on page
+  let timeOnPage = 0;
+  setInterval(function() {
+    timeOnPage += 30;
+    if (timeOnPage === 30 || timeOnPage === 60 || timeOnPage === 180 || timeOnPage === 300) {
+      gtag('event', 'time_on_page', {'event_category': 'engagement', 'event_label': timeOnPage + 's', 'value': timeOnPage});
+    }
+  }, 30000);
+  
+  // Track outbound links
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a');
+    if (link && link.hostname !== window.location.hostname) {
+      gtag('event', 'click', {'event_category': 'outbound', 'event_label': link.href, 'transport_type': 'beacon'});
+    }
+  });
+  
+  // Track file downloads
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a');
+    if (link && /\.(pdf|docx?|xlsx?|pptx?|zip|rar|7z)$/i.test(link.href)) {
+      gtag('event', 'download', {'event_category': 'file', 'event_label': link.href});
+    }
+  });
+</script>
+{{ end }}
+
+{{/* ============================================ */}}
 {{/* Enhanced Open Graph Meta Tags for Social Sharing */}}
 {{/* WhatsApp, LinkedIn, X (Twitter), Facebook, Telegram */}}
 {{/* ============================================ */}}
