@@ -80,7 +80,7 @@ ASW 20, B 737,Canard, Citation, Navion,Seneca2, MiG 17
 
 ### Package Contents
 
-The archive **`datcom.zip`** contains:
+The archive **`datcom_pack.zip`** contains:
 
 - `datcom.exe` – Digital DATCOM executable
 - `*.dcm`, `*.input`, `*.txt` – DATCOM input files (same format, different extensions)
@@ -110,7 +110,7 @@ cl    = data.Aero.CL;                % Extract lift coefficient
 
 You can download the full package here:
 
-**[datcom.zip](datcom_ready_pack.zip)**
+**[datcom.zip](datcom_pack.zip)**
 
 All input cases have been tested and verified to run correctly with the provided executable and MATLAB post‑processing.
 
