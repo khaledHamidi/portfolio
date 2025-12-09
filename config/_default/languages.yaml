@@ -6,7 +6,15 @@
 en:
   languageCode: en-us
   weight: 1
+  title: "Khaled HAMIDI"
+  params:
+    description: "Senior Mechatronics & Aerospace Engineer (9+ yrs experience). Comprehensive hub for Robotics & AI solutions, practical tutorials, and ready-to-use source code downloads."
+    keywords: ["mechatronics","aerospace engineering","robotics","intelligent systems","autonomous control","artificial intelligence","machine learning","programming","embedded systems","engineering simulation","mathematical modeling","technical projects","Azaz aleppo","MATLAB analysis","Khaled Hamidi","Khaled Hamidi Keno","Robotech"]
 ar:
   languageCode: ar
   rtl: true
   weight: 2
+  title: "خالد حميدي كنو الموقع الرسمي"
+  params:
+    description: "مهندس ميكاترونكس وطيران. منصة هندسية متكاملة توفر مشاريع وحلول عملية في الروبوتات والأنظمة الذكية للباحثين والمطورين"
+    keywords: ["ميكاترونكس","هندسة الطيران","روبوتات","أنظمة ذكية","تحكم ذاتي","الذكاء الاصطناعي","تعلم الآلة","برمجة","أنظمة مدمجة","محاكاة هندسية","حلب", "اعزاز", "نمذجة رياضية","مشاريع تقنية","ابتكار هندسي","تحليل MATLAB","خالد حميدي","خالد حميدي كنو","Robotech"]

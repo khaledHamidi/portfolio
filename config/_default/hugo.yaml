@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Khaled HAMIDI KENO خالد حميدي كنو| Expert in Mechatronics, Aerospace & Intelligent Systems"
-description: "Official website of Khaled HAMIDI KENO – Mechatronics and Aerospace Engineer, Intelligent Systems Architect, and Robotech Team Founder. Discover smart technologies, robotics innovation, and cutting-edge AI systems engineering."
-keywords: ["ميكاترونكس", "مطور", "مشاريع برمجية", "الذكاء الاصطناعي", "السيرة الذاتية", "AI", "برمجة", "تقنية", "خالد حميدي كنو", "Khaled HAMIDI KENO", "أنظمة ذكية", "روبوتات", "هندسة طيران", "Robotech"]
+title: "Khaled HAMIDI"
+description: "Senior Mechatronics & Aerospace Engineer (9+ yrs experience). Comprehensive hub for Robotics & AI solutions, practical tutorials, and ready-to-use source code downloads."
+keywords: ["mechatronics","aerospace engineering","robotics","intelligent systems","autonomous control","artificial intelligence","machine learning","programming","embedded systems","engineering simulation","mathematical modeling","technical projects","engineering innovation","MATLAB analysis","Khaled Hamidi","Khaled Hamidi Keno","Robotech"]
 baseURL: 'https://khaledhamidi.com/' # Website URL
 
 ############################
