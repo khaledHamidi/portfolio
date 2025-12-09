@@ -1,6 +1,6 @@
 ---
-title: نماذج طائرات جاهزة لبرنامج DATCOM
-summary: حزمة طائرات لبرنامج datcom، تشمل: B-737، Citation، MiG-17، ASW-20 وغيرها.
+title: "نماذج طائرات جاهزة لبرنامج DATCOM"
+summary: "حزمة طائرات لبرنامج datcom، تشمل: B-737، Citation، MiG-17، ASW-20 وغيرها."
 date: 2025-12-09
 authors:
   - admin
