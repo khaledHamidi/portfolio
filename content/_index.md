@@ -13,9 +13,10 @@ sections:
       title: ''
       text: |
         <style>
-          /* Force 3-column grid for accomplishments */
-          .grid-cols-1 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 1.2rem !important; }
+          /* Mobile-first: 1 column on phone, 3 columns on desktop */
+          .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)) !important; gap: 1rem !important; }
           @media (min-width: 768px) {
+            .grid-cols-1 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 1.2rem !important; }
             .md\:grid-cols-2 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
             .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
           }
@@ -47,6 +48,22 @@ sections:
           }
           .mb-10 { margin-bottom: 1rem !important; }
           .mb-6 { margin-bottom: 0.8rem !important; }
+          
+          /* Mobile: Add padding to blog/project sections */
+          @media (max-width: 767px) {
+            .container.max-w-\[65ch\] { padding-left: 1rem !important; padding-right: 1rem !important; }
+            /* Make blog/project images 1:1 ratio on mobile */
+            .md\:flex > div:first-child img {
+              width: 100% !important;
+              height: auto !important;
+              aspect-ratio: 1 / 1 !important;
+              object-fit: cover !important;
+            }
+            .md\:w-48 { width: 100% !important; max-width: 100% !important; }
+            .h-48 { height: auto !important; }
+            /* Hide Last posts section on mobile */
+            #section-collection:first-of-type { display: none !important; }
+          }
         </style>
     design:
       spacing:
@@ -267,16 +284,18 @@ sections:
  
 
   - block: collection
+    id: last-posts-section
     content:
       title: 'Last blogs'
       filters:
         folders:
           - posts
-      count: 3
+      count: 2
     design:
       spacing:
         padding: [0, 0, 0, 0]
       view: card
+      css_class: hide-on-mobile
 
   - block: collection
     content:
@@ -284,7 +303,7 @@ sections:
       filters:
         folders:
           - projects
-      count: 6
+      count: 3
     design:
       spacing:
         padding: [0, 0, 0, 0]

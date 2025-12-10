@@ -21,30 +21,34 @@
     }
 
     init() {
-      this.canvas = document.createElement('canvas');
-      this.canvas.id = 'particle-canvas';
-      this.canvas.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        z-index: 0;
-        opacity: 0.6;
-      `;
-      document.body.prepend(this.canvas);
-      this.ctx = this.canvas.getContext('2d');
+      // Delay particle system initialization for better LCP
+      setTimeout(() => {
+        this.canvas = document.createElement('canvas');
+        this.canvas.id = 'particle-canvas';
+        this.canvas.style.cssText = `
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          pointer-events: none;
+          z-index: 0;
+          opacity: 0.6;
+        `;
+        document.body.prepend(this.canvas);
+        this.ctx = this.canvas.getContext('2d');
 
-      this.resize();
-      this.createParticles();
-      this.bindEvents();
-      if (this.active) { // Only animate if active
-        this.animate();
-      }
+        this.resize();
+        this.createParticles();
+        this.bindEvents();
+        if (this.active) {
+          this.animate();
+        }
+      }, 1500); // Delay 1.5s to prioritize content
     }
 
     resize() {
+      if (!this.canvas) return;
       this.canvas.width = window.innerWidth;
       this.canvas.height = window.innerHeight;
     }

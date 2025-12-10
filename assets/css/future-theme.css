@@ -497,3 +497,149 @@ textarea:focus-visible {
     display: none;
   }
 }
+
+/* ============================================
+   MOBILE-SPECIFIC FIXES (max-width: 767px)
+   ============================================ */
+@media (max-width: 767px) {
+  /* 1. Hide "Last posts" section on mobile */
+  .hide-on-mobile,
+  #section-last-posts-section,
+  section[id*="last-posts"] {
+    display: none !important;
+  }
+  
+  /* 2. Cards image 1:1 ratio + padding for /projects/ & /achievements/ */
+  .grid > a > div:first-of-type {
+    aspect-ratio: 1 / 1 !important;
+    height: auto !important;
+  }
+  .grid > a > div:first-of-type img {
+    aspect-ratio: 1 / 1 !important;
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .container.mx-auto.max-w-screen-lg {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* 3. Reduce article header text size on mobile */
+  article header h1,
+  .article-header h1,
+  .prose h1,
+  .single-article h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.5rem !important;
+  }
+  article header p,
+  .article-header .text-lg,
+  .prose > p:first-of-type {
+    font-size: 0.9rem !important;
+    line-height: 1.4 !important;
+  }
+  .article-header,
+  article > header {
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  
+  /* 4. Hide author section on mobile */
+  .author-card,
+  .authors,
+  article footer .flex.items-center,
+  .prose + .mt-10,
+  .author-notes,
+  [class*="author"],
+  .article-author,
+  /* Hide author avatar and name in article header */
+  article .text-gray-500 a[href*="author"],
+  article .text-gray-500 .group.inline-flex,
+  article header .group.inline-flex,
+  .text-gray-500 a[target="_blank"],
+  /* Hide the author card at the bottom of articles */
+  .flex.pt-12.pb-4,
+  div.flex.pt-12.pb-4 {
+    display: none !important;
+  }
+  /* Also hide the separator before author */
+  article .text-gray-500 .mx-1:nth-of-type(1) {
+    display: none !important;
+  }
+  
+  /* 5. Fix dropdown menu on mobile - make it visible when clicked */
+  .nav-dropdown-list {
+    position: static !important;
+    display: none;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: var(--glass-bg) !important;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+  }
+  .nav-dropdown.active .nav-dropdown-list,
+  .nav-dropdown:focus-within .nav-dropdown-list,
+  .nav-item.nav-dropdown input:checked + .nav-dropdown-list {
+    display: block !important;
+  }
+  .nav-dropdown > span {
+    cursor: pointer;
+  }
+  
+  /* 6. Fix language switcher on mobile */
+  [data-hb-language-chooser] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  /* Language dropdown - force proper mobile positioning */
+  [data-hb-language-chooser] + ul {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 60px !important;
+    right: 10px !important;
+    left: auto !important;
+    transform: none !important;
+    z-index: 9999 !important;
+    min-width: 120px !important;
+    max-height: 200px !important;
+    overflow-y: auto !important;
+  }
+  /* Show dropdown when button state is open */
+  [data-hb-language-chooser][data-state="open"] + ul {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  .order-1.ml-auto {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.25rem !important;
+  }
+  /* Ensure language and theme buttons are visible */
+  .order-1.ml-auto > div,
+  .order-1.ml-auto > button {
+    display: flex !important;
+  }
+}
+
+/* Additional fix for language dropdown visibility on tablet/mobile */
+@media (max-width: 1023px) {
+  [data-hb-language-chooser] + ul {
+    position: fixed !important;
+    transform: none !important;
+    bottom: 60px !important;
+    right: 10px !important;
+    left: auto !important;
+    top: auto !important;
+  }
+  [data-hb-language-chooser][data-state="open"] + ul {
+    display: block !important;
+  }
+  [data-hb-language-chooser][data-state="closed"] + ul {
+    display: none !important;
+  }
+}

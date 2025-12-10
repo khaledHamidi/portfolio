@@ -80,6 +80,9 @@
         [dir='rtl'] .hero-slider-btn--prev { left: 4.6rem; }
         @media (max-width: 960px) {
           .hero-slider-shell { min-height: 360px; }
+          /* Hide descriptions on mobile */
+          .hero-slider-text p { display: none; }
+          .hero-slider-text h4 { font-size: 1.2rem; }
         }
 
         /* Premium Slide Effects */
@@ -330,7 +333,7 @@
                   </div>
                   <div class="hero-premium-badge">Featured · مميز</div>
                   {{ end }}
-                  <div class="hero-slider-image" {{ with .Resources.GetMatch "featured.jpg" }}style="background-image: url('{{ .RelPermalink }}');"{{ end }}>
+                  <div class="hero-slider-image" {{ with .Resources.GetMatch "featured.jpg" }}style="background-image: url('{{ .RelPermalink }}');"{{ if eq $index 1 }}{{ end }}{{ end }}>
                     <div class="hero-slider-text">
                       <h4>{{ .Title }}</h4>
                       <p>{{ .Summary }}</p>
