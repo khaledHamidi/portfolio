@@ -8,10 +8,32 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "{{ .Site.BaseURL }}#organization",
+      "name": "Khaled HAMIDI",
+      "alternateName": ["خالد كنو", "Khaled HAMIDI"],
+      "url": "{{ .Site.BaseURL }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ .Site.BaseURL }}media/icon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "{{ .Site.BaseURL }}media/sharing.jpg",
+      "sameAs": [
+        "{{ .Site.Params.social.linkedin }}",
+        "{{ .Site.Params.social.twitter }}",
+        "{{ .Site.Params.social.github }}",
+        "{{ .Site.Params.social.facebook }}",
+        "{{ .Site.Params.social.instagram }}",
+        "{{ .Site.Params.social.youtube }}"
+      ]
+    },
+    {
       "@type": "Person",
       "@id": "{{ .Site.BaseURL }}#person",
       "name": "Khaled HAMIDI KENO",
-      "alternateName": ["خالد حميدي", "خالد كنو", "خالد حميدي كنو", "Khaled Hamidi", "KENO", "Eng. Khaled HAMIDI"],
+      "alternateName": ["خالد حميدي", "خالد كنو", "خالد حميدي", "Khaled Hamidi", "KENO", "Khaled HAMIDI"],
       "url": "{{ .Site.BaseURL }}",
       "image": "{{ .Site.BaseURL }}media/images/profile.jpg",
       "homeLocation": {
@@ -67,7 +89,7 @@
       "name": "Khaled HAMIDI KENO - Mechatronics & Aerospace Engineer",
       "description": "Official website of Khaled HAMIDI KENO – Mechatronics and Aerospace Engineer, Intelligent Systems Architect, and Robotech Team Founder. Discover smart technologies, robotics innovation, and cutting-edge AI systems engineering.",
       "publisher": {
-        "@id": "{{ .Site.BaseURL }}#person"
+        "@id": "{{ .Site.BaseURL }}#organization"
       },
       "author": {
         "@id": "{{ .Site.BaseURL }}#person"
