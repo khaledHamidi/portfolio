@@ -18,13 +18,6 @@ categories:
 
 **Digital DATCOM** (Data Compendium) is a computer program developed by the **United States Air Force** to estimate aircraft stability and control characteristics. It implements the methods documented in the classic USAF Stability and Control DATCOM handbook and was originally created at Wright–Patterson Air Force Base.
 
-Instead of running CFD for every configuration, DATCOM uses semi‑empirical methods based on:
-
-- **Lifting‑line theory** for wing aerodynamics
-- **Slender‑body theory** for fuselage contributions
-- **Component build‑up methods** for the complete aircraft
-- **Empirical corrections** derived from wind‑tunnel and flight‑test data
-
 From these models, the code can compute:
 
 - Lift coefficient (CL) and lift‑curve slope (CLα)
