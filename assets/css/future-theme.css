@@ -499,9 +499,9 @@ textarea:focus-visible {
 }
 
 /* ============================================
-   MOBILE-SPECIFIC FIXES (max-width: 767px)
+   MOBILE-SPECIFIC FIXES (max-width: 480px)
    ============================================ */
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   /* 1. Hide "Last posts" section on mobile */
   .hide-on-mobile,
   #section-last-posts-section,
@@ -626,8 +626,8 @@ textarea:focus-visible {
   }
 }
 
-/* Additional fix for language dropdown visibility on tablet/mobile */
-@media (max-width: 1023px) {
+/* Additional fix for language dropdown visibility on phone */
+@media (max-width: 480px) {
   [data-hb-language-chooser] + ul {
     position: fixed !important;
     transform: none !important;
