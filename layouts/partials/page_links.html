@@ -1,0 +1,159 @@
+{{ $is_list := .is_list }}
+{{ $page := .page }}
+{{ $link := "" }}
+
+{{/* ***** TODO: Deprecate `url_preprint` in favour of `url_pdf` given there's now a dedicated "Preprint" pub. type. ***** */}}
+{{ with $page.Params.url_preprint }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+  <a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
+    {{ i18n "btn_preprint" }}
+  </a>
+{{ end }}
+{{ $pdf := "" }}
+{{ $resource := $page.Resources.GetMatch (printf "%s.pdf" $page.File.ContentBaseName) }}
+{{ with $resource }}
+  {{ $pdf = .RelPermalink }}
+{{ else }}
+  {{ if $page.Params.url_pdf }}
+    {{ $pdf = $page.Params.url_pdf | relURL }}
+  {{ end }}
+{{ end }}
+
+{{ with $pdf }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ . }}" target="_blank" rel="noopener">
+  {{ partial "functions/get_icon" (dict "name" "document-text" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  {{ i18n "btn_pdf" }}
+</a>
+{{ end }}
+
+{{/* Auto-generate download buttons for all ZIP files in the article folder */}}
+{{ $zipFiles := $page.Resources.Match "*.zip" }}
+{{ range $zipFiles }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ .RelPermalink }}" download>
+  {{ partial "functions/get_icon" (dict "name" "arrow-down-tray" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  {{ .Name }}
+</a>
+{{ end }}
+
+{{ $resource := $page.Resources.GetMatch "cite.bib" }}
+{{ with $resource }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ .RelPermalink }}" target="_blank" data-filename="{{ .RelPermalink }}">
+  {{ partial "functions/get_icon" (dict "name" "document-duplicate" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  {{ i18n "btn_cite" }}
+</a>
+{{ end }}
+{{ with $page.Params.url_code }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
+  {{ partial "functions/get_icon" (dict "name" "code-bracket" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  {{ i18n "btn_code" }}
+</a>
+{{ end }}
+{{ with $page.Params.url_dataset }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
+  {{ partial "functions/get_icon" (dict "name" "circle-stack" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  {{ i18n "btn_dataset" }}
+</a>
+{{ end }}
+{{ if $page.Params.projects }}
+{{ range $page.Params.projects }}
+  {{ with (site.GetPage (printf "project/%s" .)) }}
+  <a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ .RelPermalink }}">
+    {{ i18n "btn_project" }}
+  </a>
+  {{ else }}
+    {{/* errorf "The `projects` parameter in `content/%s` references a project file, `content/project/%s`, which cannot be found. Please either set `projects = []` or fix the reference." $page.File.Path . */}}
+  {{ end }}
+{{ end }}
+{{ else }}
+{{ with $page.Params.url_project }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ . }}" target="_blank" rel="noopener">
+  {{ i18n "btn_project" }}
+</a>
+{{ end }}
+{{ end }}
+{{ with $page.Params.url_poster }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ . }}" target="_blank" rel="noopener">
+  {{ partial "functions/get_icon" (dict "name" "document" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  {{ i18n "btn_poster" }}
+</a>
+{{ end }}
+{{ $slides := $page.Resources.GetMatch "slides" }}
+{{ with $slides }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ .RelPermalink }}" target="_blank" rel="noopener">
+  {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  {{ i18n "btn_slides" }}
+</a>
+{{ else }}
+  {{/* Fallback to page parameter. */}}
+  {{ if $page.Params.slides }}
+  <a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ printf "%s/" ($page.Params.slides | relURL) }}" target="_blank" rel="noopener">
+    {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+    {{ i18n "btn_slides" }}
+  </a>
+  {{ else }}
+  {{ with $page.Params.url_slides }}
+  <a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ . }}" target="_blank" rel="noopener">
+    {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+    {{ i18n "btn_slides" }}
+  </a>
+  {{ end }}
+  {{ end }}
+{{ end }}
+{{ with $page.Params.url_video }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ . }}" target="_blank" rel="noopener">
+  {{ partial "functions/get_icon" (dict "name" "video-camera" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  {{ i18n "btn_video" }}
+</a>
+{{ end }}
+{{ with $page.Params.url_source }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ . }}" target="_blank" rel="noopener">
+  {{ partial "functions/get_icon" (dict "name" "document" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  {{ i18n "btn_source" }}
+</a>
+{{ end }}
+
+{{ range $page.Params.links }}
+{{ $pack := .icon_pack | default "fas" }}
+{{ $pack_prefix := $pack }}
+{{ if in (slice "fab" "fas" "far" "fal" "fad") $pack }}
+  {{ $pack_prefix = "fa" }}
+{{ end }}
+{{ $link := .url | default "" }}
+{{ $scheme := (urls.Parse $link).Scheme }}
+{{ $target := "" }}
+{{ if not $scheme }}
+  {{ $resource := $page.Resources.GetMatch $link }}
+  {{/* Get resource from page bundle or, as a fallback, from assets. */}}
+  {{ if not $resource }}
+    {{ $resource = resources.Get (path.Join "media" $link) }}
+  {{ end }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = $link | relURL }}
+  {{ end }}
+{{ else }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+  {{ with .icon }}{{ partial "functions/get_icon" (dict "name" . "attributes" "style=\"height: 1em\" class='inline-block'") }}&nbsp;{{end}}
+  {{ with .name }}{{ . | markdownify | emojify | safeHTML }}{{end}}
+</a>
+{{ end }}
