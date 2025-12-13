@@ -1,5 +1,5 @@
 ---
-title: "DATCOM: Ready Aircraft Models and output files"
+title: "DATCOM: Ready Aircraft Models & Aerodynamic Output Files"
 summary: "Ready to use DATCOM (Includes verified models (ASW-20, B-737, Canard, Citation, Navion, Seneca II, MiG-17)) for MATLAB integration."
 date: 2025-12-09
 authors:
@@ -56,7 +56,8 @@ If you see these, the first thing to check is the file format and card layout.
 To avoid spending hours chasing format errors, this package provides **corrected input files** and **pre‑computed output files** that you can use directly for analysis, plotting, or MATLAB post‑processing.
 
 ### Included Aircraft Models
-ASW 20, B 737,Canard, Citation, Navion,Seneca2, MiG 17
+
+ASW 20, B 737, Canard, Citation, Navion, Seneca2, MiG 17, Cessna 172
 
 | Aircraft           | Type             | Alpha Range | Mach  | Description                             |
 |--------------------|------------------|------------:|:-----:|-----------------------------------------|
@@ -69,6 +70,7 @@ ASW 20, B 737,Canard, Citation, Navion,Seneca2, MiG 17
 | **Navion**         | General aviation |   -2°–20°   | 0.158 | Ryan Navion light aircraft              |
 | **Seneca2**       | Twin‑engine      |   -8°–20°   | 0.24  | Piper PA‑34‑200T                        |
 | **MiG‑17**         | Fighter          |   -4°–14°   | 0.60  | Classic Soviet jet fighter              |
+| **Cessna172**        | General aviation |   -4°–16°   | 0.12  | Cessna 172 Skyhawk, popular trainer     |
 
 
 ### Package Contents
@@ -76,10 +78,8 @@ ASW 20, B 737,Canard, Citation, Navion,Seneca2, MiG 17
 The archive **`datcom_pack.zip`** contains:
 
 - `datcom.exe` – Digital DATCOM executable
-- `*.dcm`, `*.input`, `*.txt` – DATCOM input files (same format, different extensions)
+- `*.dcm` – DATCOM input files (same format, different extensions)
 - `*.out` – Pre‑computed output files (ready for MATLAB or other tools)
-
-All three input extensions (`.dcm`, `.input`, `.txt`) use the same Digital DATCOM format. Only the file extension changes, depending on the workflow or operating system.
 
 ### MATLAB Integration
 
@@ -94,16 +94,14 @@ Each case has already been run and checked, so you can go straight to plotting, 
 
 **For MATLAB usage**:
 ```
-data  = datcomread("filename.out");   % Load Digital DATCOM output
-alpha = data.Aero.Alpha;             % Extract angle-of-attack array
-cl    = data.Aero.CL;                % Extract lift coefficient
+aero  = datcomimport("filename.out");   % Load Digital DATCOM output
 ```
 
 ## Download
 
 You can download the full package here:
 
-**[datcom.zip](datcom_pack.zip)**
+**[datcom_pack.zip](datcom_pack.zip)**
 
 All input cases have been tested and verified to run correctly with the provided executable and MATLAB post‑processing.
 
