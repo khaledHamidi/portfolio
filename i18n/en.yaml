@@ -1,0 +1,42 @@
+# Hero profile card translations
+- id: hero_name
+  translation: Khaled HAMIDI
+
+- id: hero_role
+  translation: Lead Mechatronics & Aerospace Engineer
+
+- id: hero_subtitle
+  translation: Intelligent Systems Architect
+
+- id: hero_location_label
+  translation: Location
+
+- id: hero_location_value
+  translation: Syria · Remote
+
+- id: hero_experience_label
+  translation: Experience
+
+- id: hero_experience_value
+  translation: 9+ years
+
+- id: hero_focus_label
+  translation: Focus
+
+- id: hero_focus_value
+  translation: Robotics · AI
+
+- id: hero_availability_label
+  translation: Availability
+
+- id: hero_availability_value
+  translation: Consulting, develop R&D
+
+- id: hero_email_btn
+  translation: Email
+
+- id: hero_github_btn
+  translation: GitHub
+
+- id: hero_linkedin_btn
+  translation: LinkedIn

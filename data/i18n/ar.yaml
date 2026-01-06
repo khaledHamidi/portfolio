@@ -8,3 +8,19 @@ projects_by_technology: المشاريع حسب التقنية
 technology_used: التقنية المستخدمة
 blog_posts_by_category: تدوينات المدونة حسب الفئة
 blog_category: فئة المدونة
+
+# Hero profile card translations
+hero_name: خالد حميدي
+hero_role: مهندس ميكاترونكس وفضاء
+hero_subtitle: مصمم أنظمة ذكية
+hero_location_label: الموقع
+hero_location_value: سوريا · عن بعد
+hero_experience_label: الخبرة
+hero_experience_value: +9 سنوات
+hero_focus_label: التخصص
+hero_focus_value: روبوتات · ذكاء اصطناعي
+hero_availability_label: متاح
+hero_availability_value: استشارات، تطوير، بحث وتطوير
+hero_email_btn: بريد
+hero_github_btn: GitHub
+hero_linkedin_btn: LinkedIn

@@ -65,27 +65,6 @@ sections:
             #section-collection:first-of-type { display: none !important; }
           }
         </style>
-    design:
-      spacing:
-        padding: [0, 0, 0, 0]
-  - block: accomplishments
-    content:
-      title: 'Featured'
-      filters:
-        tags:
-          - Featured
-          - featured
-      count: 3
-    design:
-      spacing:
-        padding: [20px, 0,  100px, 0]
-      view: showcase
-      columns: '1'
-
-  - block: markdown
-    content:
-      title: ''
-      text: |
         <div class="not-prose">
         <section>
           <style>
@@ -273,15 +252,30 @@ sections:
 
   - block: accomplishments
     content:
+      title: 'Featured'
+      filters:
+        tags:
+          - Featured
+          - featured
+      count: 3
+    design:
+      spacing:
+        padding: [20px, 0, 100px, 0]
+      view: showcase
+      columns: '1'
+
+  - block: accomplishments
+    content:
       title: 'Achievement'
       filters:
         folders:
           - achievements
       count: 3
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
       view: showcase
       columns: '1'
-
- 
 
   - block: collection
     id: last-posts-section

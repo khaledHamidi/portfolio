@@ -33,7 +33,7 @@ Key moments covered in the interview:
 Below is the full video interview as published on Dr. Al-Shebib’s Facebook page.
 {{% /callout %}}
 
-<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61577204031577%2Fvideos%2F700719286197956%2F&show_text=true&width=560&t=47" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+{{< youtube RHR-mB4cjR8>}}
 
 ---
 

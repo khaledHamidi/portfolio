@@ -61,16 +61,10 @@ sections:
             }
             .md\:w-48 { width: 100% !important; max-width: 100% !important; }
             .h-48 { height: auto !important; }
+          /* Hide Last posts section on mobile */
+            #section-collection:first-of-type { display: none !important; }
           }
         </style>
-    design:
-      spacing:
-        padding: ['1.5rem', 0, '1.5rem', 0]
-
-  - block: markdown
-    content:
-      title: ''
-      text: |
         <div class="not-prose">
         <section>
           <style>
@@ -260,58 +254,33 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
 
-  - block: markdown
-    content:
-      title: ''
-      text: '<div style="height:2rem"></div>'
-    design:
-      spacing:
-        padding: [0, 0, 0, 0]
-
   - block: accomplishments
     content:
-      title: 'المشاريع المميزة'
+      title: 'المميز'
       filters:
-        folders:
-          - projects
-          - achievements
-          - posts
-          - education
-          - articles
         tags:
           - مميز
+          - Featured
+          - featured
       count: 3
     design:
+      spacing:
+        padding: [20px, 0, 100px, 0]
       view: showcase
       columns: '1'
 
-  - block: markdown
-    content:
-      title: ''
-      text: '<div style="height:2rem"></div>'
-    design:
-      spacing:
-        padding: [0, 0, 0, 0]
-
   - block: accomplishments
     content:
-      title: 'أحدث الإنجازات'
+      title: 'الإنجازات'
       filters:
         folders:
           - achievements
       count: 3
     design:
-      view: card
-      columns: '3'
-
-  - block: markdown
-    content:
-      title: ''
-      text: '<div style="height:2rem"></div>'
-    design:
       spacing:
         padding: [0, 0, 0, 0]
-
+      view: card
+      columns: '3'
 
   - block: collection
     id: last-posts-section
@@ -322,28 +291,21 @@ sections:
           - articles
       count: 2
     design:
+      spacing:
+        padding: [0, 0, 0, 0]
       view: card
       css_class: hide-on-mobile
 
-  - block: markdown
-    content:
-      title: ''
-      text: '<div style="height:2rem"></div>'
-    design:
-      spacing:
-        padding: [0, 0, 0, 0]
-
   - block: collection
     content:
-      title: 'كل المشاريع'
-      text: 'آخر المشاريع المنشورة'
+      title: 'المشاريع'
       filters:
         folders:
           - projects
       count: 3
     design:
       spacing:
-        padding: ['0rem', 0, '0rem', 0]
+        padding: [0, 0, 0, 0]
       view: card
       columns: '2'
 ---

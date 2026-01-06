@@ -1,0 +1,42 @@
+# Hero profile card translations
+- id: hero_name
+  translation: خالد حميدي
+
+- id: hero_role
+  translation: مهندس ميكاترونكس وفضاء
+
+- id: hero_subtitle
+  translation: مصمم أنظمة ذكية
+
+- id: hero_location_label
+  translation: الموقع
+
+- id: hero_location_value
+  translation: سوريا · عن بعد
+
+- id: hero_experience_label
+  translation: الخبرة
+
+- id: hero_experience_value
+  translation: +9 سنوات
+
+- id: hero_focus_label
+  translation: التخصص
+
+- id: hero_focus_value
+  translation: روبوتات · ذكاء اصطناعي
+
+- id: hero_availability_label
+  translation: متاح
+
+- id: hero_availability_value
+  translation: استشارات، تطوير، بحث وتطوير
+
+- id: hero_email_btn
+  translation: بريد
+
+- id: hero_github_btn
+  translation: GitHub
+
+- id: hero_linkedin_btn
+  translation: LinkedIn

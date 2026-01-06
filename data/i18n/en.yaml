@@ -7,3 +7,19 @@ projects_by_technology: Projects by Technology
 technology_used: Technology Used
 blog_posts_by_category: Blog Posts by Category
 blog_category: Blog Category
+
+# Hero profile card translations
+hero_name: Khaled HAMIDI
+hero_role: Lead Mechatronics & Aerospace Engineer
+hero_subtitle: Intelligent Systems Architect
+hero_location_label: Location
+hero_location_value: Syria · Remote
+hero_experience_label: Experience
+hero_experience_value: 9+ years
+hero_focus_label: Focus
+hero_focus_value: Robotics · AI
+hero_availability_label: Availability
+hero_availability_value: Consulting, develop R&D
+hero_email_btn: Email
+hero_github_btn: GitHub
+hero_linkedin_btn: LinkedIn
