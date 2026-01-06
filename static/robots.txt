@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://khaledhamidi.com/sitemap.xml
+
+# Block access to development files
+Disallow: /temp/
+Disallow: /todo/
+Disallow: /_vendor/
+Disallow: /resources/
+
+# Allow search engines to crawl all important content
+Allow: /en/
+Allow: /ar/
+Allow: /articles/
+Allow: /projects/
+Allow: /achievements/
+Allow: /education/
+Allow: /certificates/
+
+# Crawl delay for politeness
+Crawl-delay: 1

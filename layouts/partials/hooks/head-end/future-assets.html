@@ -67,11 +67,17 @@
 {{- $og_image := "" -}}
 {{- $og_image_width := 1200 -}}
 {{- $og_image_height := 630 -}}
+{{- $og_image_type := "image/jpeg" -}}
 
 {{- if $featured_image -}}
-  {{- $og_image = $featured_image.Permalink -}}
-  {{- $og_image_width = $featured_image.Width -}}
-  {{- $og_image_height = $featured_image.Height -}}
+  {{/* Process featured image to optimal OG size (1200x630 for best compatibility) */}}
+  {{- $resized := $featured_image.Fill "1200x630 Center" -}}
+  {{- $og_image = $resized.Permalink -}}
+  {{- $og_image_width = 1200 -}}
+  {{- $og_image_height = 630 -}}
+  {{- if strings.HasSuffix $featured_image.Name ".png" -}}
+    {{- $og_image_type = "image/png" -}}
+  {{- end -}}
 {{- else if $sharing_image -}}
   {{- $og_image = $sharing_image.Permalink -}}
   {{- $og_image_width = $sharing_image.Width -}}
@@ -81,11 +87,16 @@
   {{- $og_image = absURL "images/og-default.jpg" -}}
 {{- end -}}
 
+{{/* 
+  NOTE: og:image and twitter:image are already set by site_head.html
+  We add the additional required properties for full social media support
+*/}}
+
 {{/* Critical for WhatsApp/LinkedIn preview generation */}}
 <meta property="og:image:secure_url" content="{{ $og_image }}">
 <meta property="og:image:width" content="{{ $og_image_width }}">
 <meta property="og:image:height" content="{{ $og_image_height }}">
-<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:type" content="{{ $og_image_type }}">
 <meta property="og:image:alt" content="{{ .Title | default site.Title }}">
 
 {{/* Fix locale format for proper social sharing (en_US not en-us) */}}
@@ -94,17 +105,10 @@
 <meta property="og:locale:alternate" content="{{ if eq .Lang "ar" }}ar_SA{{ else }}en_US{{ end }}">
 {{ end }}
 
-{{/* Enhanced OG type for different content types */}}
-{{ if .IsHome }}
-<meta property="og:type" content="website">
-{{ else if .IsPage }}
-<meta property="og:type" content="article">
-{{ end }}
-
 {{/* Twitter Card enhancements */}}
 <meta name="twitter:image:alt" content="{{ .Title | default site.Title }}">
 
-{{/* WhatsApp / Telegram specific */}}
+{{/* WhatsApp / Telegram specific - uses absolute URL for image preview */}}
 <link rel="image_src" href="{{ $og_image }}">
 
 {{/* Article-specific tags for project pages */}}
@@ -119,6 +123,7 @@
 
 {{/* Additional SEO signals */}}
 <meta name="theme-color" content="#6366f1">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1e1b4b">
 
 {{/* Include JSON-LD structured data for rich snippets */}}
 {{ partial "components/seo_schema.html" . }}

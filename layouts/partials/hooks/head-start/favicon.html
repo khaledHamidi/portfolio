@@ -1,0 +1,37 @@
+{{/* ============================================ */}}
+{{/* Comprehensive Favicon Support */}}
+{{/* Works on all pages, all browsers, and PWA */}}
+{{/* ============================================ */}}
+
+{{/* Standard favicon - .ico format for maximum browser compatibility */}}
+<link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | absURL }}">
+<link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}">
+
+{{/* PNG favicons for modern browsers - various sizes */}}
+<link rel="icon" type="image/png" sizes="16x16" href="{{ (partial "functions/get_site_icon" 16).Permalink }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ (partial "functions/get_site_icon" 32).Permalink }}">
+<link rel="icon" type="image/png" sizes="48x48" href="{{ (partial "functions/get_site_icon" 48).Permalink }}">
+<link rel="icon" type="image/png" sizes="96x96" href="{{ (partial "functions/get_site_icon" 96).Permalink }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "android-chrome-192x192.png" | absURL }}">
+
+{{/* Apple Touch Icon for iOS devices */}}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ (partial "functions/get_site_icon" 180).Permalink }}">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ (partial "functions/get_site_icon" 152).Permalink }}">
+<link rel="apple-touch-icon" sizes="144x144" href="{{ (partial "functions/get_site_icon" 144).Permalink }}">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ (partial "functions/get_site_icon" 120).Permalink }}">
+<link rel="apple-touch-icon" sizes="76x76" href="{{ (partial "functions/get_site_icon" 76).Permalink }}">
+<link rel="apple-touch-icon" sizes="57x57" href="{{ (partial "functions/get_site_icon" 57).Permalink }}">
+
+{{/* Android Chrome / PWA icons */}}
+<link rel="icon" type="image/png" sizes="512x512" href="{{ "android-chrome-512x512.png" | absURL }}">
+
+{{/* Safari pinned tab */}}
+<link rel="mask-icon" href="{{ (partial "functions/get_site_icon" 512).Permalink }}" color="#6366f1">
+
+{{/* Microsoft Tiles */}}
+<meta name="msapplication-TileColor" content="#6366f1">
+<meta name="msapplication-TileImage" content="{{ (partial "functions/get_site_icon" 144).Permalink }}">
+<meta name="msapplication-config" content="none">
+
+{{/* Web App Manifest for PWA - prefer static file for better control */}}
+<link rel="manifest" href="{{ "site.webmanifest" | absURL }}">
